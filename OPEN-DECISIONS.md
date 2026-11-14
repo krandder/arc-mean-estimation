@@ -1,8 +1,10 @@
-# Open decisions: do not publish or share past these
+# Open decisions for the paper draft
 
-This repository is private. Three decisions about third parties are unresolved. Until Kelvin decides them, nothing
-from the files listed below should be published, posted, sent to ARC or to the contest forum, or copied into a
-public repository.
+This repository was made public on 14 November 2026 by Kelvin's decision: the contest data and the participants'
+code and claims studied here are public. The three decisions below concern the paper draft and remain unresolved
+there. The accounts of other participants' entries are our own analysis of public data; the leaderboard account is
+partly inferred, describes something the organisers allow, and has not been shown to the entrant. Neither participant
+has been asked for a reply yet.
 
 Source of the decisions: the header of `reports/paper-draft-arc-negative/arc-negative.md` (draft v2, 3 November 2026),
 which lists decisions D1 to D12 and says "nothing below is decided; the draft takes the reversible default shown".

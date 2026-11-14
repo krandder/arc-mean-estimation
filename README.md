@@ -1,6 +1,6 @@
 # ARC mean estimation: lanes, proofs and negative results
 
-Private repository. Read `OPEN-DECISIONS.md` before sharing anything from it.
+Public since 14 November 2026. `OPEN-DECISIONS.md` lists what is still undecided for the paper draft.
 
 This collects Kelvin's research on the Alignment Research Center's (ARC) mean-estimation problem, from 26 October to
 3 November 2026: 37 research lanes with their reports, proofs, code and small result files, the cross-lane
