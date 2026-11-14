@@ -1,0 +1,65 @@
+### 3.3 Phase 2, unscrambling: the cost of forcing simple code dynamics (Part U, corrected rerun U-c; 84 runs)
+
+**Extra bits for forcing the next code to be an affine function of this one** (corrected penalty, amendment U-c;
+lambda = 0.01; price = (Lagrangian(mu) - Lagrangian(0)) / lambda summed over both layers of the pair = change in rate +
+change in distortion / lambda; median over pairs; ReLU 24 pairs from 16x16 and 32x32, 3 seeds; chaotic tanh 4 pairs
+from one network seed; MEASURED):
+
+| mu | 0.1 | 0.3 | 1 | 3 |
+|---|---|---|---|---|
+| ReLU, all pairs | 0.03 | 0.19 | 0.38 | 0.42 |
+| ReLU, L/4 on | 0.03 | 0.15 | 0.23 | 0.22 |
+| chaotic tanh, all pairs | 0.18 | 0.40 | 1.08 | 2.25 |
+| chaotic tanh, L/4 on | 0.06 | 0.18 | 1.05 | 1.50 |
+
+**Rate and distortion, separately (MEASURED).** With the corrected penalty the cost is extra rate, not lost signal.
+Over the pair (both layers summed), the distortion term barely moves, and the rate rises:
+- ReLU, L/4 on, mu = 1: pair rate +0.00 to +0.69 bit, pair distortion term -0.01 to +0.15 (bit units).
+- tanh at mu = 1: pair rate +1.16 (L/4), +1.13 (L/2), +0.44 (3L/4); distortion -0.08 to +0.02.
+- Per layer (medians, mu = 1): the current code gains rate and loses distortion (ReLU L/4 on: rate +0.51, distortion
+  -0.38; tanh: +2.50 / -1.74). The next code gives up a little rate and gains distortion by about the same amount in
+  bit units (ReLU -0.34 / +0.44; tanh -1.37 / +1.66). It moves along its own rate-distortion curve rather than
+  shrinking. A guard holds its variance at no less than half its starting value.
+- Extra bits at matched distortion (pairs where both layers' nMSE moves by less than 5%, as registered): only 5 of 24
+  ReLU pairs and no tanh pair qualify at mu = 1, so the table above is the main measure.
+- At the input pair the cost is larger on both: ReLU 1.65 (1.32 to 3.14) and tanh 2.17 bits at mu = 1, 5.6 and 6.1 at
+  mu = 3. Here the ranges overlap (4 of 6 ReLU pairs are below tanh).
+
+**Does it separate ReLU from tanh?** In absolute bits, yes from L/4 on at mu >= 1. At each of L/4, L/2 and 3L/4, the
+tanh pair costs more than all 6 ReLU pairs:
+- mu = 1: 1.10 against ReLU at most 0.73; 1.05 against 0.50; 0.46 against 0.36.
+- mu = 3: 3.00 against 1.19; 1.50 against 0.73; 0.97 against 0.28.
+- It also holds at lambda = 0.1 (ReLU at most 0.19, tanh 0.32-1.17 at mu = 1) and for the identity-up-to-scale map
+  (ReLU at most 1.16, tanh 1.20-2.07 at mu = 1).
+- It does not hold at mu <= 0.3: at L/4 the tanh pair is below every ReLU pair.
+- Relative to the pair's own Lagrangian it does not separate. The tanh codes carry about 4 times more bits (next code
+  21.4 against 5.5 bits at mu = 0). At mu = 1 the relative rise is 1.3-1.9% for tanh from L/4 on, and 0.1-3.6% for
+  ReLU.
+- There is one tanh network seed, one pair per layer position.
+
+Registered predictions (U1-U4 rescored unchanged on U-c; results/Uc_scores.json):
+- U3 hit (28/28): the MLP ceiling does not move.
+- U4 hit (12/12): identity up to scale reaches 0.8 of the MLP ceiling from L/2 on.
+- U1 missed (7/18): from L/4 on, the affine map reaches 0.9 of the MLP ceiling on 14 of 18 ReLU pairs, but the
+  Lagrangian rises by more than 2% on 8 of 18.
+- U2 missed (0/4): the tanh maps stay affine-predictable (lin / mlp 0.86-0.97), and its Lagrangian rises by only
+  1.3-2.8% (registered: > 5%). The registered contrast is relative, and in relative terms there is none.
+- Numerical caveat: 26 of the 420 affine-predictability values (all ReLU) are negative, down to -227. These are
+  near-singular regressions, as in the first version of the code maps (section 3.2). They can only lower the U1
+  count.
+
+Reading: forcing affine code dynamics costs a fraction of a bit on ReLU from L/4 on. On the chaotic net it costs
+about 0.5-3 bits at mu >= 1 at the same layer positions, more than every ReLU pair, but about the same fraction of
+its larger code. On this evidence (one tanh seed), the absolute cost of forcing separates ordered from chaotic
+dynamics and the relative cost does not.
+
+Tables: results/Uc_table.md (scratch/report_U.py Uc); rate and distortion per layer: results/Uc_split.md (lambda 0.01,
+affine), results/Uc_split_0.1_linear.md, results/Uc_split_0.01_diag.md (scratch/report_U_split.py); ReLU range
+against tanh: results/Uc_sep.md (scratch/report_Uc_sep.py). Runs: runs/U/Uc_*.json (on-demand VMs bitacct-16/17
+after the spot VM bitacct-15 was preempted).
+
+**Superseded: the first Part U run (runs/U/U_*.json, results/U_table.md).** Review r3 (gpt-6-astra) found that its
+penalty's variance normaliser was detached from the gradient. That rewards shrinking the next code: there the next
+code gave up rate while distortion rose (tanh, input pair, mu = 3: rate -73 bits, distortion +196 in bit units), so
+its costs (ReLU 0.07 / 0.24 / 0.38 / 0.56, tanh 0.25 / 0.58 / 1.64 / 4.89 bits at mu = 0.1 / 0.3 / 1 / 3) mixed
+simpler dynamics with loss of signal. Its scores were U1 6/18, U2 1/4, U3 28/28, U4 12/12.

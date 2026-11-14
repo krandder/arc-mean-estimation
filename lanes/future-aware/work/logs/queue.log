@@ -1,0 +1,25 @@
+queue A start 11:21:30Z
+queue C start 11:22:15Z
+queue B start 11:29:16Z
+queue C done 13:29:05Z
+queue W start 13:29:11Z
+queue A done 14:20:23Z
+queue X start 14:20:32Z
+queue B done 14:37:36Z
+queue H start 15:16:03Z
+queue X done 16:37:50Z
+queue G start 16:37:56Z
+queue G done 17:03:21Z
+queue H done 17:22:45Z
+queue W parent bash (PID 747555) stopped 17:39:38Z after net 500; net 501 continues (PID 478791); net 502 runs in parallel as queue W2
+queue W2 start 17:39:59Z
+relspec n=512 start 17:46:35Z
+relspec n=512 done 17:50:05Z
+queue W2 parent bash (PID 2006749) stopped 17:51:08Z; net 502 continues (PID 2006752); guarded n=512 runs started by hand
+queue M start 18:06:08Z
+queue M done 18:40:48Z
+queue M2 start 18:42:05Z
+queue M2 done 19:15:30Z
+dev2 done 19:16:58Z
+guard512 s501 done 19:24:21Z
+guard512 s502 done 19:58:25Z

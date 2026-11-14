@@ -1,0 +1,54 @@
+13:39:14 slot 1 start P_relu_n16_L4_s5000_l0_local
+13:39:24 slot 2 start P_relu_n16_L4_s5000_l1_local
+13:39:34 slot 3 start P_relu_n16_L4_s5000_l2_local
+13:39:44 slot 4 start P_relu_n16_L4_s5000_l3_local
+13:39:55 slot 5 start P_relu_n16_L4_s5001_l0_local
+13:40:05 slot 6 start P_relu_n16_L4_s5001_l1_local
+14:00:51 slot 1 end P_relu_n16_L4_s5000_l0_local rc=0
+14:00:51 slot 1 start P_relu_n16_L4_s5001_l2_local
+14:01:46 slot 2 end P_relu_n16_L4_s5000_l1_local rc=0
+14:01:46 slot 2 start P_relu_n16_L4_s5001_l3_local
+14:02:12 slot 3 end P_relu_n16_L4_s5000_l2_local rc=0
+14:02:12 slot 3 start P_relu_n16_L4_s5002_l0_local
+14:02:31 slot 4 end P_relu_n16_L4_s5000_l3_local rc=0
+14:02:31 slot 4 start P_relu_n16_L4_s5002_l1_local
+14:03:00 slot 5 end P_relu_n16_L4_s5001_l0_local rc=0
+14:03:00 slot 5 start P_relu_n16_L4_s5002_l2_local
+14:03:10 slot 6 end P_relu_n16_L4_s5001_l1_local rc=0
+14:03:10 slot 6 start P_relu_n16_L4_s5002_l3_local
+14:23:53 slot 1 end P_relu_n16_L4_s5001_l2_local rc=0
+14:23:53 slot 1 start P_relu_n32_L32_s5000_l31_local
+14:24:40 slot 2 end P_relu_n16_L4_s5001_l3_local rc=0
+14:24:40 slot 2 start P_relu_n32_L32_s5000_l8_local
+14:25:17 slot 3 end P_relu_n16_L4_s5002_l0_local rc=0
+14:25:17 slot 3 start P_relu_n32_L32_s5001_l0_local
+14:25:32 slot 4 end P_relu_n16_L4_s5002_l1_local rc=0
+14:25:32 slot 4 start P_relu_n32_L32_s5001_l16_local
+14:25:58 slot 5 end P_relu_n16_L4_s5002_l2_local rc=0
+14:25:58 slot 5 start P_relu_n32_L8_s5000_l0_local
+14:26:07 slot 6 end P_relu_n16_L4_s5002_l3_local rc=0
+14:26:07 slot 6 start P_relu_n32_L8_s5000_l2_local
+14:48:33 slot 1 end P_relu_n32_L32_s5000_l31_local rc=0
+14:48:33 slot 1 start P_relu_n32_L8_s5000_l4_local
+14:49:52 slot 2 end P_relu_n32_L32_s5000_l8_local rc=0
+14:49:52 slot 2 start P_relu_n32_L8_s5000_l6_local
+14:50:31 slot 4 end P_relu_n32_L32_s5001_l16_local rc=0
+14:50:31 slot 4 start P_relu_n32_L8_s5000_l7_local
+14:50:34 slot 5 end P_relu_n32_L8_s5000_l0_local rc=0
+14:50:34 slot 5 start P_relu_n32_L8_s5001_l0_local
+14:50:36 slot 3 end P_relu_n32_L32_s5001_l0_local rc=0
+14:50:36 slot 3 start P_relu_n32_L8_s5001_l2_local
+14:50:40 slot 6 end P_relu_n32_L8_s5000_l2_local rc=0
+14:50:40 slot 6 start P_relu_n32_L8_s5001_l4_local
+15:13:01 slot 1 end P_relu_n32_L8_s5000_l4_local rc=0
+15:13:01 slot 1 start P_relu_n32_L8_s5001_l6_local
+15:14:13 slot 2 end P_relu_n32_L8_s5000_l6_local rc=0
+15:14:13 slot 2 start P_relu_n32_L8_s5001_l7_local
+15:14:51 slot 4 end P_relu_n32_L8_s5000_l7_local rc=0
+15:14:51 slot 4 start P_relu_n16_L16_s5000_l0_unres
+15:15:04 slot 3 end P_relu_n32_L8_s5001_l2_local rc=0
+15:15:04 slot 3 start P_relu_n16_L16_s5000_l12_unres
+15:15:05 slot 5 end P_relu_n32_L8_s5001_l0_local rc=0
+15:15:05 slot 5 start P_relu_n16_L16_s5000_l15_unres
+15:15:08 slot 6 end P_relu_n32_L8_s5001_l4_local rc=0
+15:15:08 slot 6 start P_relu_n16_L16_s5000_l16_unres

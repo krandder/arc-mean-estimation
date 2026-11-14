@@ -1,0 +1,16 @@
+sampled 32768 in 60s; output PCs r=32 capture 0.9887 of tr Var
+l=31 back= 0 (PCA64 0.996) K=1: cov 0.991 nMSE 0.0135 pred 0.0134 cal 1.01 | K=16: cov 0.990 nMSE 0.0136 pred 0.0132 cal 1.04 | K=256: cov 0.966 nMSE 0.0176 pred 0.0114 cal 1.35  (84s)
+l=30 back= 1 (PCA64 0.995) K=1: cov 0.990 nMSE 0.0162 pred 0.0160 cal 1.01 | K=16: cov 0.989 nMSE 0.0158 pred 0.0151 cal 1.04 | K=256: cov 0.966 nMSE 0.0204 pred 0.0117 cal 1.59  (67s)
+l=28 back= 3 (PCA64 0.993) K=1: cov 0.990 nMSE 0.0246 pred 0.0242 cal 1.02 | K=16: cov 0.988 nMSE 0.0230 pred 0.0213 cal 1.08 | K=256: cov 0.965 nMSE 0.0304 pred 0.0127 cal 2.22  (71s)
+l=24 back= 7 (PCA64 0.987) K=1: cov 0.990 nMSE 0.0468 pred 0.0461 cal 1.01 | K=16: cov 0.989 nMSE 0.0402 pred 0.0362 cal 1.12 | K=256: cov 0.964 nMSE 0.0550 pred 0.0148 cal 3.74  (107s)
+l=16 back=15 (PCA64 0.962) K=1: cov 0.991 nMSE 0.1084 pred 0.1069 cal 1.01 | K=16: cov 0.989 nMSE 0.0946 pred 0.0833 cal 1.14 | K=256: cov 0.962 nMSE 0.1631 pred 0.0215 cal 8.17  (100s)
+l= 8 back=23 (PCA64 0.927) K=1: cov 0.991 nMSE 0.2199 pred 0.2189 cal 1.0 | K=16: cov 0.988 nMSE 0.2097 pred 0.1852 cal 1.15 | K=256: cov 0.959 nMSE 0.5319 pred 0.0321 cal 23.82  (81s)
+l= 1 back=30 (PCA64 0.529) K=1: cov 0.994 nMSE 0.7363 pred 0.7257 cal 1.01 | K=16: cov 0.992 nMSE 0.7560 pred 0.6603 cal 1.14 | K=256: cov 0.966 nMSE 2.8438 pred 0.0786 cal 64.47  (77s)
+l= 0 back=31 (PCA64 0.292) K=1: cov 0.999 nMSE 0.9209 pred 0.9246 cal 1.0 | K=16: cov 0.999 nMSE 0.9746 pred 0.8643 cal 1.13 | K=256: cov 0.995 nMSE 3.7843 pred 0.0938 cal 67.13  (85s)
+transition 30->31 K=16: landing entropy 1.38 bits; output error of landing-mean approx (i) 1.27e-05, (ii) Gaussian 5.41e-05 (nMSE units)
+transition 0->1 K=16: landing entropy 3.95 bits; output error of landing-mean approx (i) 1.15e-01, (ii) Gaussian 1.47e-04 (nMSE units)
+mixture closure from l0=24 K=1: nMSE 1.16e-03 (66s)
+mixture closure from l0=24 K=4: nMSE 2.75e-04 (157s)
+mixture closure from l0=24 K=16: nMSE 1.05e-04 (454s)
+mixture closure from l0=24 K=64: nMSE 1.18e-04 (1534s)
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step4_n256_L32_s200.json total 3197.8603794574738

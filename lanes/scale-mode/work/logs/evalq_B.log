@@ -1,0 +1,63 @@
+evalB start 11:22:25Z
+truth au:630:512:128 2^18 507s
+done truth au:630:512:128 18 11:30:55Z
+lv au:630:512:128 LVTV2: V_L 0.0480 flops 8.107e+10 passes 1208 78.6s flags {'root': 30, 'cap': 97, 'feas': 1}
+lv au:630:512:128 LVT: V_L 0.0032 flops 8.071e+10 passes 1203 43.6s flags {}
+lv au:630:512:128 LVTV2f1: V_L 0.0362 flops 8.107e+10 passes 1208 31.5s flags {'root': 19, 'cap': 108, 'feas': 1}
+lv au:630:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 95.9s flags {}
+done lv au:630:512:128 11:35:09Z
+arc au:630:512:128 k2: flops 5.215e+10 passes 777 20.7s
+arc au:630:512:128 k2a: flops 5.609e+10 passes 836 152.9s
+done arc au:630:512:128 k2,k2a 11:38:15Z
+rqmc au:630:512:128 m=8 4s
+rqmc au:630:512:128 m=10 12s
+rqmc au:630:512:128 m=12 42s
+rqmc au:630:512:128 m=13 90s
+evalB2 start 11:39:51Z
+truth au:631:512:128 2^18 445s
+done truth au:631:512:128 18 11:47:20Z
+lv au:631:512:128 LVTV2: V_L 0.0646 flops 8.107e+10 passes 1208 60.8s flags {'feas': 1, 'cap': 99, 'root': 28}
+lv au:631:512:128 LVT: V_L 0.0000 flops 8.070e+10 passes 1202 73.5s flags {}
+lv au:631:512:128 LVTV2f1: V_L 0.0494 flops 8.107e+10 passes 1208 81.4s flags {'cap': 107, 'root': 20}
+lv au:631:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 55.7s flags {}
+done lv au:631:512:128 11:51:55Z
+arc au:631:512:128 k2: flops 5.215e+10 passes 777 30.2s
+arc au:631:512:128 k2a: flops 5.609e+10 passes 836 97.8s
+done arc au:631:512:128 k2,k2a 11:54:14Z
+rqmc au:631:512:128 m=8 21s
+rqmc au:631:512:128 m=10 50s
+rqmc au:631:512:128 m=12 86s
+rqmc au:631:512:128 m=13 178s
+done rqmc au:631:512:128 8,10,12,13 8 11:57:16Z
+truth au:632:512:128 2^18 765s
+done truth au:632:512:128 18 12:10:06Z
+lv au:632:512:128 LVTV2: V_L 0.0523 flops 8.107e+10 passes 1208 291.4s flags {'cap': 98, 'feas': 3, 'root': 29}
+lv au:632:512:128 LVT: V_L 0.0031 flops 8.071e+10 passes 1203 132.6s flags {}
+lv au:632:512:128 LVTV2f1: V_L 0.0390 flops 8.107e+10 passes 1208 84.6s flags {'cap': 109, 'root': 18}
+lv au:632:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 71.3s flags {}
+done lv au:632:512:128 12:19:52Z
+arc au:632:512:128 k2: flops 5.215e+10 passes 777 30.5s
+arc au:632:512:128 k2a: flops 5.609e+10 passes 836 127.1s
+done arc au:632:512:128 k2,k2a 12:22:38Z
+rqmc au:632:512:128 m=8 8s
+rqmc au:632:512:128 m=10 20s
+rqmc au:632:512:128 m=12 46s
+rqmc au:632:512:128 m=13 90s
+done rqmc au:632:512:128 8,10,12,13 8 12:24:12Z
+truth au:633:512:128 2^18 591s
+done truth au:633:512:128 18 12:34:08Z
+lv au:633:512:128 LVTV2: V_L 0.0631 flops 8.107e+10 passes 1208 142.3s flags {'cap': 97, 'root': 30}
+lv au:633:512:128 LVT: V_L 0.0000 flops 8.068e+10 passes 1202 198.8s flags {}
+lv au:633:512:128 LVTV2f1: V_L 0.0469 flops 8.107e+10 passes 1208 178.8s flags {'cap': 108, 'root': 19}
+lv au:633:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 163.2s flags {}
+done lv au:633:512:128 12:45:37Z
+arc au:633:512:128 k2: flops 5.215e+10 passes 777 172.2s
+arc au:633:512:128 k2a: flops 5.609e+10 passes 836 141.7s
+done arc au:633:512:128 k2,k2a 12:51:08Z
+rqmc au:633:512:128 m=8 5s
+rqmc au:633:512:128 m=10 11s
+rqmc au:633:512:128 m=12 37s
+rqmc au:633:512:128 m=13 127s
+done rqmc au:633:512:128 8,10,12,13 8 12:53:19Z
+killed child 1393126 (p2:) 12:53:23Z
+queue PID 34011 stopped after 'done rqmc au:633:512:128' 12:53:23Z; the rest runs on the GPU (Amendment 2)

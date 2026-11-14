@@ -1,0 +1,660 @@
+start arc p2:12 k2,k2a,k3f 12:31:58Z
+/root/soup/lib/ext/mlp_cumulant_propagation/src/mlp_kprop/cumulants.py:195: SyntaxWarning: invalid escape sequence '\g'
+  """
+arc p2:12 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:12 k2a: flops 5.377e+10 passes 1603 2.2s
+[W1102 12:32:15.209721103 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:12 k3f: flops 3.254e+12 passes 96968 10.6s
+done arc p2:12 k2,k2a,k3f 12:32:17Z
+start lv p2:12 12:32:17Z
+lv p2:12 LVTV2: V_L 0.0235 flops 7.254e+10 passes 2162 2.3s
+lv p2:12 LVT: V_L 0.0134 flops 7.236e+10 passes 2157 0.7s
+lv p2:12 LVTV2f1: V_L 0.0239 flops 7.254e+10 passes 2162 0.9s
+lv p2:12 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:12 12:32:24Z
+start cov p2:12 12:32:24Z
+cov p2:12: flops 6.875e+10 passes 2049 1.7s
+done cov p2:12 12:32:29Z
+start sl3 p2:12 12:32:29Z
+[W1102 12:32:43.559299745 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:32:51.961564479 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 147980288, total: 23659151360).
+sl3 p2:12: flops 7.130e+12 passes 212483 22.5s
+done sl3 p2:12 12:32:55Z
+start rqmc p2:12 8,10 8 12:32:55Z
+rqmc p2:12 m=8 2s
+rqmc p2:12 m=10 2s
+done rqmc p2:12 8,10 8 12:33:00Z
+start truth au:611:128:32 22 12:33:00Z
+truth au:611:128:32 2^22 2s checksum -4.7583809806e+02
+done truth au:611:128:32 22 12:33:04Z
+start lv au:611:128:32 12:33:04Z
+lv au:611:128:32 LVTV2: V_L 0.1998 flops 4.570e+08 passes 436 2.3s
+lv au:611:128:32 LVT: V_L 0.0654 flops 4.513e+08 passes 430 0.6s
+lv au:611:128:32 LVTV2f1: V_L 0.1271 flops 4.570e+08 passes 436 0.9s
+lv au:611:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:611:128:32 12:33:11Z
+start arc au:611:128:32 k2,k2a,k3f 12:33:11Z
+arc au:611:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:611:128:32 k2a: flops 2.731e+08 passes 260 3.7s
+arc au:611:128:32 k3f: flops 2.591e+10 passes 24714 4.0s
+done arc au:611:128:32 k2,k2a,k3f 12:33:24Z
+start sl3 au:611:128:32 12:33:24Z
+sl3 au:611:128:32: flops 3.580e+10 passes 34141 5.7s
+done sl3 au:611:128:32 12:33:33Z
+start rqmc au:611:128:32 8,10,12,14 8 12:33:33Z
+rqmc au:611:128:32 m=8 1s
+rqmc au:611:128:32 m=10 1s
+rqmc au:611:128:32 m=12 2s
+rqmc au:611:128:32 m=14 2s
+done rqmc au:611:128:32 8,10,12,14 8 12:33:37Z
+start truth au:612:128:32 22 12:33:37Z
+truth au:612:128:32 2^22 2s checksum 1.5563582045e+03
+done truth au:612:128:32 22 12:33:42Z
+start lv au:612:128:32 12:33:42Z
+lv au:612:128:32 LVTV2: V_L 0.1802 flops 4.570e+08 passes 436 2.2s
+lv au:612:128:32 LVT: V_L 0.0382 flops 4.513e+08 passes 430 0.6s
+lv au:612:128:32 LVTV2f1: V_L 0.1286 flops 4.570e+08 passes 436 0.9s
+lv au:612:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:612:128:32 12:33:49Z
+start arc au:612:128:32 k2,k2a,k3f 12:33:49Z
+arc au:612:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:612:128:32 k2a: flops 2.731e+08 passes 260 3.6s
+arc au:612:128:32 k3f: flops 2.591e+10 passes 24714 4.0s
+done arc au:612:128:32 k2,k2a,k3f 12:34:02Z
+start sl3 au:612:128:32 12:34:02Z
+sl3 au:612:128:32: flops 3.295e+10 passes 31422 5.7s
+done sl3 au:612:128:32 12:34:11Z
+start rqmc au:612:128:32 8,10,12,14 8 12:34:11Z
+rqmc au:612:128:32 m=8 1s
+rqmc au:612:128:32 m=10 1s
+rqmc au:612:128:32 m=12 2s
+rqmc au:612:128:32 m=14 2s
+done rqmc au:612:128:32 8,10,12,14 8 12:34:15Z
+start truth au:613:128:32 22 12:34:15Z
+truth au:613:128:32 2^22 2s checksum -1.6886132342e+03
+done truth au:613:128:32 22 12:34:20Z
+start lv au:613:128:32 12:34:20Z
+lv au:613:128:32 LVTV2: V_L 0.1975 flops 4.570e+08 passes 436 2.2s
+lv au:613:128:32 LVT: V_L 0.0385 flops 4.513e+08 passes 430 0.6s
+lv au:613:128:32 LVTV2f1: V_L 0.1404 flops 4.570e+08 passes 436 0.9s
+lv au:613:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:613:128:32 12:34:27Z
+start arc au:613:128:32 k2,k2a,k3f 12:34:27Z
+arc au:613:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:613:128:32 k2a: flops 2.731e+08 passes 260 3.7s
+arc au:613:128:32 k3f: flops 2.591e+10 passes 24714 4.0s
+done arc au:613:128:32 k2,k2a,k3f 12:34:40Z
+start sl3 au:613:128:32 12:34:40Z
+sl3 au:613:128:32: flops 3.389e+10 passes 32316 5.8s
+done sl3 au:613:128:32 12:34:48Z
+start rqmc au:613:128:32 8,10,12,14 8 12:34:48Z
+rqmc au:613:128:32 m=8 1s
+rqmc au:613:128:32 m=10 1s
+rqmc au:613:128:32 m=12 2s
+rqmc au:613:128:32 m=14 2s
+done rqmc au:613:128:32 8,10,12,14 8 12:34:53Z
+start truth au:614:128:32 22 12:34:53Z
+truth au:614:128:32 2^22 2s checksum -3.2906336072e+03
+done truth au:614:128:32 22 12:34:58Z
+start lv au:614:128:32 12:34:58Z
+lv au:614:128:32 LVTV2: V_L 0.1350 flops 4.570e+08 passes 436 2.2s
+lv au:614:128:32 LVT: V_L 0.0548 flops 4.513e+08 passes 430 0.6s
+lv au:614:128:32 LVTV2f1: V_L 0.0970 flops 4.570e+08 passes 436 0.9s
+lv au:614:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:614:128:32 12:35:05Z
+start arc au:614:128:32 k2,k2a,k3f 12:35:05Z
+arc au:614:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:614:128:32 k2a: flops 2.731e+08 passes 260 3.7s
+arc au:614:128:32 k3f: flops 2.591e+10 passes 24714 4.1s
+done arc au:614:128:32 k2,k2a,k3f 12:35:18Z
+start sl3 au:614:128:32 12:35:18Z
+sl3 au:614:128:32: flops 3.484e+10 passes 33222 5.8s
+done sl3 au:614:128:32 12:35:26Z
+start rqmc au:614:128:32 8,10,12,14 8 12:35:26Z
+rqmc au:614:128:32 m=8 1s
+rqmc au:614:128:32 m=10 1s
+rqmc au:614:128:32 m=12 2s
+rqmc au:614:128:32 m=14 2s
+done rqmc au:614:128:32 8,10,12,14 8 12:35:31Z
+start truth au:615:128:32 22 12:35:31Z
+truth au:615:128:32 2^22 2s checksum -2.4955498628e+03
+done truth au:615:128:32 22 12:35:35Z
+start lv au:615:128:32 12:35:35Z
+lv au:615:128:32 LVTV2: V_L 0.1805 flops 4.570e+08 passes 436 2.2s
+lv au:615:128:32 LVT: V_L 0.0327 flops 4.513e+08 passes 430 0.6s
+lv au:615:128:32 LVTV2f1: V_L 0.1263 flops 4.570e+08 passes 436 0.9s
+lv au:615:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:615:128:32 12:35:43Z
+start arc au:615:128:32 k2,k2a,k3f 12:35:43Z
+arc au:615:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:615:128:32 k2a: flops 2.731e+08 passes 260 3.6s
+arc au:615:128:32 k3f: flops 2.591e+10 passes 24714 4.0s
+done arc au:615:128:32 k2,k2a,k3f 12:35:55Z
+start sl3 au:615:128:32 12:35:55Z
+sl3 au:615:128:32: flops 3.389e+10 passes 32316 5.7s
+done sl3 au:615:128:32 12:36:04Z
+start rqmc au:615:128:32 8,10,12,14 8 12:36:04Z
+rqmc au:615:128:32 m=8 1s
+rqmc au:615:128:32 m=10 1s
+rqmc au:615:128:32 m=12 2s
+rqmc au:615:128:32 m=14 2s
+done rqmc au:615:128:32 8,10,12,14 8 12:36:09Z
+start truth au:616:128:32 22 12:36:09Z
+truth au:616:128:32 2^22 2s checksum -1.7076697693e+02
+done truth au:616:128:32 22 12:36:13Z
+start lv au:616:128:32 12:36:13Z
+lv au:616:128:32 LVTV2: V_L 0.2081 flops 4.570e+08 passes 436 2.2s
+lv au:616:128:32 LVT: V_L 0.0227 flops 4.513e+08 passes 430 0.6s
+lv au:616:128:32 LVTV2f1: V_L 0.1467 flops 4.570e+08 passes 436 0.9s
+lv au:616:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:616:128:32 12:36:20Z
+start arc au:616:128:32 k2,k2a,k3f 12:36:20Z
+arc au:616:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:616:128:32 k2a: flops 2.731e+08 passes 260 3.6s
+arc au:616:128:32 k3f: flops 2.591e+10 passes 24714 4.0s
+done arc au:616:128:32 k2,k2a,k3f 12:36:33Z
+start sl3 au:616:128:32 12:36:33Z
+sl3 au:616:128:32: flops 3.678e+10 passes 35072 5.7s
+done sl3 au:616:128:32 12:36:42Z
+start rqmc au:616:128:32 8,10,12,14 8 12:36:42Z
+rqmc au:616:128:32 m=8 1s
+rqmc au:616:128:32 m=10 1s
+rqmc au:616:128:32 m=12 2s
+rqmc au:616:128:32 m=14 2s
+done rqmc au:616:128:32 8,10,12,14 8 12:36:46Z
+start truth au:617:128:32 22 12:36:46Z
+truth au:617:128:32 2^22 2s checksum 2.8488467529e+03
+done truth au:617:128:32 22 12:36:51Z
+start lv au:617:128:32 12:36:51Z
+lv au:617:128:32 LVTV2: V_L 0.2068 flops 4.570e+08 passes 436 2.2s
+lv au:617:128:32 LVT: V_L 0.0404 flops 4.513e+08 passes 430 0.6s
+lv au:617:128:32 LVTV2f1: V_L 0.1425 flops 4.570e+08 passes 436 0.9s
+lv au:617:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:617:128:32 12:36:58Z
+start arc au:617:128:32 k2,k2a,k3f 12:36:58Z
+arc au:617:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:617:128:32 k2a: flops 2.731e+08 passes 260 3.6s
+arc au:617:128:32 k3f: flops 2.591e+10 passes 24714 4.0s
+done arc au:617:128:32 k2,k2a,k3f 12:37:11Z
+start sl3 au:617:128:32 12:37:11Z
+sl3 au:617:128:32: flops 3.484e+10 passes 33222 5.7s
+done sl3 au:617:128:32 12:37:19Z
+start rqmc au:617:128:32 8,10,12,14 8 12:37:20Z
+rqmc au:617:128:32 m=8 1s
+rqmc au:617:128:32 m=10 1s
+rqmc au:617:128:32 m=12 2s
+rqmc au:617:128:32 m=14 2s
+done rqmc au:617:128:32 8,10,12,14 8 12:37:24Z
+start truth au:620:256:64 20 12:37:24Z
+truth au:620:256:64 2^20 3s checksum -1.3308382946e+04
+done truth au:620:256:64 20 12:37:30Z
+start lv au:620:256:64 12:37:30Z
+lv au:620:256:64 LVTV2: V_L 0.1133 flops 5.827e+09 passes 695 3.0s
+lv au:620:256:64 LVT: V_L 0.0109 flops 5.781e+09 passes 689 1.2s
+lv au:620:256:64 LVTV2f1: V_L 0.0832 flops 5.827e+09 passes 695 1.8s
+lv au:620:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:620:256:64 12:37:40Z
+start arc au:620:256:64 k2,k2a,k3f 12:37:40Z
+arc au:620:256:64 k2: flops 3.298e+09 passes 393 3.0s
+arc au:620:256:64 k2a: flops 3.792e+09 passes 452 7.3s
+arc au:620:256:64 k3f: flops 8.263e+11 passes 98505 10.1s
+done arc au:620:256:64 k2,k2a,k3f 12:38:04Z
+start sl3 au:620:256:64 12:38:04Z
+sl3 au:620:256:64: flops 1.078e+12 passes 128494 12.8s
+done sl3 au:620:256:64 12:38:20Z
+start rqmc au:620:256:64 8,10,12,14 8 12:38:20Z
+rqmc au:620:256:64 m=8 1s
+rqmc au:620:256:64 m=10 1s
+rqmc au:620:256:64 m=12 2s
+rqmc au:620:256:64 m=14 3s
+done rqmc au:620:256:64 8,10,12,14 8 12:38:26Z
+start truth au:621:256:64 20 12:38:26Z
+truth au:621:256:64 2^20 3s checksum 1.6599612506e+03
+done truth au:621:256:64 20 12:38:32Z
+start lv au:621:256:64 12:38:32Z
+lv au:621:256:64 LVTV2: V_L 0.1062 flops 5.827e+09 passes 695 3.1s
+lv au:621:256:64 LVT: V_L 0.0146 flops 5.781e+09 passes 689 1.2s
+lv au:621:256:64 LVTV2f1: V_L 0.0737 flops 5.827e+09 passes 695 1.8s
+lv au:621:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:621:256:64 12:38:42Z
+start arc au:621:256:64 k2,k2a,k3f 12:38:42Z
+arc au:621:256:64 k2: flops 3.298e+09 passes 393 3.1s
+arc au:621:256:64 k2a: flops 3.792e+09 passes 452 7.3s
+arc au:621:256:64 k3f: flops 8.263e+11 passes 98505 10.2s
+done arc au:621:256:64 k2,k2a,k3f 12:39:06Z
+start sl3 au:621:256:64 12:39:06Z
+sl3 au:621:256:64: flops 1.123e+12 passes 133875 12.9s
+done sl3 au:621:256:64 12:39:22Z
+start rqmc au:621:256:64 8,10,12,14 8 12:39:22Z
+rqmc au:621:256:64 m=8 1s
+rqmc au:621:256:64 m=10 1s
+rqmc au:621:256:64 m=12 2s
+rqmc au:621:256:64 m=14 3s
+done rqmc au:621:256:64 8,10,12,14 8 12:39:28Z
+start truth au:622:256:64 20 12:39:28Z
+truth au:622:256:64 2^20 3s checksum 3.0587069366e+03
+done truth au:622:256:64 20 12:39:34Z
+start lv au:622:256:64 12:39:34Z
+lv au:622:256:64 LVTV2: V_L 0.1020 flops 5.827e+09 passes 695 3.0s
+lv au:622:256:64 LVT: V_L 0.0112 flops 5.781e+09 passes 689 1.2s
+lv au:622:256:64 LVTV2f1: V_L 0.0764 flops 5.827e+09 passes 695 1.8s
+lv au:622:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:622:256:64 12:39:44Z
+start arc au:622:256:64 k2,k2a,k3f 12:39:44Z
+arc au:622:256:64 k2: flops 3.298e+09 passes 393 3.1s
+arc au:622:256:64 k2a: flops 3.792e+09 passes 452 7.4s
+arc au:622:256:64 k3f: flops 8.263e+11 passes 98505 10.2s
+done arc au:622:256:64 k2,k2a,k3f 12:40:08Z
+start sl3 au:622:256:64 12:40:08Z
+sl3 au:622:256:64: flops 1.048e+12 passes 124968 12.6s
+done sl3 au:622:256:64 12:40:24Z
+start rqmc au:622:256:64 8,10,12,14 8 12:40:24Z
+rqmc au:622:256:64 m=8 1s
+rqmc au:622:256:64 m=10 1s
+rqmc au:622:256:64 m=12 2s
+rqmc au:622:256:64 m=14 3s
+done rqmc au:622:256:64 8,10,12,14 8 12:40:30Z
+start truth au:623:256:64 20 12:40:30Z
+truth au:623:256:64 2^20 3s checksum -3.4664216117e+03
+done truth au:623:256:64 20 12:40:36Z
+start lv au:623:256:64 12:40:36Z
+lv au:623:256:64 LVTV2: V_L 0.1361 flops 5.827e+09 passes 695 3.1s
+lv au:623:256:64 LVT: V_L 0.0097 flops 5.781e+09 passes 689 1.2s
+lv au:623:256:64 LVTV2f1: V_L 0.1005 flops 5.827e+09 passes 695 1.8s
+lv au:623:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:623:256:64 12:40:46Z
+start arc au:623:256:64 k2,k2a,k3f 12:40:46Z
+arc au:623:256:64 k2: flops 3.298e+09 passes 393 3.1s
+arc au:623:256:64 k2a: flops 3.792e+09 passes 452 7.4s
+arc au:623:256:64 k3f: flops 8.263e+11 passes 98505 10.2s
+done arc au:623:256:64 k2,k2a,k3f 12:41:11Z
+start sl3 au:623:256:64 12:41:11Z
+sl3 au:623:256:64: flops 1.093e+12 passes 130276 12.7s
+done sl3 au:623:256:64 12:41:27Z
+start rqmc au:623:256:64 8,10,12,14 8 12:41:27Z
+rqmc au:623:256:64 m=8 1s
+rqmc au:623:256:64 m=10 1s
+rqmc au:623:256:64 m=12 2s
+rqmc au:623:256:64 m=14 3s
+done rqmc au:623:256:64 8,10,12,14 8 12:41:32Z
+start truth au:624:256:64 20 12:41:32Z
+truth au:624:256:64 2^20 3s checksum 7.0381118405e+03
+done truth au:624:256:64 20 12:41:38Z
+start lv au:624:256:64 12:41:38Z
+lv au:624:256:64 LVTV2: V_L 0.0919 flops 5.827e+09 passes 695 3.0s
+lv au:624:256:64 LVT: V_L 0.0113 flops 5.781e+09 passes 689 1.3s
+lv au:624:256:64 LVTV2f1: V_L 0.0646 flops 5.827e+09 passes 695 1.8s
+lv au:624:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:624:256:64 12:41:49Z
+start arc au:624:256:64 k2,k2a,k3f 12:41:49Z
+arc au:624:256:64 k2: flops 3.298e+09 passes 393 3.1s
+arc au:624:256:64 k2a: flops 3.792e+09 passes 452 7.3s
+arc au:624:256:64 k3f: flops 8.263e+11 passes 98505 10.2s
+done arc au:624:256:64 k2,k2a,k3f 12:42:13Z
+start sl3 au:624:256:64 12:42:13Z
+sl3 au:624:256:64: flops 1.019e+12 passes 121490 12.4s
+done sl3 au:624:256:64 12:42:28Z
+start rqmc au:624:256:64 8,10,12,14 8 12:42:28Z
+rqmc au:624:256:64 m=8 1s
+rqmc au:624:256:64 m=10 1s
+rqmc au:624:256:64 m=12 2s
+rqmc au:624:256:64 m=14 3s
+done rqmc au:624:256:64 8,10,12,14 8 12:42:34Z
+start truth au:625:256:64 20 12:42:34Z
+truth au:625:256:64 2^20 3s checksum 5.7053328539e+03
+done truth au:625:256:64 20 12:42:40Z
+start lv au:625:256:64 12:42:40Z
+lv au:625:256:64 LVTV2: V_L 0.0741 flops 5.827e+09 passes 695 3.0s
+lv au:625:256:64 LVT: V_L 0.0092 flops 5.781e+09 passes 689 1.2s
+lv au:625:256:64 LVTV2f1: V_L 0.0568 flops 5.827e+09 passes 695 1.8s
+lv au:625:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:625:256:64 12:42:50Z
+start arc au:625:256:64 k2,k2a,k3f 12:42:50Z
+arc au:625:256:64 k2: flops 3.298e+09 passes 393 3.0s
+arc au:625:256:64 k2a: flops 3.792e+09 passes 452 7.4s
+arc au:625:256:64 k3f: flops 8.263e+11 passes 98505 10.1s
+done arc au:625:256:64 k2,k2a,k3f 12:43:14Z
+start sl3 au:625:256:64 12:43:14Z
+sl3 au:625:256:64: flops 1.019e+12 passes 121490 12.4s
+done sl3 au:625:256:64 12:43:30Z
+start rqmc au:625:256:64 8,10,12,14 8 12:43:30Z
+rqmc au:625:256:64 m=8 1s
+rqmc au:625:256:64 m=10 1s
+rqmc au:625:256:64 m=12 2s
+rqmc au:625:256:64 m=14 3s
+done rqmc au:625:256:64 8,10,12,14 8 12:43:35Z
+start truth au:626:256:64 20 12:43:35Z
+truth au:626:256:64 2^20 3s checksum -6.2033783658e+03
+done truth au:626:256:64 20 12:43:41Z
+start lv au:626:256:64 12:43:41Z
+lv au:626:256:64 LVTV2: V_L 0.0884 flops 5.827e+09 passes 695 3.1s
+lv au:626:256:64 LVT: V_L 0.0109 flops 5.781e+09 passes 689 1.2s
+lv au:626:256:64 LVTV2f1: V_L 0.0653 flops 5.827e+09 passes 695 1.8s
+lv au:626:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:626:256:64 12:43:51Z
+start arc au:626:256:64 k2,k2a,k3f 12:43:51Z
+arc au:626:256:64 k2: flops 3.298e+09 passes 393 3.0s
+arc au:626:256:64 k2a: flops 3.792e+09 passes 452 7.2s
+arc au:626:256:64 k3f: flops 8.263e+11 passes 98505 10.0s
+done arc au:626:256:64 k2,k2a,k3f 12:44:15Z
+start sl3 au:626:256:64 12:44:15Z
+sl3 au:626:256:64: flops 1.034e+12 passes 123223 12.3s
+done sl3 au:626:256:64 12:44:30Z
+start rqmc au:626:256:64 8,10,12,14 8 12:44:30Z
+rqmc au:626:256:64 m=8 1s
+rqmc au:626:256:64 m=10 1s
+rqmc au:626:256:64 m=12 2s
+rqmc au:626:256:64 m=14 3s
+done rqmc au:626:256:64 8,10,12,14 8 12:44:36Z
+start truth au:627:256:64 20 12:44:36Z
+truth au:627:256:64 2^20 3s checksum -9.4455789439e+03
+done truth au:627:256:64 20 12:44:42Z
+start lv au:627:256:64 12:44:42Z
+lv au:627:256:64 LVTV2: V_L 0.0987 flops 5.827e+09 passes 695 3.0s
+lv au:627:256:64 LVT: V_L 0.0117 flops 5.781e+09 passes 689 1.2s
+lv au:627:256:64 LVTV2f1: V_L 0.0728 flops 5.827e+09 passes 695 1.8s
+lv au:627:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 1.2s
+done lv au:627:256:64 12:44:52Z
+start arc au:627:256:64 k2,k2a,k3f 12:44:52Z
+arc au:627:256:64 k2: flops 3.298e+09 passes 393 3.0s
+arc au:627:256:64 k2a: flops 3.792e+09 passes 452 7.2s
+arc au:627:256:64 k3f: flops 8.263e+11 passes 98505 10.0s
+done arc au:627:256:64 k2,k2a,k3f 12:45:16Z
+start sl3 au:627:256:64 12:45:16Z
+sl3 au:627:256:64: flops 1.034e+12 passes 123223 12.4s
+done sl3 au:627:256:64 12:45:31Z
+start rqmc au:627:256:64 8,10,12,14 8 12:45:31Z
+rqmc au:627:256:64 m=8 1s
+rqmc au:627:256:64 m=10 1s
+rqmc au:627:256:64 m=12 2s
+rqmc au:627:256:64 m=14 3s
+done rqmc au:627:256:64 8,10,12,14 8 12:45:37Z
+start arc p2:0 k2,k2a 12:45:37Z
+arc p2:0 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:0 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:0 k2,k2a 12:45:45Z
+start lv p2:0 12:45:45Z
+lv p2:0 LVTV2: V_L 0.0261 flops 7.254e+10 passes 2162 2.3s
+lv p2:0 LVT: V_L 0.0123 flops 7.236e+10 passes 2157 0.7s
+lv p2:0 LVTV2f1: V_L 0.0267 flops 7.254e+10 passes 2162 0.9s
+lv p2:0 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:0 12:45:53Z
+start cov p2:0 12:45:53Z
+cov p2:0: flops 6.875e+10 passes 2049 1.7s
+done cov p2:0 12:45:57Z
+start rqmc p2:0 8,10,12,14,16 8 12:45:57Z
+rqmc p2:0 m=8 2s
+rqmc p2:0 m=10 2s
+rqmc p2:0 m=12 4s
+rqmc p2:0 m=14 9s
+rqmc p2:0 m=16 26s
+done rqmc p2:0 8,10,12,14,16 8 12:46:26Z
+start arc p2:1 k2,k2a 12:46:26Z
+arc p2:1 k2: flops 5.184e+10 passes 1545 1.9s
+arc p2:1 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:1 k2,k2a 12:46:33Z
+start lv p2:1 12:46:33Z
+lv p2:1 LVTV2: V_L 0.0234 flops 7.254e+10 passes 2162 2.3s
+lv p2:1 LVT: V_L 0.0121 flops 7.236e+10 passes 2157 0.7s
+lv p2:1 LVTV2f1: V_L 0.0238 flops 7.254e+10 passes 2162 0.9s
+lv p2:1 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:1 12:46:41Z
+start cov p2:1 12:46:41Z
+cov p2:1: flops 6.875e+10 passes 2049 1.7s
+done cov p2:1 12:46:46Z
+start rqmc p2:1 8,10,12,14,16 8 12:46:46Z
+rqmc p2:1 m=8 2s
+rqmc p2:1 m=10 2s
+rqmc p2:1 m=12 4s
+rqmc p2:1 m=14 9s
+rqmc p2:1 m=16 26s
+done rqmc p2:1 8,10,12,14,16 8 12:47:15Z
+start arc p2:2 k2,k2a 12:47:15Z
+arc p2:2 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:2 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:2 k2,k2a 12:47:22Z
+start lv p2:2 12:47:22Z
+lv p2:2 LVTV2: V_L 0.0223 flops 7.254e+10 passes 2162 2.3s
+lv p2:2 LVT: V_L 0.0118 flops 7.236e+10 passes 2157 0.7s
+lv p2:2 LVTV2f1: V_L 0.0228 flops 7.254e+10 passes 2162 0.9s
+lv p2:2 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:2 12:47:30Z
+start cov p2:2 12:47:30Z
+cov p2:2: flops 6.875e+10 passes 2049 1.7s
+done cov p2:2 12:47:35Z
+start rqmc p2:2 8,10,12,14,16 8 12:47:35Z
+rqmc p2:2 m=8 2s
+rqmc p2:2 m=10 2s
+rqmc p2:2 m=12 4s
+rqmc p2:2 m=14 9s
+rqmc p2:2 m=16 27s
+done rqmc p2:2 8,10,12,14,16 8 12:48:04Z
+start arc p2:3 k2,k2a 12:48:04Z
+arc p2:3 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:3 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:3 k2,k2a 12:48:11Z
+start lv p2:3 12:48:11Z
+lv p2:3 LVTV2: V_L 0.0246 flops 7.254e+10 passes 2162 2.3s
+lv p2:3 LVT: V_L 0.0117 flops 7.236e+10 passes 2157 0.7s
+lv p2:3 LVTV2f1: V_L 0.0252 flops 7.254e+10 passes 2162 0.9s
+lv p2:3 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:3 12:48:19Z
+start cov p2:3 12:48:19Z
+cov p2:3: flops 6.875e+10 passes 2049 1.7s
+done cov p2:3 12:48:24Z
+start rqmc p2:3 8,10,12,14,16 8 12:48:24Z
+rqmc p2:3 m=8 2s
+rqmc p2:3 m=10 2s
+rqmc p2:3 m=12 4s
+rqmc p2:3 m=14 9s
+rqmc p2:3 m=16 27s
+done rqmc p2:3 8,10,12,14,16 8 12:48:53Z
+start arc p2:4 k2,k2a 12:48:53Z
+arc p2:4 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:4 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:4 k2,k2a 12:49:01Z
+start lv p2:4 12:49:01Z
+lv p2:4 LVTV2: V_L 0.0244 flops 7.254e+10 passes 2162 2.3s
+lv p2:4 LVT: V_L 0.0128 flops 7.236e+10 passes 2157 0.7s
+lv p2:4 LVTV2f1: V_L 0.0248 flops 7.254e+10 passes 2162 0.9s
+lv p2:4 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:4 12:49:09Z
+start cov p2:4 12:49:09Z
+cov p2:4: flops 6.875e+10 passes 2049 1.7s
+done cov p2:4 12:49:13Z
+start rqmc p2:4 8,10,12,14,16 8 12:49:13Z
+rqmc p2:4 m=8 2s
+rqmc p2:4 m=10 2s
+rqmc p2:4 m=12 4s
+rqmc p2:4 m=14 9s
+rqmc p2:4 m=16 27s
+done rqmc p2:4 8,10,12,14,16 8 12:49:42Z
+start arc p2:5 k2,k2a 12:49:42Z
+arc p2:5 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:5 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:5 k2,k2a 12:49:50Z
+start lv p2:5 12:49:50Z
+lv p2:5 LVTV2: V_L 0.0233 flops 7.254e+10 passes 2162 2.3s
+lv p2:5 LVT: V_L 0.0120 flops 7.236e+10 passes 2157 0.7s
+lv p2:5 LVTV2f1: V_L 0.0237 flops 7.254e+10 passes 2162 0.9s
+lv p2:5 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:5 12:49:58Z
+start cov p2:5 12:49:58Z
+cov p2:5: flops 6.875e+10 passes 2049 1.7s
+done cov p2:5 12:50:02Z
+start rqmc p2:5 8,10,12,14,16 8 12:50:02Z
+rqmc p2:5 m=8 2s
+rqmc p2:5 m=10 2s
+rqmc p2:5 m=12 4s
+rqmc p2:5 m=14 9s
+rqmc p2:5 m=16 27s
+done rqmc p2:5 8,10,12,14,16 8 12:50:31Z
+start arc p2:6 k2,k2a 12:50:31Z
+arc p2:6 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:6 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:6 k2,k2a 12:50:39Z
+start lv p2:6 12:50:39Z
+lv p2:6 LVTV2: V_L 0.0233 flops 7.254e+10 passes 2162 2.3s
+lv p2:6 LVT: V_L 0.0130 flops 7.236e+10 passes 2157 0.7s
+lv p2:6 LVTV2f1: V_L 0.0237 flops 7.254e+10 passes 2162 0.9s
+lv p2:6 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:6 12:50:47Z
+start cov p2:6 12:50:47Z
+cov p2:6: flops 6.875e+10 passes 2049 1.7s
+done cov p2:6 12:50:52Z
+start rqmc p2:6 8,10,12,14 8 12:50:52Z
+rqmc p2:6 m=8 2s
+rqmc p2:6 m=10 2s
+rqmc p2:6 m=12 4s
+rqmc p2:6 m=14 9s
+done rqmc p2:6 8,10,12,14 8 12:51:03Z
+start arc p2:7 k2,k2a 12:51:03Z
+arc p2:7 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:7 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:7 k2,k2a 12:51:11Z
+start lv p2:7 12:51:11Z
+lv p2:7 LVTV2: V_L 0.0236 flops 7.254e+10 passes 2162 2.3s
+lv p2:7 LVT: V_L 0.0125 flops 7.236e+10 passes 2157 0.7s
+lv p2:7 LVTV2f1: V_L 0.0241 flops 7.254e+10 passes 2162 0.9s
+lv p2:7 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:7 12:51:19Z
+start cov p2:7 12:51:19Z
+cov p2:7: flops 6.875e+10 passes 2049 1.7s
+done cov p2:7 12:51:23Z
+start rqmc p2:7 8,10,12,14 8 12:51:23Z
+rqmc p2:7 m=8 2s
+rqmc p2:7 m=10 2s
+rqmc p2:7 m=12 4s
+rqmc p2:7 m=14 9s
+done rqmc p2:7 8,10,12,14 8 12:51:35Z
+start arc p2:8 k2,k2a 12:51:35Z
+arc p2:8 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:8 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:8 k2,k2a 12:51:42Z
+start lv p2:8 12:51:42Z
+lv p2:8 LVTV2: V_L 0.0240 flops 7.254e+10 passes 2162 2.3s
+lv p2:8 LVT: V_L 0.0129 flops 7.236e+10 passes 2157 0.7s
+lv p2:8 LVTV2f1: V_L 0.0245 flops 7.254e+10 passes 2162 0.9s
+lv p2:8 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:8 12:51:50Z
+start cov p2:8 12:51:50Z
+cov p2:8: flops 6.875e+10 passes 2049 1.7s
+done cov p2:8 12:51:54Z
+start rqmc p2:8 8,10,12,14 8 12:51:54Z
+rqmc p2:8 m=8 2s
+rqmc p2:8 m=10 2s
+rqmc p2:8 m=12 4s
+rqmc p2:8 m=14 9s
+done rqmc p2:8 8,10,12,14 8 12:52:06Z
+start arc p2:9 k2,k2a 12:52:06Z
+arc p2:9 k2: flops 5.184e+10 passes 1545 1.9s
+arc p2:9 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:9 k2,k2a 12:52:13Z
+start lv p2:9 12:52:13Z
+lv p2:9 LVTV2: V_L 0.0220 flops 7.254e+10 passes 2162 2.3s
+lv p2:9 LVT: V_L 0.0125 flops 7.236e+10 passes 2157 0.7s
+lv p2:9 LVTV2f1: V_L 0.0224 flops 7.254e+10 passes 2162 0.9s
+lv p2:9 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:9 12:52:21Z
+start cov p2:9 12:52:21Z
+cov p2:9: flops 6.875e+10 passes 2049 1.7s
+done cov p2:9 12:52:25Z
+start rqmc p2:9 8,10,12,14 8 12:52:25Z
+rqmc p2:9 m=8 2s
+rqmc p2:9 m=10 2s
+rqmc p2:9 m=12 4s
+rqmc p2:9 m=14 9s
+done rqmc p2:9 8,10,12,14 8 12:52:37Z
+start arc p2:10 k2,k2a 12:52:37Z
+arc p2:10 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:10 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:10 k2,k2a 12:52:44Z
+start lv p2:10 12:52:44Z
+lv p2:10 LVTV2: V_L 0.0231 flops 7.254e+10 passes 2162 2.3s
+lv p2:10 LVT: V_L 0.0129 flops 7.236e+10 passes 2157 0.7s
+lv p2:10 LVTV2f1: V_L 0.0236 flops 7.254e+10 passes 2162 0.9s
+lv p2:10 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:10 12:52:52Z
+start cov p2:10 12:52:52Z
+cov p2:10: flops 6.875e+10 passes 2049 1.7s
+done cov p2:10 12:52:57Z
+start rqmc p2:10 8,10,12,14 8 12:52:57Z
+rqmc p2:10 m=8 2s
+rqmc p2:10 m=10 2s
+rqmc p2:10 m=12 4s
+rqmc p2:10 m=14 9s
+done rqmc p2:10 8,10,12,14 8 12:53:08Z
+start arc p2:11 k2,k2a 12:53:08Z
+arc p2:11 k2: flops 5.184e+10 passes 1545 2.0s
+arc p2:11 k2a: flops 5.377e+10 passes 1603 2.0s
+done arc p2:11 k2,k2a 12:53:16Z
+start lv p2:11 12:53:16Z
+lv p2:11 LVTV2: V_L 0.0222 flops 7.254e+10 passes 2162 2.3s
+lv p2:11 LVT: V_L 0.0120 flops 7.236e+10 passes 2157 0.7s
+lv p2:11 LVTV2f1: V_L 0.0226 flops 7.254e+10 passes 2162 0.9s
+lv p2:11 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 0.7s
+done lv p2:11 12:53:23Z
+start cov p2:11 12:53:23Z
+cov p2:11: flops 6.875e+10 passes 2049 1.7s
+done cov p2:11 12:53:28Z
+start rqmc p2:11 8,10,12,14 8 12:53:28Z
+rqmc p2:11 m=8 2s
+rqmc p2:11 m=10 2s
+rqmc p2:11 m=12 4s
+rqmc p2:11 m=14 9s
+done rqmc p2:11 8,10,12,14 8 12:53:39Z
+start arc p2:0 k3f 12:53:39Z
+[W1102 12:53:54.252080531 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:0 k3f: flops 3.254e+12 passes 96968 11.9s
+done arc p2:0 k3f 12:53:55Z
+start sl3 p2:0 12:53:55Z
+[W1102 12:54:09.311670485 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:54:16.964414312 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 181534720, total: 23659151360).
+sl3 p2:0: flops 6.826e+12 passes 203434 21.6s
+done sl3 p2:0 12:54:19Z
+start arc p2:1 k3f 12:54:19Z
+[W1102 12:54:34.420043084 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:1 k3f: flops 3.254e+12 passes 96968 12.0s
+done arc p2:1 k3f 12:54:35Z
+start sl3 p2:1 12:54:35Z
+[W1102 12:54:49.402574444 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:54:57.827588836 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 147980288, total: 23659151360).
+sl3 p2:1: flops 7.130e+12 passes 212483 22.5s
+done sl3 p2:1 12:55:00Z
+start arc p2:2 k3f 12:55:00Z
+[W1102 12:55:15.412086873 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:2 k3f: flops 3.254e+12 passes 96968 12.0s
+done arc p2:2 k3f 12:55:16Z
+start sl3 p2:2 12:55:16Z
+[W1102 12:55:30.386272916 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:55:38.797630001 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 147980288, total: 23659151360).
+sl3 p2:2: flops 6.826e+12 passes 203434 21.6s
+done sl3 p2:2 12:55:41Z
+start arc p2:3 k3f 12:55:41Z
+[W1102 12:55:55.533361956 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:3 k3f: flops 3.254e+12 passes 96968 12.0s
+done arc p2:3 k3f 12:55:56Z
+start sl3 p2:3 12:55:56Z
+[W1102 12:56:10.636152069 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:56:18.046735687 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 147980288, total: 23659151360).
+sl3 p2:3: flops 7.130e+12 passes 212483 22.4s
+done sl3 p2:3 12:56:22Z
+start arc p2:4 k3f 12:56:22Z
+[W1102 12:56:36.620273185 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:4 k3f: flops 3.254e+12 passes 96968 12.0s
+done arc p2:4 k3f 12:56:37Z
+start sl3 p2:4 12:56:37Z
+[W1102 12:56:51.565865342 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:56:59.982452840 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 147980288, total: 23659151360).
+sl3 p2:4: flops 7.130e+12 passes 212483 22.4s
+done sl3 p2:4 12:57:03Z
+start arc p2:5 k3f 12:57:03Z
+[W1102 12:57:17.658885715 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 251658240 bytes (free: 91357184, total: 23659151360).
+arc p2:5 k3f: flops 3.254e+12 passes 96968 12.0s
+done arc p2:5 k3f 12:57:18Z
+start sl3 p2:5 12:57:18Z
+[W1102 12:57:32.750440359 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 270532608 bytes (free: 41025536, total: 23659151360).
+[W1102 12:57:40.179102613 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 371195904 bytes (free: 147980288, total: 23659151360).
+sl3 p2:5: flops 7.130e+12 passes 212483 22.5s
+done sl3 p2:5 12:57:44Z
+queue end 12:57:44Z

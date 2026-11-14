@@ -1,0 +1,6 @@
+K=1: states 61, err 2.20e-03 (0s)
+K=2: states 106, err 1.89e-03 (0s)
+K=4: states 196, err 1.65e-03 (0s)
+K=8: states 364, err 7.49e-04 (0s)
+K=inf: states 3583, err 5.87e-04 (2s)
+MC(2^20) 9.5e-07, RQMC(2^20) 1.6e-11, truth noise 7.9e-13

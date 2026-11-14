@@ -1,0 +1,1 @@
+651de8e7d3079e25dd5ea71acb6f0940ea96e054439ae56fd1b45f340944cd3d  future-aware.md

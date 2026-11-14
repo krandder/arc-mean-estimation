@@ -1,0 +1,10 @@
+### 3.3 Small nets (GPU; seeds 5000-5002)
+Best code found for nMSE 0.1, channel bits, median over the three nets (from results/S1_best.md; ">32" = not reached
+within 32 bits on the median net):
+
+| net | l = 0 | L/4 | L/2 | 3L/4 | L-1 | output | unrestricted, l = 0 (1500 / 3000 steps) |
+|---|---|---|---|---|---|---|---|
+| 16 x 4 | 22 | 15 | 12 | 10 | (3 = L-1) | 10 | 17 / 9 |
+| 32 x 8 | >32 | 21 | 11 | 8 | 8 | 9 | 16 / 11 |
+| 16 x 16 | 27 | 6 | 4 | 3 | 3 | 3 | 5.5 / 3.5 |
+| 32 x 32 | >32 | 5 | 2 | 2 | 2 | 2 | 4.3 / 2.4-2.9 |

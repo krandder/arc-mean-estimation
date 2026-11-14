@@ -1,0 +1,9 @@
+n=4 d=8 M=495 relu_L8_net0: gap/sd in [0.2141, 15.8159] rounds=40,40 t=404.0+506.1s
+n=4 d=8 M=495 relu_L1_net1: gap/sd in [0.2548, 46.6927] rounds=40,40 t=363.2+424.1s
+n=4 d=8 M=495 relu_L2_net1: gap/sd in [0.3449, 69.7022] rounds=40,40 t=389.5+432.0s
+n=4 d=8 M=495 relu_L4_net1: gap/sd in [0.4980, 102.1877] rounds=40,40 t=421.6+417.5s
+n=4 d=8 M=495 relu_L8_net1: gap/sd in [0.9797, 97.8588] rounds=40,40 t=569.1+387.4s
+n=4 d=8 M=495 relu_L1_net2: gap/sd in [0.4429, 117.6777] rounds=40,40 t=376.8+412.0s
+n=4 d=8 M=495 relu_L2_net2: gap/sd in [0.6645, 78.6802] rounds=40,40 t=362.2+404.1s
+n=4 d=8 M=495 relu_L4_net2: gap/sd in [0.2994, 61.0895] rounds=40,40 t=388.0+392.4s
+n=4 d=8 M=495 relu_L8_net2: gap/sd in [0.3851, 50.8543] rounds=40,40 t=382.4+377.6s

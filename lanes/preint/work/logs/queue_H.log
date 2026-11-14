@@ -1,0 +1,1 @@
+arc n=128 L=16 s=302 PI_as_w    p= 9 cost   216607.2 passes  nMSE(rep) 9.002e-04  C*nMSE 1.950e+02 truth 8.77e-04 bias_ratio 0.79  [1035s]

@@ -1,0 +1,378 @@
+evalA start 11:22:25Z
+lv au:200:256:32 LVTV2: V_L 0.0711 flops 2.884e+09 passes 688 33.1s flags {'feas': 2, 'cap': 11, 'root': 20}
+lv au:200:256:32 LVT: V_L 0.0228 flops 2.862e+09 passes 682 10.2s flags {}
+lv au:200:256:32 LVTV2f1: V_L 0.0534 flops 2.884e+09 passes 688 13.2s flags {'cap': 18, 'root': 13}
+lv au:200:256:32 LVT0: V_L 0.0000 flops 2.858e+09 passes 681 8.4s flags {}
+done lv au:200:256:32 11:23:34Z
+sl3 au:200:256:32: flops 2.998e+11 passes 71474 87.5s
+done sl3 au:200:256:32 11:25:05Z
+cov au:200:256:32: flops 2.152e+09 passes 513 2.3s
+done cov au:200:256:32 11:25:10Z
+lv au:201:256:32 LVTV2: V_L 0.1087 flops 2.884e+09 passes 688 11.6s flags {'root': 21, 'cap': 10}
+lv au:201:256:32 LVT: V_L 0.0209 flops 2.862e+09 passes 682 6.0s flags {}
+lv au:201:256:32 LVTV2f1: V_L 0.0804 flops 2.884e+09 passes 688 8.4s flags {'root': 12, 'cap': 19}
+lv au:201:256:32 LVT0: V_L 0.0000 flops 2.858e+09 passes 681 4.7s flags {}
+done lv au:201:256:32 11:25:44Z
+sl3 au:201:256:32: flops 2.766e+11 passes 65945 61.0s
+done sl3 au:201:256:32 11:26:48Z
+cov au:201:256:32: flops 2.152e+09 passes 513 3.5s
+done cov au:201:256:32 11:26:54Z
+lv au:202:256:32 LVTV2: V_L 0.1003 flops 2.884e+09 passes 688 14.5s flags {'feas': 2, 'root': 17, 'cap': 14}
+lv au:202:256:32 LVT: V_L 0.0317 flops 2.862e+09 passes 682 4.0s flags {}
+lv au:202:256:32 LVTV2f1: V_L 0.0726 flops 2.884e+09 passes 688 6.8s flags {'feas': 1, 'root': 12, 'cap': 19}
+lv au:202:256:32 LVT0: V_L 0.0000 flops 2.858e+09 passes 681 3.9s flags {}
+done lv au:202:256:32 11:27:26Z
+sl3 au:202:256:32: flops 3.321e+11 passes 79185 42.0s
+done sl3 au:202:256:32 11:28:11Z
+cov au:202:256:32: flops 2.152e+09 passes 513 1.5s
+done cov au:202:256:32 11:28:15Z
+lv au:203:256:32 LVTV2: V_L 0.1204 flops 2.884e+09 passes 688 4.4s flags {'cap': 14, 'feas': 1, 'root': 17}
+lv au:203:256:32 LVT: V_L 0.0314 flops 2.862e+09 passes 682 3.4s flags {}
+lv au:203:256:32 LVTV2f1: V_L 0.0879 flops 2.884e+09 passes 688 4.2s flags {'cap': 20, 'root': 11}
+lv au:203:256:32 LVT0: V_L 0.0000 flops 2.858e+09 passes 681 2.3s flags {}
+done lv au:203:256:32 11:28:32Z
+sl3 au:203:256:32: flops 3.157e+11 passes 75281 42.5s
+done sl3 au:203:256:32 11:29:18Z
+cov au:203:256:32: flops 2.152e+09 passes 513 2.1s
+done cov au:203:256:32 11:29:23Z
+lv au:204:256:32 LVTV2: V_L 0.1066 flops 2.884e+09 passes 688 10.5s flags {'root': 20, 'feas': 2, 'cap': 11}
+lv au:204:256:32 LVT: V_L 0.0339 flops 2.862e+09 passes 682 10.6s flags {}
+lv au:204:256:32 LVTV2f1: V_L 0.0774 flops 2.884e+09 passes 688 10.6s flags {'root': 14, 'cap': 17}
+lv au:204:256:32 LVT0: V_L 0.0000 flops 2.858e+09 passes 681 11.3s flags {}
+done lv au:204:256:32 11:30:09Z
+sl3 au:204:256:32: flops 3.321e+11 passes 79185 56.2s
+done sl3 au:204:256:32 11:31:08Z
+cov au:204:256:32: flops 2.152e+09 passes 513 3.5s
+done cov au:204:256:32 11:31:15Z
+lv au:300:32:4 LVTV2: V_L 0.3452 flops 1.642e+06 passes 200 2.1s flags {'root': 3}
+lv au:300:32:4 LVT: V_L 0.2520 flops 1.596e+06 passes 195 0.2s flags {}
+lv au:300:32:4 LVTV2f1: V_L 0.4382 flops 1.642e+06 passes 200 0.4s flags {'root': 2, 'cap': 1}
+lv au:300:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.1s flags {}
+done lv au:300:32:4 11:31:21Z
+sl3 au:300:32:4: flops 1.333e+07 passes 1628 2.5s
+done sl3 au:300:32:4 11:31:29Z
+lv au:301:32:4 LVTV2: V_L 0.3061 flops 1.641e+06 passes 200 3.8s flags {'root': 3}
+lv au:301:32:4 LVT: V_L 0.1594 flops 1.596e+06 passes 195 0.5s flags {}
+lv au:301:32:4 LVTV2f1: V_L 0.3445 flops 1.642e+06 passes 200 0.4s flags {'root': 3}
+lv au:301:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.3s flags {}
+done lv au:301:32:4 11:31:38Z
+sl3 au:301:32:4: flops 1.333e+07 passes 1628 2.8s
+done sl3 au:301:32:4 11:31:44Z
+lv au:302:32:4 LVTV2: V_L 0.3553 flops 1.642e+06 passes 200 1.6s flags {'root': 3}
+lv au:302:32:4 LVT: V_L 0.2713 flops 1.596e+06 passes 195 0.2s flags {}
+lv au:302:32:4 LVTV2f1: V_L 0.4350 flops 1.642e+06 passes 200 0.3s flags {'feas': 1, 'cap': 1, 'root': 2}
+lv au:302:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.2s flags {}
+done lv au:302:32:4 11:31:50Z
+sl3 au:302:32:4: flops 1.333e+07 passes 1628 2.6s
+done sl3 au:302:32:4 11:31:56Z
+lv au:303:32:4 LVTV2: V_L 0.3131 flops 1.642e+06 passes 200 2.2s flags {'root': 3}
+lv au:303:32:4 LVT: V_L 0.1899 flops 1.596e+06 passes 195 0.4s flags {}
+lv au:303:32:4 LVTV2f1: V_L 0.3536 flops 1.642e+06 passes 200 0.6s flags {'root': 3}
+lv au:303:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.2s flags {}
+done lv au:303:32:4 11:32:03Z
+sl3 au:303:32:4: flops 1.333e+07 passes 1628 2.7s
+done sl3 au:303:32:4 11:32:10Z
+lv au:304:32:4 LVTV2: V_L 0.4131 flops 1.642e+06 passes 200 1.9s flags {'root': 3}
+lv au:304:32:4 LVT: V_L 0.2720 flops 1.596e+06 passes 195 0.1s flags {}
+lv au:304:32:4 LVTV2f1: V_L 0.4722 flops 1.642e+06 passes 200 0.3s flags {'root': 3}
+lv au:304:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.2s flags {}
+done lv au:304:32:4 11:32:16Z
+sl3 au:304:32:4: flops 1.333e+07 passes 1628 2.1s
+done sl3 au:304:32:4 11:32:21Z
+lv au:305:32:4 LVTV2: V_L 0.3937 flops 1.642e+06 passes 200 1.8s flags {'root': 3}
+lv au:305:32:4 LVT: V_L 0.2898 flops 1.596e+06 passes 195 0.2s flags {}
+lv au:305:32:4 LVTV2f1: V_L 0.4752 flops 1.642e+06 passes 200 0.3s flags {'root': 2, 'cap': 1}
+lv au:305:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.1s flags {}
+done lv au:305:32:4 11:32:26Z
+sl3 au:305:32:4: flops 1.333e+07 passes 1628 2.5s
+done sl3 au:305:32:4 11:32:32Z
+lv au:306:32:4 LVTV2: V_L 0.3154 flops 1.641e+06 passes 200 2.4s flags {'root': 3}
+lv au:306:32:4 LVT: V_L 0.1828 flops 1.596e+06 passes 195 0.2s flags {}
+lv au:306:32:4 LVTV2f1: V_L 0.3492 flops 1.642e+06 passes 200 0.3s flags {'root': 3}
+lv au:306:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.3s flags {}
+done lv au:306:32:4 11:32:39Z
+sl3 au:306:32:4: flops 1.333e+07 passes 1628 2.4s
+done sl3 au:306:32:4 11:32:45Z
+lv au:307:32:4 LVTV2: V_L 0.3607 flops 1.642e+06 passes 200 2.2s flags {'root': 3}
+lv au:307:32:4 LVT: V_L 0.2171 flops 1.596e+06 passes 195 0.2s flags {}
+lv au:307:32:4 LVTV2f1: V_L 0.4187 flops 1.642e+06 passes 200 0.3s flags {'root': 2, 'cap': 1}
+lv au:307:32:4 LVT0: V_L 0.0000 flops 1.590e+06 passes 194 0.3s flags {}
+done lv au:307:32:4 11:32:51Z
+sl3 au:307:32:4: flops 1.333e+07 passes 1628 2.6s
+done sl3 au:307:32:4 11:32:57Z
+lv au:300:64:8 LVTV2: V_L 0.3144 flops 1.879e+07 passes 287 2.4s flags {'feas': 1, 'cap': 1, 'root': 6}
+lv au:300:64:8 LVT: V_L 0.1481 flops 1.844e+07 passes 281 0.5s flags {}
+lv au:300:64:8 LVTV2f1: V_L 0.2377 flops 1.879e+07 passes 287 1.2s flags {'cap': 3, 'root': 4}
+lv au:300:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 1.1s flags {}
+done lv au:300:64:8 11:33:05Z
+sl3 au:300:64:8: flops 3.607e+08 passes 5503 2.9s
+done sl3 au:300:64:8 11:33:11Z
+lv au:301:64:8 LVTV2: V_L 0.3382 flops 1.879e+07 passes 287 1.8s flags {'root': 7}
+lv au:301:64:8 LVT: V_L 0.2126 flops 1.844e+07 passes 281 0.4s flags {}
+lv au:301:64:8 LVTV2f1: V_L 0.3322 flops 1.879e+07 passes 287 0.4s flags {'root': 4, 'cap': 3}
+lv au:301:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 0.1s flags {}
+done lv au:301:64:8 11:33:16Z
+sl3 au:301:64:8: flops 4.349e+08 passes 6635 3.5s
+done sl3 au:301:64:8 11:33:22Z
+lv au:302:64:8 LVTV2: V_L 0.3409 flops 1.879e+07 passes 287 2.8s flags {'root': 7}
+lv au:302:64:8 LVT: V_L 0.1670 flops 1.844e+07 passes 281 0.8s flags {}
+lv au:302:64:8 LVTV2f1: V_L 0.2817 flops 1.879e+07 passes 287 1.5s flags {'cap': 3, 'root': 4}
+lv au:302:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 1.1s flags {}
+done lv au:302:64:8 11:33:32Z
+sl3 au:302:64:8: flops 3.607e+08 passes 5503 4.9s
+done sl3 au:302:64:8 11:33:40Z
+lv au:303:64:8 LVTV2: V_L 0.2702 flops 1.879e+07 passes 287 4.6s flags {'root': 7}
+lv au:303:64:8 LVT: V_L 0.1723 flops 1.844e+07 passes 281 3.5s flags {}
+lv au:303:64:8 LVTV2f1: V_L 0.2272 flops 1.879e+07 passes 287 0.7s flags {'root': 4, 'cap': 3}
+lv au:303:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 1.1s flags {}
+done lv au:303:64:8 11:33:52Z
+sl3 au:303:64:8: flops 3.607e+08 passes 5503 4.6s
+done sl3 au:303:64:8 11:34:01Z
+lv au:304:64:8 LVTV2: V_L 0.3452 flops 1.879e+07 passes 287 3.7s flags {'feas': 1, 'root': 6, 'cap': 1}
+lv au:304:64:8 LVT: V_L 0.1237 flops 1.844e+07 passes 281 1.1s flags {}
+lv au:304:64:8 LVTV2f1: V_L 0.2503 flops 1.879e+07 passes 287 1.9s flags {'root': 4, 'cap': 3}
+lv au:304:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 1.4s flags {}
+done lv au:304:64:8 11:34:13Z
+sl3 au:304:64:8: flops 3.969e+08 passes 6057 3.8s
+done sl3 au:304:64:8 11:34:20Z
+lv au:305:64:8 LVTV2: V_L 0.3402 flops 1.879e+07 passes 287 5.4s flags {'feas': 1, 'root': 7}
+lv au:305:64:8 LVT: V_L 0.1831 flops 1.844e+07 passes 281 1.4s flags {}
+lv au:305:64:8 LVTV2f1: V_L 0.2691 flops 1.879e+07 passes 287 0.5s flags {'cap': 3, 'feas': 1, 'root': 4}
+lv au:305:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 1.3s flags {}
+done lv au:305:64:8 11:34:32Z
+sl3 au:305:64:8: flops 3.969e+08 passes 6057 9.8s
+done sl3 au:305:64:8 11:34:45Z
+lv au:306:64:8 LVTV2: V_L 0.2983 flops 1.879e+07 passes 287 5.4s flags {'root': 7}
+lv au:306:64:8 LVT: V_L 0.1616 flops 1.844e+07 passes 281 3.4s flags {}
+lv au:306:64:8 LVTV2f1: V_L 0.2558 flops 1.879e+07 passes 287 5.6s flags {'feas': 1, 'cap': 3, 'root': 4}
+lv au:306:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 2.9s flags {}
+done lv au:306:64:8 11:35:06Z
+sl3 au:306:64:8: flops 3.969e+08 passes 6057 4.9s
+done sl3 au:306:64:8 11:35:15Z
+lv au:307:64:8 LVTV2: V_L 0.3139 flops 1.879e+07 passes 287 3.3s flags {'root': 7}
+lv au:307:64:8 LVT: V_L 0.2002 flops 1.844e+07 passes 281 0.2s flags {}
+lv au:307:64:8 LVTV2f1: V_L 0.2572 flops 1.879e+07 passes 287 0.7s flags {'root': 4, 'cap': 3}
+lv au:307:64:8 LVT0: V_L 0.0000 flops 1.839e+07 passes 281 0.9s flags {}
+done lv au:307:64:8 11:35:24Z
+sl3 au:307:64:8: flops 4.349e+08 passes 6635 4.8s
+done sl3 au:307:64:8 11:35:33Z
+lv au:300:128:16 LVTV2: V_L 0.1257 flops 2.233e+08 passes 426 5.8s flags {'cap': 3, 'root': 12, 'feas': 3}
+lv au:300:128:16 LVT: V_L 0.0801 flops 2.206e+08 passes 421 0.7s flags {}
+lv au:300:128:16 LVTV2f1: V_L 0.0991 flops 2.233e+08 passes 426 0.5s flags {'cap': 7, 'root': 8, 'feas': 1}
+lv au:300:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 0.6s flags {}
+done lv au:300:128:16 11:35:43Z
+sl3 au:300:128:16: flops 1.297e+10 passes 24731 14.8s
+done sl3 au:300:128:16 11:36:01Z
+lv au:301:128:16 LVTV2: V_L 0.2228 flops 2.233e+08 passes 426 4.7s flags {'feas': 2, 'root': 15}
+lv au:301:128:16 LVT: V_L 0.0599 flops 2.206e+08 passes 421 2.1s flags {}
+lv au:301:128:16 LVTV2f1: V_L 0.1634 flops 2.233e+08 passes 426 2.4s flags {'cap': 7, 'root': 8}
+lv au:301:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 2.0s flags {}
+done lv au:301:128:16 11:36:16Z
+sl3 au:301:128:16: flops 1.073e+10 passes 20462 13.0s
+done sl3 au:301:128:16 11:36:33Z
+lv au:302:128:16 LVTV2: V_L 0.1627 flops 2.233e+08 passes 426 5.3s flags {'cap': 2, 'root': 13}
+lv au:302:128:16 LVT: V_L 0.0644 flops 2.206e+08 passes 421 1.9s flags {}
+lv au:302:128:16 LVTV2f1: V_L 0.1167 flops 2.233e+08 passes 426 1.7s flags {'cap': 7, 'root': 8}
+lv au:302:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 2.1s flags {}
+done lv au:302:128:16 11:36:48Z
+sl3 au:302:128:16: flops 1.127e+10 passes 21493 9.2s
+done sl3 au:302:128:16 11:37:00Z
+lv au:303:128:16 LVTV2: V_L 0.2364 flops 2.233e+08 passes 426 11.7s flags {'cap': 3, 'feas': 2, 'root': 12}
+lv au:303:128:16 LVT: V_L 0.1246 flops 2.206e+08 passes 421 5.1s flags {}
+lv au:303:128:16 LVTV2f1: V_L 0.1680 flops 2.233e+08 passes 426 6.8s flags {'cap': 6, 'root': 9}
+lv au:303:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 3.0s flags {}
+done lv au:303:128:16 11:37:31Z
+sl3 au:303:128:16: flops 1.297e+10 passes 24731 23.8s
+done sl3 au:303:128:16 11:38:00Z
+lv au:304:128:16 LVTV2: V_L 0.2383 flops 2.233e+08 passes 426 9.4s flags {'cap': 4, 'root': 11}
+lv au:304:128:16 LVT: V_L 0.0886 flops 2.206e+08 passes 421 3.8s flags {}
+lv au:304:128:16 LVTV2f1: V_L 0.1673 flops 2.233e+08 passes 426 0.7s flags {'cap': 7, 'root': 8}
+lv au:304:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 0.4s flags {}
+done lv au:304:128:16 11:38:18Z
+sl3 au:304:128:16: flops 1.073e+10 passes 20462 11.0s
+done sl3 au:304:128:16 11:38:32Z
+lv au:305:128:16 LVTV2: V_L 0.1873 flops 2.233e+08 passes 426 6.3s flags {'cap': 3, 'root': 12}
+lv au:305:128:16 LVT: V_L 0.0710 flops 2.206e+08 passes 421 2.2s flags {}
+lv au:305:128:16 LVTV2f1: V_L 0.1341 flops 2.233e+08 passes 426 3.2s flags {'cap': 8, 'root': 7}
+lv au:305:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 2.2s flags {}
+done lv au:305:128:16 11:38:49Z
+sl3 au:305:128:16: flops 1.127e+10 passes 21493 11.4s
+done sl3 au:305:128:16 11:39:05Z
+lv au:306:128:16 LVTV2: V_L 0.2077 flops 2.233e+08 passes 426 3.8s flags {'feas': 3, 'root': 12, 'cap': 3}
+lv au:306:128:16 LVT: V_L 0.0897 flops 2.206e+08 passes 421 0.3s flags {}
+lv au:306:128:16 LVTV2f1: V_L 0.1468 flops 2.233e+08 passes 426 0.6s flags {'feas': 1, 'root': 9, 'cap': 6}
+lv au:306:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 0.4s flags {}
+done lv au:306:128:16 11:39:15Z
+sl3 au:306:128:16: flops 1.182e+10 passes 22547 8.9s
+done sl3 au:306:128:16 11:39:29Z
+lv au:307:128:16 LVTV2: V_L 0.1604 flops 2.233e+08 passes 426 6.6s flags {'cap': 5, 'root': 10}
+lv au:307:128:16 LVT: V_L 0.0663 flops 2.206e+08 passes 421 3.2s flags {}
+lv au:307:128:16 LVTV2f1: V_L 0.1175 flops 2.233e+08 passes 426 5.9s flags {'cap': 7, 'root': 8}
+lv au:307:128:16 LVT0: V_L 0.0000 flops 2.201e+08 passes 420 4.0s flags {}
+done lv au:307:128:16 11:39:53Z
+sl3 au:307:128:16: flops 1.073e+10 passes 20462 16.1s
+done sl3 au:307:128:16 11:40:13Z
+truth au:600:64:16 2^22 109s
+done truth au:600:64:16 22 11:42:05Z
+lv au:600:64:16 LVTV2: V_L 0.4167 flops 3.964e+07 passes 302 4.7s flags {'cap': 6, 'root': 9}
+lv au:600:64:16 LVT: V_L 0.1688 flops 3.890e+07 passes 297 2.3s flags {}
+lv au:600:64:16 LVTV2f1: V_L 0.2796 flops 3.965e+07 passes 302 2.0s flags {'cap': 10, 'root': 5}
+lv au:600:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.4s flags {}
+done lv au:600:64:16 11:42:18Z
+arc au:600:64:16 k2: flops 1.384e+07 passes 106 1.8s
+arc au:600:64:16 k2a: flops 2.168e+07 passes 165 1.4s
+arc au:600:64:16 k3f: flops 8.193e+08 passes 6251 3.3s
+done arc au:600:64:16 k2,k2a,k3f 11:42:27Z
+sl3 au:600:64:16: flops 1.366e+09 passes 10420 5.9s
+done sl3 au:600:64:16 11:42:36Z
+rqmc au:600:64:16 m=8 1s
+rqmc au:600:64:16 m=10 1s
+rqmc au:600:64:16 m=12 1s
+rqmc au:600:64:16 m=14 4s
+done rqmc au:600:64:16 8,10,12,14 8 11:42:42Z
+truth au:601:64:16 2^22 47s
+done truth au:601:64:16 22 11:43:32Z
+lv au:601:64:16 LVTV2: V_L 0.4352 flops 3.964e+07 passes 302 2.6s flags {'feas': 3, 'root': 8, 'cap': 7}
+lv au:601:64:16 LVT: V_L 0.1910 flops 3.890e+07 passes 297 1.6s flags {}
+lv au:601:64:16 LVTV2f1: V_L 0.2916 flops 3.965e+07 passes 302 0.9s flags {'cap': 10, 'feas': 2, 'root': 5}
+lv au:601:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.9s flags {}
+done lv au:601:64:16 11:43:40Z
+arc au:601:64:16 k2: flops 1.384e+07 passes 106 2.4s
+arc au:601:64:16 k2a: flops 2.168e+07 passes 165 1.5s
+arc au:601:64:16 k3f: flops 8.193e+08 passes 6251 3.7s
+done arc au:601:64:16 k2,k2a,k3f 11:43:51Z
+sl3 au:601:64:16: flops 1.435e+09 passes 10947 8.2s
+done sl3 au:601:64:16 11:44:02Z
+rqmc au:601:64:16 m=8 2s
+rqmc au:601:64:16 m=10 2s
+rqmc au:601:64:16 m=12 4s
+rqmc au:601:64:16 m=14 7s
+done rqmc au:601:64:16 8,10,12,14 8 11:44:12Z
+truth au:602:64:16 2^22 60s
+done truth au:602:64:16 22 11:45:15Z
+lv au:602:64:16 LVTV2: V_L 0.2837 flops 3.964e+07 passes 302 2.4s flags {'feas': 1, 'cap': 7, 'root': 8}
+lv au:602:64:16 LVT: V_L 0.1328 flops 3.890e+07 passes 297 0.6s flags {}
+lv au:602:64:16 LVTV2f1: V_L 0.1885 flops 3.965e+07 passes 302 1.7s flags {'cap': 10, 'root': 5}
+lv au:602:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.8s flags {}
+done lv au:602:64:16 11:45:23Z
+arc au:602:64:16 k2: flops 1.384e+07 passes 106 2.2s
+arc au:602:64:16 k2a: flops 2.168e+07 passes 165 1.6s
+arc au:602:64:16 k3f: flops 8.193e+08 passes 6251 3.1s
+done arc au:602:64:16 k2,k2a,k3f 11:45:32Z
+sl3 au:602:64:16: flops 1.169e+09 passes 8917 6.5s
+done sl3 au:602:64:16 11:45:42Z
+rqmc au:602:64:16 m=8 1s
+rqmc au:602:64:16 m=10 1s
+rqmc au:602:64:16 m=12 2s
+rqmc au:602:64:16 m=14 3s
+done rqmc au:602:64:16 8,10,12,14 8 11:45:47Z
+truth au:603:64:16 2^22 79s
+done truth au:603:64:16 22 11:47:09Z
+lv au:603:64:16 LVTV2: V_L 0.3619 flops 3.964e+07 passes 302 2.9s flags {'root': 8, 'cap': 7}
+lv au:603:64:16 LVT: V_L 0.1247 flops 3.890e+07 passes 297 1.1s flags {}
+lv au:603:64:16 LVTV2f1: V_L 0.2245 flops 3.964e+07 passes 302 0.6s flags {'root': 6, 'cap': 9, 'feas': 1}
+lv au:603:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.4s flags {}
+done lv au:603:64:16 11:47:17Z
+arc au:603:64:16 k2: flops 1.384e+07 passes 106 1.7s
+arc au:603:64:16 k2a: flops 2.168e+07 passes 165 1.5s
+arc au:603:64:16 k3f: flops 8.193e+08 passes 6251 4.9s
+done arc au:603:64:16 k2,k2a,k3f 11:47:28Z
+sl3 au:603:64:16: flops 1.298e+09 passes 9907 6.3s
+done sl3 au:603:64:16 11:47:38Z
+rqmc au:603:64:16 m=8 2s
+rqmc au:603:64:16 m=10 2s
+rqmc au:603:64:16 m=12 2s
+rqmc au:603:64:16 m=14 3s
+done rqmc au:603:64:16 8,10,12,14 8 11:47:43Z
+truth au:604:64:16 2^22 79s
+done truth au:604:64:16 22 11:49:05Z
+lv au:604:64:16 LVTV2: V_L 0.3509 flops 3.964e+07 passes 302 4.5s flags {'root': 10, 'cap': 5}
+lv au:604:64:16 LVT: V_L 0.1270 flops 3.890e+07 passes 297 0.7s flags {}
+lv au:604:64:16 LVTV2f1: V_L 0.2406 flops 3.965e+07 passes 302 1.1s flags {'root': 5, 'cap': 10}
+lv au:604:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 1.5s flags {}
+done lv au:604:64:16 11:49:17Z
+arc au:604:64:16 k2: flops 1.384e+07 passes 106 2.0s
+arc au:604:64:16 k2a: flops 2.168e+07 passes 165 1.5s
+arc au:604:64:16 k3f: flops 8.193e+08 passes 6251 5.2s
+done arc au:604:64:16 k2,k2a,k3f 11:49:28Z
+sl3 au:604:64:16: flops 1.505e+09 passes 11486 6.6s
+done sl3 au:604:64:16 11:49:37Z
+rqmc au:604:64:16 m=8 2s
+rqmc au:604:64:16 m=10 2s
+rqmc au:604:64:16 m=12 4s
+rqmc au:604:64:16 m=14 7s
+done rqmc au:604:64:16 8,10,12,14 8 11:49:46Z
+truth au:605:64:16 2^22 90s
+done truth au:605:64:16 22 11:51:17Z
+lv au:605:64:16 LVTV2: V_L 0.3117 flops 3.964e+07 passes 302 5.4s flags {'feas': 2, 'root': 9, 'cap': 6}
+lv au:605:64:16 LVT: V_L 0.1217 flops 3.890e+07 passes 297 1.3s flags {}
+lv au:605:64:16 LVTV2f1: V_L 0.2246 flops 3.965e+07 passes 302 1.1s flags {'feas': 1, 'root': 4, 'cap': 11}
+lv au:605:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 1.1s flags {}
+done lv au:605:64:16 11:51:30Z
+arc au:605:64:16 k2: flops 1.384e+07 passes 106 3.1s
+arc au:605:64:16 k2a: flops 2.168e+07 passes 165 1.9s
+arc au:605:64:16 k3f: flops 8.193e+08 passes 6251 4.7s
+done arc au:605:64:16 k2,k2a,k3f 11:51:42Z
+sl3 au:605:64:16: flops 1.366e+09 passes 10420 6.6s
+done sl3 au:605:64:16 11:51:52Z
+rqmc au:605:64:16 m=8 1s
+rqmc au:605:64:16 m=10 1s
+rqmc au:605:64:16 m=12 1s
+rqmc au:605:64:16 m=14 2s
+done rqmc au:605:64:16 8,10,12,14 8 11:51:57Z
+truth au:606:64:16 2^22 86s
+done truth au:606:64:16 22 11:53:25Z
+lv au:606:64:16 LVTV2: V_L 0.3701 flops 3.964e+07 passes 302 4.9s flags {'cap': 6, 'root': 9, 'feas': 1}
+lv au:606:64:16 LVT: V_L 0.1485 flops 3.890e+07 passes 297 0.8s flags {}
+lv au:606:64:16 LVTV2f1: V_L 0.2199 flops 3.965e+07 passes 302 2.3s flags {'cap': 11, 'root': 4, 'feas': 1}
+lv au:606:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.7s flags {}
+done lv au:606:64:16 11:53:37Z
+arc au:606:64:16 k2: flops 1.384e+07 passes 106 1.8s
+arc au:606:64:16 k2a: flops 2.168e+07 passes 165 1.6s
+arc au:606:64:16 k3f: flops 8.193e+08 passes 6251 4.2s
+done arc au:606:64:16 k2,k2a,k3f 11:53:47Z
+sl3 au:606:64:16: flops 1.505e+09 passes 11486 8.9s
+done sl3 au:606:64:16 11:53:59Z
+rqmc au:606:64:16 m=8 2s
+rqmc au:606:64:16 m=10 5s
+rqmc au:606:64:16 m=12 8s
+rqmc au:606:64:16 m=14 12s
+done rqmc au:606:64:16 8,10,12,14 8 11:54:13Z
+truth au:607:64:16 2^22 206s
+done truth au:607:64:16 22 11:57:41Z
+lv au:607:64:16 LVTV2: V_L 0.4405 flops 3.964e+07 passes 302 5.7s flags {'cap': 9, 'feas': 5, 'root': 6}
+lv au:607:64:16 LVT: V_L 0.1930 flops 3.890e+07 passes 297 3.3s flags {}
+lv au:607:64:16 LVTV2f1: V_L 0.2635 flops 3.965e+07 passes 302 4.0s flags {'cap': 10, 'feas': 1, 'root': 5}
+lv au:607:64:16 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 3.1s flags {}
+done lv au:607:64:16 11:58:01Z
+arc au:607:64:16 k2: flops 1.384e+07 passes 106 3.1s
+arc au:607:64:16 k2a: flops 2.168e+07 passes 165 2.3s
+arc au:607:64:16 k3f: flops 8.193e+08 passes 6251 6.5s
+done arc au:607:64:16 k2,k2a,k3f 11:58:15Z
+sl3 au:607:64:16: flops 1.233e+09 passes 9406 8.4s
+done sl3 au:607:64:16 11:58:27Z
+rqmc au:607:64:16 m=8 2s
+rqmc au:607:64:16 m=10 3s
+rqmc au:607:64:16 m=12 4s
+rqmc au:607:64:16 m=14 9s
+done rqmc au:607:64:16 8,10,12,14 8 11:58:39Z
+truth au:610:128:32 2^22 640s
+done truth au:610:128:32 22 12:09:22Z
+lv au:610:128:32 LVTV2: V_L 0.2239 flops 4.570e+08 passes 436 26.6s flags {'feas': 11, 'root': 14, 'cap': 17}
+lv au:610:128:32 LVT: V_L 0.0746 flops 4.513e+08 passes 430 14.5s flags {}
+lv au:610:128:32 LVTV2f1: V_L 0.1429 flops 4.570e+08 passes 436 33.4s flags {'feas': 1, 'root': 9, 'cap': 22}
+lv au:610:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 23.3s flags {}
+done lv au:610:128:32 12:11:05Z
+arc au:610:128:32 k2: flops 2.111e+08 passes 201 11.0s
+arc au:610:128:32 k2a: flops 2.731e+08 passes 260 29.0s
+arc au:610:128:32 k3f: flops 2.591e+10 passes 24714 63.5s
+done arc au:610:128:32 k2,k2a,k3f 12:12:52Z
+sl3 au:610:128:32: flops 3.580e+10 passes 34141 59.6s
+done sl3 au:610:128:32 12:13:57Z
+rqmc au:610:128:32 m=8 8s
+rqmc au:610:128:32 m=10 15s
+rqmc au:610:128:32 m=12 27s
+rqmc au:610:128:32 m=14 50s
+done rqmc au:610:128:32 8,10,12,14 8 12:14:51Z
+killed child 690707 (au:61[1-7]:128:32|au:62[0-9]:256:64|p2:) 12:14:54Z
+queue PID 3856800 stopped after 'done rqmc au:610:128:32' 12:14:54Z; the rest runs on the GPU (Amendment 2)

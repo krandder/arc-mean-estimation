@@ -1,0 +1,5 @@
+done arc [4000] l=16 local h1s8 train 4509s total 4626s
+done arc [4000] l=0 unres cap2steps4 train 4829s total 4972s
+done arc [4000] l=31 local cap2steps8 train 5314s total 5356s
+done arc [4000] l=31 unres cap2steps8 train 6673s total 6704s
+done arc [4000] l=16 unres cap2steps8 train 6787s total 6812s

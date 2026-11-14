@@ -1,0 +1,27 @@
+n=64 L=8 s=300 futv32 (guard): nMSE 2.220e-04 passes 26270 guard {'whiten_max_dropped': 0, 'whiten_layers_dropping': 0, 'feat_max_dropped': 0} 9s
+n=64 L=8 s=300 futmf2_32 (guard): nMSE 1.979e-04 passes 5047 guard {'whiten_max_dropped': 0, 'whiten_layers_dropping': 0, 'feat_max_dropped': 0} 4s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n64_L8_s300_guard.json
+n=128 L=16 s=300 futv64 (guard): nMSE 2.379e-04 passes 64797 guard {'whiten_max_dropped': 0, 'whiten_layers_dropping': 0, 'feat_max_dropped': 0} 21s
+n=128 L=16 s=300 futmf2_64 (guard): nMSE 2.425e-04 passes 19287 guard {'whiten_max_dropped': 0, 'whiten_layers_dropping': 0, 'feat_max_dropped': 0} 27s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n128_L16_s300_guard.json
+n=256 L=32 s=204 futv128 (guard): nMSE 1.633e-04 passes 169501 guard {'whiten_max_dropped': 0, 'whiten_layers_dropping': 0, 'feat_max_dropped': 0} 140s
+n=256 L=32 s=204 futmf2_128 (guard): nMSE 1.691e-04 passes 75414 guard {'whiten_max_dropped': 0, 'whiten_layers_dropping': 0, 'feat_max_dropped': 0} 97s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n256_L32_s204_guard.json
+n=128 L=16 s=304 futv64 (guard): nMSE 5.493e-04 passes 64797 guard {'whiten_max_dropped': 3, 'whiten_layers_dropping': 2, 'feat_max_dropped': 0} 24s
+n=128 L=16 s=304 futmf2_64 (guard): nMSE 3.716e-04 passes 19287 guard {'whiten_max_dropped': 1, 'whiten_layers_dropping': 1, 'feat_max_dropped': 0} 15s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n128_L16_s304_guard.json
+n=128 L=16 s=306 futv64 (guard): nMSE 2.404e-04 passes 64797 guard {'whiten_max_dropped': 1, 'whiten_layers_dropping': 1, 'feat_max_dropped': 0} 20s
+n=128 L=16 s=306 futmf2_64 (guard): nMSE 2.685e-04 passes 19287 guard {'whiten_max_dropped': 2, 'whiten_layers_dropping': 1, 'feat_max_dropped': 0} 17s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n128_L16_s306_guard.json
+n=256 L=32 s=200 futv128 (guard): nMSE 1.536e-04 passes 169501 guard {'whiten_max_dropped': 4, 'whiten_layers_dropping': 4, 'feat_max_dropped': 0} 163s
+n=256 L=32 s=200 futmf2_128 (guard): nMSE 6.696e-05 passes 75414 guard {'whiten_max_dropped': 3, 'whiten_layers_dropping': 4, 'feat_max_dropped': 0} 80s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n256_L32_s200_guard.json
+n=256 L=32 s=201 futv128 (guard): nMSE 2.643e-04 passes 169501 guard {'whiten_max_dropped': 2, 'whiten_layers_dropping': 3, 'feat_max_dropped': 0} 116s
+n=256 L=32 s=201 futmf2_128 (guard): nMSE 2.634e-04 passes 75414 guard {'whiten_max_dropped': 2, 'whiten_layers_dropping': 3, 'feat_max_dropped': 0} 115s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n256_L32_s201_guard.json
+n=256 L=32 s=202 futv128 (guard): nMSE 9.980e-05 passes 169501 guard {'whiten_max_dropped': 3, 'whiten_layers_dropping': 3, 'feat_max_dropped': 0} 114s
+n=256 L=32 s=202 futmf2_128 (guard): nMSE 5.315e-03 passes 75414 guard {'whiten_max_dropped': 4, 'whiten_layers_dropping': 3, 'feat_max_dropped': 0} 83s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n256_L32_s202_guard.json
+n=256 L=32 s=203 futv128 (guard): nMSE 4.498e+01 passes 169501 guard {'whiten_max_dropped': 2, 'whiten_layers_dropping': 3, 'feat_max_dropped': 0} 156s
+n=256 L=32 s=203 futmf2_128 (guard): nMSE 3.818e+01 passes 75414 guard {'whiten_max_dropped': 4, 'whiten_layers_dropping': 2, 'feat_max_dropped': 3} 99s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n256_L32_s203_guard.json

@@ -1,0 +1,5 @@
+prior: 395 runs, 98 refs
+12:18:46Z launching bitarc-7 (on-demand first, after preemptions)
+12:28:37Z on-demand failed rc=1, launching bitarc-7 spot
+12:28:53Z launcher for bitarc-7 exited
+12:29:34Z relaunching bitarc-7 spot by hand after the ledger refused (a failed creation's reserve was counted)

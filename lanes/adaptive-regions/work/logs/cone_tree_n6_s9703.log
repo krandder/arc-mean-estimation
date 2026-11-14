@@ -1,0 +1,55 @@
+[3s] 2176 cells among 1048576 advice paths
+  moments 200/2176 [156s, simplices 2193, fails 0]
+  moments 400/2176 [429s, simplices 6354, fails 0]
+  moments 600/2176 [747s, simplices 10985, fails 0]
+  moments 800/2176 [1135s, simplices 19361, fails 0]
+  moments 1000/2176 [1413s, simplices 24482, fails 0]
+  moments 1200/2176 [1854s, simplices 32195, fails 0]
+  moments 1400/2176 [2467s, simplices 40253, fails 0]
+  moments 1600/2176 [2942s, simplices 48146, fails 0]
+  moments 1800/2176 [4387s, simplices 69730, fails 0]
+  moments 2000/2176 [5483s, simplices 87209, fails 0]
+[8161s] moments done in 8158s; simplices 133181, triangulation failures 0
+  moment check: 109 of 2176 cells with |exact - sample| > 5 se
+[8491s] exact cells: err 1.49e-08 (truth noise 7.2e-11); MC(2^20) 9.54e-07, RQMC 3.75e-09
+{"seed": 9703, "n": 6, "L": 4, "cells": 2176, "moment_check_bad": 109, "advice_paths": 1048576, "err_exact": 1.4879742030481305e-08, "truth_noise": 7.197534785224636e-11, "mc_adv": 9.5367431640625e-07, "rqmc_adv": 3.750861556846837e-09, "leaves_to_mc": 1088, "leaves_to_rqmc": null, "leaves_to_exact": 1504, "final_leaves": 2144, "secs": 8492.982513904572}
+leaves      1: err 5.31e-01  within-leaf map dispersion 9.32e-01  units fixed 0.0 (max 0)
+leaves      2: err 7.40e-02  within-leaf map dispersion 7.41e-01  units fixed 1.0 (max 1)
+leaves      4: err 1.28e-01  within-leaf map dispersion 5.78e-01  units fixed 1.4 (max 3)
+leaves      8: err 1.09e-01  within-leaf map dispersion 4.27e-01  units fixed 2.6 (max 4)
+leaves     16: err 7.27e-03  within-leaf map dispersion 2.85e-01  units fixed 4.2 (max 5)
+leaves     32: err 1.68e-03  within-leaf map dispersion 1.55e-01  units fixed 5.2 (max 6)
+leaves     64: err 2.45e-03  within-leaf map dispersion 8.19e-02  units fixed 6.1 (max 9)
+leaves    128: err 3.67e-04  within-leaf map dispersion 3.89e-02  units fixed 7.1 (max 11)
+leaves    256: err 1.94e-04  within-leaf map dispersion 1.54e-02  units fixed 8.0 (max 13)
+leaves    384: err 8.00e-05  within-leaf map dispersion 7.89e-03  units fixed 8.4 (max 14)
+leaves    512: err 2.41e-05  within-leaf map dispersion 4.32e-03  units fixed 8.8 (max 15)
+leaves    640: err 1.06e-05  within-leaf map dispersion 2.48e-03  units fixed 9.1 (max 16)
+leaves    768: err 7.35e-06  within-leaf map dispersion 1.48e-03  units fixed 9.2 (max 16)
+leaves    896: err 2.13e-06  within-leaf map dispersion 9.01e-04  units fixed 9.4 (max 16)
+leaves   1024: err 1.05e-06  within-leaf map dispersion 5.42e-04  units fixed 9.6 (max 17)
+leaves   1152: err 6.03e-07  within-leaf map dispersion 3.27e-04  units fixed 9.7 (max 17)
+leaves   1280: err 1.48e-07  within-leaf map dispersion 1.95e-04  units fixed 9.8 (max 17)
+leaves   1408: err 9.03e-08  within-leaf map dispersion 1.08e-04  units fixed 9.9 (max 17)
+leaves   1536: err 1.48e-08  within-leaf map dispersion 5.93e-05  units fixed 10.0 (max 17)
+leaves   1664: err 1.51e-08  within-leaf map dispersion 2.95e-05  units fixed 10.1 (max 17)
+leaves   1792: err 1.12e-08  within-leaf map dispersion 1.27e-05  units fixed 10.2 (max 17)
+leaves   1920: err 1.21e-08  within-leaf map dispersion 4.18e-06  units fixed 10.2 (max 17)
+leaves   2048: err 1.34e-08  within-leaf map dispersion 5.98e-07  units fixed 10.3 (max 18)
+leaves   2144: err 1.49e-08  within-leaf map dispersion -3.70e-17  units fixed 10.4 (max 18)
+first splits (layer, unit, rank-one |dA|_F, node mass, node depth):
+  L2 u1  |dA| 1.454  mass 1.000  depth 0
+  L1 u2  |dA| 3.228  mass 0.190  depth 1
+  L1 u0  |dA| 1.999  mass 0.171  depth 2
+  L2 u4  |dA| 0.584  mass 0.810  depth 1
+  L1 u5  |dA| 0.937  mass 0.321  depth 2
+  L3 u0  |dA| 1.583  mass 0.113  depth 3
+  L3 u5  |dA| 2.919  mass 0.029  depth 3
+  L2 u2  |dA| 0.653  mass 0.489  depth 2
+  L4 u2  |dA| 0.801  mass 0.192  depth 3
+  L3 u0  |dA| 0.709  mass 0.208  depth 3
+  L1 u3  |dA| 0.921  mass 0.142  depth 3
+  L3 u0  |dA| 2.305  mass 0.044  depth 4
+  L3 u4  |dA| 1.338  mass 0.071  depth 4
+  L4 u4  |dA| 0.634  mass 0.296  depth 3
+  L1 u4  |dA| 1.441  mass 0.082  depth 4

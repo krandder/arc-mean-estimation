@@ -1,0 +1,2 @@
+arc seeds [9100] l=16 cls=local variant=identity M=1 K=256 W=1024 params/model=4824064 dev=cpu
+done arc [9100] l=16 local identity train 57s total 91s

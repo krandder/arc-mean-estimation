@@ -1,0 +1,25 @@
+PASS forward sigma=0 matches manual
+PASS shared stream gives identical outputs
+PASS independent stream differs
+PASS stationary future has s+1 layers
+PASS stationary future ends with the output layer W_1
+PASS jvp vs finite difference sigma=0.0  1.1052855852788923e-09
+PASS vjp is the adjoint of jvp sigma=0.0
+PASS multi-tangent jvp sigma=0.0
+PASS multi-cotangent vjp sigma=0.0
+PASS jvp vs finite difference sigma=1.0  1.5149994592178473e-09
+PASS vjp is the adjoint of jvp sigma=1.0
+PASS multi-tangent jvp sigma=1.0
+PASS multi-cotangent vjp sigma=1.0
+PASS exact identity a(x)-a(m) = recursion sigma=0.0  3.6637359812630166e-15
+PASS tiny perturbation: lin == fo == da sigma=0.0
+PASS exact identity a(x)-a(m) = recursion sigma=1.0  6.439293542825908e-15
+PASS tiny perturbation: lin == fo == da sigma=1.0
+PASS U-statistic unbiased for |E[a Z^T]|^2  mean 10.3537 target 10.4048 z -0.58
+PASS U-statistic jackknife SE in the right range  se 0.9520 sd 1.2348
+PASS linear future: Gaussian and true-law residuals = eigenvalue tails  [(0, np.float64(55.288), np.float64(54.788)), (1, np.float64(26.845), np.float64(26.722)), (2, np.float64(10.768), np.float64(10.752)), (3, np.float64(2.023), np.float64(2.005)), (4, np.float64(0.0), np.float64(0.0))]
+PASS Mehler curve of Z0 + Z1^2/2  {0.0: (np.float64(1.5), 1.5), 0.5: (np.float64(0.876), 0.875), 0.9: (np.float64(0.196), 0.195)}
+PASS Stein V1 of Z0 + Z1^2/2 is 1  (1.0046192894489288, 0.012916422412113864)
+PASS trace of active-subspace matrix = gradient energy  (np.float64(0.4565169451121839), np.float64(0.4477551456367836))
+PASS Poincare: residual(top-k AS) <= tail of AS eigenvalues  [(0, np.float64(0.239), np.float64(0.457)), (2, np.float64(0.028), np.float64(0.084)), (5, np.float64(0.002), np.float64(0.005))]
+FAILS: []

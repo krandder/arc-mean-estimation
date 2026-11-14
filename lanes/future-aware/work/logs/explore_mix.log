@@ -1,0 +1,6 @@
+n=64 s=300 l=1 k=16: true=7.45e-06 gauss=4.89e-04 cond=3.45e-05 gmm1=7.14e-04 gmm4=3.63e-04 gmm16=3.04e-04 gmm64=1.13e-04 (147s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n64_L8_s300_xm.json
+n=128 s=300 l=1 k=32: true=-5.45e-06 gauss=3.01e-04 cond=6.68e-05 gmm1=4.61e-04 gmm4=4.47e-04 gmm16=2.46e-04 gmm64=1.69e-04 (334s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n128_L16_s300_xm.json
+n=256 s=200 l=1 k=64: true=2.34e-06 gauss=2.21e-04 cond=1.49e-05 gmm1=3.13e-05 gmm4=3.54e-04 gmm16=1.42e-04 gmm64=6.14e-05 (991s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n256_L32_s200_xm.json

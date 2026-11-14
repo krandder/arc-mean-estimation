@@ -1,0 +1,2 @@
+arc seeds [9100] l=31 cls=local variant=h1 M=1 K=256 W=1024 params/model=4824064 dev=cpu
+done arc [9100] l=31 local h1 train 42s total 87s

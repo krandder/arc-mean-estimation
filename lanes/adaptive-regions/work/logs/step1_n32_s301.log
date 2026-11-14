@@ -1,0 +1,5 @@
+l= 3 back= 0 vector: cov K1 0.001 K10 0.008 K100 0.036 K1000 0.128 pieces50 72076 distinct_test 80491 | switching: m.K1 0.724 m.K1000 1.000 c.K1000 1.000  (1s)
+l= 2 back= 1 vector: cov K1 0.000 K10 0.000 K100 0.001 K1000 0.003 pieces50 None distinct_test 130013 | switching: m.K1 0.486 m.K1000 0.551 c.K1000 0.109  (2s)
+l= 1 back= 2 vector: cov K1 0.000 K10 0.000 K100 0.000 K1000 0.000 pieces50 None distinct_test 131067 | switching: m.K1 0.486 m.K1000 0.486 c.K1000 0.000  (3s)
+l= 0 back= 3 vector: cov K1 0.000 K10 0.000 K100 0.000 K1000 0.000 pieces50 None distinct_test 131072 | switching: m.K1 0.486 m.K1000 0.486 c.K1000 0.000  (2s)
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step1_n32_L4_s301.json total 11.730279207229614

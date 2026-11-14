@@ -1,0 +1,5 @@
+sampled in 1s; classes {'zero': 4, 'on': 5, 'switching': 55} picked [10, 28, 52, 53, 13, 21, 31, 39, 48, 12, 27, 45, 46, 54, 62]
+l= 7 back= 0 | zero: box 0.000 0.000 0.000 0.000 slice 0.997 0.997 0.997 0.997 | on: box 0.000 0.000 0.000 0.000 slice 0.997 0.997 0.997 0.997 | switching: box 0.000 0.000 0.000 0.000 slice 0.921 0.921 0.922 0.933  (3s)
+l= 6 back= 1 | zero: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | on: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | switching: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000  (4s)
+l= 5 back= 2 | zero: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | on: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | switching: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000  (4s)
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step2a_n64_L8_s301.json total 12.151382446289062

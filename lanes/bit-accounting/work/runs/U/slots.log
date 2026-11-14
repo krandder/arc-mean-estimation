@@ -1,0 +1,84 @@
+00:10:38 slot 1 start Uc_relu_16x16_s5000_l0_local_0.01_linear
+00:10:53 slot 2 start Uc_relu_16x16_s5000_l4_local_0.01_linear
+00:11:08 slot 3 start Uc_relu_16x16_s5001_l0_local_0.01_linear
+00:11:23 slot 4 start Uc_relu_16x16_s5001_l4_local_0.01_linear
+00:11:38 slot 5 start Uc_relu_16x16_s5002_l0_local_0.01_linear
+00:11:53 slot 6 start Uc_relu_16x16_s5002_l4_local_0.01_linear
+00:20:34 slot 1 end Uc_relu_16x16_s5000_l0_local_0.01_linear rc=0
+00:20:34 slot 1 start Uc_relu_32x32_s5000_l0_local_0.01_linear
+00:21:51 slot 2 end Uc_relu_16x16_s5000_l4_local_0.01_linear rc=0
+00:21:51 slot 2 start Uc_relu_32x32_s5000_l24_local_0.01_linear
+00:22:34 slot 3 end Uc_relu_16x16_s5001_l0_local_0.01_linear rc=0
+00:22:34 slot 3 start Uc_relu_32x32_s5001_l0_local_0.01_linear
+00:23:02 slot 4 end Uc_relu_16x16_s5001_l4_local_0.01_linear rc=0
+00:23:02 slot 4 start Uc_relu_32x32_s5001_l24_local_0.01_linear
+00:23:22 slot 5 end Uc_relu_16x16_s5002_l0_local_0.01_linear rc=0
+00:23:22 slot 5 start Uc_relu_32x32_s5002_l0_local_0.01_linear
+00:23:36 slot 6 end Uc_relu_16x16_s5002_l4_local_0.01_linear rc=0
+00:23:36 slot 6 start Uc_relu_32x32_s5002_l24_local_0.01_linear
+00:34:31 slot 1 end Uc_relu_32x32_s5000_l0_local_0.01_linear rc=0
+00:34:31 slot 1 start Uc_tanh4_16x16_s5000_l0_local_0.01_linear
+00:35:27 slot 2 end Uc_relu_32x32_s5000_l24_local_0.01_linear rc=0
+00:35:27 slot 2 start Uc_tanh4_16x16_s5000_l4_local_0.01_linear
+00:36:35 slot 3 end Uc_relu_32x32_s5001_l0_local_0.01_linear rc=0
+00:36:35 slot 3 start Uc_relu_16x16_s5000_l0_local_0.01_diag
+00:36:49 slot 4 end Uc_relu_32x32_s5001_l24_local_0.01_linear rc=0
+00:36:49 slot 4 start Uc_relu_16x16_s5000_l4_local_0.01_diag
+00:37:20 slot 6 end Uc_relu_32x32_s5002_l24_local_0.01_linear rc=0
+00:37:20 slot 6 start Uc_relu_16x16_s5001_l0_local_0.01_diag
+00:37:25 slot 5 end Uc_relu_32x32_s5002_l0_local_0.01_linear rc=0
+00:37:25 slot 5 start Uc_relu_16x16_s5001_l4_local_0.01_diag
+00:46:10 slot 1 end Uc_tanh4_16x16_s5000_l0_local_0.01_linear rc=0
+00:46:10 slot 1 start Uc_relu_16x16_s5002_l0_local_0.01_diag
+00:47:01 slot 2 end Uc_tanh4_16x16_s5000_l4_local_0.01_linear rc=0
+00:47:01 slot 2 start Uc_relu_16x16_s5002_l4_local_0.01_diag
+00:48:13 slot 3 end Uc_relu_16x16_s5000_l0_local_0.01_diag rc=0
+00:48:13 slot 3 start Uc_relu_32x32_s5000_l0_local_0.01_diag
+00:48:30 slot 4 end Uc_relu_16x16_s5000_l4_local_0.01_diag rc=0
+00:48:30 slot 4 start Uc_relu_32x32_s5000_l24_local_0.01_diag
+00:49:02 slot 6 end Uc_relu_16x16_s5001_l0_local_0.01_diag rc=0
+00:49:02 slot 6 start Uc_relu_32x32_s5001_l0_local_0.01_diag
+00:49:07 slot 5 end Uc_relu_16x16_s5001_l4_local_0.01_diag rc=0
+00:49:07 slot 5 start Uc_relu_32x32_s5001_l24_local_0.01_diag
+00:57:48 slot 1 end Uc_relu_16x16_s5002_l0_local_0.01_diag rc=0
+00:57:48 slot 1 start Uc_relu_32x32_s5002_l0_local_0.01_diag
+00:58:36 slot 2 end Uc_relu_16x16_s5002_l4_local_0.01_diag rc=0
+00:58:36 slot 2 start Uc_relu_32x32_s5002_l24_local_0.01_diag
+01:02:11 slot 3 end Uc_relu_32x32_s5000_l0_local_0.01_diag rc=0
+01:02:11 slot 3 start Uc_tanh4_16x16_s5000_l0_local_0.01_diag
+01:02:13 slot 4 end Uc_relu_32x32_s5000_l24_local_0.01_diag rc=0
+01:02:13 slot 4 start Uc_tanh4_16x16_s5000_l4_local_0.01_diag
+01:02:48 slot 5 end Uc_relu_32x32_s5001_l24_local_0.01_diag rc=0
+01:02:48 slot 5 start Uc_relu_16x16_s5000_l0_local_0.1_linear
+01:02:59 slot 6 end Uc_relu_32x32_s5001_l0_local_0.01_diag rc=0
+01:02:59 slot 6 start Uc_relu_16x16_s5000_l4_local_0.1_linear
+01:11:38 slot 1 end Uc_relu_32x32_s5002_l0_local_0.01_diag rc=0
+01:11:38 slot 1 start Uc_relu_16x16_s5001_l0_local_0.1_linear
+01:12:06 slot 2 end Uc_relu_32x32_s5002_l24_local_0.01_diag rc=0
+01:12:06 slot 2 start Uc_relu_16x16_s5001_l4_local_0.1_linear
+01:13:55 slot 4 end Uc_tanh4_16x16_s5000_l4_local_0.01_diag rc=0
+01:13:55 slot 4 start Uc_relu_16x16_s5002_l0_local_0.1_linear
+01:13:57 slot 3 end Uc_tanh4_16x16_s5000_l0_local_0.01_diag rc=0
+01:13:57 slot 3 start Uc_relu_16x16_s5002_l4_local_0.1_linear
+01:14:35 slot 5 end Uc_relu_16x16_s5000_l0_local_0.1_linear rc=0
+01:14:35 slot 5 start Uc_relu_32x32_s5000_l0_local_0.1_linear
+01:14:42 slot 6 end Uc_relu_16x16_s5000_l4_local_0.1_linear rc=0
+01:14:42 slot 6 start Uc_relu_32x32_s5000_l24_local_0.1_linear
+01:23:17 slot 1 end Uc_relu_16x16_s5001_l0_local_0.1_linear rc=0
+01:23:17 slot 1 start Uc_relu_32x32_s5001_l0_local_0.1_linear
+01:23:46 slot 2 end Uc_relu_16x16_s5001_l4_local_0.1_linear rc=0
+01:23:46 slot 2 start Uc_relu_32x32_s5001_l24_local_0.1_linear
+01:25:43 slot 4 end Uc_relu_16x16_s5002_l0_local_0.1_linear rc=0
+01:25:43 slot 4 start Uc_relu_32x32_s5002_l0_local_0.1_linear
+01:25:44 slot 3 end Uc_relu_16x16_s5002_l4_local_0.1_linear rc=0
+01:25:44 slot 3 start Uc_relu_32x32_s5002_l24_local_0.1_linear
+01:28:20 slot 6 end Uc_relu_32x32_s5000_l24_local_0.1_linear rc=0
+01:28:20 slot 6 start Uc_tanh4_16x16_s5000_l0_local_0.1_linear
+01:28:32 slot 5 end Uc_relu_32x32_s5000_l0_local_0.1_linear rc=0
+01:28:32 slot 5 start Uc_tanh4_16x16_s5000_l4_local_0.1_linear
+01:37:14 slot 1 end Uc_relu_32x32_s5001_l0_local_0.1_linear rc=0
+01:37:24 slot 2 end Uc_relu_32x32_s5001_l24_local_0.1_linear rc=0
+01:38:50 slot 3 end Uc_relu_32x32_s5002_l24_local_0.1_linear rc=0
+01:39:01 slot 4 end Uc_relu_32x32_s5002_l0_local_0.1_linear rc=0
+01:39:14 slot 6 end Uc_tanh4_16x16_s5000_l0_local_0.1_linear rc=0
+01:39:15 slot 5 end Uc_tanh4_16x16_s5000_l4_local_0.1_linear rc=0

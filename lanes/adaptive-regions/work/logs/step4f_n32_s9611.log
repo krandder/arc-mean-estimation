@@ -1,0 +1,7 @@
+[79s] advice: 131072 paths + 400 populations; 25 held-out populations
+K=16 s=0.1: model-only 2.84e-01 at 520 passes (MC there 4.64e-05; RQMC at N=16 1.37e-04) | CV at N=1024: 1.59e-05 (MC at equal cost 2.42e-06, RQMC with N=1024 5.92e-07)
+K=16 s=0.3: model-only 1.59e-01 at 520 passes (MC there 3.82e-04; RQMC at N=16 2.74e-03) | CV at N=1024: 1.02e-04 (MC at equal cost 1.99e-05, RQMC with N=1024 1.18e-05)
+K=16 s=0.6: model-only 4.82e-02 at 520 passes (MC there 1.10e-03; RQMC at N=16 1.39e-02) | CV at N=1024: 2.48e-04 (MC at equal cost 5.75e-05, RQMC with N=1024 7.06e-05)
+K=16 s=0.9: model-only 6.02e-03 at 520 passes (MC there 1.78e-03; RQMC at N=16 3.16e-02) | CV at N=1024: 3.23e-04 (MC at equal cost 9.28e-05, RQMC with N=1024 1.97e-04)
+K=16 s=1.0: model-only 4.45e-04 at 520 passes (MC there 1.92e-03; RQMC at N=16 3.83e-02) | CV at N=1024: 3.53e-04 (MC at equal cost 1.00e-04, RQMC with N=1024 2.45e-04)
+K=16: leftover 0.392, params 34848, memorisation check {'model_vs_trainmean': 0.0004582662966063836, 'trainmean_vs_truth': 1.2434972360980489e-05}, (1136s)

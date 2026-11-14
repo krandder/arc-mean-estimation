@@ -1,0 +1,19 @@
+216 N 4194304 sec 598
+ d= 1 distinct      251 n1        2 chao1 253 H 7.0/7.0 bits | GTunseen p 4.77e-07 a 8.11e-07 | k_prob [122, 186, 223, 240] | k_amass [98, 175, 212, 233] | dead 0.0000 rank1_amass 0.002
+ d= 2 distinct     4658 n1      364 chao1 4.95e+03 H 9.7/9.7 bits | GTunseen p 8.68e-05 a 5.94e-05 | k_prob [982, 2285, 3442, 4267] | k_amass [690, 1918, 3085, 3970] | dead 0.0001 rank1_amass 0.029
+ d= 3 distinct    16743 n1     2219 chao1 1.88e+04 H 11.2/11.2 bits | GTunseen p 0.000529 a 0.000413 | k_prob [2997, 8453, 13537, 16324] | k_amass [2109, 6758, 11617, 14810] | dead 0.0002 rank1_amass 0.088
+ d= 4 distinct    40211 n1     8018 chao1 4.83e+04 H 12.2/12.2 bits | GTunseen p 0.00191 a 0.00136 | k_prob [6607, 21655, 36017, 39792] | k_amass [4345, 15831, 28259, 35607] | dead 0.0008 rank1_amass 0.093
+ d= 6 distinct    75848 n1    21303 chao1 1e+05 H 12.8/12.9 bits | GTunseen p 0.00508 a 0.0023 | k_prob [11868, 44593, 71654, 75429] | k_amass [6080, 26304, 51424, 67101] | dead 0.0008 rank1_amass 0.093
+ d= 8 distinct   104679 n1    33515 chao1 1.46e+05 H 13.2/13.3 bits | GTunseen p 0.00799 a 0.00359 | k_prob [16753, 66950, 100485, 104260] | k_amass [8343, 37656, 73530, 94415] | dead 0.0008 rank1_amass 0.093
+ d=12 distinct   116131 n1    38956 chao1 1.66e+05 H 13.3/13.4 bits | GTunseen p 0.00929 a 0.00401 | k_prob [18795, 75682, 111937, 115712] | k_amass [9177, 41674, 82116, 105294] | dead 0.0008 rank1_amass 0.093
+ d=16 distinct   122435 n1    42315 chao1 1.77e+05 H 13.4/13.4 bits | GTunseen p 0.0101 a 0.00419 | k_prob [19735, 80492, 118241, 122016] | k_amass [9370, 43570, 86815, 111246] | dead 0.0008 rank1_amass 0.093
+ d=24 distinct   139256 n1    50714 chao1 2.07e+05 H 13.5/13.6 bits | GTunseen p 0.0121 a 0.00506 | k_prob [22856, 97313, 135062, 138837] | k_amass [10724, 50783, 100566, 127453] | dead 0.0008 rank1_amass 0.093
+ d=32 distinct   139323 n1    50762 chao1 2.07e+05 H 13.5/13.6 bits | GTunseen p 0.0121 a 0.00506 | k_prob [22862, 97380, 135129, 138904] | k_amass [10724, 50786, 100587, 127498] | dead 0.0008 rank1_amass 1.000
+ cut=  8 classes     104 top amass 0.580836 prob 0.542826 rest nMSE 1.02e-01 k_amass [4, 17, 34, 58]
+ cut= 12 classes      25 top amass 0.845577 prob 0.764954 rest nMSE 1.39e-02 k_amass [2, 10, 12, 15]
+ cut= 16 classes      14 top amass 0.845758 prob 0.765850 rest nMSE 1.38e-02 k_amass [2, 7, 9, 9]
+ cut= 20 classes       9 top amass 0.945911 prob 0.860261 rest nMSE 1.70e-03 k_amass [1, 3, 5, 5]
+ cut= 24 classes       3 top amass 0.999993 prob 0.999070 rest nMSE 2.60e-11 k_amass [1, 1, 1, 1]
+ cut= 32 classes       2 top amass 1.000000 prob 0.999229 rest nMSE 0.00e+00 k_amass [1, 1, 1, 1]
+ cut= 48 classes       2 top amass 1.000000 prob 0.999229 rest nMSE 0.00e+00 k_amass [1, 1, 1, 1]
+ cut= 64 classes       2 top amass 1.000000 prob 0.999229 rest nMSE 0.00e+00 k_amass [1, 1, 1, 1]

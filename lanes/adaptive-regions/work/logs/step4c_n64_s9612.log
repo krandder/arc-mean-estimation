@@ -1,0 +1,12 @@
+[13s] pilot 16384, truth 2^20, 6 held-out populations
+d=16 K=1: estimand nMSE 3.62e+00 | pop error (s=0.03/0.3) 4.189/4.151 = integration 0.000/0.000 vs approximation 4.188/4.172 | additivity 0.0e+00 | cost 32833 passes (11s)
+d=16 K=4: estimand nMSE 2.24e+00 | pop error (s=0.03/0.3) 1.470/1.483 = integration 0.000/0.000 vs approximation 1.469/1.486 | additivity 0.0e+00 | cost 33028 passes (20s)
+d=16 K=16: estimand nMSE 1.48e+00 | pop error (s=0.03/0.3) 1.233/0.999 = integration 0.000/0.000 vs approximation 1.233/1.025 | additivity 0.0e+00 | cost 33808 passes (30s)
+d=16 K=64: estimand nMSE 5.41e-01 | pop error (s=0.03/0.3) 0.782/0.598 = integration 0.000/0.001 vs approximation 0.780/0.608 | additivity 0.0e+00 | cost 36928 passes (152s)
+d=16 K=256: estimand nMSE 5.99e-01 | pop error (s=0.03/0.3) 1.082/1.252 = integration 0.001/0.008 vs approximation 1.057/1.158 | additivity 0.0e+00 | cost 49408 passes (134s)
+d=32 K=1: estimand nMSE 6.27e+00 | pop error (s=0.03/0.3) 12.711/13.041 = integration 0.000/0.000 vs approximation 12.710/13.075 | additivity 0.0e+00 | cost 32993 passes (34s)
+d=32 K=4: estimand nMSE 3.79e+00 | pop error (s=0.03/0.3) 8.278/8.148 = integration 0.000/0.003 vs approximation 8.279/8.331 | additivity 0.0e+00 | cost 33668 passes (47s)
+d=32 K=16: estimand nMSE 1.29e+00 | pop error (s=0.03/0.3) 4.068/3.384 = integration 0.001/0.028 vs approximation 3.992/2.651 | additivity 0.0e+00 | cost 36368 passes (45s)
+d=32 K=64: estimand nMSE 1.04e+00 | pop error (s=0.03/0.3) 5.778/1.784 = integration 0.007/0.015 vs approximation 5.757/1.887 | additivity 0.0e+00 | cost 47168 passes (53s)
+d=32 K=256: estimand nMSE 3.65e-01 | pop error (s=0.03/0.3) 1.150/1.136 = integration 0.000/0.001 vs approximation 1.147/1.098 | additivity 0.0e+00 | cost 90368 passes (145s)
+d=64 K=1: estimand nMSE 5.17e+00 | pop error (s=0.03/0.3) 6.853/6.976 = integration 0.000/0.000 vs approximation 6.853/6.976 | additivity 0.0e+00 | cost 33601 passes (249s)

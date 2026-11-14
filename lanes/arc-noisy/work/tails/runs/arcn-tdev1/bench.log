@@ -1,0 +1,8 @@
+GPU 0: NVIDIA L4 (UUID: GPU-886108e1-c73f-c174-cc2b-1306e9ec9559)
+hidden+score 0.1076 s
+draw 0.0089 s
+pcn combine 0.0718 s
+where 0.0229 s
+one matmul 64k x 256 x 256: 0.00078 s -> 7.4 TFLOPS
+TF32 matmul: 0.00082 s
+JOB-EXIT 0

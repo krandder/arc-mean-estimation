@@ -1,0 +1,192 @@
+# Part A1 registered 2026-11-01T22:51:30Z (before any evaluation run of A1)
+47fee805147edc8834e45d8257573c34115611b1538f84491fcb39dadb76dbca  PREREG.md
+600792ad70d2136d312f669cb4b62495a6561251bd237d187c1630be042d6e0a  FORMAL.md
+a9928e42f6fd2e199a288a2129c17295407a2e0c366f17ee6df99ffb7d2fd1c6  lib/bitlib.py
+fced503d4adf5990bdb64101071643d46d223ef5060b42da91ac804dee7c7837  lib/lincodes.py
+6238b5b382adeab7723844f6b242f84b5c61fbb8e8a95cb16c51980e9f00ad06  lib/rwf.py
+21923efcc6cfb7a6d893e5bef97356e73e6f68af48e271db42495b6d1d22ba09  scratch/train_bn2.py
+8c478c4189e751932db3ddd3e7d2e9890b7f30f90cfa38b4e70e6ce2c5953b75  scratch/lin_codes.py
+106306c221ee4e028432bc58757243eeb225572c2795ef1b400bdd3fbdbf5139  scratch/theory_spectra.py
+# Part S1 registered 2026-11-01T23:10:04Z (before any S1 evaluation run)
+64eaac9c4d96c8a553644d129feea5da4a368ed89228cb497f1c861c062cf176  PREREG.md
+eecafc6fdab03f7e8edab9a1791c7f875d99e4157cf27fcaddf1326a70ce7691  gpu_src/lib/smallnets.py
+0cb8aebcf4aee50fa4f8624121387dbcab9fd2c7312b35d8eea1a0c4d5a1cbae  gpu_src/scripts/run_curves.py
+c660cd236f583db3cc53422acdd13159525c87e807b81f879a74c1b39e54c390  gpu_src/lib/st.py
+# Part S2 registered 2026-11-01T23:15:01Z (before any S2 run)
+d3ceaf9de7de4e280252b7dec1809eb3e62c1d437053a391e5dba3a7973844b9  PREREG.md
+8fb352099b0df566ed6973b921b83359084f2815e5613da27debd172d8290731  gpu_src/scripts/run_chain.py
+# scorers S1, S2 written 2026-11-01T23:17:06Z (before any S1/S2 result was seen)
+7a5650db90746604fc5655d82004e314ea2e4be5881ec054449fbf9b574fc902  gpu_src/scripts/score_S1.py
+644d41afd60c80250dc64c0dce67b1f9ac818799e456bb07c35049ed76867a68  gpu_src/scripts/score_S2.py
+# run_chain.py patched (extra outputs only) 2026-11-01T23:31:24Z
+4b584f8035f1080f7f97c868b94b150e7b81b1be27afcbc05a419a30a42bd88a  gpu_src/scripts/run_chain.py
+# S1/S2 v1 code (after the deviation above) 2026-11-01T23:35:49Z
+e8593be54d16880622b36ac3181c9fa01bb6aa03d233e77cae7be108b543e4ac  gpu_src/lib/smallnets.py
+b144a83ac6283b73dfd0c236773d9d6d62ab0ec789e26126bae54071a827f128  gpu_src/scripts/run_chain.py
+5f882b0cbcb3e387a8695c5604434267ac2323c0a46204f91bc0a0fdd87b5d31  gpu_src/queue/04_curves.sh
+874b7e59fa2ebcf22d22d0e246a1db6e165d1c7cbe72cec01c0a8791f8242906  gpu_src/queue/05_chain.sh
+# S1/S2 v2 queue 2026-11-01T23:53:32Z
+8b44b20eb46e8e4102e5fbff83654b0202c25a932ee18aa731e72ca0146b97f7  gpu_src/scripts/run_chain.py
+b072bc6e1cf3dee5d8a834c51ec49c70d333d10284a963b292505e90897fa29f  gpu_src/lib/walsh.py
+f187b2afb86828aa3b2872f43649638c56e1c4aacca8af6a4ca2490b3f4e999a  gpu_src/queue/06_curves.sh
+951946c8f6a20beb77bfc78b61c67ba9753c59241e7fd3011ce7374ffd0204e3  gpu_src/queue/07_chain.sh
+# Amendment S3-S4 registered 2026-11-01T23:58:17Z (before any S3/S4 run)
+d71292138e3ded9f844e7c772bae9a7643bb059bd1c96e3ad732c0f5037fdc5c  PREREG.md
+5a2b7fe95733759b7ca49ba77e0a1368013f83305ee1f554fce7b68ee44a5b7e  gpu_src/scripts/run_kelvin.py
+6d386687bed6800bfee2f52ce30244e0bdbfea992cbdc7fa85eee2165117e430  gpu_src/scripts/run_noisy.py
+b072bc6e1cf3dee5d8a834c51ec49c70d333d10284a963b292505e90897fa29f  gpu_src/lib/walsh.py
+e8593be54d16880622b36ac3181c9fa01bb6aa03d233e77cae7be108b543e4ac  gpu_src/lib/smallnets.py
+# Part A2 registered 2026-11-02T00:09:19Z (before any A2 evaluation run)
+7a8a8d889e4ef1bdf85ec87fa39054c11c4963cb697a5a0a4999f96f78c69778  PREREG.md
+83070e9cf7526bd5d6879ff58f813618ff70673d511548808e58d40b33ddb95d  scratch/lin_codes.py
+c02cd1a8bd6fc54406d7087f83af6b71b254fc0c79f2b85180421353088d60ff  lib/bitlib.py
+fced503d4adf5990bdb64101071643d46d223ef5060b42da91ac804dee7c7837  lib/lincodes.py
+# S3 v2 queue 2026-11-02T00:16:06Z
+f85810d93c266f4d2975b9d8d0a71b23d1348f1a16d84ba05207ce208f3d747e  gpu_src/queue/10_kelvin.sh
+# scorer S3/S4/A2 written 2026-11-02T00:17:05Z (before any S3/S4 result; A2 numbers had been printed)
+4f817f0d5f231e0685aa097149eaae8920542013ba1a92be8098fabd3caf7b29  gpu_src/scripts/score_S34.py
+# round-1 review fixes (power, Gelbrich 1/N, cross-cov memory share, Lloyd-Max to 12 bits, rwf edge) 2026-11-02T00:20:37Z
+a38ee0f0db3c8fc6058813e240b195d2910ff9f34678d49ccb923809815974c1  gpu_src/lib/smallnets.py
+29c53ba76d7cd7ed295ebb9d407ad7459f3ec3182bc5537f5165170f703ce246  gpu_src/scripts/run_curves.py
+26b72d38e18fc97d9c3d1141fe819e573f30bb2a8798713d8e4e953e9c5e3504  gpu_src/scripts/run_noisy.py
+a90362947b0088614337aaa2bc002ca90d007f319d05eb6a92bc38e6b1f32f7f  lib/lincodes.py
+ef17eb84c4d2632fc38a080cb8980ac22ac85ec462a11ba94d6b8ab364ec4c62  lib/rwf.py
+# queue 11_all.sh 2026-11-02T00:34:52Z
+3ce8a79719dffd78932cdd762e6c863d9caffd546c1e1cf1ee78047dffe47883  gpu_src/queue/11_all.sh
+# Part S1-lin registered 2026-11-02T00:48:35Z
+adb951356972ca4791ed06d6ec3a71bba4cf5d419cc9c5f2fdb4375fe044c096  PREREG.md
+f0b8897d38f7b15bf773bbc3250b84e15a65a45e1af8627d44d57ac911c629b6  scratch/lin_codes.py
+6169b9e829e301eb9c401f6c075cc74bf89a1f415d63c369165e70dade9877e9  lib/bitlib.py
+# scorer A1 (written 22:57Z-23:00Z, not run before this hash; hashed late) 2026-11-02T00:52:47Z
+531598d25839347c22d0c446fa317dbcc19723ffe8831cb4715ebe0c769795f8  scratch/score_A1.py
+# queue 12_kelvin32.sh 2026-11-02T01:01:41Z
+8f68dc8e961b49c0acf5dd76a1887ae64a63d2707654eabfa017e05798a39de1  gpu_src/queue_done/12_kelvin32.sh
+# Part B-ARC registered 2026-11-02T01:03:44Z (before any B-ARC run)
+bc000a41dd69c1b09e5f9b72828db754e6e1d9c3b49ae49f7286ed43664e26e9  PREREG.md
+f61884075ecc4b7198cd48fc520f51f649de4f238b27822aeeca2301163dc82b  scratch/chain_B.py
+# score_S2.py: skip placeholder JSONs of skipped chains (no change to the rules) 2026-11-02T01:07:55Z
+90cc7f686e3df2354ab7019ec33dbc9a7ff330d57bb3eebccdaa8d4ac1a9c1e4  gpu_src/scripts/score_S2.py
+# Amendment S5-S6 registered 2026-11-02T01:58:26Z (before any S5/S6 evaluation run; VQ dev check on 16x16 s5000 b<=4 seen: b_VQ(0.1) = 3.3)
+70ff0bdc8de0f833f998825bc0c477b9bbbbc25f115579fe60a0e075a431b9d1  PREREG.md
+572670b6e9544cadfff8df0863ff48343d3910027e8a65084cc07a4628a9034c  gpu_src/scripts/run_cert.py
+a4572fca4eb53612f95ffdc381743ea601f314ade0fde4d6293bbf0dae1cbb89  gpu_src/scripts/run_vq.py
+5c5d3b4360296a54fe47af78b4b3bc2c3fe17f37400a7bd7ab704f6c1f7acd9b  gpu_src/queue/13_cert_vq.sh
+# Part S7 registered 2026-11-02T02:03:45Z (before any S7 evaluation run)
+266d4049d3600593d1e3ac0dd2f827e824a928902bcb3d6c7b5701c328f54921  PREREG.md
+9214fecd34a11a4d1a7e1151d7d846a60aa5efa2eb71cf4265148a87027e3fe9  gpu_src/scripts/run_entropy.py
+19a92637168520654c76e8a63d802d96d49073ed6662882cf2fc0034758612c1  gpu_src/queue/14_entropy.sh
+# Amendment S7-S9 registered 2026-11-02T02:15:07Z (before any run of these versions)
+3df972538f8ec632dadc5a54ceba9cd2db3dfd2bb6e1948fb55adeb1aa6ded01  PREREG.md
+5432885ece270f18c82a998140e8b28ddbafeec04609aad0d15b22477bb98ab3  gpu_src/scripts/run_entropy.py
+f8b551161c463a886a00f1f100074a1d896f177e2bfd9fda8e966ac313c87112  gpu_src/scripts/run_chain_real.py
+421f2c5355754e17ce4244c9e4d0bed1e8f021a01067f5ce585a8581c74377b6  gpu_src/queue/16_main.sh
+# run_vq.py chunking fix 2026-11-02T02:16:53Z
+be2ea497c9520001762b855aad50154b85d3552d7611d36390ec2aebc1854483  gpu_src/scripts/run_vq.py
+# Part S10 registered 2026-11-02T02:25:55Z (before any S10 evaluation run)
+af04354d6e5b62442542693ebf82ba2436356d2c22f6f9d4d650a86cbd066933  PREREG.md
+7588222e405401b893d62cc4dc2c04357a82d683a54e348f1713b07f0994e623  gpu_src/scripts/run_sim.py
+1e8132397c3254a7e59a09ba4eed0e6a322f1d5ae102d67ff3b9d4071595bd2c  gpu_src/queue/18_sim.sh
+# Part S11 registered 2026-11-02T02:31:07Z (before any S11 run) + scorer S5-S10 written before scoring
+8e0f47cc3ad767e681650411f1d8943541479954c1903602983db50674316b18  PREREG.md
+217b716d285ef5098d28a3a91175ee9156349228e8d227346631681252e4e17c  gpu_src/lib/smallnets.py
+19cf3c59beef0411cad6d44b7d97c8dc162145f5530f37cc3209f85ac1258c72  gpu_src/scripts/run_entropy.py
+34f44b274cf5cbb3f36d10dacc5d3c9cad60d28a0df40486538fc42b1e41b4a3  gpu_src/scripts/run_chain_real.py
+739ef8f4f9abeb565d7b959096b5a68a8f795873d7c2c5d177ea388452c9e8ee  gpu_src/scripts/run_sim.py
+528eae90855382741518d9f880089b3812879ea917c9353f2cb2985e02188079  gpu_src/scripts/run_chain.py
+9c6a8aaabed47223963f94893a6f135bc101ed60598cf25a56e535ddfd86c832  gpu_src/queue/19_controls.sh
+3e4fdd475cd8933e6aad7c508c49f9f2089cc4b4827b08e59c80fef7bf1b7fa6  gpu_src/scripts/score_S5to10.py
+# scorer S11 (written before any S11 result was seen) 2026-11-02T02:50:27Z
+b6179a7185af4cf4b3f55b2564e7f0ed95b0f69d763533dafae8e1541c1b7e42  scratch/score_S11.py
+# score_S5to10.py: gfix-only cells (no bern/ent/vib arms) skip the arm comparisons (no change to the rules) 2026-11-02T02:50:54Z
+fb52a714374f0eb3a874cdbc4d0c2d8756c9e688bcc97f0a809778455943adcc  gpu_src/scripts/score_S5to10.py
+# scorer B-ARC (registered rules implemented literally; partial net-4000 log lines seen, no final B-ARC JSON of 4000/4001) 2026-11-02T02:52:18Z
+a3f6eef7f088d8dc54a008db16e810e6eaf14ace19912feffd0e4fa58fb683d5  scratch/score_BARC.py
+# run_entropy.py: log line works with a single arm (crashed after the first gfix-only cell; no change to training or outputs) 2026-11-02T02:54:15Z
+b99669aaa5655d0868fe3649aab2ba05f68d5ee9d99c2493af8df27664f7bcea  gpu_src/scripts/run_entropy.py
+# Part P1 (phase 1) + Part P2.0 (phase 2, Kelvin's near-identity hypothesis) registered 2026-11-02T04:01:43Z (before any P1 evaluation run; dev seed 9100 runs only)
+cbceeb66f3334f18db14e39829d61edfb83909aaf733da851515be1ffc94e168  PREREG.md
+4a80b2ca5d8d1a93dc0de0539adaa3f713a967357803dc39668649af9d2d5024  gpu_src/scripts/run_vr.py
+ee1d0a82baf790427d074c6f4c4aa6bfe52b90a4ab73a38f9e6a9f1fc25e4e3c  gpu_src/scripts/score_P1.py
+cc82d473d782f4d1c54ac1b1b274e8f9d4c834abe435f4318ed7c5422df2573d  gpu_src/staged/30_p1.sh
+f4c716f82075886b3fc893b37db9c4494ad1e6c55f829c9f64ce79e9ea210c5d  gpu_src/queue_lists/jobs_vm4.txt
+99305aa3226bd58f6bc491772a4c66119b65e6dccc3eac2111df1f37702c9f1d  gpu_src/queue_lists/jobs_a.txt
+5be46cb0455e8120169910fe9959f3b459337b1490749d63c849f56521c5a1b1  gpu_src/queue_lists/jobs_b.txt
+217b716d285ef5098d28a3a91175ee9156349228e8d227346631681252e4e17c  gpu_src/lib/smallnets.py
+# score_P1.py: registered C6 fallback implemented (lower envelope with the fixed-lambda points); written before any P1 evaluation result 2026-11-02T04:05:50Z
+147deae2fe3034f58bd9938ada5f17c4da3f7ad757212ceaddda0d15d669cf3c  gpu_src/scripts/score_P1.py
+# run_vr.py: feistel only (review r2a finding 8): decoded state clipped to [-1, 1] instead of tanh (identity at the actual states +-1), Jacobian of the linear reference at the actual states; no effect on relu/tanh4/linear runs. Pushed before any feistel P1 run 2026-11-02T04:57:28Z
+147155a92e80244fb1090b508577d67f8ed5d0cf09618346907ea641d43ace54  gpu_src/scripts/run_vr.py
+# Amendment P1-A registered 2026-11-02T05:00:50Z (before any P1-A run; review r2a responses)
+b6b3fe63507fe17478650a15a13433b2ff89f5fdf27d29fac13f7d011d941239  PREREG.md
+10ba8ef73285ac79705f4f58b737b6b0a072578810d6dbbfd9c04e939e431703  gpu_src/scripts/run_vr_cert2.py
+# PREREG.md: P1-A header corrected (cells seen) 2026-11-02T05:01:01Z
+1cfb5d89b08b0e7ebd691a1ab02d41985b4b7245f19d18f451ef3a1afaa7f8ba  PREREG.md
+# score_P1v2.py (amendment P1-A scorer; test-run only on the 12 cells already inspected) 2026-11-02T05:02:34Z
+902dcde1301de065975ff987f07735362bc0ca02e9e9399aab9d9153d5c73a7e  gpu_src/scripts/score_P1v2.py
+# score_P1v2.py: C7 counts 'learned curve does not reach D' as not covered (registered rule (c) of P1-A; the first version counted it as a fail) 2026-11-02T12:17:55Z
+3fc6540a7bbb5e8b0df993ab9b06101974f6499c7277bc2b78555849bc631c74  gpu_src/scripts/score_P1v2.py
+# score_P1v2.py: P1.1 as registered (C6 not part of it; pending until the P1-A certificates are complete) 2026-11-02T12:18:16Z
+98702958670be6b7a536962c787083f81c4e5ec3308d40a49b6b1dce731b4349  gpu_src/scripts/score_P1v2.py
+# run_vr_cert2.py: explorer least-squares init on pilot samples instead of the evaluation set (review r2b finding 4); pushed 2026-11-02T12:28:13Z; cells finished before this push used evaluation samples for that init (X files without explorer_init_data)
+2e49ae11773ebae7b7b42a0145a2dc25ba4a4e4e3e34855eae59b298817fffc3  gpu_src/scripts/run_vr_cert2.py
+# score_P1v2.py after review r2b: C5v2 needs convergence (unconverged = not covered), source attribution (fixed / pooled / curve), same candidates for the log-linear secondary, source column 2026-11-02T12:28:49Z
+1b060068795ca9f65952dd203ee18ce7c87d94fc851f8cf73fa340efbe8bcef4  gpu_src/scripts/score_P1v2.py
+# Amendment P2.0-a registered 2026-11-02T16:07:36Z
+4cb601155a97eca115eed151128c7bd2d2c80ed1a11474f78066f802968a41c8  PREREG.md
+a28115720d0e9cfe4ee4f8f4e39d236132e1d23d9a40dc984dd8dab647a3475c  gpu_src/scripts/run_vr.py
+a560ae81ecf41c60b129c38b6b4ee618b4ab13c37192c1545b01e4fbf9574061  gpu_src/staged/40_p2a.sh
+0c7d2290d2b30642d88703696a5910d0bbb395144764db1c0143b15665fa3076  gpu_src/queue_lists/jobs_p2a_1.txt
+6b7ccbe07a00d72f49791393d39b38ce15ec61d020e66e16e7c7a5f0fe0adc3b  gpu_src/queue_lists/jobs_p2a_2.txt
+# scratch/p2_maps.py (P2.0 parts 2-4 analysis; written and hashed before it reads any P2a result) 2026-11-02T16:09:38Z
+165ebcfdda2af7813e2a959352ebbc2ffb07c4bf5e52c7c0d86a82de069f6a68  scratch/p2_maps.py
+# Part U registered 2026-11-02T16:14:04Z (before any run; dev smoke only)
+d2c6b034c26f59f52295a8420039c3c171f58a15d926c622f844ff9ac78df3e2  PREREG.md
+0256f5779166946ed8fb194f4edc2d1f4d3c3e615001372fb354f89bf199ba46  gpu_src/scripts/run_unscr.py
+# Part U queue and lists 2026-11-02T16:17:53Z
+405bb397082ecaed7deff5d9db0987d3b31e340fbaebc76886809ef3ae119f28  gpu_src/staged/50_unscr.sh
+6826809bc584650b971b4a8092b36796d0f0ba0df8fa0a218ce28a0b758532bd  gpu_src/queue_lists/jobs_u_1.txt
+2cfcb42e1d6d8dcaf8fcefa7aacc6888cb50650bdac3254d38eb00169ec957cc  gpu_src/queue_lists/jobs_u_2.txt
+# Amendments P1-B and P2.0-b registered 2026-11-02T17:19:32Z (before any run)
+1f5b60d29db4438bb6d5b86ec95465b4ee09a90891fbc132c9f1baae7d8957bc  PREREG.md
+42f8ea3b856ff417dcbd333d14b7eed0fd3056636665271d490c990e35e2a4f7  gpu_src/scripts/run_vr_cert3.py
+1b05e03a80d05c32b8e41accf4dbce7b6debf19d58253afb1b7b2cdef678fc60  gpu_src/scripts/run_vr_noisy.py
+# queues 50/60/70 and lists y, n 2026-11-02T17:20:13Z
+ad5944f5d4040b1e83addf13059e85745ff632cf20ea0f65e0f498c84404fc66  gpu_src/staged/50_unscr.sh
+421bd058b908a18650ec45f2065fcbb7e6c0e84908596ac2b619a14db8221cd9  gpu_src/staged/60_p1b.sh
+fc9d19dda947b916e1b6cbbb55e84c36c8b39da9f1be1655d0f5c0a8115a4084  gpu_src/staged/70_noisy.sh
+a40d65b05ac56859a2ab036dceaee0ce9fbe17de720cb811635d337abd6e3095  gpu_src/queue_lists/jobs_y_1.txt
+4fb5781b73a0a8e02d24d0e804a2ab1371be5505914dff7d51ec577121d5dfef  gpu_src/queue_lists/jobs_y_2.txt
+1475242a6f0740febb05a0933d7c66c22486de98eb5753b1bd2b7d0ce782d7b3  gpu_src/queue_lists/jobs_n_1.txt
+5902c167e3242ee660bf6300d87bf306e64e7be8a82a9a725a3ba15775160556  gpu_src/queue_lists/jobs_n_2.txt
+# scratch/report_P2_maps.py (P2.0 H2-H4 scorer as registered; written after the analysis output existed, before reading its table) 2026-11-02T18:17:42Z
+67f9f43dccfce8ca30dea345a6d6abbc80c49ce658f11e5185609ec40eb787dd  scratch/report_P2_maps.py
+# scratch/report_U.py (Part U analysis and U1-U4 scorer; written before any U result) 2026-11-02T18:20:21Z
+6b2893aecb9d5cce7a0495c84fad18a1939cf5c21698c340f0688d4f4aa0f1ca  scratch/report_U.py
+# scratch/p2_noisy_maps.py (P2.0 part 5 analysis + H5; written before any runs/N result) 2026-11-02T18:21:11Z
+9cc198990c009c7613e0916b11b3a064d83933d01205318f737866c14205d4ba  scratch/p2_noisy_maps.py
+# score_P1v2.py: P1-B explorer curves (runs/P1Y) as codes of the class; B1, B2 (written before any P1-B result) 2026-11-02T18:22:12Z
+ac06ba3156ac856052297d4dca8fc8ca8db6984331b3bc411578772a9a27d9ce  gpu_src/scripts/score_P1v2.py
+# 60_p1b.sh: waits for 50 only if it was started; restores the P1 JSONs (relaunch after preemption) 2026-11-02T20:39:58Z
+21b997cbf292dbd7c16cb6759c30d0c035631c025fceb5e54abf0eec6cc52293  gpu_src/staged/60_p1b.sh
+# 80_rest.sh + lists n_all, y_all (relaunch after preemptions) 2026-11-02T22:32:18Z
+940fe1d9b8ae9ec610c47c4264222f30c16f385acd1837924c57b7bc01cac2a0  gpu_src/staged/80_rest.sh
+888e6e09a8e58fc1e2974b67e23ee613d83b8f1ce43afbe9fbc284b34289341b  gpu_src/queue_lists/jobs_n_all.txt
+e9d9d999e864a726679483861882aaf2b6bdfc5c9b91b4e055f4fdb63ceeafaa  gpu_src/queue_lists/jobs_y_all.txt
+# score_P1v2.py: B1 uses the best P1-B code including the 12000-step explorers, as registered (review r3 finding 3) 2026-11-02T23:39:24Z
+298c13becc1a28593817b6446c161d7938c682f265a786b3750dee99382ea985  gpu_src/scripts/score_P1v2.py
+# p2_identity.py and report_P2_identity.py were run without a prior hash (review r3 finding 8); hashed now, after use 2026-11-02T23:39:24Z
+eb026b9f3fa5a07991ad7ff0b21fc181156614a84a32d3e9c45d125445dd3471  scratch/p2_identity.py
+cedf2f8be40415b05526409796787792b6c31fee46a03d4b3ae49fc84ae1dc3c  scratch/report_P2_identity.py
+# scratch/p2_maps_v2.py (after review r3: rank-truncated fits, noisy-code gate probes) 2026-11-02T23:39:56Z
+8ed462faab3eaf8a48ed978a2ea6169c93a5d467e50514bf06b90d218b03c516  scratch/p2_maps_v2.py
+# Amendment U-c registered 2026-11-02T23:43:54Z
+3e279586658a123a589437bee2a845a90677dc076f3d233dd3ed3ed222a7bb1b  PREREG.md
+e06419a49eff577874b93203ed87dbf01f0e376384edd9c2625af04ca1b83cd1  gpu_src/scripts/run_unscr.py
+a56d489df8d96c02eaa14cf54d0697ee9e9a1ded7f6a667e4e35ccc4a889bb4e  gpu_src/staged/55_unscr_c.sh
+fd05b8fa7323d44c5f233d8b565a3ce36477126ea87f4c402387b68166de9826  gpu_src/queue_lists/jobs_uc.txt
+# report_U.py takes the run prefix (U or Uc) 2026-11-02T23:44:08Z
+b82b3515a0943b0d4169f641f574b4adfc5909e811feeca51fdace9d505a02df  scratch/report_U.py
+# scratch/report_P2_maps_v2.py (registered report_P2_maps.py, v2 input/output paths + noisy/base gate columns; H2-H4 unchanged; written before reading the v2 table) 2026-11-02T23:47:38Z
+e17d3c1dfa8198c1d26fde79fd2466e1fa9da54233903bdb4d8a3d104f6cc37a  scratch/report_P2_maps_v2.py
+# scratch/report_U_split.py (U-c reporting per amendment U-c: rate and distortion per layer and mu, matched-distortion rate change; descriptive, written before any Uc result was read) 2026-11-03T00:21:27Z
+95560f740ebe25710582b4b71156fad983cac8b098d85d147d684bc6772042a8  scratch/report_U_split.py

@@ -1,0 +1,10 @@
+n 2 seed 103: CS cells 408 cost 9.83e+03 mv nMSE 1.47e-30 certified 1.000 | RQMC 2^16 pts nMSE 7.24e-11
+n 2 seed 111: CS cells 428 cost 1.01e+04 mv nMSE 1.45e-30 certified 1.000 | RQMC 2^16 pts nMSE 6.13e-11
+n 3 seed 103: CS cells 131072 cost 1.35e+06 mv nMSE 1.29e-15 certified 0.999 | RQMC 2^16 pts nMSE 2.86e-10
+n 3 seed 111: CS cells 131072 cost 1.38e+06 mv nMSE 2.38e-16 certified 0.999 | RQMC 2^16 pts nMSE 1.01e-10
+n 4 seed 103: CS cells 131072 cost 1.81e+06 mv nMSE 9.42e-09 certified 0.870 | RQMC 2^16 pts nMSE 1.69e-09
+n 4 seed 111: CS cells 131072 cost 1.81e+06 mv nMSE 1.02e-08 certified 0.868 | RQMC 2^16 pts nMSE 1.52e-09
+n 6 seed 103: CS cells 131072 cost 3.39e+06 mv nMSE 4.49e-05 certified 0.088 | RQMC 2^16 pts nMSE 1.51e-08
+n 6 seed 111: CS cells 131072 cost 3.39e+06 mv nMSE 3.96e-05 certified 0.088 | RQMC 2^16 pts nMSE 1.93e-08
+n 8 seed 103: CS cells 131072 cost 5.74e+06 mv nMSE 6.09e-04 certified 0.000 | RQMC 2^16 pts nMSE 4.88e-08
+n 8 seed 111: CS cells 131072 cost 5.73e+06 mv nMSE 5.64e-04 certified 0.000 | RQMC 2^16 pts nMSE 4.36e-08

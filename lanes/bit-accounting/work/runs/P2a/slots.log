@@ -1,0 +1,28 @@
+16:21:19 slot 1 start relu_32x32_s5000_l1
+16:21:34 slot 2 start relu_32x32_s5002_l1
+16:21:49 slot 3 start relu_32x32_s5001_l9
+16:22:04 slot 4 start relu_32x32_s5000_l17
+16:22:19 slot 5 start relu_32x32_s5002_l17
+16:22:34 slot 6 start relu_32x32_s5001_l25
+17:00:41 slot 1 end relu_32x32_s5000_l1 rc=0
+17:00:41 slot 1 start relu_16x16_s5000_l1
+17:02:16 slot 2 end relu_32x32_s5002_l1 rc=0
+17:02:16 slot 2 start relu_16x16_s5002_l1
+17:02:49 slot 3 end relu_32x32_s5001_l9 rc=0
+17:02:49 slot 3 start relu_16x16_s5000_l5
+17:03:03 slot 4 end relu_32x32_s5000_l17 rc=0
+17:03:03 slot 4 start relu_16x16_s5002_l5
+17:03:27 slot 5 end relu_32x32_s5002_l17 rc=0
+17:03:27 slot 5 start relu_16x16_s5000_l9
+17:03:30 slot 6 end relu_32x32_s5001_l25 rc=0
+17:03:30 slot 6 start relu_16x16_s5002_l9
+17:36:08 slot 1 end relu_16x16_s5000_l1 rc=0
+17:36:08 slot 1 start relu_16x16_s5000_l13
+17:37:43 slot 2 end relu_16x16_s5002_l1 rc=0
+17:37:43 slot 2 start relu_16x16_s5002_l13
+17:38:10 slot 3 end relu_16x16_s5000_l5 rc=0
+17:38:24 slot 4 end relu_16x16_s5002_l5 rc=0
+17:38:39 slot 5 end relu_16x16_s5000_l9 rc=0
+17:38:42 slot 6 end relu_16x16_s5002_l9 rc=0
+17:49:34 slot 1 end relu_16x16_s5000_l13 rc=0
+17:49:48 slot 2 end relu_16x16_s5002_l13 rc=0

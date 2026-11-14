@@ -1,0 +1,8 @@
+[    119s] l=6: T 4.226 (erased 1.590 of 5.816) | code K=42 H 4.225 I 2.981 deficit 1.245 | reuse H 5.776 I 3.575 | exCE 0.0138 | 118s
+[    205s] l=5: T 2.419 (erased 3.401 of 5.819) | code K=8 H 2.099 I 1.378 deficit 1.041 | reuse H 4.206 I 2.172 | exCE 0.0182 | 86s
+[    251s] l=4: T 1.181 (erased 4.639 of 5.820) | code K=3 H 0.971 I 0.588 deficit 0.593 | reuse H 2.092 I 1.058 | exCE 0.0071 | 46s
+[    302s] l=3: T 0.497 (erased 5.322 of 5.819) | code K=2 H 0.480 I 0.191 deficit 0.306 | reuse H 0.954 I 0.446 | exCE 0.0021 | 51s
+[    368s] l=2: T 0.129 (erased 5.688 of 5.818) | code K=2 H 0.132 I 0.028 deficit 0.101 | reuse H 0.453 I 0.097 | exCE 0.0036 | 66s
+[    417s] l=1: T 0.018 (erased 5.800 of 5.818) | code K=2 H 0.042 I 0.004 deficit 0.014 | reuse H 0.127 I 0.014 | exCE 0.0030 | 48s
+[    460s] l=0: T 0.002 (erased 5.816 of 5.818) | code K=3 H 0.023 I 0.000 deficit 0.001 | reuse H 0.030 I 0.001 | exCE 0.0011 | 44s
+[    460s] done

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_gauss.py", line 149, in <module>
+    P_tr = bb.mc_counts_next(net, l, h_tr, nxt, args.Mtr, g).float() / args.Mtr
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/bb.py", line 548, in mc_counts_next
+    c = code_next.assign(zz)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/bb.py", line 439, in assign
+    return self.assign_out(self.net.pre(h, self.net.L))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/bb.py", line 435, in assign_out
+    return torch.argmax(2 * a @ self.C.T - self.cc, 1)
+                        ~~~~~~~~~~~~~~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 512.56 MiB is free. Process 3440 has 1.61 GiB memory in use. Process 3434 has 2.11 GiB memory in use. Process 3439 has 1.92 GiB memory in use. Process 3430 has 1.72 GiB memory in use. Process 3441 has 1.92 GiB memory in use. Process 3429 has 1.71 GiB memory in use. Process 3433 has 1.72 GiB memory in use. Process 3437 has 1.71 GiB memory in use. Process 3860 has 1.98 GiB memory in use. Process 3864 has 1.98 GiB memory in use. Process 3863 has 1.54 GiB memory in use. Including non-PyTorch memory, this process has 1.54 GiB memory in use. Of the allocated memory 843.02 MiB is allocated by PyTorch, and 512.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

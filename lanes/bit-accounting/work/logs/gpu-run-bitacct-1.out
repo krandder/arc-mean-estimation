@@ -1,0 +1,7 @@
+WARNING: The following filter keys were not present in any resource : labels.logical-soup, labels.soup-run
+creating soup-gpu-bitacct-1-1101231109-15359 (g2-standard-8 + nvidia-l4, SPOT) in us-central1-a ...
+NAME                                 ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP      STATUS
+soup-gpu-bitacct-1-1101231109-15359  us-central1-a  g2-standard-8  true         10.128.0.42  104.154.231.245  RUNNING
+waiting for soup-gpu-bitacct-1-1101231109-15359 (104.154.231.245) startup script (up to 25 min) ...
+no logical-soup VM exists; nothing to delete
+no logical-soup VM exists; nothing to delete

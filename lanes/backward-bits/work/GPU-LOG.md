@@ -1,0 +1,31 @@
+# GPU-LOG
+
+- 2026-11-02T13:41Z PENDING-CREATE vm=soup-gpu-backbits-1-1102134053-8304 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.00 group=backbits run=backbits-1 by=gpu-up.sh
+- 2026-11-02T13:41Z CREATE vm=soup-gpu-backbits-1-1102134053-8304 zone=us-west1-c type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.00 spent_before_usd=0 group=backbits run=backbits-1 by=gpu-up.sh
+- 2026-11-02T13:41Z READY vm=soup-gpu-backbits-1-1102134053-8304 ip=136.69.246.107 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T13:41Z RUN vm=soup-gpu-backbits-1-1102134053-8304 timeout=4h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T15:32Z RUN-SYNC-FAILED vm=soup-gpu-backbits-1-1102134053-8304 (gpu-down.sh will retry with scp)
+- 2026-11-02T15:32Z RUN-END vm=soup-gpu-backbits-1-1102134053-8304 rc=255
+- 2026-11-02T15:32Z PENDING-CREATE vm=soup-gpu-backbits-2-1102153231-26516 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.00 group=backbits run=backbits-2 by=gpu-up.sh
+- 2026-11-02T15:33Z CREATE vm=soup-gpu-backbits-2-1102153231-26516 zone=us-west1-b type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.00 spent_before_usd=4.00 group=backbits run=backbits-2 by=gpu-up.sh
+- 2026-11-02T15:34Z READY vm=soup-gpu-backbits-2-1102153231-26516 ip=35.247.82.21 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T15:34Z RUN vm=soup-gpu-backbits-2-1102153231-26516 timeout=4h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T15:42Z COST-AUDIT vm=soup-gpu-backbits-1-1102134053-8304 cost_usd=1.57 (spot VM preempted about 15:30Z after 1.8 h at the 0.87 ceiling; final sync failed, state up to the 15:28Z pull kept in runs_gpu/; the run resumed on backbits-2 at 15:37Z via scripts/launch_vm2.sh) by=opus-mats-backbits
+- 2026-11-02T19:35Z DELETE vm=soup-gpu-backbits-2-1102153231-26516 zone=us-west1-b type=g2-standard-8 age_h=4.02 cost_usd=3.50 (rate ceiling x age) sync=skipped reason="gpu-run.sh finished rc=130: bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/nu"
+- 2026-11-02T19:39Z PENDING-CREATE vm=soup-gpu-backbits-3-1102193916-27900 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.00 group=backbits run=backbits-3 by=gpu-up.sh
+- 2026-11-02T19:40Z CREATE-FAILED vm=soup-gpu-backbits-3-1102193916-27900 type=g2-standard-8 zones=us-west1-c us-central1-b us-central1-c us-west1-b err="WARNING: Some requests generated warnings:  - Disk size: '100 GB' is larger than image size: '50 GB'. You might need to resize the root repartition manually if the operating system does not support au"
+- 2026-11-02T19:53Z COST-AUDIT vm=soup-gpu-backbits-3-1102193916-27900 cost_usd=0.00 (CREATE-FAILED at 19:40Z: spot stockout in us-west1-c, creation cancelled in us-central1-b; the VM never existed) by=opus-mats-backbits
+- 2026-11-02T19:53Z NOTE run=backbits-4 first attempt at 19:45Z was refused by the group budget check before any PENDING-CREATE (spend counted 9.07 because of backbits-3's reserve) by=opus-mats-backbits
+- 2026-11-02T19:52Z PENDING-CREATE vm=soup-gpu-backbits-4-1102195221-12717 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.00 group=backbits run=backbits-4 by=gpu-up.sh
+- 2026-11-02T19:52Z CREATE vm=soup-gpu-backbits-4-1102195221-12717 zone=us-central1-a type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.00 spent_before_usd=5.07 group=backbits run=backbits-4 by=gpu-up.sh
+- 2026-11-02T19:53Z READY vm=soup-gpu-backbits-4-1102195221-12717 ip=34.136.19.254 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T19:53Z RUN vm=soup-gpu-backbits-4-1102195221-12717 timeout=4h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T19:58Z RUN-SYNC-FAILED vm=soup-gpu-backbits-4-1102195221-12717 (gpu-down.sh will retry with scp)
+- 2026-11-02T19:58Z RUN-END vm=soup-gpu-backbits-4-1102195221-12717 rc=255
+- 2026-11-02T20:03Z COST-AUDIT vm=soup-gpu-backbits-4-1102195221-12717 cost_usd=0.10 (spot VM preempted at about 19:58Z, 6 minutes after CREATE, during setup; no job ran) by=opus-mats-backbits
+- 2026-11-02T20:02Z PENDING-CREATE vm=soup-gpu-backbits-5-1102200207-24006 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.00 group=backbits run=backbits-5 by=gpu-up.sh
+- 2026-11-02T20:04Z CREATE vm=soup-gpu-backbits-5-1102200207-24006 zone=us-west4-a type=g2-standard-8 gpu=1xnvidia-l4 model=STANDARD max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.00 spent_before_usd=5.17 group=backbits run=backbits-5 by=gpu-up.sh
+- 2026-11-02T20:04Z READY vm=soup-gpu-backbits-5-1102200207-24006 ip=34.125.226.72 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T20:04Z RUN vm=soup-gpu-backbits-5-1102200207-24006 timeout=4h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T20:39Z RUN-END vm=soup-gpu-backbits-5-1102200207-24006 rc=0
+- 2026-11-02T20:40Z DELETE vm=soup-gpu-backbits-5-1102200207-24006 zone=us-west4-a type=g2-standard-8 age_h=0.59 cost_usd=0.51 (rate ceiling x age) sync=skipped reason="gpu-run.sh finished rc=0: bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/nu"

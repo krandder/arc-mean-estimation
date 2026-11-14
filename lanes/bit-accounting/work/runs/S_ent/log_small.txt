@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_entropy.py", line 138, in <module>
+    net = sn.Net(seed, n, L)
+          ^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/smallnets.py", line 35, in __init__
+    self.WT = [torch.tensor(np.ascontiguousarray(W.T), dtype=DT, device=DEV) for W in self.W64]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+The CUDA driver logged these messages, which may provide useful details:
+Returning 2 (CUDA_ERROR_OUT_OF_MEMORY) from cuDevicePrimaryCtxRetain
+
+

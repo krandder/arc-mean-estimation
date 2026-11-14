@@ -1,0 +1,12 @@
+arc 64 8 300 full final vertices median 492 mean 484.8; cost/line 235.7 passes; 0.009 s/line
+arc 64 8 300 window final vertices median 213 mean 209.9; cost/line 106.3 passes; 0.005 s/line
+arc 128 16 300 full final vertices median 1932 mean 1930.9; cost/line 913.9 passes; 0.110 s/line
+arc 128 16 300 window final vertices median 632 mean 639.8; cost/line 301.2 passes; 0.022 s/line
+arc 64 64 301 full final vertices median 4458 mean 4826.0; cost/line 2489.1 passes; 0.292 s/line
+arc 64 64 301 window final vertices median 1763 mean 2141.6; cost/line 1108.0 passes; 0.132 s/line
+arc 32 32 301 full final vertices median 1054 mean 1089.7; cost/line 617.0 passes; 0.023 s/line
+arc 32 32 301 window final vertices median 673 mean 713.4; cost/line 399.0 passes; 0.019 s/line
+nd 8 256 216 full final vertices median 94 mean 103.4; cost/line 114.2 passes; 0.023 s/line
+nd 8 256 221 full final vertices median 159 mean 171.8; cost/line 187.6 passes; 0.029 s/line
+arc 256 32 200 full final vertices median 6604 mean 6685.7; cost/line 3468.8 passes; 1.685 s/line
+arc 256 32 200 window final vertices median 1388 mean 1406.2; cost/line 751.8 passes; 0.171 s/line

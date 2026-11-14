@@ -1,0 +1,7 @@
+l= 0 rho_simple +3.6112e-02 +- 1.4e-03  rho_exact +3.4549e-02 +- 1.6e-03  (within-layer SE 8.4e-03; radius 15.94; 40s)
+l= 1 rho_simple +2.0176e-02 +- 1.8e-03  rho_exact +2.0633e-02 +- 1.6e-03  (within-layer SE 8.6e-03; radius 15.92; 77s)
+l= 2 rho_simple +1.4534e-02 +- 2.1e-03  rho_exact +1.4676e-02 +- 1.7e-03  (within-layer SE 9.8e-03; radius 16.35; 117s)
+l= 4 rho_simple +6.4191e-03 +- 2.1e-03  rho_exact +6.3242e-03 +- 2.1e-03  (within-layer SE 1.2e-02; radius 17.10; 157s)
+l= 8 rho_simple +2.0060e-03 +- 2.4e-03  rho_exact +6.6524e-03 +- 3.1e-03  (within-layer SE 1.9e-02; radius 22.18; 194s)
+l=16 rho_simple -1.3351e-04 +- 2.6e-03  rho_exact -2.9900e-05 +- 2.2e-03  (within-layer SE 1.5e-02; radius 17.13; 235s)
+l=24 rho_simple -3.7502e-03 +- 3.2e-03  rho_exact -1.6142e-03 +- 3.2e-03  (within-layer SE 1.8e-02; radius 20.14; 274s)

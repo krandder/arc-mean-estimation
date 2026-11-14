@@ -1,0 +1,28 @@
+schema mlp_id: int32
+mlp_name: string
+mlp_seed: int64
+weights: list<element: list<element: list<element: float>>>
+  child 0, element: list<element: list<element: float>>
+      child 0, element: list<element: float>
+          child 0, element: float
+  -- field metadata --
+  ARROW:extension:metadata: '[[16, 1024, 1024], "float32"]'
+  ARROW:extension:name: 'datasets.features.features.Array3DExtensionType'
+all_layer_means: list<element: list<element: float>>
+  child 0, element: list<element: float>
+      child 0, element: float
+  -- field metadata --
+  ARROW:extension:metadata: '[[16, 1024], "float32"]'
+  ARROW:extension:name: 'datasets.features.features.Array2DExtensionType'
+final_means: fixed_size_list<element: float>[1024]
+  child 0, element: float
+avg_variance: double
+sampling_budget_breakdown: string
+-- schema metadata --
+content_defined_chunking: '{"min_chunk_size": 262144, "max_chunk_size": 1' + 24
+huggingface: '{"info": {"features": {"mlp_id": {"dtype": "int32", "_type"' + 501
+mlp 12 susan-butler (16, 1024, 1024) avg_var 0.06830577636438111
+mlp 13 crystal-gonzales (16, 1024, 1024) avg_var 0.07774113446234937
+mlp 14 troy-richardson (16, 1024, 1024) avg_var 0.071282417289944
+mlp 15 sharon-whitehead (16, 1024, 1024) avg_var 0.07718767456795916
+extracted [12, 13, 14, 15]

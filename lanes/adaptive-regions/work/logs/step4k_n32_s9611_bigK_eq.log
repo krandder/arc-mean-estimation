@@ -1,0 +1,16 @@
+[2s] advice: 1048576 paths + 2000 shell populations
+[26s] 37 held-out populations with truths and RQMC
+K=1024 shell s=0.1               : model-only 3.22e-01 at 600 passes (MC there 3.01e-05)
+K=1024 shell s=0.3               : model-only 2.67e-01 at 600 passes (MC there 2.08e-04)
+K=1024 shell s=0.6               : model-only 1.34e-01 at 600 passes (MC there 6.70e-04)
+K=1024 shell s=0.9               : model-only 2.91e-02 at 600 passes (MC there 1.37e-03)
+K=1024 aniso k=10 s=0.3          : model-only 2.60e-01 at 600 passes (MC there 2.09e-04)
+K=1024 aniso k=10 s=0.9          : model-only 2.77e-02 at 600 passes (MC there 1.33e-03)
+K=1024 aniso k=100 s=0.3         : model-only 2.71e-01 at 600 passes (MC there 2.53e-04)
+K=1024 aniso k=100 s=0.9         : model-only 3.46e-02 at 600 passes (MC there 1.35e-03)
+K=1024 shifted                   : model-only 6.79e-02 at 600 passes (MC there 6.30e-04)
+K=1024 tilted                    : model-only 4.88e-03 at 600 passes (MC there 1.79e-03)
+K=1024 mixture 2                 : model-only 2.09e-01 at 1.2e+03 passes (MC there 5.81e-04)
+K=1024 mixture 3                 : model-only 2.97e-01 at 1.8e+03 passes (MC there 2.37e-04)
+K=1024 N(0,I) [not truly held out]: model-only 5.25e-03 at 600 passes (MC there 1.67e-03)
+K=1024: leftover 0.446, steps 1200, params 1116192 (915s)

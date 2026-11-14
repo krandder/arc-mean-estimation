@@ -1,0 +1,7 @@
+21:17:35Z
+23ab1bb119a4e4028ed8f6cc9b1afa9041ddac60ba652ef55d671997a3607a3c  FORMAL.md
+23ab1bb119a4e4028ed8f6cc9b1afa9041ddac60ba652ef55d671997a3607a3c  coprover/FORMAL_v1_as_written.md
+v2 frozen 21:48:41Z (before ARC seeds 4002-4003 output, stationary n >= 128 output, every Part 2 output, and astra round 2)
+a5021b99b17e706dddcb607b1c02204188309d1d02804511dca792c74aa6f317  FORMAL.md
+c57c84278705211cf9b824b63fa526beb0ad2845ef328ccac4a87835682d2e25  lib/theory_v2.py
+theory v3.3 frozen 2026-11-02T01:26:28Z (FORMAL.md sha ee05be07, lib/theory_v33.py sha c1d86a9b); no co-prover answer on v3.3 exists yet

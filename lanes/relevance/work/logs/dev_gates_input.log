@@ -1,0 +1,1 @@
+input 8 t 24 V 5.478 V1/V 0.637 total gates 3072 mean flips vs m 303 G_imp(.1,.01) [2035, 3072] G_mar(.1,.01) [1656, 2500] N>=2(.1,.01,.001) [24, 64, 64] Vnl(g-g_empty)/V 0.33 [10s]

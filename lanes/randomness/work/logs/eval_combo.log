@@ -1,0 +1,35 @@
+[  109.1s] seed=200 rqmc_std: points=65536 nMSE=5.506e-06 gain_mc=2.771 repvar*N/V=0.362
+[  246.7s] seed=200 rqmc_polar: points=65536 nMSE=5.780e-06 gain_mc=2.640 repvar*N/V=0.376
+[  322.6s] seed=200 kerdock: points=66048 nMSE=3.849e-06 gain_mc=3.934 repvar*N/V=0.262
+[  470.1s] seed=200 mc_pairwise: points=65536 nMSE=8.969e-06 gain_mc=1.701 repvar*N/V=0.541
+[  476.7s] seed=200 det_std: points=65536 nMSE=8.309e-06 gain_mc=1.836 repvar*N/V=nan
+[  482.8s] seed=200 det_polar: points=65536 nMSE=1.832e-05 gain_mc=0.833 repvar*N/V=nan
+[  482.8s] seed=200 done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/combo_n256_L32_s200.json
+[  131.3s] seed=201 rqmc_std: points=65536 nMSE=7.760e-06 gain_mc=1.966 repvar*N/V=0.524
+[  288.9s] seed=201 rqmc_polar: points=65536 nMSE=8.335e-06 gain_mc=1.831 repvar*N/V=0.557
+[  371.1s] seed=201 kerdock: points=66048 nMSE=4.811e-06 gain_mc=3.147 repvar*N/V=0.316
+[  491.9s] seed=201 mc_pairwise: points=65536 nMSE=9.972e-06 gain_mc=1.530 repvar*N/V=0.669
+[  498.4s] seed=201 det_std: points=65536 nMSE=8.574e-06 gain_mc=1.780 repvar*N/V=nan
+[  504.3s] seed=201 det_polar: points=65536 nMSE=4.666e-06 gain_mc=3.270 repvar*N/V=nan
+[  504.3s] seed=201 done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/combo_n256_L32_s201.json
+[  116.2s] seed=202 rqmc_std: points=65536 nMSE=7.165e-06 gain_mc=2.130 repvar*N/V=0.490
+[  265.4s] seed=202 rqmc_polar: points=65536 nMSE=6.875e-06 gain_mc=2.220 repvar*N/V=0.469
+[  340.8s] seed=202 kerdock: points=66048 nMSE=5.431e-06 gain_mc=2.788 repvar*N/V=0.370
+[  478.8s] seed=202 mc_pairwise: points=65536 nMSE=9.484e-06 gain_mc=1.609 repvar*N/V=0.585
+[  492.4s] seed=202 det_std: points=65536 nMSE=2.750e-06 gain_mc=5.548 repvar*N/V=nan
+[  499.6s] seed=202 det_polar: points=65536 nMSE=6.329e-06 gain_mc=2.411 repvar*N/V=nan
+[  499.6s] seed=202 done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/combo_n256_L32_s202.json
+[  137.1s] seed=203 rqmc_std: points=65536 nMSE=7.107e-06 gain_mc=2.147 repvar*N/V=0.478
+[  308.8s] seed=203 rqmc_polar: points=65536 nMSE=6.183e-06 gain_mc=2.468 repvar*N/V=0.398
+[  389.4s] seed=203 kerdock: points=66048 nMSE=5.244e-06 gain_mc=2.887 repvar*N/V=0.345
+[  566.9s] seed=203 mc_pairwise: points=65536 nMSE=3.848e-05 gain_mc=0.397 repvar*N/V=2.479
+[  578.0s] seed=203 det_std: points=65536 nMSE=4.995e-06 gain_mc=3.055 repvar*N/V=nan
+[  587.0s] seed=203 det_polar: points=65536 nMSE=3.507e-06 gain_mc=4.351 repvar*N/V=nan
+[  587.0s] seed=203 done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/combo_n256_L32_s203.json
+[  189.1s] seed=204 rqmc_std: points=65536 nMSE=7.815e-06 gain_mc=1.952 repvar*N/V=0.519
+[  375.5s] seed=204 rqmc_polar: points=65536 nMSE=8.170e-06 gain_mc=1.868 repvar*N/V=0.546
+[  455.7s] seed=204 kerdock: points=66048 nMSE=6.895e-06 gain_mc=2.196 repvar*N/V=0.466
+[  653.2s] seed=204 mc_pairwise: points=65536 nMSE=1.612e-05 gain_mc=0.947 repvar*N/V=0.984
+[  664.4s] seed=204 det_std: points=65536 nMSE=7.368e-06 gain_mc=2.071 repvar*N/V=nan
+[  671.9s] seed=204 det_polar: points=65536 nMSE=5.703e-06 gain_mc=2.676 repvar*N/V=nan
+[  671.9s] seed=204 done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/combo_n256_L32_s204.json

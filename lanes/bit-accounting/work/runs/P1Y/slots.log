@@ -1,0 +1,6 @@
+23:37:52 slot 1 start P_relu_n16_L4_s5000_l2_local
+23:38:02 slot 2 start P_relu_n16_L4_s5001_l1_local
+23:38:12 slot 3 start P_relu_n16_L4_s5002_l0_local
+23:38:22 slot 4 start P_relu_n16_L4_s5002_l2_local
+23:38:32 slot 5 start P_relu_n32_L8_s5000_l2_local
+23:38:42 slot 6 start P_relu_n32_L8_s5001_l0_local

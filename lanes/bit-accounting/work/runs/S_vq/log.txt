@@ -1,0 +1,14 @@
+16x4 s5000: free [0.5328, 0.3485, 0.2236, 0.1604, 0.1176, 0.0881, 0.068, 0.0523, 0.0412, 0.0326, 0.0263, 0.0216] | b_VQ(0.1) 5.562772577145264 b_VQ(0.01) None | medoid(0.1) 5.781263317892288 | 207s
+16x4 s5001: free [0.7261, 0.5072, 0.3589, 0.2634, 0.1978, 0.1487, 0.1128, 0.0873, 0.0679, 0.0538, 0.0429, 0.0344] | b_VQ(0.1) 7.468878634619677 b_VQ(0.01) None | medoid(0.1) 7.78367242039951 | 391s
+16x4 s5002: free [0.7196, 0.5076, 0.3703, 0.2785, 0.216, 0.1683, 0.1312, 0.1045, 0.0833, 0.0675, 0.0553, 0.0457] | b_VQ(0.1) 8.194244735752296 b_VQ(0.01) None | medoid(0.1) 8.611662644266461 | 541s
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_vq.py", line 80, in <module>
+    med_idx = assign(C, Af)                     # nearest actual output to each centroid
+              ^^^^^^^^^^^^^
+  File "/root/soup/scripts/run_vq.py", line 41, in assign
+    out[c0:c0 + chunk] = torch.cdist(X[c0:c0 + chunk], C).argmin(1)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/functional.py", line 1535, in cdist
+    return _VF.cdist(x1, x2, p, None)  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0 has a total capacity of 22.03 GiB of which 1.99 GiB is free. Process 3398 has 1.39 GiB memory in use. Process 3394 has 2.74 GiB memory in use. Process 3393 has 4.06 GiB memory in use. Process 4859 has 2.90 GiB memory in use. Process 8608 has 2.03 GiB memory in use. Including non-PyTorch memory, this process has 2.27 GiB memory in use. Process 8929 has 1.90 GiB memory in use. Process 9599 has 2.10 GiB memory in use. Process 10076 has 628.00 MiB memory in use. Of the allocated memory 44.16 MiB is allocated by PyTorch, and 2.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

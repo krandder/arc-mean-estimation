@@ -1,0 +1,16 @@
+[    103s] l=14: T 4.072 (erased 1.747 of 5.819) | code K=16 H 3.926 I 2.680 deficit 1.391 | reuse H 5.769 I 3.447 | exCE 0.0126 | 103s
+[    184s] l=13: T 2.108 (erased 3.706 of 5.814) | code K=4 H 1.967 I 1.179 deficit 0.929 | reuse H 3.919 I 1.874 | exCE 0.0101 | 80s
+[    220s] l=12: T 0.968 (erased 4.846 of 5.814) | code K=2 H 0.973 I 0.429 deficit 0.539 | reuse H 1.970 I 0.848 | exCE 0.0032 | 37s
+[    283s] l=11: T 0.332 (erased 5.482 of 5.814) | code K=2 H 0.289 I 0.032 deficit 0.299 | reuse H 0.971 I 0.288 | exCE 0.0012 | 62s
+[    322s] l=10: T 0.008 (erased 5.805 of 5.813) | code K=2 H 0.006 I 0.000 deficit 0.008 | reuse H 0.160 I 0.003 | exCE 0.0013 | 40s
+[    376s] l=9: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.009 I 0.000 deficit 0.000 | reuse H 0.003 I 0.000 | exCE 0.0000 | 54s
+[    426s] l=8: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.011 I 0.000 deficit 0.000 | reuse H 0.011 I 0.000 | exCE 0.0000 | 49s
+[    469s] l=7: T 0.000 (erased 5.813 of 5.813) | code K=5 H 0.008 I 0.000 deficit 0.000 | reuse H 0.008 I 0.000 | exCE 0.0000 | 43s
+[    522s] l=6: T 0.000 (erased 5.813 of 5.813) | code K=5 H 0.007 I 0.000 deficit 0.000 | reuse H 0.007 I 0.000 | exCE 0.0000 | 54s
+[    564s] l=5: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.007 I 0.000 deficit 0.000 | reuse H 0.007 I 0.000 | exCE 0.0000 | 42s
+[    618s] l=4: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.008 I 0.000 deficit 0.000 | reuse H 0.008 I 0.000 | exCE 0.0000 | 54s
+[    667s] l=3: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.007 I 0.000 deficit 0.000 | reuse H 0.007 I 0.000 | exCE 0.0000 | 49s
+[    710s] l=2: T 0.000 (erased 5.814 of 5.814) | code K=5 H 0.010 I 0.000 deficit 0.000 | reuse H 0.010 I 0.000 | exCE 0.0000 | 42s
+[    761s] l=1: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.007 I 0.000 deficit 0.000 | reuse H 0.007 I 0.000 | exCE 0.0000 | 52s
+[    822s] l=0: T 0.000 (erased 5.813 of 5.814) | code K=5 H 0.009 I 0.000 deficit 0.000 | reuse H 0.009 I 0.000 | exCE 0.0000 | 61s
+[    822s] done

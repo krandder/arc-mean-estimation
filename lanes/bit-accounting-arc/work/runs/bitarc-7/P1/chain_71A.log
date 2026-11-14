@@ -1,0 +1,3 @@
+done arc [4000] l=28 local bwd train 830s total 938s
+done arc [4000] l=24 local bwd train 851s total 976s
+done arc [4000] l=20 local bwd train 998s total 1160s

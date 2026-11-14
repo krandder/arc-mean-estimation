@@ -1,0 +1,20 @@
+nd-exact deviations and post-hoc additions (with evidence)
+
+1. 04:45Z, found after the Amendment 1 runs started: in lib/cs2.py setup(), a face cell whose centroid output is zero
+   and whose a priori distortion is zero gets priority 0 and is never split, under every rule (the mass floor of
+   Amendment 1 applies only to children). Evidence: the one-layer width study at width 2 stalls at certified mass 0.750
+   under both the registered rule (runs/depth1_rate2.json) and CS2b (runs/depth1_rate3.json). The registered runs
+   (CS2, CS2b, UNB) are scored as registered. Post hoc: scratch/check_faces.py reports which evaluation nets had such a
+   face; CS2c (lib/cs2.py face_floor=True, scratch/run_cs2c.py) and the width study rerun (scratch/depth1_rate4.py)
+   are post hoc and labelled so.
+   Result of scratch/check_faces.py (04:48Z): nets 203 (face x_5 > 0) and 217 (face x_4 < 0) had one zero-priority face
+   each, never refined in CS2, CS2b or UNB's D; the other four evaluation nets and both dev nets had none. Post hoc
+   CS2c (face floor on) is run on 203 and 217 (runs/posthoc_cs2c_s*.json). The registered verdicts are unchanged by it
+   (see the report).
+
+2. Post hoc after the gpt-6-astra review (05:10Z): fixed unscrambled-Sobol baseline against 64 scramblings
+   (scratch/posthoc_dsob.py), paired UNB ablation (scratch/posthoc_unb_ablation.py), CS2c on all six nets, a count of
+   region crossings along lines on dev net 103 (scratch/line_crossings.py). None of these is registered.
+
+3. After review round 2 (05:37Z): the UNB ablation was rerun with the same seeds to store per-replicate errors and
+   paired 95% intervals; its no-cell arm is now charged the tail-cone setup. Means reproduce the first run.

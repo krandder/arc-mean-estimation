@@ -1,0 +1,13 @@
+{
+ "n": 256,
+ "L": 32,
+ "K": 96,
+ "exkurt_unit_output": 6.925902687134389,
+ "exkurt_preact": 1.8767445486330656,
+ "exkurt_angular_diff": 13.433408715134007,
+ "exkurt_one_point_error": 16.40179237095849,
+ "exkurt_one_point_error_scaled": 8.757726012461596,
+ "var_log_norm2": 0.7330263320982692,
+ "hanin_nica_5L_over_n": 0.625,
+ "frac_zero_units": 0.4977213541666667
+}

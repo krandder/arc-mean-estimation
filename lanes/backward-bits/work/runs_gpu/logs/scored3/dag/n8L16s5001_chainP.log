@@ -1,0 +1,16 @@
+[     89s] l=14: T 3.793 (erased 1.720 of 5.513) | code K=36 H 3.786 I 2.787 deficit 1.006 | reuse H 5.382 I 3.296 | exCE 0.0109 | 88s
+[    173s] l=13: T 2.345 (erased 3.161 of 5.506) | code K=15 H 2.238 I 1.603 deficit 0.741 | reuse H 3.715 I 2.149 | exCE 0.0219 | 85s
+[    239s] l=12: T 1.478 (erased 4.032 of 5.510) | code K=3 H 1.119 I 0.842 deficit 0.637 | reuse H 2.246 I 1.397 | exCE 0.0097 | 65s
+[    286s] l=11: T 0.794 (erased 4.712 of 5.506) | code K=2 H 0.814 I 0.543 deficit 0.251 | reuse H 1.113 I 0.754 | exCE 0.0097 | 47s
+[    331s] l=10: T 0.527 (erased 4.981 of 5.508) | code K=2 H 0.469 I 0.160 deficit 0.367 | reuse H 0.816 I 0.509 | exCE 0.0052 | 45s
+[    377s] l=9: T 0.095 (erased 5.415 of 5.510) | code K=2 H 0.085 I 0.014 deficit 0.080 | reuse H 0.435 I 0.068 | exCE 0.0067 | 46s
+[    442s] l=8: T 0.012 (erased 5.498 of 5.509) | code K=2 H 0.020 I 0.001 deficit 0.010 | reuse H 0.083 I 0.011 | exCE 0.0064 | 65s
+[    494s] l=7: T 0.001 (erased 5.509 of 5.509) | code K=2 H 0.021 I 0.001 deficit 0.000 | reuse H 0.021 I 0.001 | exCE 0.0008 | 52s
+[    534s] l=6: T 0.001 (erased 5.509 of 5.510) | code K=4 H 0.010 I 0.000 deficit 0.001 | reuse H 0.021 I 0.001 | exCE 0.0008 | 40s
+[    588s] l=5: T 0.000 (erased 5.510 of 5.510) | code K=4 H 0.013 I 0.000 deficit 0.000 | reuse H 0.013 I 0.000 | exCE 0.0000 | 54s
+[    646s] l=4: T 0.000 (erased 5.510 of 5.510) | code K=4 H 0.011 I 0.000 deficit -0.000 | reuse H 0.011 I 0.000 | exCE 0.0000 | 57s
+[    716s] l=3: T 0.000 (erased 5.510 of 5.510) | code K=4 H 0.011 I 0.000 deficit -0.000 | reuse H 0.011 I 0.000 | exCE 0.0000 | 71s
+[    764s] l=2: T 0.000 (erased 5.510 of 5.510) | code K=4 H 0.012 I 0.000 deficit 0.000 | reuse H 0.012 I 0.000 | exCE 0.0000 | 48s
+[    821s] l=1: T 0.000 (erased 5.510 of 5.510) | code K=4 H 0.009 I 0.000 deficit 0.000 | reuse H 0.009 I 0.000 | exCE 0.0000 | 57s
+[    874s] l=0: T 0.000 (erased 5.510 of 5.510) | code K=4 H 0.011 I 0.000 deficit -0.000 | reuse H 0.011 I 0.000 | exCE 0.0000 | 53s
+[    874s] done

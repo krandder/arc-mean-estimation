@@ -1,0 +1,14 @@
+torch.float32 B=512 t=1: 24.9 ms/step, 8.1 GFLOP/s
+torch.float32 B=512 t=16: 30.9 ms/step, 104.4 GFLOP/s
+torch.float32 B=512 t=32: 110.7 ms/step, 58.2 GFLOP/s
+torch.float32 B=2048 t=1: 8.8 ms/step, 91.3 GFLOP/s
+torch.float32 B=2048 t=16: 379.4 ms/step, 34.0 GFLOP/s
+torch.float32 B=2048 t=32: 397.3 ms/step, 64.9 GFLOP/s
+torch.bfloat16 B=512 t=1: 1.5 ms/step, 138.2 GFLOP/s
+torch.bfloat16 B=512 t=16: 13.9 ms/step, 231.1 GFLOP/s
+torch.bfloat16 B=512 t=32: 188.1 ms/step, 34.2 GFLOP/s
+torch.bfloat16 B=2048 t=1: 18.8 ms/step, 42.9 GFLOP/s
+torch.bfloat16 B=2048 t=16: 434.6 ms/step, 29.6 GFLOP/s
+torch.bfloat16 B=2048 t=32: 696.7 ms/step, 37.0 GFLOP/s
+MLP width 1024 B=1024: 373.0 ms/step
+MLP width 2048 B=1024: 1658.5 ms/step

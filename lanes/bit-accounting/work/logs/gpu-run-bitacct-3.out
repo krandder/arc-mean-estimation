@@ -1,0 +1,31 @@
+creating soup-gpu-bitacct-3-1102003456-17164 (g2-standard-8 + nvidia-l4, SPOT) in us-central1-b ...
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+---
+code: ZONE_RESOURCE_POOL_EXHAUSTED_WITH_DETAILS
+errorDetails:
+- help:
+    links:
+    - description: Troubleshooting documentation
+      url: https://cloud.google.com/compute/docs/resource-error
+- localizedMessage:
+    locale: en-US
+    message: A g2-standard-8 VM instance with 1 nvidia-l4 accelerator(s) is currently
+      unavailable in the us-central1-b zone. Consider trying your request in another
+      zone which has capacity to accommodate your request. Alternatively, you can
+      try your request again with a different VM hardware configuration or at a later
+      time. For more information, see the troubleshooting documentation.
+- errorInfo:
+    domain: compute.googleapis.com
+    metadatas:
+      attachment: nvidia-l4:1
+      vmType: g2-standard-8
+      zone: us-central1-b
+      zonesAvailable: ''
+    reason: stockout
+message: The zone 'projects/mnx-kas-dev/zones/us-central1-b' does not have enough
+  resources available to fulfill the request.  '(resource type:compute)'.
+
+creating soup-gpu-bitacct-3-1102003456-17164 (g2-standard-8 + nvidia-l4, SPOT) in us-central1-c ...
+NAME                                 ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
+soup-gpu-bitacct-3-1102003456-17164  us-central1-c  g2-standard-8  true         10.128.0.39  34.123.142.253  RUNNING
+waiting for soup-gpu-bitacct-3-1102003456-17164 (34.123.142.253) startup script (up to 25 min) ...

@@ -1,0 +1,14 @@
+sampled in 0s; picked [2, 6, 15, 30]
+l=2 back=1 j=2 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (1s)
+l=2 back=1 j=6 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (1s)
+l=2 back=1 j=15 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=2 back=1 j=30 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=1 back=2 j=2 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=1 back=2 j=6 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=1 back=2 j=15 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=1 back=2 j=30 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=0 back=3 j=2 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=0 back=3 j=6 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=0 back=3 j=15 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+l=0 back=3 j=30 (switching): unstable l+1 at tau=1: 32; best cov at eps=0.1: 0.000 (p=0, tau=1.0, zero) (0s)
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step2b_n32_L4_s300.json total 5.845337629318237

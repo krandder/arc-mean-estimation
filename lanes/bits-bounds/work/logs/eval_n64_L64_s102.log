@@ -1,0 +1,12 @@
+E1 l=16 done 1s
+E1 l=32 done 2s
+E1 l=48 done 3s
+E1 l=56 done 4s
+E2 l=16 done 4s
+E2 l=32 done 4s
+E2 l=48 done 4s
+E2 l=56 done 4s
+E3 r=8 done 5s
+E3 r=16 done 5s
+E3 r=32 done 6s
+done 6s

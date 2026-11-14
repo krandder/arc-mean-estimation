@@ -1,0 +1,14 @@
+PASS waterfill sums [0.30000001192092896, 1.0, 3.0, 10.0]
+PASS waterfill vs bisection C=0.30000001192092896 
+PASS waterfill vs bisection C=1.0 
+PASS waterfill vs bisection C=3.0 
+PASS waterfill vs bisection C=10.0 
+PASS waterfill gradient conserves the sum [0.0, 0.0, 0.0, 0.0, 0.0]
+PASS ARC seed 4000 V near the relevance lane value 32.15 (+-5%) 32.02575349201574
+PASS float32 forward matches float64 (rel < 1e-4) 1.4550435871679479e-06
+PASS narrow-deep shape 
+PASS binary mask 
+PASS binary values 
+PASS gauss realised C [0.999999463558197, 7.000000476837158, 50.000003814697266, 255.99998474121094]
+PASS layer-L future is the identity 
+ALL PASS

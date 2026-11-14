@@ -1,0 +1,16 @@
+[    360s] l=14: T 3.784 (erased 2.112 of 5.896) | code K=34 H 3.792 I 2.288 deficit 1.495 | reuse H 5.855 I 3.016 | exCE 0.0140 | 360s
+[    658s] l=13: T 2.296 (erased 1.478 of 3.774) | code K=10 H 2.083 I 1.277 deficit 1.019 | reuse H 3.650 I 1.818 | exCE 0.0095 | 298s
+[    878s] l=12: T 1.302 (erased 0.800 of 2.102) | code K=4 H 1.172 I 0.652 deficit 0.650 | reuse H 2.026 I 0.995 | exCE 0.0050 | 220s
+[   1034s] l=11: T 0.749 (erased 0.419 of 1.169) | code K=2 H 0.717 I 0.337 deficit 0.412 | reuse H 1.150 I 0.579 | exCE 0.0032 | 156s
+[   1180s] l=10: T 0.476 (erased 0.238 of 0.715) | code K=2 H 0.469 I 0.247 deficit 0.230 | reuse H 0.651 I 0.345 | exCE 0.0016 | 147s
+[   1337s] l=9: T 0.331 (erased 0.147 of 0.479) | code K=2 H 0.326 I 0.191 deficit 0.141 | reuse H 0.412 I 0.232 | exCE 0.0014 | 157s
+[   1508s] l=8: T 0.222 (erased 0.098 of 0.320) | code K=2 H 0.230 I 0.134 deficit 0.088 | reuse H 0.271 I 0.151 | exCE 0.0015 | 171s
+[   1635s] l=7: T 0.174 (erased 0.062 of 0.236) | code K=2 H 0.190 I 0.115 deficit 0.060 | reuse H 0.190 I 0.115 | exCE 0.0012 | 126s
+[   1758s] l=6: T 0.157 (erased 0.031 of 0.188) | code K=2 H 0.177 I 0.121 deficit 0.035 | reuse H 0.172 I 0.121 | exCE 0.0019 | 123s
+[   1894s] l=5: T 0.142 (erased 0.029 of 0.171) | code K=2 H 0.156 I 0.108 deficit 0.034 | reuse H 0.154 I 0.108 | exCE 0.0013 | 136s
+[   2043s] l=4: T 0.130 (erased 0.031 of 0.161) | code K=2 H 0.150 I 0.096 deficit 0.034 | reuse H 0.143 I 0.095 | exCE 0.0012 | 149s
+[   2181s] l=3: T 0.118 (erased 0.034 of 0.152) | code K=2 H 0.132 I 0.082 deficit 0.035 | reuse H 0.132 I 0.082 | exCE 0.0018 | 138s
+[   2347s] l=2: T 0.108 (erased 0.026 of 0.134) | code K=2 H 0.121 I 0.079 deficit 0.029 | reuse H 0.121 I 0.079 | exCE 0.0034 | 166s
+[   2483s] l=1: T 0.096 (erased 0.019 of 0.115) | code K=2 H 0.107 I 0.073 deficit 0.023 | reuse H 0.107 I 0.073 | exCE 0.0070 | 135s
+[   2616s] l=0: T 0.093 (erased 0.015 of 0.108) | code K=2 H 0.104 I 0.075 deficit 0.019 | reuse H 0.104 I 0.075 | exCE 0.0222 | 134s
+[   2616s] done

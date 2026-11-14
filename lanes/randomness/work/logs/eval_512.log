@@ -1,0 +1,99 @@
+[    7.0s] n=512 L=64 seed=500 V=11.66 V_rb/V=0.9797 even/rb=0.433 odd/rb=0.542 |mu|^2/V=27.49
+[   12.4s] n=512 L=64 seed=500 multilevel best r=8 gain_vs_rb=1.013 resid_share=0.673
+[   17.4s] n=512 L=64 seed=500 onb: m=512 R=16 m*risk/V=0.7312 (+-0.1392) gain_vs_mc=1.368
+[   21.7s] n=512 L=64 seed=500 simplex: m=513 R=16 m*risk/V=0.5832 (+-0.0735) gain_vs_mc=1.715
+[   29.5s] n=512 L=64 seed=500 cross: m=1024 R=16 m*risk/V=0.5326 (+-0.0777) gain_vs_mc=1.878
+[   33.5s] n=512 L=64 seed=500 rqmc_rb_std_m10: m*risk/V=0.7761 (+-0.0878) gain_vs_mc=1.289
+[   49.5s] n=512 L=64 seed=500 rqmc_rb_std_m12: m*risk/V=0.3177 (+-0.0569) gain_vs_mc=3.147
+[   54.0s] n=512 L=64 seed=500 rqmc_rb_polar_m10: m*risk/V=0.5274 (+-0.0939) gain_vs_mc=1.896
+[   69.4s] n=512 L=64 seed=500 rqmc_rb_polar_m12: m*risk/V=0.4827 (+-0.0656) gain_vs_mc=2.072
+[   72.8s] n=512 L=64 seed=500 rqmc_rb_svd_m10: m*risk/V=0.5147 (+-0.0454) gain_vs_mc=1.943
+[   88.5s] n=512 L=64 seed=500 rqmc_rb_svd_m12: m*risk/V=0.5046 (+-0.0741) gain_vs_mc=1.982
+[  101.3s] n=512 L=64 seed=500 rqmc_anti_rb_std_m12: m*risk/V=0.6706 (+-0.1107) gain_vs_mc=1.491
+[  113.9s] n=512 L=64 seed=500 rqmc_anti_rb_polar_m12: m*risk/V=0.6241 (+-0.1252) gain_vs_mc=1.602
+[  113.9s] n=512 L=64 seed=500 done passes=233488 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n512_L64_s500.json
+[   6.0s] gauss delta=1e-06: flips/layer l=1,32,64: 0.232 0.215 0.258; p_any(L)=1.000; NS_out=5.442e-05; GSA_1=205.5 (n/sqrt(2pi)=204.3)
+[  10.4s] gauss delta=1e-05: flips/layer l=1,32,64: 0.764 0.683 0.743; p_any(L)=1.000; NS_out=0.0005094; GSA_1=214 (n/sqrt(2pi)=204.3)
+[  15.1s] gauss delta=0.0001: flips/layer l=1,32,64: 2.29 2.18 2.17; p_any(L)=1.000; NS_out=0.004491; GSA_1=203.1 (n/sqrt(2pi)=204.3)
+[  19.7s] gauss delta=0.001: flips/layer l=1,32,64: 7.26 6.35 6.04; p_any(L)=1.000; NS_out=0.0328; GSA_1=203.4 (n/sqrt(2pi)=204.3)
+[  24.5s] gauss delta=0.01: flips/layer l=1,32,64: 23.1 15.7 12.4; p_any(L)=1.000; NS_out=0.1488; GSA_1=204.9 (n/sqrt(2pi)=204.3)
+[  29.1s] gauss delta=0.03: flips/layer l=1,32,64: 40.1 22.2 15.8; p_any(L)=1.000; NS_out=0.2726; GSA_1=205.2 (n/sqrt(2pi)=204.3)
+[  34.0s] gauss delta=0.1: flips/layer l=1,32,64: 73.4 28.9 19; p_any(L)=1.000; NS_out=0.4555; GSA_1=205.7 (n/sqrt(2pi)=204.3)
+[  38.3s] gauss delta=0.3: flips/layer l=1,32,64: 129 34.5 21.2; p_any(L)=1.000; NS_out=0.6964; GSA_1=209.4 (n/sqrt(2pi)=204.3)
+[  42.8s] gauss delta=1: flips/layer l=1,32,64: 256 38.7 22.5; p_any(L)=1.000; NS_out=1.013; GSA_1=226.9 (n/sqrt(2pi)=204.3)
+[  47.1s] sphere delta=1e-06: NS_sph=5.836e-05
+[  50.5s] sphere delta=1e-05: NS_sph=0.0005555
+[  53.6s] sphere delta=0.0001: NS_sph=0.004798
+[  56.6s] sphere delta=0.001: NS_sph=0.03381
+[  59.7s] sphere delta=0.01: NS_sph=0.1617
+[  62.8s] sphere delta=0.03: NS_sph=0.2886
+[  65.7s] sphere delta=0.1: NS_sph=0.4678
+[  69.0s] sphere delta=0.3: NS_sph=0.6824
+[  71.5s] sphere delta=1: NS_sph=0.9791
+done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/noise_n512_L64_s500.json
+[    4.7s] n=512 L=64 seed=501 V=9.93 V_rb/V=0.9714 even/rb=0.438 odd/rb=0.540 |mu|^2/V=34.53
+[    8.4s] n=512 L=64 seed=501 multilevel best r=4 gain_vs_rb=1.066 resid_share=0.712
+[   11.7s] n=512 L=64 seed=501 onb: m=512 R=16 m*risk/V=1.1860 (+-0.2485) gain_vs_mc=0.843
+[   14.8s] n=512 L=64 seed=501 simplex: m=513 R=16 m*risk/V=0.5509 (+-0.1316) gain_vs_mc=1.815
+[   20.7s] n=512 L=64 seed=501 cross: m=1024 R=16 m*risk/V=0.4523 (+-0.0863) gain_vs_mc=2.211
+[   30.7s] n=512 L=64 seed=501 rqmc_rb_std_m10: m*risk/V=1.4030 (+-0.5040) gain_vs_mc=0.713
+[   43.4s] n=512 L=64 seed=501 rqmc_rb_std_m12: m*risk/V=0.4244 (+-0.0818) gain_vs_mc=2.356
+[   46.5s] n=512 L=64 seed=501 rqmc_rb_polar_m10: m*risk/V=0.4257 (+-0.0450) gain_vs_mc=2.349
+[   60.6s] n=512 L=64 seed=501 rqmc_rb_polar_m12: m*risk/V=0.5963 (+-0.1221) gain_vs_mc=1.677
+[   63.6s] n=512 L=64 seed=501 rqmc_rb_svd_m10: m*risk/V=0.5103 (+-0.1269) gain_vs_mc=1.960
+[   77.2s] n=512 L=64 seed=501 rqmc_rb_svd_m12: m*risk/V=0.3420 (+-0.0528) gain_vs_mc=2.924
+[   90.0s] n=512 L=64 seed=501 rqmc_anti_rb_std_m12: m*risk/V=0.4459 (+-0.1232) gain_vs_mc=2.243
+[  102.6s] n=512 L=64 seed=501 rqmc_anti_rb_polar_m12: m*risk/V=0.5336 (+-0.1560) gain_vs_mc=1.874
+[  102.6s] n=512 L=64 seed=501 done passes=233488 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n512_L64_s501.json
+[   6.1s] gauss delta=1e-06: flips/layer l=1,32,64: 0.228 0.208 0.267; p_any(L)=1.000; NS_out=5.247e-05; GSA_1=202.1 (n/sqrt(2pi)=204.3)
+[  10.6s] gauss delta=1e-05: flips/layer l=1,32,64: 0.729 0.661 0.8; p_any(L)=1.000; NS_out=0.0004979; GSA_1=204.3 (n/sqrt(2pi)=204.3)
+[  15.4s] gauss delta=0.0001: flips/layer l=1,32,64: 2.29 2.11 2.34; p_any(L)=1.000; NS_out=0.004371; GSA_1=203.1 (n/sqrt(2pi)=204.3)
+[  19.8s] gauss delta=0.001: flips/layer l=1,32,64: 7.35 5.96 6.19; p_any(L)=1.000; NS_out=0.03214; GSA_1=206 (n/sqrt(2pi)=204.3)
+[  24.4s] gauss delta=0.01: flips/layer l=1,32,64: 22.9 14.3 12.7; p_any(L)=1.000; NS_out=0.1475; GSA_1=202.8 (n/sqrt(2pi)=204.3)
+[  28.9s] gauss delta=0.03: flips/layer l=1,32,64: 40.1 20 16.3; p_any(L)=1.000; NS_out=0.2622; GSA_1=205.2 (n/sqrt(2pi)=204.3)
+[  33.3s] gauss delta=0.1: flips/layer l=1,32,64: 73.4 26 19; p_any(L)=1.000; NS_out=0.4431; GSA_1=205.7 (n/sqrt(2pi)=204.3)
+[  38.3s] gauss delta=0.3: flips/layer l=1,32,64: 129 30.6 21.1; p_any(L)=1.000; NS_out=0.6782; GSA_1=208.7 (n/sqrt(2pi)=204.3)
+[  42.9s] gauss delta=1: flips/layer l=1,32,64: 256 33.7 21.9; p_any(L)=1.000; NS_out=0.9835; GSA_1=226.6 (n/sqrt(2pi)=204.3)
+[  46.7s] sphere delta=1e-06: NS_sph=5.197e-05
+[  50.0s] sphere delta=1e-05: NS_sph=0.0004963
+[  54.3s] sphere delta=0.0001: NS_sph=0.004237
+[  57.7s] sphere delta=0.001: NS_sph=0.03099
+[  60.5s] sphere delta=0.01: NS_sph=0.1495
+[  63.7s] sphere delta=0.03: NS_sph=0.2603
+[  67.0s] sphere delta=0.1: NS_sph=0.4594
+[  70.2s] sphere delta=0.3: NS_sph=0.6805
+[  73.6s] sphere delta=1: NS_sph=1.007
+done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/noise_n512_L64_s501.json
+[    7.4s] n=512 L=64 seed=502 V=10.13 V_rb/V=0.9676 even/rb=0.456 odd/rb=0.559 |mu|^2/V=29.53
+[   12.4s] n=512 L=64 seed=502 multilevel best r=1 gain_vs_rb=0.999 resid_share=0.922
+[   16.9s] n=512 L=64 seed=502 onb: m=512 R=16 m*risk/V=0.9029 (+-0.1526) gain_vs_mc=1.108
+[   20.9s] n=512 L=64 seed=502 simplex: m=513 R=16 m*risk/V=0.7014 (+-0.1383) gain_vs_mc=1.426
+[   28.3s] n=512 L=64 seed=502 cross: m=1024 R=16 m*risk/V=0.4737 (+-0.0581) gain_vs_mc=2.111
+[   33.5s] n=512 L=64 seed=502 rqmc_rb_std_m10: m*risk/V=0.8525 (+-0.1345) gain_vs_mc=1.173
+[   50.8s] n=512 L=64 seed=502 rqmc_rb_std_m12: m*risk/V=0.4821 (+-0.0696) gain_vs_mc=2.074
+[   54.7s] n=512 L=64 seed=502 rqmc_rb_polar_m10: m*risk/V=0.5766 (+-0.1265) gain_vs_mc=1.734
+[   69.8s] n=512 L=64 seed=502 rqmc_rb_polar_m12: m*risk/V=1.0018 (+-0.2624) gain_vs_mc=0.998
+[   72.8s] n=512 L=64 seed=502 rqmc_rb_svd_m10: m*risk/V=0.6306 (+-0.1074) gain_vs_mc=1.586
+[   87.9s] n=512 L=64 seed=502 rqmc_rb_svd_m12: m*risk/V=0.5518 (+-0.0952) gain_vs_mc=1.812
+[  100.7s] n=512 L=64 seed=502 rqmc_anti_rb_std_m12: m*risk/V=0.5666 (+-0.0794) gain_vs_mc=1.765
+[  115.7s] n=512 L=64 seed=502 rqmc_anti_rb_polar_m12: m*risk/V=0.8701 (+-0.1763) gain_vs_mc=1.149
+[  115.7s] n=512 L=64 seed=502 done passes=233488 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n512_L64_s502.json
+[   7.6s] gauss delta=1e-06: flips/layer l=1,32,64: 0.207 0.149 0.297; p_any(L)=1.000; NS_out=5.43e-05; GSA_1=183 (n/sqrt(2pi)=204.3)
+[  13.9s] gauss delta=1e-05: flips/layer l=1,32,64: 0.763 0.429 0.892; p_any(L)=1.000; NS_out=0.0005252; GSA_1=213.7 (n/sqrt(2pi)=204.3)
+[  19.9s] gauss delta=0.0001: flips/layer l=1,32,64: 2.37 1.42 2.63; p_any(L)=1.000; NS_out=0.004806; GSA_1=210.1 (n/sqrt(2pi)=204.3)
+[  24.8s] gauss delta=0.001: flips/layer l=1,32,64: 7.34 4.1 6.97; p_any(L)=1.000; NS_out=0.03441; GSA_1=205.8 (n/sqrt(2pi)=204.3)
+[  29.5s] gauss delta=0.01: flips/layer l=1,32,64: 22.9 10.2 14.8; p_any(L)=1.000; NS_out=0.163; GSA_1=203.2 (n/sqrt(2pi)=204.3)
+[  36.4s] gauss delta=0.03: flips/layer l=1,32,64: 40 14.4 19.1; p_any(L)=1.000; NS_out=0.2895; GSA_1=204.6 (n/sqrt(2pi)=204.3)
+[  42.6s] gauss delta=0.1: flips/layer l=1,32,64: 73.8 18.9 23.3; p_any(L)=1.000; NS_out=0.4833; GSA_1=206.8 (n/sqrt(2pi)=204.3)
+[  49.1s] gauss delta=0.3: flips/layer l=1,32,64: 130 22.9 26.4; p_any(L)=1.000; NS_out=0.7334; GSA_1=209.9 (n/sqrt(2pi)=204.3)
+[  54.7s] gauss delta=1: flips/layer l=1,32,64: 256 25.8 28.4; p_any(L)=1.000; NS_out=0.9958; GSA_1=227.2 (n/sqrt(2pi)=204.3)
+[  59.7s] sphere delta=1e-06: NS_sph=5.823e-05
+[  63.2s] sphere delta=1e-05: NS_sph=0.0005547
+[  67.6s] sphere delta=0.0001: NS_sph=0.004987
+[  72.0s] sphere delta=0.001: NS_sph=0.03485
+[  75.5s] sphere delta=0.01: NS_sph=0.1719
+[  78.8s] sphere delta=0.03: NS_sph=0.3009
+[  82.7s] sphere delta=0.1: NS_sph=0.4927
+[  86.3s] sphere delta=0.3: NS_sph=0.7154
+[  91.2s] sphere delta=1: NS_sph=0.9947
+done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/noise_n512_L64_s502.json

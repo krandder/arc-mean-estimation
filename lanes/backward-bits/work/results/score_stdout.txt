@@ -1,0 +1,209 @@
+{
+ "B1": {
+  "value": 0.7348484848484849,
+  "n": 132,
+  "undecided": 0,
+  "hit": false,
+  "provisional": false
+ },
+ "B2": {
+  "count": 9,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": false,
+  "provisional": false
+ },
+ "B3": {
+  "count": 9,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": true,
+  "provisional": false
+ },
+ "B4": {
+  "count": 9,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": true,
+  "provisional": false
+ },
+ "B5": {
+  "count": 7,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": false,
+  "provisional": false
+ },
+ "B6": {
+  "count": 11,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": true,
+  "provisional": false
+ },
+ "B7": {
+  "count": 11,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": true,
+  "provisional": false
+ },
+ "B8": {
+  "count": 8,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": false,
+  "provisional": false
+ },
+ "B9": {
+  "value": 0.946969696969697,
+  "n": 132,
+  "undecided": 0,
+  "hit": true,
+  "provisional": false
+ },
+ "B10": {
+  "value": 0.8825757575757576,
+  "n": 264,
+  "undecided": 0,
+  "hit": false,
+  "provisional": false
+ },
+ "B11": {
+  "value": 0.6704545454545454,
+  "n": 264,
+  "undecided": 0,
+  "hit": false,
+  "provisional": false
+ },
+ "B12": {
+  "count": 11,
+  "n": 12,
+  "undecided": 0,
+  "expected": 12,
+  "hit": true,
+  "provisional": false
+ },
+ "B13": {
+  "value": 0.9777777777777777,
+  "n": 90,
+  "undecided": 0,
+  "hit": true,
+  "provisional": false
+ },
+ "B14": {
+  "value": 0.16666666666666666,
+  "n": 12,
+  "undecided": 0,
+  "hit": false,
+  "provisional": false
+ }
+}
+{
+ "truth_monotone_violations": [],
+ "certified_all_the_way": {
+  "16x16_K": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "16x16_R": {
+   "certified_steps": false,
+   "carries_80pct": true,
+   "complete": true,
+   "verdict": false
+  },
+  "16x16_P": {
+   "certified_steps": true,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "16x16_PR": {
+   "certified_steps": true,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "16x8_K": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "16x8_R": {
+   "certified_steps": false,
+   "carries_80pct": true,
+   "complete": true,
+   "verdict": false
+  },
+  "16x8_P": {
+   "certified_steps": true,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "16x8_PR": {
+   "certified_steps": true,
+   "carries_80pct": true,
+   "complete": true,
+   "verdict": true
+  },
+  "8x16_K": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "8x16_R": {
+   "certified_steps": true,
+   "carries_80pct": true,
+   "complete": true,
+   "verdict": true
+  },
+  "8x16_P": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "8x16_PR": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "8x8_K": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "8x8_R": {
+   "certified_steps": true,
+   "carries_80pct": true,
+   "complete": true,
+   "verdict": true
+  },
+  "8x8_P": {
+   "certified_steps": false,
+   "carries_80pct": false,
+   "complete": true,
+   "verdict": false
+  },
+  "8x8_PR": {
+   "certified_steps": false,
+   "carries_80pct": true,
+   "complete": true,
+   "verdict": false
+  }
+ }
+}

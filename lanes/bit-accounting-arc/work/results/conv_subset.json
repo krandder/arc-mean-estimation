@@ -1,0 +1,122 @@
+[
+ {
+  "layer": 0,
+  "cls": "local",
+  "eps": 0.1,
+  "registered": 574.5652018392673,
+  "lowest": 572.6679295970778,
+  "run": "h1c2s2",
+  "doublings": "steps -0% (h1c2 -> h1c2s2); depth -0% (h1s2 -> h1c2s2)",
+  "verdict": "converged"
+ },
+ {
+  "layer": 0,
+  "cls": "local",
+  "eps": 0.01,
+  "registered": 1083.965674021619,
+  "lowest": 1064.7701991171039,
+  "run": "h1c2s2",
+  "doublings": "steps -2% (h1c2 -> h1c2s2); depth -0% (h1s2 -> h1c2s2)",
+  "verdict": "converged"
+ },
+ {
+  "layer": 0,
+  "cls": "unres",
+  "eps": 0.1,
+  "registered": 17.848582164597936,
+  "lowest": 17.434658398068645,
+  "run": "cap2steps4",
+  "doublings": "steps -1% (cap2steps2 -> cap2steps4); depth -0% (steps4 -> cap2steps4); width unverified",
+  "verdict": "unverified: no matched width partner"
+ },
+ {
+  "layer": 0,
+  "cls": "unres",
+  "eps": 0.01,
+  "registered": null,
+  "lowest": null,
+  "run": null,
+  "doublings": "",
+  "verdict": "not reached"
+ },
+ {
+  "layer": 16,
+  "cls": "local",
+  "eps": 0.1,
+  "registered": 26.975986037711365,
+  "lowest": 24.387703099701564,
+  "run": "h1s8",
+  "doublings": "steps -3% (h1s4 -> h1s8); depth unverified",
+  "verdict": "unverified: no matched depth partner"
+ },
+ {
+  "layer": 16,
+  "cls": "local",
+  "eps": 0.01,
+  "registered": 170.02859360272788,
+  "lowest": 149.72985582271835,
+  "run": "h1s8",
+  "doublings": "steps -5% (h1s4 -> h1s8); depth unverified",
+  "verdict": "not converged: steps -5% per doubling"
+ },
+ {
+  "layer": 16,
+  "cls": "unres",
+  "eps": 0.1,
+  "registered": 16.361711804336856,
+  "lowest": 15.434263367164618,
+  "run": "cap2steps8",
+  "doublings": "steps -1% (cap2steps4 -> cap2steps8); depth unverified; width unverified",
+  "verdict": "unverified: no matched depth, width partner"
+ },
+ {
+  "layer": 16,
+  "cls": "unres",
+  "eps": 0.01,
+  "registered": 110.65197831468063,
+  "lowest": 80.65356339273521,
+  "run": "cap2steps8",
+  "doublings": "steps -5% (cap2steps4 -> cap2steps8); depth unverified; width unverified",
+  "verdict": "not converged: steps -5% per doubling"
+ },
+ {
+  "layer": 31,
+  "cls": "local",
+  "eps": 0.1,
+  "registered": 15.440120250700845,
+  "lowest": 15.001442600630563,
+  "run": "cap2steps8",
+  "doublings": "steps -0% (cap2steps4 -> cap2steps8); depth unverified",
+  "verdict": "unverified: no matched depth partner"
+ },
+ {
+  "layer": 31,
+  "cls": "local",
+  "eps": 0.01,
+  "registered": 89.60214381028385,
+  "lowest": 75.36978738051904,
+  "run": "cap2steps8",
+  "doublings": "steps -3% (cap2steps4 -> cap2steps8); depth unverified",
+  "verdict": "not converged: steps -3% per doubling"
+ },
+ {
+  "layer": 31,
+  "cls": "unres",
+  "eps": 0.1,
+  "registered": 15.482635766766048,
+  "lowest": 14.71922699409608,
+  "run": "cap2steps8",
+  "doublings": "steps -1% (cap2steps4 -> cap2steps8); depth unverified; width unverified",
+  "verdict": "unverified: no matched depth, width partner"
+ },
+ {
+  "layer": 31,
+  "cls": "unres",
+  "eps": 0.01,
+  "registered": 88.15998238898194,
+  "lowest": 70.30345361151225,
+  "run": "cap2steps8",
+  "doublings": "steps -4% (cap2steps4 -> cap2steps8); depth unverified; width unverified",
+  "verdict": "not converged: steps -4% per doubling"
+ }
+]

@@ -1,0 +1,107 @@
+start ml n=32 L=32 s=100 21:51:21Z
+start ml n=32 L=32 s=101 21:51:21Z
+end ml n=32 L=32 s=100 exit=0 21:51:23Z
+start ml n=32 L=32 s=102 21:51:23Z
+end ml n=32 L=32 s=101 exit=0 21:51:23Z
+start ml n=32 L=32 s=103 21:51:23Z
+end ml n=32 L=32 s=102 exit=0 21:51:25Z
+start ml n=32 L=32 s=104 21:51:25Z
+end ml n=32 L=32 s=104 exit=0 21:51:26Z
+start ml n=32 L=32 s=105 21:51:26Z
+end ml n=32 L=32 s=103 exit=0 21:51:26Z
+start ml n=32 L=32 s=106 21:51:26Z
+end ml n=32 L=32 s=105 exit=0 21:51:27Z
+start ml n=32 L=32 s=107 21:51:27Z
+end ml n=32 L=32 s=106 exit=0 21:51:28Z
+start ml n=64 L=64 s=100 21:51:28Z
+end ml n=32 L=32 s=107 exit=0 21:51:28Z
+start ml n=64 L=64 s=101 21:51:28Z
+end ml n=64 L=64 s=100 exit=0 21:51:31Z
+start ml n=64 L=64 s=102 21:51:31Z
+end ml n=64 L=64 s=101 exit=0 21:51:31Z
+start ml n=64 L=64 s=103 21:51:31Z
+end ml n=64 L=64 s=102 exit=0 21:51:34Z
+start ml n=64 L=64 s=104 21:51:34Z
+end ml n=64 L=64 s=103 exit=0 21:51:34Z
+start ml n=64 L=64 s=105 21:51:34Z
+end ml n=64 L=64 s=104 exit=0 21:51:36Z
+start ml n=64 L=64 s=106 21:51:36Z
+end ml n=64 L=64 s=105 exit=0 21:51:36Z
+start ml n=64 L=64 s=107 21:51:36Z
+end ml n=64 L=64 s=106 exit=0 21:51:38Z
+start ml n=32 L=128 s=100 21:51:38Z
+end ml n=64 L=64 s=107 exit=0 21:51:38Z
+start ml n=32 L=128 s=101 21:51:38Z
+end ml n=32 L=128 s=100 exit=0 21:51:40Z
+start ml n=32 L=128 s=102 21:51:40Z
+end ml n=32 L=128 s=101 exit=0 21:51:41Z
+start ml n=32 L=128 s=103 21:51:41Z
+end ml n=32 L=128 s=102 exit=0 21:51:43Z
+start ml n=32 L=128 s=104 21:51:43Z
+end ml n=32 L=128 s=103 exit=0 21:51:44Z
+start ml n=32 L=128 s=105 21:51:44Z
+end ml n=32 L=128 s=104 exit=0 21:51:45Z
+start ml n=32 L=128 s=106 21:51:45Z
+end ml n=32 L=128 s=105 exit=0 21:51:46Z
+start ml n=32 L=128 s=107 21:51:46Z
+end ml n=32 L=128 s=106 exit=0 21:51:47Z
+start ml n=64 L=256 s=100 21:51:47Z
+end ml n=32 L=128 s=107 exit=0 21:51:47Z
+start ml n=64 L=256 s=101 21:51:48Z
+end ml n=64 L=256 s=100 exit=0 21:51:51Z
+start ml n=64 L=256 s=102 21:51:51Z
+end ml n=64 L=256 s=101 exit=0 21:51:52Z
+start ml n=64 L=256 s=103 21:51:52Z
+killed F1 queue by PID at 21:51:54Z to keep <= 2 processes while scoring; restarting with -P 1
+end ml n=64 L=256 s=102 exit=0 21:51:55Z
+end ml n=64 L=256 s=103 exit=0 21:51:56Z
+restarted F1 queue with -P 1 at 21:52:06Z (scorer runs alongside)
+start ml n=64 L=256 s=104 21:52:11Z
+end ml n=64 L=256 s=104 exit=0 21:52:14Z
+start ml n=64 L=256 s=105 21:52:14Z
+end ml n=64 L=256 s=105 exit=0 21:52:18Z
+start ml n=64 L=256 s=106 21:52:18Z
+end ml n=64 L=256 s=106 exit=0 21:52:22Z
+start ml n=64 L=256 s=107 21:52:22Z
+end ml n=64 L=256 s=107 exit=0 21:52:27Z
+start ml n=128 L=128 s=100 21:52:27Z
+end ml n=128 L=128 s=100 exit=0 21:52:36Z
+start ml n=128 L=128 s=101 21:52:36Z
+end ml n=128 L=128 s=101 exit=0 21:52:44Z
+start ml n=128 L=128 s=102 21:52:44Z
+end ml n=128 L=128 s=102 exit=0 21:52:51Z
+start ml n=128 L=128 s=103 21:52:51Z
+end ml n=128 L=128 s=103 exit=0 21:53:01Z
+start ml n=128 L=128 s=104 21:53:01Z
+end ml n=128 L=128 s=104 exit=0 21:53:14Z
+start ml n=128 L=128 s=105 21:53:14Z
+end ml n=128 L=128 s=105 exit=0 21:53:27Z
+start ml n=128 L=128 s=106 21:53:27Z
+end ml n=128 L=128 s=106 exit=0 21:53:38Z
+start ml n=128 L=128 s=107 21:53:38Z
+end ml n=128 L=128 s=107 exit=0 21:53:52Z
+start ml n=256 L=32 s=100 21:53:52Z
+end ml n=256 L=32 s=100 exit=0 21:53:59Z
+start ml n=256 L=32 s=101 21:53:59Z
+end ml n=256 L=32 s=101 exit=0 21:54:10Z
+start ml n=256 L=32 s=102 21:54:10Z
+end ml n=256 L=32 s=102 exit=0 21:54:16Z
+start ml n=256 L=32 s=103 21:54:16Z
+end ml n=256 L=32 s=103 exit=0 21:54:21Z
+start ml n=256 L=32 s=104 21:54:21Z
+end ml n=256 L=32 s=104 exit=0 21:54:25Z
+start ml n=256 L=32 s=105 21:54:25Z
+end ml n=256 L=32 s=105 exit=0 21:54:32Z
+start ml n=256 L=32 s=106 21:54:32Z
+end ml n=256 L=32 s=106 exit=0 21:54:39Z
+start ml n=256 L=32 s=107 21:54:39Z
+end ml n=256 L=32 s=107 exit=0 21:54:46Z
+start ml n=256 L=256 s=100 21:54:46Z
+end ml n=256 L=256 s=100 exit=0 21:55:06Z
+start ml n=256 L=256 s=101 21:55:06Z
+end ml n=256 L=256 s=101 exit=0 21:55:25Z
+start ml n=256 L=256 s=102 21:55:25Z
+end ml n=256 L=256 s=102 exit=0 21:55:45Z
+start ml n=256 L=256 s=103 21:55:45Z
+end ml n=256 L=256 s=103 exit=0 21:56:07Z
+ml queue done 21:56:07Z

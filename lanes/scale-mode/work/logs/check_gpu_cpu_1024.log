@@ -1,0 +1,1 @@
+CPU vs GPU LVTV2 on net 640: max rel diff 3.92e-13; V_L cpu 0.028381 gpu 0.028381; flops cpu 1.198715e+12 gpu 1.198715e+12; secs 1094

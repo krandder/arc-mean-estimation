@@ -1,0 +1,4 @@
+[5s] pilot 131072, truth 2^20, 4 held-out populations
+d=32 K=16: estimand nMSE 4.75e-01 | pop error (s=0.3/1.0) 0.955/0.474 = integration 0.028/0.008 vs approximation 0.821/0.411 | additivity 0.0e+00 | cost 274960 passes (29s)
+d=32 K=64: estimand nMSE 2.85e-01 | pop error (s=0.3/1.0) 0.717/0.284 = integration 0.009/0.021 vs approximation 0.733/0.174 | additivity 0.0e+00 | cost 313408 passes (77s)
+d=32 K=256: estimand nMSE 2.81e-01 | pop error (s=0.3/1.0) 0.155/0.280 = integration 0.038/0.052 vs approximation 0.126/0.103 | additivity 0.0e+00 | cost 467200 passes (285s)

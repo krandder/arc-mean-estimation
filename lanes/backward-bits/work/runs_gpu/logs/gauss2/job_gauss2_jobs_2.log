@@ -1,0 +1,25 @@
+l=14 power=0.03: rate KT [0.085, 0.327] MC 0.169 / loo 0.169 (half N: MC 0.160 / loo 0.160) I_dec 0.161 I_mix 0.171 | T 5.342
+l=14 power=0.06: rate KT [0.170, 0.641] MC 0.331 / loo 0.331 (half N: MC 0.325 / loo 0.326) I_dec 0.319 I_mix 0.320 | T 5.342
+l=14 power=0.12: rate KT [0.337, 1.212] MC 0.617 / loo 0.617 (half N: MC 0.627 / loo 0.628) I_dec 0.610 I_mix 0.623 | T 5.342
+l=14 power=0.25: rate KT [0.688, 2.272] MC 1.222 / loo 1.222 (half N: MC 1.200 / loo 1.201) I_dec 1.184 I_mix 1.194 | T 5.342
+l=14 power=0.5: rate KT [1.326, 3.662] MC 2.207 / loo 2.208 (half N: MC 2.169 / loo 2.171) I_dec 2.091 I_mix 2.092 | T 5.342
+l=14 power=1.0: rate KT [2.407, 4.667] MC 3.333 / loo 3.335 (half N: MC 3.378 / loo 3.381) I_dec 3.170 I_mix 3.191 | T 5.342
+l=14 power=2.0: rate KT [3.847, 5.552] MC 4.545 / loo 4.550 (half N: MC 4.520 / loo 4.528) I_dec 4.083 I_mix 4.096 | T 5.342
+l=14 power=4.0: rate KT [4.844, 6.421] MC 5.379 / loo 5.396 (half N: MC 5.374 / loo 5.402) I_dec 4.386 I_mix 4.405 | T 5.342
+l=7 power=0.03: rate KT [0.085, 0.322] MC 0.165 / loo 0.165 (half N: MC 0.157 / loo 0.157) I_dec 0.157 I_mix 0.159 | T 5.005
+l=7 power=0.06: rate KT [0.169, 0.627] MC 0.338 / loo 0.338 (half N: MC 0.320 / loo 0.320) I_dec 0.312 I_mix 0.315 | T 5.005
+l=7 power=0.12: rate KT [0.333, 1.184] MC 0.634 / loo 0.634 (half N: MC 0.606 / loo 0.606) I_dec 0.598 I_mix 0.599 | T 5.005
+l=7 power=0.25: rate KT [0.681, 2.204] MC 1.195 / loo 1.195 (half N: MC 1.191 / loo 1.191) I_dec 1.156 I_mix 1.174 | T 5.005
+l=7 power=0.5: rate KT [1.315, 3.494] MC 2.117 / loo 2.117 (half N: MC 2.104 / loo 2.106) I_dec 1.998 I_mix 1.986 | T 5.005
+l=7 power=1.0: rate KT [2.367, 4.485] MC 3.241 / loo 3.242 (half N: MC 3.226 / loo 3.229) I_dec 2.985 I_mix 2.968 | T 5.005
+l=7 power=2.0: rate KT [3.850, 5.727] MC 4.574 / loo 4.577 (half N: MC 4.590 / loo 4.597) I_dec 3.787 I_mix 3.807 | T 5.005
+l=7 power=4.0: rate KT [5.019, 6.805] MC 5.611 / loo 5.620 (half N: MC 5.624 / loo 5.646) I_dec 4.163 I_mix 4.177 | T 5.005
+l=0 power=0.03: rate KT [0.084, 0.301] MC 0.165 / loo 0.165 (half N: MC 0.143 / loo 0.144) I_dec 0.148 I_mix 0.149 | T 4.535
+l=0 power=0.06: rate KT [0.162, 0.529] MC 0.276 / loo 0.276 (half N: MC 0.279 / loo 0.279) I_dec 0.275 I_mix 0.277 | T 4.535
+l=0 power=0.12: rate KT [0.326, 1.070] MC 0.579 / loo 0.579 (half N: MC 0.591 / loo 0.592) I_dec 0.531 I_mix 0.534 | T 4.535
+l=0 power=0.25: rate KT [0.654, 1.894] MC 1.091 / loo 1.091 (half N: MC 1.094 / loo 1.095) I_dec 0.955 I_mix 0.981 | T 4.535
+l=0 power=0.5: rate KT [1.209, 2.868] MC 1.846 / loo 1.847 (half N: MC 1.826 / loo 1.827) I_dec 1.515 I_mix 1.526 | T 4.535
+l=0 power=1.0: rate KT [2.110, 4.137] MC 2.810 / loo 2.812 (half N: MC 2.828 / loo 2.833) I_dec 2.090 I_mix 2.094 | T 4.535
+l=0 power=2.0: rate KT [3.482, 6.267] MC 4.498 / loo 4.518 (half N: MC 4.444 / loo 4.475) I_dec 2.536 I_mix 2.565 | T 4.535
+l=0 power=4.0: rate KT [5.229, 8.830] MC 6.462 / loo 6.541 (half N: MC 6.458 / loo 6.589) I_dec 2.860 I_mix 2.925 | T 4.535
+done 480.33397364616394

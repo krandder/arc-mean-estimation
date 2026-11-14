@@ -1,0 +1,6 @@
+203 D 2^20 (nMSE 1.58e-02, 13738 cells) MC M 2^12 nMSE 1.216e-04 cost 1.21e+06 mv Var(f-q)/Var(f) 0.5932429071878377 (3s)
+203 D 2^20 (nMSE 1.58e-02, 13738 cells) RQMC M 2^12 nMSE 8.768e-05 cost 1.23e+06 mv Var(f-q)/Var(f) None (3s)
+203 D 2^20 (nMSE 1.58e-02, 13738 cells) MC M 2^14 nMSE 6.487e-05 cost 1.68e+06 mv Var(f-q)/Var(f) 0.5864028423219616 (4s)
+203 D 2^20 (nMSE 1.58e-02, 13738 cells) RQMC M 2^14 nMSE 1.430e-05 cost 1.76e+06 mv Var(f-q)/Var(f) None (5s)
+203 D 2^20 (nMSE 1.58e-02, 13738 cells) MC M 2^16 nMSE 1.447e-05 cost 3.55e+06 mv Var(f-q)/Var(f) 0.5800949472664341 (8s)
+203 D 2^20 (nMSE 1.58e-02, 13738 cells) RQMC M 2^16 nMSE 1.587e-06 cost 3.88e+06 mv Var(f-q)/Var(f) None (10s)

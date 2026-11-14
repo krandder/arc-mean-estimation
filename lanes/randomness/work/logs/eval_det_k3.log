@@ -1,0 +1,2 @@
+[    2.1s] n=256 L=32 seed=200 N=2^6: nMSE x N sobol_rb 0.382 sobol_plain 3.18 sobol_rb_polar 2.97 lattice_rb 1.04 lattice_baker_rb 0.333
+[   16.4s] n=256 L=32 seed=200 kwise k=2 q=257 N=66049: nMSE x N plain 0.729 rb 0.553

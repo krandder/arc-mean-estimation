@@ -1,0 +1,5 @@
+[      1s] l=14: resumed
+[      1s] l=13: resumed
+[    425s] l=12: T 5.022 (erased 0.319 of 5.341) | code K=49 H 5.232 I 4.798 deficit 0.223 | reuse H 5.313 I 4.979 | exCE 0.1631 | 424s
+[    713s] l=11: T 4.781 (erased 0.576 of 5.357) | code K=48 H 5.216 I 4.628 deficit 0.153 | reuse H 5.239 I 4.758 | exCE 0.1657 | 287s
+[   1016s] l=10: T 4.609 (erased 0.739 of 5.348) | code K=48 H 5.192 I 4.457 deficit 0.152 | reuse H 5.214 I 4.596 | exCE 0.1784 | 303s

@@ -1,0 +1,11 @@
+l=14 beta=0.02: rate KT [8.133, 9.645] MC 8.570 / loo 9.012 (half N: MC 8.524 / loo 9.903) I_dec 5.105 I_mix 5.140 | T 5.342
+l=14 beta=0.04: rate KT [7.315, 8.660] MC 7.713 / loo 7.991 (half N: MC 7.631 / loo 8.306) I_dec 5.085 I_mix 5.123 | T 5.342
+l=14 beta=0.07: rate KT [6.997, 8.278] MC 7.390 / loo 7.699 (half N: MC 7.319 / loo 7.928) I_dec 5.069 I_mix 5.090 | T 5.342
+l=14 beta=0.1: rate KT [6.688, 7.852] MC 7.004 / loo 7.434 (half N: MC 7.019 / loo 7.760) I_dec 5.044 I_mix 5.067 | T 5.342
+l=14 beta=0.14: rate KT [6.418, 7.571] MC 6.790 / loo 6.908 (half N: MC 6.702 / loo 6.966) I_dec 5.002 I_mix 5.026 | T 5.342
+l=14 beta=0.2: rate KT [6.078, 7.214] MC 6.415 / loo 6.473 (half N: MC 6.394 / loo 6.561) I_dec 4.949 I_mix 4.963 | T 5.342
+l=14 beta=0.28: rate KT [5.656, 6.800] MC 5.986 / loo 6.015 (half N: MC 6.007 / loo 6.066) I_dec 4.849 I_mix 4.865 | T 5.342
+l=14 beta=0.4: rate KT [4.788, 5.784] MC 5.045 / loo 5.049 (half N: MC 5.081 / loo 5.091) I_dec 4.415 I_mix 4.424 | T 5.342
+l=11 beta=0.02: rate KT [7.476, 8.738] MC 7.855 / loo 8.182 (half N: MC 7.815 / loo 8.769) I_dec 5.097 I_mix 5.118 | T 5.275
+l=11 beta=0.04: rate KT [7.186, 8.360] MC 7.527 / loo 7.901 (half N: MC 7.470 / loo 7.858) I_dec 5.085 I_mix 5.098 | T 5.275
+l=11 beta=0.07: rate KT [6.786, 7.900] MC 7.070 / loo 7.299 (half N: MC 7.033 / loo 7.295) I_dec 5.056 I_mix 5.068 | T 5.275

@@ -1,0 +1,6 @@
+PASS disjoint: means from the confident expert  [1.     1.9999 2.9999 3.9998]
+PASS disjoint: both ends stay tight (variance <= 1.01e-4)  [9.99950002e-05 9.99950002e-05 9.99950002e-05 9.99950002e-05]
+PASS (reference) normalised gPoE inflates the variance ~2x  [0.00019998 0.00019998 0.00019998 0.00019998]
+PASS identical: mean exact
+PASS identical: calibrated (variance equals one expert, not half)  [1.e-04 1.e-04 1.e+00 1.e+00]
+ALL PASS

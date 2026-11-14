@@ -1,0 +1,5 @@
+{
+ "status": "final after three gpt-6-astra review rounds (major, major, minor revision; 16 + 9 + 9 findings; responses in review/RESPONSE.md, section 8). All scored runs complete under PREREG Part 1 and Amendments 1-2.",
+ "review": "gpt-6-astra via codex-any (read-only, xhigh; model line checked in all three raw logs). Round 1 (15:22-15:45Z): major revision, 16 findings; round 2 (16:39-16:54Z): major revision, 9 findings; round 3 (17:20-17:25Z): minor revision, 9 items, all applied; rounds 2 and 3 reproduced every generated file byte for byte and all hashes. Resolved: scope of the summary, point/line separation, registered MLMC budgets, upper-bound labels, matched-N references at 256 x 32, ledger sensitivity (allowance-based), scorer completeness checks, wording. Disclosed limitations, not fixed: no slope-difference intervals or equivalence test (replicate vectors not saved), the P3b follow-up stopped after one extra budget on one net, no per-net degree certificate (degree 4 and 6 not measured), no instrumented operation counts, frozen runner imports the live library (file equality checked retrospectively), MLMC's uncharged draws.",
+ "compute_hours": "6"
+}

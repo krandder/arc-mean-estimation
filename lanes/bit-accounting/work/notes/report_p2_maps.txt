@@ -1,0 +1,37 @@
+### 3.2 Phase 2, P2.0 parts 2-4: code maps between consecutive layers (amendment P2.0-a; 56 cell pairs)
+
+Per net, layer and class: results/P2_maps_table.md (scripts scratch/p2_maps.py, scratch/report_P2_maps.py; raw
+results/P2_maps_all.json; v2 after review r3: rank-truncated fits and gate probes on the noisy codes, scratch/p2_maps_v2.py,
+results/P2_maps_v2_table.md, raw results/P2_maps_v2_all.json; the numbers below are v2). For each grid layer l, the phase-1 code at l and a code trained the same way at l+1 (model
+r0, lambda = 0.01, held-out inputs):
+- **The next code is almost a deterministic function of the current one** (R^2 of an MLP map 0.94-1.00 everywhere).
+  **From L/4 on, that map is almost exactly affine** for both classes (ReLU affine R^2 0.98-1.00, equal to the MLP's;
+  chaotic tanh 0.93-0.98).
+  The exception is the step from the input layer, where the local code map is 0.73-0.74 affine (the first ReLU
+  acts on the code). The late 32x32 local codes, 0.72-0.79 in the first version, are 0.997-1.000 affine with rank
+  truncation (MEASURED, v2; the first-version values were near-singular regressions).
+- **The real layer, applied to the decoded code and re-encoded, reproduces the next code** with R^2 0.94-0.99 (0.76
+  at the 32x32 input layer), and it agrees with the fitted MLP map at R^2 0.71-0.99.
+- **Gates: on the code means, but not on the codes as received (v2, MEASURED).** A probe on the noiseless code means
+  at l predicts every gate of layer l+1 of the ReLU nets with at least 95% held-out accuracy (local class); the
+  unrestricted means predict none at the input, 25% / 59% at L/4, 62% / 94% at L/2 and 81% / 100% at 3L/4 (16x16 /
+  32x32). Refitted on the codes as received (code mean plus the unit channel noise), the ReLU share falls to the
+  constant base rate (medians over both nets): local 0.41 against base 0.38 at L/4, 0.58 / 0.58 at L/2, 0.77 / 0.75 late, and 0 / 0 at the
+  input (unrestricted the same within 0.05). The mean probe accuracy gain over the base rate is 0.02-0.04 from L/4
+  on (0.32 at the input layer, where no gate reaches 95%). So on the ReLU nets the received code does not determine the
+  next layer's gates beyond what the base rate gives. The chaotic tanh net (one seed) differs: its received local
+  codes still predict gates well above the base rate (mean gain 0.42-0.47; share at 95%: 1.00 input, 0.81 L/4,
+  0.06-0.12 later, base 0 everywhere).
+- **Rotation.** On the ReLU nets, the next code's subspace is the image of the current one under the cloud-averaged
+  Jacobian only at the first step (cos^2 0.89-0.92). Later it rotates away (0.22-0.51, v2). Those later codes have few
+  active directions, so the statistic is fragile there.
+- **Registered predictions, all missed.** H2: agreement >= 0.8 holds on 36/36 ReLU pairs, but the chaotic tanh net
+  also agrees (0.91-1.0, registered < 0.5). H3: compression does not make the map more linear (26/36 in v2, 25/36
+  in the first version; registered >= 75%). H4 came out reversed: ReLU median 0.31 (v2; 0.24 first version), tanh 0.82.
+- **The control contrast.** On the chaotic tanh net the per-layer code maps are as predictable, as affine and as
+  close to the layer map as on the ReLU nets (the gate probe on received codes is the one step statistic that differs). In these runs, how simple one step looks does not separate ordered
+  from chaotic nets; how the bit counts grow with depth (section 2) does.
+- **In certified-linear terms, stated as empirical affine fits of the code means (they certify nothing):** across one
+  layer the anchored codes' means are affine to R^2 0.98-1.00 from L/4 on, except at the first layer.
+  The cost of linearity sits in the code itself rather than in the step between codes: per layer, the linear-piece
+  ratio is 1.25-1.7 and the learned-mixture ratio is 0.6-0.8 (section 3.1).

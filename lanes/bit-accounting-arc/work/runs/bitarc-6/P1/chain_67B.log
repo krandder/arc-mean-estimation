@@ -1,0 +1,11 @@
+done arc [4000] l=16 local rndhi train 684s total 822s
+done arc [4000] l=16 local h1s2 train 1354s total 1491s
+done arc [4000] l=16 local rndmid train 681s total 814s
+done arc [4000] l=16 local h1c2 train 818s total 936s
+done arc [4000] l=31 unres steps4 train 3176s total 3261s
+done arc [4000] l=16 unres steps4 train 3387s total 3530s
+done arc [4000] l=16 local h1s4 train 2568s total 2704s
+done arc [4000] l=31 unres fixlam train 2131s total 2321s
+done arc [4000] l=31 unres cap2steps4 train 4017s total 4110s
+done arc [4000] l=16 unres cap2steps4 train 4238s total 4374s
+done arc [4000] l=31 unres cap2 train 893s total 924s

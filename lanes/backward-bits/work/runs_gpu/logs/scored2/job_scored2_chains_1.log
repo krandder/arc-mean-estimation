@@ -1,0 +1,3 @@
+[    176s] l=14: T 4.744 (erased 1.000 of 5.743) | code K=30 H 4.763 I 3.468 deficit 1.276 | reuse H 5.735 I 4.092 | exCE 0.0145 | 176s
+[    347s] l=13: T 3.749 (erased 1.015 of 4.764) | code K=14 H 3.702 I 2.616 deficit 1.133 | reuse H 4.752 I 3.187 | exCE 0.0219 | 171s
+[    482s] l=12: T 2.899 (erased 0.805 of 3.703) | code K=10 H 2.891 I 2.081 deficit 0.818 | reuse H 3.692 I 2.445 | exCE 0.0152 | 135s

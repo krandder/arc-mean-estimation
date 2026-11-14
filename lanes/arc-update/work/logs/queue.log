@@ -1,0 +1,33 @@
+devA start 05:16:41Z
+devB start 05:16:41Z
+devB end 05:22:07Z
+devA end 05:24:13Z
+evalX start 05:29:26Z
+evalX start 05:30:31Z
+evalY start 05:32:03Z
+evalY n=32 done 05:35:36Z
+evalY n=64 done 06:14:45Z
+evalX2 start 06:56:12Z
+evalX2 seed 201 core done 07:05:49Z
+evalY n=128 done 07:07:54Z
+evalY end 07:07:54Z
+evalW start 07:08:02Z
+evalW n=32 done 07:09:51Z
+evalW n=64 done 07:13:46Z
+evalX2 seed 202 core done 07:16:26Z
+evalW n=128 done 07:25:53Z
+evalX2 seed 203 core done 07:26:38Z
+evalX2 seed 204 core done 07:35:18Z
+evalW end 07:51:38Z
+evalV start 07:51:41Z
+evalV n=64 done 07:55:38Z
+evalV n=128 done 08:10:30Z
+evalX2 rank 201 done 08:21:50Z
+evalV stopped 08:25:09Z (see deviations)
+evalV2 start 08:28:18Z
+evalX2 k3 done 09:00:10Z
+evalV2 n=256 done 09:51:32Z
+evalV2 n=128 done 10:04:02Z
+evalV2 n=64 done 10:06:58Z
+evalV2 end 10:06:58Z
+evalX2 end 12:54:44Z

@@ -1,0 +1,14 @@
+relu_32x32_s5001_l1 --configs 32x32 --seeds 5001 --layers 1 --netkind relu --groups G1 --certs 0
+relu_32x32_s5000_l9 --configs 32x32 --seeds 5000 --layers 9 --netkind relu --groups G1 --certs 0
+relu_32x32_s5002_l9 --configs 32x32 --seeds 5002 --layers 9 --netkind relu --groups G1 --certs 0
+relu_32x32_s5001_l17 --configs 32x32 --seeds 5001 --layers 17 --netkind relu --groups G1 --certs 0
+relu_32x32_s5000_l25 --configs 32x32 --seeds 5000 --layers 25 --netkind relu --groups G1 --certs 0
+relu_32x32_s5002_l25 --configs 32x32 --seeds 5002 --layers 25 --netkind relu --groups G1 --certs 0
+relu_16x16_s5001_l1 --configs 16x16 --seeds 5001 --layers 1 --netkind relu --groups G1 --certs 0
+tanh4_16x16_s5000_l1 --configs 16x16 --seeds 5000 --layers 1 --netkind tanh4 --groups G1 --certs 0
+relu_16x16_s5001_l5 --configs 16x16 --seeds 5001 --layers 5 --netkind relu --groups G1 --certs 0
+tanh4_16x16_s5000_l5 --configs 16x16 --seeds 5000 --layers 5 --netkind tanh4 --groups G1 --certs 0
+relu_16x16_s5001_l9 --configs 16x16 --seeds 5001 --layers 9 --netkind relu --groups G1 --certs 0
+tanh4_16x16_s5000_l9 --configs 16x16 --seeds 5000 --layers 9 --netkind tanh4 --groups G1 --certs 0
+relu_16x16_s5001_l13 --configs 16x16 --seeds 5001 --layers 13 --netkind relu --groups G1 --certs 0
+tanh4_16x16_s5000_l13 --configs 16x16 --seeds 5000 --layers 13 --netkind tanh4 --groups G1 --certs 0

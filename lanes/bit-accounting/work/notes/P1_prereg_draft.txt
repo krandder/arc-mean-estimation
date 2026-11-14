@@ -1,0 +1,116 @@
+
+## Part P1 (phase 1; Kelvin 02:55Z and 03:20Z via main): the best bits-vs-accuracy curve of every layer
+## (registered before any P1 evaluation run. Seen before registration: dev seed 9100 runs of two earlier versions
+## (3 + 4 cells: the variable-rate model was 4-67% worse in Lagrangian than fixed-lambda models, 2x steps helped by up
+## to 27%, and at l = 0 local the linear reference beat every learned code; this version adds the analytic anchor,
+## the lambda normalisation and 6000 steps); a CPU check that the untrained model reproduces the linear reference
+## (16x4, l = 1: R(0.1) 12.4-12.5 against 12.1); S7-style fixed-lambda gfix reference runs on relu 16x16/32x32 s5000
+## and on the S11 controls tanh4/feistel/linear 16x16 s5000)
+
+Code: gpu_src/scripts/run_vr.py (hashed below). One lambda-conditioned variable-rate code per (net, layer, class).
+- Code: z = E(x, t) + N(0, I_K), K = n (n >= 16 here); x = whitened h_l. Fixed unit noise with encoder-chosen power is
+  the same family as fixed power with chosen noise: only the per-latent SNR matters. Rate = log2 q(z | x) - log2 p(z | t)
+  summed over latents (one-draw estimate of KL(q || p) >= I(h_l; z), bits); t = (log10 lambda + 2) / 2.
+- Conditioning: FiLM on t in every hidden layer of encoder and decoder (act(g(t) (W x + b) + c(t)); g - 1 and c from
+  small MLPs of t, zero at initialisation) and the per-latent gain a~(t) below.
+- Classes: unres = MLP 3 x 256 on (whitened h_l, whitened exact output a) plus a linear skip; local = one ReLU layer
+  of width n on the whitened h_l, then affine (for every fixed t an element of L^1(n)).
+- Anchor (Kelvin 03:20Z: identity at a high budget, shed the least important directions first as the price rises,
+  and the linear reference): code y = a~(lambda) * y~(x). y~ is a unit-scale encoder output initialised to U^T x
+  (U, g = eigenpairs of the cloud-averaged future-weighted Jacobian Gram G = E[J^T J], J = da/dx); a~ = a + c(lambda)
+  with the analytic water-filled gain a_i = min(16, sqrt(max(0, g_i / theta - 1))), theta = lambda V / (2 ln 2) (the
+  water level minimising the linearised Lagrangian; the cap 16 = SNR 256 = Kelvin's identity anchor at about 4 bits
+  per direction) and a learned correction c (zero at initialisation; it can raise powers or switch on directions the
+  linear code leaves off). Decoder input b~ * z with b~ = a~ / (a~^2 + 1) (linear-MMSE scaling), output = MLP + U b~ z
+  (MLP zero at initialisation). So at initialisation the code at every lambda is the linear reference code (capped);
+  at high budget it reconstructs every direction the output depends on almost perfectly. local: u = relu(x + 8)
+  (exact for x > -8), y~ = (u - 8) U, i.e. y = a~ (A2 u + b2): affine in u for every fixed lambda (class L^1(n)).
+- Lambda annealed upward (Kelvin 03:20Z): variable-rate models draw log10 lambda ~ U[-4, -4 + 4 r], r rising linearly
+  from 0 to 1 over the first quarter of training; fixed-lambda models move from 1e-4 to their lambda on the same
+  schedule.
+- Loss per example: Lagrangian d + lambda x rate, d = |g_l(h_hat) - a|^2 / tr Var(a), divided by a running mean of the
+  Lagrangian in its lambda bin (16 bins), so every lambda counts equally (each lambda's optimum is unchanged).
+- Prior p(z | t): on the standardised code z / sqrt(a~^2 + 1): a unit lower-triangular linear map (conditioned on t;
+  captures correlations, |det| = 1), then per latent a mixture of 4 Gaussians with parameters = base + MLP(t); plus
+  the Jacobian term.
+- Decoder: as above, MLP 3 x 256 -> whitened state -> the real rest of the net (feistel: tanh into [-1, 1]^n).
+- Training: Adam (lr 1e-3, betas 0.9/0.99), warm-up 2%, cosine to 1%, gradient-norm clip 100, batch 2048, fresh net
+  samples every step, S = 6000 steps.
+Per cell: G1 (batched): r0, r1, r2 = variable-rate restarts; f1, f2, f3 = separately trained fixed-lambda models at
+lambda = 0.1, 0.01, 0.001. G2 wide: widths x 2 (unres 512; local hidden 2n, outside L^1(n)), decoder 512, 8 prior
+components. G3 long: base architecture, 2S steps. Evaluation on 32768 held-out samples: every variable-rate model on
+17 lambdas (log10 lambda = -4 .. 0 by 0.25): rate, nMSE, output-mean error; fixed models at their lambda; r0's rate
+re-measured with fresh priors fitted on half A of the held-out codes and evaluated on half B (factorised 8-Gaussian
+mixture; full-covariance Gaussian); r0_refit = the smallest of trained / refits at each lambda; centroid test at
+lambda = 0.1, 0.01, 0.001 (output-space regressor E[a | z], MLP 3 x 512, 2000 steps, 98304 fresh samples, against
+the model's nMSE on the same held-out codes). Linear analytic reference (Kelvin 03:20Z): G = E[J^T J] (J = da/dx at
+the actual states; 16384 samples), reverse-water-filled powers p_i = g_i / theta - 1 on its eigen-directions, unit
+noise, linear MMSE decoding, run through the REAL rest of the net on held-out states; rate by the capacity formula
+(an upper bound on that code's information); 40 water levels; its linearised prediction is stored too. R_G(D) =
+Gaussian reverse water-filling on Cov(a).
+Cells: relu 16x4, 32x8, 16x16, 32x32, seeds 5000-5002, layers {0, L/4, L/2, 3L/4, L-1} x {local, unres} and the
+output (unres); controls tanh4, feistel, linear 16x16 seed 5000, same cells. Order: relu 16x16/32x32 seed 5000, then
+seeds 5001-5002 and the controls, then 16x4 and 32x8.
+Counts. R_c(D) for curve c = rate where the monotone envelope of (rate, nMSE) crosses D (log-linear interpolation),
+D in {0.3, 0.1, 0.03, 0.01, 0.003, 0.001}; "unreached" if it does not. Slope = bits per halving of the output error,
+(R(D2) - R(D1)) / log2(D1 / D2) between consecutive D. Reported count R*(D) = min over the learned codes of the class
+(r0, r1, r2, long, r0_refit; wide for unres only; for local, wide is reported separately as the width sensitivity).
+The linear reference is reported next to it.
+Certificates (per cell, D in {0.1, 0.01}, where reached; a failing cell is flagged, still reported):
+- C1 restarts: the rates of r0, r1, r2 within max(0.5 bit, 10% of the median), or their nMSE at the median rate
+  within a factor 1.1 (flat curves: a small error difference is a large rate difference).
+- C2 steps: R_r0 - R_long <= max(0.5, 10% of R_r0), or r0's nMSE at R_long within 1.1 x long's.
+- C3 capacity: the same against wide (unres; for local a failure means the width-n restriction binds).
+- C4 prior: the refitted rates >= 0.95 x the trained rate on every lambda with rate > 1 bit (r0).
+- C5 centroid: nMSE_model <= 1.1 x nMSE_centroid + 0.002 at the three lambdas.
+- C6 spot check (Kelvin's condition): Lagrangian nMSE + lambda x rate of r0 at lambda_j <= 1.03 x that of the fixed
+  model f_j. If C6 fails on more than 10% of (cell, lambda) points, the variable-rate design counts as worse: the
+  curves are then the lower envelope of the variable-rate curves and the fixed points, and the failure is reported.
+- C7 analytic reference: R*(D) <= R_linref(D) + max(0.3, 5%) wherever the linear reference reaches D (else the
+  learned code is undertrained there).
+Known answers:
+- KA1 output: R*_out(D) <= R_G(D) + 0.3 bit at D in {0.1, 0.03, 0.01} on every relu net.
+- KA2 shortcut: |R*_unres(l, D) - R*_out(D)| <= max(0.5, 15% of R*_out) at D in {0.1, 0.01} on >= 90% of (net, l).
+- KA3 linear net (Gaussian, R(D) = R_G(D) exactly): R*(l, D) within max(0.3, 10%) of R_G(D) at D in {0.1, 0.03,
+  0.01} for both classes at every layer.
+Predictions:
+- P1.1 C1, C2, C3 (unres), C4, C5, C7 each pass on >= 90% of the points where they apply; C6 as above.
+- P1.2 local R*(0, 0.1) >= 2 x R*_out(0.1) (or unreached) on >= 5 of the 6 L = n relu nets.
+- P1.3 local R*(l, 0.1) is non-increasing in l (within 0.5 bit) on >= 80% of the 12 relu nets.
+- P1.4 the output slope between D = 0.1 and 0.01 is smaller on the deeper net of each width (16x16 < 16x4 and
+  32x32 < 32x8), for each seed.
+- P1.5 controls: tanh4 local R*(l, 0.1) >= R*_out(0.1) + 4 bits (or unreached) for l in {0, 4, 8}; feistel local
+  R*(0, 0.1) >= R*_out(0.1) + 2 bits (or unreached); linear: KA3.
+Scorer: gpu_src/scripts/score_P1.py (hashed below, before any P1 evaluation result).
+
+## Part P2.0 (phase 2, registered now, run only after phase 1 is final): Kelvin's near-identity hypothesis
+## (Kelvin 03:3xZ via main: "Because this encoding/decoding starts near the identity, I at least hope it has some
+## inductive bias to remaining somewhat close to it even at high compression ... comparing these two transformations
+## (actual activations from l -> l+1) and (bit-optimal encoding from l -> l+1) may be super important")
+Codes: the identity-anchored P1 models (r0), plus, for each grid layer l < L - 1, a P1-method code at l + 1 (same
+class) so that consecutive layers can be compared; lambda in {0.1, 0.01, 0.001}. All statistics are invariant to
+rotations of the code (the fixed isotropic noise leaves an orthogonal freedom): R^2 of fits, principal angles,
+subspace comparisons; maps are compared by fit quality, never by coefficients.
+(1) Distance from identity: the share of code variance (encoder mean y) that is a linear function of the whitened
+    h_l (R^2 of the best linear map, variance-weighted over latents); principal angles between the code's active
+    subspace (top-k right singular vectors of that linear map, k = latents with SNR > 1) and the top-k eigenvectors of
+    the future-weighted spectrum G (as in the linear reference).
+(2) The code map vs the layer map: T_l = best map c_l -> c_{l+1} (linear and MLP fits on code means) against the layer
+    map restricted to the code, c -> E_{l+1}(f_{l+1}(D_l(c))); agreement R^2 between the two, and the linear share
+    (R^2 of a linear fit) of each; whether the linear share at high compression (lambda = 0.1) is above that at low
+    compression (lambda = 0.001), i.e. whether dropping directions removes the gate flips that make the map nonlinear.
+(3) Gates: for every unit of layer l + 1, whether the code at l determines its gate (held-out accuracy of predicting
+    sign of the pre-activation from c_l, against the base rate), by the unit's distance to its boundary and its
+    gradient energy; tracked = accuracy >= 0.95; compared with the relevance lane's gate counts where available.
+(4) Rotation: principal angles between the code's active subspace at l + 1 and the image of the active subspace at l
+    under the cloud-averaged Jacobian of layer l + 1.
+(5) Noisy nets (Model S, sigma = 1, 16x16 and 32x32): whether T_l settles to one shared map with depth (fit T_l on
+    layer l, score it on layer l + k; aligned by orthogonal Procrustes on the codes).
+Controls: the same on tanh4 (chaotic): Kelvin's hope should fail there.
+Predictions (Kelvin's hypothesis, ReLU vs tanh4): on relu 16x16 and 32x32, at lambda = 0.01 and l >= L/4:
+- H1 linear share of the code (1) >= 0.8 on >= 75% of (net, l, class); on tanh4 < 0.5 at l <= L/2.
+- H2 the code map and the layer map agree (2) with R^2 >= 0.8 on >= 75% of relu (net, l); < 0.5 on tanh4.
+- H3 the linear share of T_l at lambda = 0.1 is >= that at lambda = 0.001 on >= 75% of relu (net, l).
+- H4 (rotation) the mean cos^2 of the principal angles in (4) is >= 0.7 on relu, < 0.4 on tanh4.
+- H5 (noisy) T_l fitted at l scores R^2 >= 0.8 at l + 4 on the noisy 32x32 nets for l >= L/2.
+Code and scorer for P2.0: written and hashed before the phase-2 runs.

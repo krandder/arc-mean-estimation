@@ -1,0 +1,15 @@
+n=512 L=64 s=500 l=1: PR 126.4, stable rank 43.0, top-16 share 0.253, top-n/4 share 0.815 (52s)
+n=512 L=64 s=500 l=8: PR 35.6, stable rank 12.9, top-16 share 0.572, top-n/4 share 0.975 (106s)
+n=512 L=64 s=500 l=16: PR 21.6, stable rank 8.0, top-16 share 0.700, top-n/4 share 0.989 (160s)
+n=512 L=64 s=500 l=32: PR 10.3, stable rank 4.7, top-16 share 0.841, top-n/4 share 0.998 (207s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/relspec_n512_L64_s500.json
+n=512 L=64 s=501 l=1: PR 134.5, stable rank 45.8, top-16 share 0.237, top-n/4 share 0.810 (75s)
+n=512 L=64 s=501 l=8: PR 43.0, stable rank 14.9, top-16 share 0.523, top-n/4 share 0.966 (155s)
+n=512 L=64 s=501 l=16: PR 23.1, stable rank 10.5, top-16 share 0.700, top-n/4 share 0.990 (238s)
+n=512 L=64 s=501 l=32: PR 12.8, stable rank 6.7, top-16 share 0.839, top-n/4 share 0.998 (300s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/relspec_n512_L64_s501.json
+n=512 L=64 s=502 l=1: PR 127.5, stable rank 44.4, top-16 share 0.253, top-n/4 share 0.815 (63s)
+n=512 L=64 s=502 l=8: PR 36.3, stable rank 12.7, top-16 share 0.571, top-n/4 share 0.974 (135s)
+n=512 L=64 s=502 l=16: PR 20.7, stable rank 7.5, top-16 share 0.715, top-n/4 share 0.991 (202s)
+n=512 L=64 s=502 l=32: PR 11.8, stable rank 4.9, top-16 share 0.843, top-n/4 share 0.999 (267s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/relspec_n512_L64_s502.json

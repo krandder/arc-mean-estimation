@@ -1,0 +1,14 @@
+truth n=512 L=64 s=502 2^22 paths (4703s)
+rqmc n=512 m=8: 2.750e-03 (MC 3.906e-03) (4706s)
+rqmc n=512 m=10: 6.150e-04 (MC 9.766e-04) (4709s)
+rqmc n=512 m=12: 1.666e-04 (MC 2.441e-04) (4718s)
+rqmc n=512 m=14: 4.352e-05 (MC 6.104e-05) (4779s)
+n=512 L=64 s=502 k2: nMSE 1.312e-03 passes 777
+n=512 L=64 s=502 none: nMSE 4.445e-04 passes 196425 (345s)
+n=512 L=64 s=502 futmf2_128: nMSE nan passes 298136 (433s)
+n=512 L=64 s=502 futmf2_64: nMSE 3.657e-04 passes 298073 (330s)
+n=512 L=64 s=502 futmf2_16: nMSE 5.122e-04 passes 298026 (386s)
+n=512 L=64 s=502 pca128: nMSE 6.110e-04 passes 295839 (314s)
+n=512 L=64 s=502 pca64: nMSE 7.947e-04 passes 295776 (470s)
+n=512 L=64 s=502 pca16: nMSE 9.698e-04 passes 295729 (547s)
+done 7633s

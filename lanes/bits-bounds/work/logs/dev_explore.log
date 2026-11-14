@@ -1,0 +1,83 @@
+=== net n=64 L=64 seed=9001
+V = 0.01387, |mu|^2 = 0.04664, V/|mu|^2 = 0.2974
+-- l=16 L'=48: angular var tot=0.0887 PR=5.78 top5 frac=[0.34395033 0.16630285 0.10797675 0.0869737  0.05455326] log-slope(k=1..10)=-0.313 (Lyapunov guess -2l/n=-0.500)
+   delta=1e-03 phi=1.247e-03 |R|^2/|g(c)|^2=5.276e-06 med|R|^2/|g(h)|^2=2.061e-06 cubic-pred=1.974e-08 ratio=267 gate-dis=2.4 (pred n/pi L' phi=1.2)
+   delta=3e-03 phi=3.914e-03 |R|^2/|g(c)|^2=1.018e-04 med|R|^2/|g(h)|^2=3.797e-05 cubic-pred=6.105e-07 ratio=167 gate-dis=7.0 (pred n/pi L' phi=3.8)
+   delta=1e-02 phi=1.275e-02 |R|^2/|g(c)|^2=5.796e-03 med|R|^2/|g(h)|^2=3.075e-03 cubic-pred=2.109e-05 ratio=275 gate-dis=24.3 (pred n/pi L' phi=12.5)
+   delta=3e-02 phi=3.812e-02 |R|^2/|g(c)|^2=7.646e-02 med|R|^2/|g(h)|^2=1.968e-02 cubic-pred=5.643e-04 ratio=135 gate-dis=63.0 (pred n/pi L' phi=37.3)
+   delta=1e-01 phi=9.466e-02 |R|^2/|g(c)|^2=1.016e+00 med|R|^2/|g(h)|^2=3.530e-01 cubic-pred=8.638e-03 ratio=118 gate-dis=160.3 (pred n/pi L' phi=92.6)
+   delta=3e-01 phi=2.628e-01 |R|^2/|g(c)|^2=5.512e+00 med|R|^2/|g(h)|^2=2.106e+00 cubic-pred=1.848e-01 ratio=29.8 gate-dis=237.6 (pred n/pi L' phi=257.0)
+   delta=1e+00 phi=3.276e-01 |R|^2/|g(c)|^2=1.674e+01 med|R|^2/|g(h)|^2=4.472e+00 cubic-pred=3.581e-01 ratio=46.7 gate-dis=285.0 (pred n/pi L' phi=320.4)
+   M=   1: D_l(M)/V = 4.598
+   M=   4: D_l(M)/V = 3.893
+   M=  16: D_l(M)/V = 4.557
+   M=  64: D_l(M)/V = 3.963
+   M= 256: D_l(M)/V = 3.029
+-- l=32 L'=32: angular var tot=0.0472 PR=4.62 top5 frac=[0.37474424 0.24547084 0.08171892 0.06138158 0.04600712] log-slope(k=1..10)=-0.361 (Lyapunov guess -2l/n=-1.000)
+   delta=1e-03 phi=2.425e-03 |R|^2/|g(c)|^2=2.917e-05 med|R|^2/|g(h)|^2=6.053e-06 cubic-pred=9.681e-08 ratio=301 gate-dis=6.5 (pred n/pi L' phi=1.6)
+   delta=3e-03 phi=6.650e-03 |R|^2/|g(c)|^2=1.272e-03 med|R|^2/|g(h)|^2=2.099e-04 cubic-pred=1.997e-06 ratio=637 gate-dis=17.9 (pred n/pi L' phi=4.3)
+   delta=1e-02 phi=1.914e-02 |R|^2/|g(c)|^2=2.353e-02 med|R|^2/|g(h)|^2=6.912e-03 cubic-pred=4.759e-05 ratio=494 gate-dis=46.8 (pred n/pi L' phi=12.5)
+   delta=3e-02 phi=6.189e-02 |R|^2/|g(c)|^2=8.347e-02 med|R|^2/|g(h)|^2=8.095e-02 cubic-pred=1.610e-03 ratio=51.8 gate-dis=76.5 (pred n/pi L' phi=40.3)
+   delta=1e-01 phi=1.031e-01 |R|^2/|g(c)|^2=1.266e-01 med|R|^2/|g(h)|^2=1.016e-01 cubic-pred=7.442e-03 ratio=17 gate-dis=92.5 (pred n/pi L' phi=67.2)
+   delta=3e-01 phi=2.059e-01 |R|^2/|g(c)|^2=2.142e-01 med|R|^2/|g(h)|^2=1.772e-01 cubic-pred=5.925e-02 ratio=3.62 gate-dis=123.8 (pred n/pi L' phi=134.2)
+   delta=1e+00 phi=2.741e-01 |R|^2/|g(c)|^2=4.173e-01 med|R|^2/|g(h)|^2=3.241e-01 cubic-pred=1.398e-01 ratio=2.98 gate-dis=142.3 (pred n/pi L' phi=178.7)
+   M=   1: D_l(M)/V = 1.764
+   M=   4: D_l(M)/V = 1.232
+   M=  16: D_l(M)/V = 0.6588
+   M=  64: D_l(M)/V = 0.3469
+   M= 256: D_l(M)/V = 0.2509
+-- l=48 L'=16: angular var tot=0.0251 PR=2.33 top5 frac=[0.62969035 0.15807029 0.06235452 0.0419383  0.02158578] log-slope(k=1..10)=-0.446 (Lyapunov guess -2l/n=-1.500)
+   delta=1e-03 phi=4.282e-03 |R|^2/|g(c)|^2=1.293e-05 med|R|^2/|g(h)|^2=1.853e-07 cubic-pred=2.666e-07 ratio=48.5 gate-dis=1.6 (pred n/pi L' phi=1.4)
+   delta=3e-03 phi=1.553e-02 |R|^2/|g(c)|^2=2.709e-04 med|R|^2/|g(h)|^2=1.481e-04 cubic-pred=1.271e-05 ratio=21.3 gate-dis=4.7 (pred n/pi L' phi=5.1)
+   delta=1e-02 phi=5.039e-02 |R|^2/|g(c)|^2=2.154e-03 med|R|^2/|g(h)|^2=1.587e-03 cubic-pred=4.344e-04 ratio=4.96 gate-dis=11.2 (pred n/pi L' phi=16.4)
+   delta=3e-02 phi=1.460e-01 |R|^2/|g(c)|^2=2.373e-02 med|R|^2/|g(h)|^2=2.080e-02 cubic-pred=1.058e-02 ratio=2.24 gate-dis=35.9 (pred n/pi L' phi=47.6)
+   delta=1e-01 phi=1.771e-01 |R|^2/|g(c)|^2=1.022e-01 med|R|^2/|g(h)|^2=7.611e-02 cubic-pred=1.887e-02 ratio=5.42 gate-dis=53.9 (pred n/pi L' phi=57.7)
+   delta=3e-01 phi=1.967e-01 |R|^2/|g(c)|^2=2.560e-01 med|R|^2/|g(h)|^2=5.719e-02 cubic-pred=2.585e-02 ratio=9.9 gate-dis=58.0 (pred n/pi L' phi=64.1)
+   delta=1e+00 phi=1.987e-01 |R|^2/|g(c)|^2=1.139e+00 med|R|^2/|g(h)|^2=5.053e-02 cubic-pred=2.663e-02 ratio=42.8 gate-dis=53.9 (pred n/pi L' phi=64.8)
+   M=   1: D_l(M)/V = 0.2928
+   M=   4: D_l(M)/V = 0.08793
+   M=  16: D_l(M)/V = 0.05922
+   M=  64: D_l(M)/V = 0.02208
+   M= 256: D_l(M)/V = 0.008955
+=== net n=128 L=64 seed=9002
+V = 1.818, |mu|^2 = 22.55, V/|mu|^2 = 0.08062
+-- l=16 L'=48: angular var tot=0.0331 PR=8.94 top5 frac=[0.21417676 0.17445621 0.1362301  0.08041306 0.05944276] log-slope(k=1..10)=-0.266 (Lyapunov guess -2l/n=-0.250)
+   delta=1e-03 phi=4.430e-04 |R|^2/|g(c)|^2=1.107e-08 med|R|^2/|g(h)|^2=9.358e-12 cubic-pred=8.858e-10 ratio=12.5 gate-dis=0.8 (pred n/pi L' phi=0.9)
+   delta=3e-03 phi=1.402e-03 |R|^2/|g(c)|^2=4.589e-07 med|R|^2/|g(h)|^2=8.567e-08 cubic-pred=2.804e-08 ratio=16.4 gate-dis=2.3 (pred n/pi L' phi=2.7)
+   delta=1e-02 phi=4.619e-03 |R|^2/|g(c)|^2=1.032e-05 med|R|^2/|g(h)|^2=4.383e-06 cubic-pred=1.004e-06 ratio=10.3 gate-dis=7.3 (pred n/pi L' phi=9.0)
+   delta=3e-02 phi=1.266e-02 |R|^2/|g(c)|^2=1.294e-04 med|R|^2/|g(h)|^2=7.012e-05 cubic-pred=2.066e-05 ratio=6.26 gate-dis=23.8 (pred n/pi L' phi=24.8)
+   delta=1e-01 phi=5.001e-02 |R|^2/|g(c)|^2=5.715e-03 med|R|^2/|g(h)|^2=3.200e-03 cubic-pred=1.274e-03 ratio=4.49 gate-dis=89.5 (pred n/pi L' phi=97.8)
+   delta=3e-01 phi=1.025e-01 |R|^2/|g(c)|^2=4.029e-02 med|R|^2/|g(h)|^2=3.402e-02 cubic-pred=1.098e-02 ratio=3.67 gate-dis=172.0 (pred n/pi L' phi=200.5)
+   delta=1e+00 phi=2.169e-01 |R|^2/|g(c)|^2=1.334e-01 med|R|^2/|g(h)|^2=1.380e-01 cubic-pred=1.039e-01 ratio=1.28 gate-dis=317.7 (pred n/pi L' phi=424.2)
+   M=   1: D_l(M)/V = 1.208
+   M=   4: D_l(M)/V = 2.436
+   M=  16: D_l(M)/V = 1.497
+   M=  64: D_l(M)/V = 1.236
+   M= 256: D_l(M)/V = 1.045
+-- l=32 L'=32: angular var tot=0.0184 PR=5.26 top5 frac=[0.36611851 0.17536151 0.1032473  0.0852329  0.05279635] log-slope(k=1..10)=-0.353 (Lyapunov guess -2l/n=-0.500)
+   delta=1e-03 phi=7.336e-04 |R|^2/|g(c)|^2=5.238e-08 med|R|^2/|g(h)|^2=2.427e-08 cubic-pred=2.681e-09 ratio=19.5 gate-dis=1.4 (pred n/pi L' phi=1.0)
+   delta=3e-03 phi=2.598e-03 |R|^2/|g(c)|^2=1.099e-06 med|R|^2/|g(h)|^2=6.095e-07 cubic-pred=1.191e-07 ratio=9.23 gate-dis=4.1 (pred n/pi L' phi=3.4)
+   delta=1e-02 phi=7.995e-03 |R|^2/|g(c)|^2=4.914e-05 med|R|^2/|g(h)|^2=1.512e-05 cubic-pred=3.470e-06 ratio=14.2 gate-dis=12.7 (pred n/pi L' phi=10.4)
+   delta=3e-02 phi=2.117e-02 |R|^2/|g(c)|^2=7.940e-04 med|R|^2/|g(h)|^2=4.481e-04 cubic-pred=6.444e-05 ratio=12.3 gate-dis=37.2 (pred n/pi L' phi=27.6)
+   delta=1e-01 phi=5.699e-02 |R|^2/|g(c)|^2=5.870e-03 med|R|^2/|g(h)|^2=4.999e-03 cubic-pred=1.257e-03 ratio=4.67 gate-dis=80.1 (pred n/pi L' phi=74.3)
+   delta=3e-01 phi=1.020e-01 |R|^2/|g(c)|^2=2.473e-02 med|R|^2/|g(h)|^2=1.957e-02 cubic-pred=7.211e-03 ratio=3.43 gate-dis=145.4 (pred n/pi L' phi=133.0)
+   delta=1e+00 phi=1.487e-01 |R|^2/|g(c)|^2=9.040e-02 med|R|^2/|g(h)|^2=9.285e-02 cubic-pred=2.232e-02 ratio=4.05 gate-dis=238.0 (pred n/pi L' phi=193.8)
+   M=   1: D_l(M)/V = 0.9998
+   M=   4: D_l(M)/V = 0.6254
+   M=  16: D_l(M)/V = 0.3962
+   M=  64: D_l(M)/V = 0.2504
+   M= 256: D_l(M)/V = 0.1734
+-- l=48 L'=16: angular var tot=0.0241 PR=3.22 top5 frac=[0.53102621 0.11884204 0.07738498 0.06112594 0.04659599] log-slope(k=1..10)=-0.381 (Lyapunov guess -2l/n=-0.750)
+   delta=1e-03 phi=6.474e-04 |R|^2/|g(c)|^2=3.969e-09 med|R|^2/|g(h)|^2=1.931e-10 cubic-pred=9.213e-10 ratio=4.31 gate-dis=0.8 (pred n/pi L' phi=0.4)
+   delta=3e-03 phi=1.690e-03 |R|^2/|g(c)|^2=1.516e-07 med|R|^2/|g(h)|^2=1.836e-08 cubic-pred=1.639e-08 ratio=9.25 gate-dis=1.7 (pred n/pi L' phi=1.1)
+   delta=1e-02 phi=6.298e-03 |R|^2/|g(c)|^2=6.428e-06 med|R|^2/|g(h)|^2=3.391e-06 cubic-pred=8.483e-07 ratio=7.58 gate-dis=5.6 (pred n/pi L' phi=4.1)
+   delta=3e-02 phi=2.208e-02 |R|^2/|g(c)|^2=1.278e-04 med|R|^2/|g(h)|^2=6.306e-05 cubic-pred=3.656e-05 ratio=3.5 gate-dis=14.5 (pred n/pi L' phi=14.4)
+   delta=1e-01 phi=5.994e-02 |R|^2/|g(c)|^2=2.879e-03 med|R|^2/|g(h)|^2=1.356e-03 cubic-pred=7.313e-04 ratio=3.94 gate-dis=35.9 (pred n/pi L' phi=39.1)
+   delta=3e-01 phi=1.203e-01 |R|^2/|g(c)|^2=2.111e-02 med|R|^2/|g(h)|^2=1.107e-02 cubic-pred=5.914e-03 ratio=3.57 gate-dis=67.6 (pred n/pi L' phi=78.4)
+   delta=1e+00 phi=1.712e-01 |R|^2/|g(c)|^2=4.025e-02 med|R|^2/|g(h)|^2=2.923e-02 cubic-pred=1.703e-02 ratio=2.36 gate-dis=97.8 (pred n/pi L' phi=111.6)
+   M=   1: D_l(M)/V = 0.312
+   M=   4: D_l(M)/V = 0.1312
+   M=  16: D_l(M)/V = 0.06655
+   M=  64: D_l(M)/V = 0.04215
+   M= 256: D_l(M)/V = 0.02279
+done in 4s

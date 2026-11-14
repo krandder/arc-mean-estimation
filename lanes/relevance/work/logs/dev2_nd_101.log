@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/relevance/scratch/dev2.py", line 88, in <module>
+    main()
+  File "/srv/agent-data/home/workspaces/mats/work/relevance/scratch/dev2.py", line 67, in main
+    print(line(o, f'l={l}'), flush=True)
+          ^^^^^^^^^^^^^^^^^
+  File "/srv/agent-data/home/workspaces/mats/work/relevance/scratch/dev2.py", line 21, in line
+    s1 = o['V1_gauss'][0] / V
+         ~~~~~~~~~~~~~~~~~^~~
+ZeroDivisionError: float division by zero

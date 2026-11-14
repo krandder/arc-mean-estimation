@@ -1,0 +1,552 @@
+[    0.1s] n=32 L=4 seed=300 V=9.244 V_rb/V=0.9571 even/rb=0.368 odd/rb=0.635 |mu|^2/V=1.55
+[    0.1s] n=32 L=4 seed=300 multilevel best r=1 gain_vs_rb=0.794 resid_share=0.921
+[    0.1s] n=32 L=4 seed=300 onb: m=32 R=64 m*risk/V=0.7508 (+-0.0489) gain_vs_mc=1.332
+[    0.2s] n=32 L=4 seed=300 simplex: m=33 R=64 m*risk/V=0.2196 (+-0.0091) gain_vs_mc=4.554
+[    0.2s] n=32 L=4 seed=300 cross: m=64 R=64 m*risk/V=0.1821 (+-0.0081) gain_vs_mc=5.492
+[    0.8s] n=32 L=4 seed=300 rqmc_rb_std_m10: m*risk/V=0.2346 (+-0.0245) gain_vs_mc=4.262
+[    0.9s] n=32 L=4 seed=300 rqmc_rb_std_m12: m*risk/V=0.2068 (+-0.0239) gain_vs_mc=4.835
+[    1.9s] n=32 L=4 seed=300 rqmc_rb_std_m14: m*risk/V=0.2041 (+-0.0108) gain_vs_mc=4.899
+[    1.9s] n=32 L=4 seed=300 rqmc_rb_polar_m10: m*risk/V=0.1493 (+-0.0136) gain_vs_mc=6.699
+[    2.0s] n=32 L=4 seed=300 rqmc_rb_polar_m12: m*risk/V=0.1861 (+-0.0179) gain_vs_mc=5.374
+[    2.5s] n=32 L=4 seed=300 rqmc_rb_polar_m14: m*risk/V=0.1545 (+-0.0122) gain_vs_mc=6.472
+[    2.6s] n=32 L=4 seed=300 rqmc_rb_svd_m10: m*risk/V=0.1789 (+-0.0175) gain_vs_mc=5.590
+[    2.7s] n=32 L=4 seed=300 rqmc_rb_svd_m12: m*risk/V=0.1545 (+-0.0127) gain_vs_mc=6.472
+[    3.6s] n=32 L=4 seed=300 rqmc_rb_svd_m14: m*risk/V=0.1067 (+-0.0062) gain_vs_mc=9.374
+[    3.7s] n=32 L=4 seed=300 rqmc_anti_rb_std_m12: m*risk/V=0.2073 (+-0.0155) gain_vs_mc=4.823
+[    4.2s] n=32 L=4 seed=300 rqmc_anti_rb_std_m14: m*risk/V=0.1825 (+-0.0189) gain_vs_mc=5.478
+[    4.3s] n=32 L=4 seed=300 rqmc_anti_rb_polar_m12: m*risk/V=0.1826 (+-0.0156) gain_vs_mc=5.476
+[    4.7s] n=32 L=4 seed=300 rqmc_anti_rb_polar_m14: m*risk/V=0.2522 (+-0.0374) gain_vs_mc=3.965
+[    4.7s] n=32 L=4 seed=300 sobol_det m=2^10: nmse*m=0.3009 (polar 0.1846)
+[    4.7s] n=32 L=4 seed=300 sobol_det m=2^12: nmse*m=0.3200 (polar 0.1948)
+[    4.8s] n=32 L=4 seed=300 sobol_det m=2^14: nmse*m=0.1810 (polar 0.1819)
+[    5.4s] n=32 L=4 seed=300 sobol_det m=2^16: nmse*m=0.1657 (polar 0.0552)
+[    5.4s] n=32 L=4 seed=300 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s300.json
+[    0.1s] n=32 L=4 seed=301 V=12.03 V_rb/V=0.9649 even/rb=0.373 odd/rb=0.628 |mu|^2/V=0.79
+[    0.2s] n=32 L=4 seed=301 multilevel best r=1 gain_vs_rb=0.822 resid_share=1.004
+[    0.2s] n=32 L=4 seed=301 onb: m=32 R=64 m*risk/V=0.6781 (+-0.0403) gain_vs_mc=1.475
+[    0.2s] n=32 L=4 seed=301 simplex: m=33 R=64 m*risk/V=0.2626 (+-0.0099) gain_vs_mc=3.809
+[    0.2s] n=32 L=4 seed=301 cross: m=64 R=64 m*risk/V=0.1900 (+-0.0092) gain_vs_mc=5.264
+[    1.4s] n=32 L=4 seed=301 rqmc_rb_std_m10: m*risk/V=0.2394 (+-0.0201) gain_vs_mc=4.176
+[    1.5s] n=32 L=4 seed=301 rqmc_rb_std_m12: m*risk/V=0.2216 (+-0.0166) gain_vs_mc=4.512
+[    2.1s] n=32 L=4 seed=301 rqmc_rb_std_m14: m*risk/V=0.1777 (+-0.0153) gain_vs_mc=5.628
+[    2.1s] n=32 L=4 seed=301 rqmc_rb_polar_m10: m*risk/V=0.1956 (+-0.0148) gain_vs_mc=5.112
+[    2.2s] n=32 L=4 seed=301 rqmc_rb_polar_m12: m*risk/V=0.1589 (+-0.0076) gain_vs_mc=6.295
+[    2.7s] n=32 L=4 seed=301 rqmc_rb_polar_m14: m*risk/V=0.1686 (+-0.0156) gain_vs_mc=5.930
+[    2.7s] n=32 L=4 seed=301 rqmc_rb_svd_m10: m*risk/V=0.1780 (+-0.0116) gain_vs_mc=5.617
+[    2.8s] n=32 L=4 seed=301 rqmc_rb_svd_m12: m*risk/V=0.1419 (+-0.0096) gain_vs_mc=7.045
+[    3.5s] n=32 L=4 seed=301 rqmc_rb_svd_m14: m*risk/V=0.1243 (+-0.0116) gain_vs_mc=8.044
+[    3.6s] n=32 L=4 seed=301 rqmc_anti_rb_std_m12: m*risk/V=0.2578 (+-0.0195) gain_vs_mc=3.879
+[    4.1s] n=32 L=4 seed=301 rqmc_anti_rb_std_m14: m*risk/V=0.2302 (+-0.0168) gain_vs_mc=4.345
+[    4.2s] n=32 L=4 seed=301 rqmc_anti_rb_polar_m12: m*risk/V=0.1777 (+-0.0118) gain_vs_mc=5.627
+[    4.6s] n=32 L=4 seed=301 rqmc_anti_rb_polar_m14: m*risk/V=0.2042 (+-0.0151) gain_vs_mc=4.898
+[    4.6s] n=32 L=4 seed=301 sobol_det m=2^10: nmse*m=0.2435 (polar 0.1805)
+[    4.6s] n=32 L=4 seed=301 sobol_det m=2^12: nmse*m=0.1646 (polar 0.2027)
+[    4.8s] n=32 L=4 seed=301 sobol_det m=2^14: nmse*m=0.1449 (polar 0.1458)
+[    5.0s] n=32 L=4 seed=301 sobol_det m=2^16: nmse*m=0.1117 (polar 0.0713)
+[    5.0s] n=32 L=4 seed=301 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s301.json
+[    0.4s] n=32 L=4 seed=302 V=9.459 V_rb/V=0.9495 even/rb=0.364 odd/rb=0.640 |mu|^2/V=2.13
+[    0.4s] n=32 L=4 seed=302 multilevel best r=1 gain_vs_rb=0.831 resid_share=0.905
+[    0.4s] n=32 L=4 seed=302 onb: m=32 R=64 m*risk/V=0.7052 (+-0.0541) gain_vs_mc=1.418
+[    0.5s] n=32 L=4 seed=302 simplex: m=33 R=64 m*risk/V=0.1939 (+-0.0104) gain_vs_mc=5.158
+[    0.5s] n=32 L=4 seed=302 cross: m=64 R=64 m*risk/V=0.1481 (+-0.0082) gain_vs_mc=6.752
+[    1.4s] n=32 L=4 seed=302 rqmc_rb_std_m10: m*risk/V=0.1656 (+-0.0184) gain_vs_mc=6.039
+[    1.5s] n=32 L=4 seed=302 rqmc_rb_std_m12: m*risk/V=0.2041 (+-0.0318) gain_vs_mc=4.900
+[    2.2s] n=32 L=4 seed=302 rqmc_rb_std_m14: m*risk/V=0.2252 (+-0.0223) gain_vs_mc=4.441
+[    2.2s] n=32 L=4 seed=302 rqmc_rb_polar_m10: m*risk/V=0.1592 (+-0.0221) gain_vs_mc=6.281
+[    2.3s] n=32 L=4 seed=302 rqmc_rb_polar_m12: m*risk/V=0.1344 (+-0.0122) gain_vs_mc=7.441
+[    2.8s] n=32 L=4 seed=302 rqmc_rb_polar_m14: m*risk/V=0.1415 (+-0.0100) gain_vs_mc=7.065
+[    2.9s] n=32 L=4 seed=302 rqmc_rb_svd_m10: m*risk/V=0.1486 (+-0.0118) gain_vs_mc=6.731
+[    3.1s] n=32 L=4 seed=302 rqmc_rb_svd_m12: m*risk/V=0.1023 (+-0.0098) gain_vs_mc=9.774
+[    3.9s] n=32 L=4 seed=302 rqmc_rb_svd_m14: m*risk/V=0.0842 (+-0.0106) gain_vs_mc=11.877
+[    4.0s] n=32 L=4 seed=302 rqmc_anti_rb_std_m12: m*risk/V=0.1656 (+-0.0107) gain_vs_mc=6.039
+[    4.4s] n=32 L=4 seed=302 rqmc_anti_rb_std_m14: m*risk/V=0.2068 (+-0.0331) gain_vs_mc=4.835
+[    4.5s] n=32 L=4 seed=302 rqmc_anti_rb_polar_m12: m*risk/V=0.1236 (+-0.0146) gain_vs_mc=8.093
+[    4.9s] n=32 L=4 seed=302 rqmc_anti_rb_polar_m14: m*risk/V=0.1639 (+-0.0164) gain_vs_mc=6.103
+[    4.9s] n=32 L=4 seed=302 sobol_det m=2^10: nmse*m=0.3274 (polar 0.1729)
+[    4.9s] n=32 L=4 seed=302 sobol_det m=2^12: nmse*m=0.1973 (polar 0.2119)
+[    5.0s] n=32 L=4 seed=302 sobol_det m=2^14: nmse*m=0.1655 (polar 0.1282)
+[    5.5s] n=32 L=4 seed=302 sobol_det m=2^16: nmse*m=0.0480 (polar 0.1145)
+[    5.5s] n=32 L=4 seed=302 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s302.json
+[    0.1s] n=32 L=4 seed=303 V=12.34 V_rb/V=0.9668 even/rb=0.359 odd/rb=0.639 |mu|^2/V=1.23
+[    0.6s] n=32 L=4 seed=303 multilevel best r=1 gain_vs_rb=0.859 resid_share=0.978
+[    0.7s] n=32 L=4 seed=303 onb: m=32 R=64 m*risk/V=0.6173 (+-0.0358) gain_vs_mc=1.620
+[    0.7s] n=32 L=4 seed=303 simplex: m=33 R=64 m*risk/V=0.2255 (+-0.0097) gain_vs_mc=4.435
+[    0.7s] n=32 L=4 seed=303 cross: m=64 R=64 m*risk/V=0.1800 (+-0.0078) gain_vs_mc=5.555
+[    1.5s] n=32 L=4 seed=303 rqmc_rb_std_m10: m*risk/V=0.2166 (+-0.0240) gain_vs_mc=4.616
+[    1.6s] n=32 L=4 seed=303 rqmc_rb_std_m12: m*risk/V=0.2318 (+-0.0274) gain_vs_mc=4.313
+[    2.0s] n=32 L=4 seed=303 rqmc_rb_std_m14: m*risk/V=0.2265 (+-0.0243) gain_vs_mc=4.415
+[    2.0s] n=32 L=4 seed=303 rqmc_rb_polar_m10: m*risk/V=0.1582 (+-0.0114) gain_vs_mc=6.322
+[    2.2s] n=32 L=4 seed=303 rqmc_rb_polar_m12: m*risk/V=0.1548 (+-0.0144) gain_vs_mc=6.459
+[    2.8s] n=32 L=4 seed=303 rqmc_rb_polar_m14: m*risk/V=0.1529 (+-0.0092) gain_vs_mc=6.539
+[    2.9s] n=32 L=4 seed=303 rqmc_rb_svd_m10: m*risk/V=0.1886 (+-0.0142) gain_vs_mc=5.301
+[    3.0s] n=32 L=4 seed=303 rqmc_rb_svd_m12: m*risk/V=0.1372 (+-0.0160) gain_vs_mc=7.286
+[    3.5s] n=32 L=4 seed=303 rqmc_rb_svd_m14: m*risk/V=0.1189 (+-0.0115) gain_vs_mc=8.411
+[    3.6s] n=32 L=4 seed=303 rqmc_anti_rb_std_m12: m*risk/V=0.1533 (+-0.0169) gain_vs_mc=6.525
+[    3.9s] n=32 L=4 seed=303 rqmc_anti_rb_std_m14: m*risk/V=0.2401 (+-0.0215) gain_vs_mc=4.165
+[    4.0s] n=32 L=4 seed=303 rqmc_anti_rb_polar_m12: m*risk/V=0.1597 (+-0.0143) gain_vs_mc=6.263
+[    4.3s] n=32 L=4 seed=303 rqmc_anti_rb_polar_m14: m*risk/V=0.1532 (+-0.0149) gain_vs_mc=6.528
+[    4.3s] n=32 L=4 seed=303 sobol_det m=2^10: nmse*m=0.1327 (polar 0.1558)
+[    4.3s] n=32 L=4 seed=303 sobol_det m=2^12: nmse*m=0.3046 (polar 0.1278)
+[    4.4s] n=32 L=4 seed=303 sobol_det m=2^14: nmse*m=0.2404 (polar 0.1174)
+[    5.0s] n=32 L=4 seed=303 sobol_det m=2^16: nmse*m=0.1159 (polar 0.1305)
+[    5.0s] n=32 L=4 seed=303 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s303.json
+[    0.1s] n=32 L=4 seed=304 V=7.407 V_rb/V=0.9620 even/rb=0.389 odd/rb=0.609 |mu|^2/V=1.23
+[    0.2s] n=32 L=4 seed=304 multilevel best r=1 gain_vs_rb=0.786 resid_share=0.990
+[    0.2s] n=32 L=4 seed=304 onb: m=32 R=64 m*risk/V=0.6629 (+-0.0336) gain_vs_mc=1.509
+[    0.3s] n=32 L=4 seed=304 simplex: m=33 R=64 m*risk/V=0.2796 (+-0.0128) gain_vs_mc=3.576
+[    0.3s] n=32 L=4 seed=304 cross: m=64 R=64 m*risk/V=0.2107 (+-0.0081) gain_vs_mc=4.747
+[    1.1s] n=32 L=4 seed=304 rqmc_rb_std_m10: m*risk/V=0.2783 (+-0.0235) gain_vs_mc=3.593
+[    1.3s] n=32 L=4 seed=304 rqmc_rb_std_m12: m*risk/V=0.2551 (+-0.0252) gain_vs_mc=3.921
+[    2.2s] n=32 L=4 seed=304 rqmc_rb_std_m14: m*risk/V=0.1879 (+-0.0180) gain_vs_mc=5.321
+[    2.2s] n=32 L=4 seed=304 rqmc_rb_polar_m10: m*risk/V=0.2151 (+-0.0155) gain_vs_mc=4.649
+[    2.4s] n=32 L=4 seed=304 rqmc_rb_polar_m12: m*risk/V=0.1995 (+-0.0138) gain_vs_mc=5.012
+[    3.0s] n=32 L=4 seed=304 rqmc_rb_polar_m14: m*risk/V=0.1555 (+-0.0120) gain_vs_mc=6.432
+[    3.1s] n=32 L=4 seed=304 rqmc_rb_svd_m10: m*risk/V=0.1986 (+-0.0266) gain_vs_mc=5.036
+[    3.3s] n=32 L=4 seed=304 rqmc_rb_svd_m12: m*risk/V=0.1709 (+-0.0103) gain_vs_mc=5.853
+[    4.2s] n=32 L=4 seed=304 rqmc_rb_svd_m14: m*risk/V=0.1370 (+-0.0109) gain_vs_mc=7.301
+[    4.3s] n=32 L=4 seed=304 rqmc_anti_rb_std_m12: m*risk/V=0.2800 (+-0.0385) gain_vs_mc=3.571
+[    4.8s] n=32 L=4 seed=304 rqmc_anti_rb_std_m14: m*risk/V=0.2603 (+-0.0199) gain_vs_mc=3.842
+[    4.9s] n=32 L=4 seed=304 rqmc_anti_rb_polar_m12: m*risk/V=0.1699 (+-0.0131) gain_vs_mc=5.887
+[    5.4s] n=32 L=4 seed=304 rqmc_anti_rb_polar_m14: m*risk/V=0.2231 (+-0.0193) gain_vs_mc=4.481
+[    5.4s] n=32 L=4 seed=304 sobol_det m=2^10: nmse*m=0.4555 (polar 0.1164)
+[    5.5s] n=32 L=4 seed=304 sobol_det m=2^12: nmse*m=0.3369 (polar 0.3010)
+[    5.5s] n=32 L=4 seed=304 sobol_det m=2^14: nmse*m=0.2801 (polar 0.1359)
+[    6.0s] n=32 L=4 seed=304 sobol_det m=2^16: nmse*m=0.0852 (polar 0.0818)
+[    6.0s] n=32 L=4 seed=304 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s304.json
+[    0.1s] n=32 L=4 seed=305 V=8.312 V_rb/V=0.9422 even/rb=0.388 odd/rb=0.618 |mu|^2/V=2.19
+[    0.5s] n=32 L=4 seed=305 multilevel best r=1 gain_vs_rb=0.835 resid_share=0.908
+[    0.5s] n=32 L=4 seed=305 onb: m=32 R=64 m*risk/V=0.6894 (+-0.0522) gain_vs_mc=1.451
+[    0.5s] n=32 L=4 seed=305 simplex: m=33 R=64 m*risk/V=0.2393 (+-0.0114) gain_vs_mc=4.180
+[    0.6s] n=32 L=4 seed=305 cross: m=64 R=64 m*risk/V=0.2108 (+-0.0107) gain_vs_mc=4.745
+[    1.7s] n=32 L=4 seed=305 rqmc_rb_std_m10: m*risk/V=0.2769 (+-0.0335) gain_vs_mc=3.612
+[    1.8s] n=32 L=4 seed=305 rqmc_rb_std_m12: m*risk/V=0.2291 (+-0.0257) gain_vs_mc=4.366
+[    2.8s] n=32 L=4 seed=305 rqmc_rb_std_m14: m*risk/V=0.1451 (+-0.0084) gain_vs_mc=6.893
+[    2.9s] n=32 L=4 seed=305 rqmc_rb_polar_m10: m*risk/V=0.1834 (+-0.0155) gain_vs_mc=5.454
+[    3.0s] n=32 L=4 seed=305 rqmc_rb_polar_m12: m*risk/V=0.1738 (+-0.0185) gain_vs_mc=5.755
+[    4.2s] n=32 L=4 seed=305 rqmc_rb_polar_m14: m*risk/V=0.1532 (+-0.0133) gain_vs_mc=6.529
+[    4.3s] n=32 L=4 seed=305 rqmc_rb_svd_m10: m*risk/V=0.1991 (+-0.0161) gain_vs_mc=5.022
+[    4.5s] n=32 L=4 seed=305 rqmc_rb_svd_m12: m*risk/V=0.1638 (+-0.0127) gain_vs_mc=6.105
+[    5.2s] n=32 L=4 seed=305 rqmc_rb_svd_m14: m*risk/V=0.1070 (+-0.0062) gain_vs_mc=9.348
+[    5.3s] n=32 L=4 seed=305 rqmc_anti_rb_std_m12: m*risk/V=0.2125 (+-0.0249) gain_vs_mc=4.705
+[    5.6s] n=32 L=4 seed=305 rqmc_anti_rb_std_m14: m*risk/V=0.2061 (+-0.0223) gain_vs_mc=4.853
+[    5.7s] n=32 L=4 seed=305 rqmc_anti_rb_polar_m12: m*risk/V=0.2115 (+-0.0272) gain_vs_mc=4.727
+[    6.2s] n=32 L=4 seed=305 rqmc_anti_rb_polar_m14: m*risk/V=0.1988 (+-0.0151) gain_vs_mc=5.031
+[    6.2s] n=32 L=4 seed=305 sobol_det m=2^10: nmse*m=0.2463 (polar 0.1782)
+[    6.2s] n=32 L=4 seed=305 sobol_det m=2^12: nmse*m=0.2989 (polar 0.1272)
+[    6.2s] n=32 L=4 seed=305 sobol_det m=2^14: nmse*m=0.1477 (polar 0.0951)
+[    7.4s] n=32 L=4 seed=305 sobol_det m=2^16: nmse*m=0.1068 (polar 0.0774)
+[    7.4s] n=32 L=4 seed=305 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s305.json
+[    0.3s] n=32 L=4 seed=306 V=13.59 V_rb/V=0.9541 even/rb=0.357 odd/rb=0.644 |mu|^2/V=2.05
+[    0.5s] n=32 L=4 seed=306 multilevel best r=1 gain_vs_rb=0.861 resid_share=0.964
+[    0.5s] n=32 L=4 seed=306 onb: m=32 R=64 m*risk/V=0.6289 (+-0.0314) gain_vs_mc=1.590
+[    0.5s] n=32 L=4 seed=306 simplex: m=33 R=64 m*risk/V=0.1949 (+-0.0107) gain_vs_mc=5.132
+[    0.5s] n=32 L=4 seed=306 cross: m=64 R=64 m*risk/V=0.1410 (+-0.0064) gain_vs_mc=7.094
+[    1.8s] n=32 L=4 seed=306 rqmc_rb_std_m10: m*risk/V=0.1939 (+-0.0176) gain_vs_mc=5.157
+[    1.9s] n=32 L=4 seed=306 rqmc_rb_std_m12: m*risk/V=0.1676 (+-0.0133) gain_vs_mc=5.968
+[    2.8s] n=32 L=4 seed=306 rqmc_rb_std_m14: m*risk/V=0.1904 (+-0.0248) gain_vs_mc=5.251
+[    3.0s] n=32 L=4 seed=306 rqmc_rb_polar_m10: m*risk/V=0.1616 (+-0.0184) gain_vs_mc=6.189
+[    3.1s] n=32 L=4 seed=306 rqmc_rb_polar_m12: m*risk/V=0.1239 (+-0.0101) gain_vs_mc=8.072
+[    4.0s] n=32 L=4 seed=306 rqmc_rb_polar_m14: m*risk/V=0.1167 (+-0.0111) gain_vs_mc=8.568
+[    4.0s] n=32 L=4 seed=306 rqmc_rb_svd_m10: m*risk/V=0.1705 (+-0.0148) gain_vs_mc=5.867
+[    4.1s] n=32 L=4 seed=306 rqmc_rb_svd_m12: m*risk/V=0.1240 (+-0.0125) gain_vs_mc=8.062
+[    5.3s] n=32 L=4 seed=306 rqmc_rb_svd_m14: m*risk/V=0.1097 (+-0.0111) gain_vs_mc=9.113
+[    5.4s] n=32 L=4 seed=306 rqmc_anti_rb_std_m12: m*risk/V=0.2227 (+-0.0266) gain_vs_mc=4.491
+[    5.8s] n=32 L=4 seed=306 rqmc_anti_rb_std_m14: m*risk/V=0.1722 (+-0.0194) gain_vs_mc=5.807
+[    6.0s] n=32 L=4 seed=306 rqmc_anti_rb_polar_m12: m*risk/V=0.1342 (+-0.0142) gain_vs_mc=7.450
+[    6.7s] n=32 L=4 seed=306 rqmc_anti_rb_polar_m14: m*risk/V=0.1455 (+-0.0093) gain_vs_mc=6.871
+[    6.7s] n=32 L=4 seed=306 sobol_det m=2^10: nmse*m=0.1427 (polar 0.2288)
+[    6.7s] n=32 L=4 seed=306 sobol_det m=2^12: nmse*m=0.2648 (polar 0.1949)
+[    6.9s] n=32 L=4 seed=306 sobol_det m=2^14: nmse*m=0.1665 (polar 0.1542)
+[    7.3s] n=32 L=4 seed=306 sobol_det m=2^16: nmse*m=0.1151 (polar 0.1276)
+[    7.3s] n=32 L=4 seed=306 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s306.json
+[    0.1s] n=32 L=4 seed=307 V=12.72 V_rb/V=0.9427 even/rb=0.378 odd/rb=0.621 |mu|^2/V=2.48
+[    0.1s] n=32 L=4 seed=307 multilevel best r=1 gain_vs_rb=0.853 resid_share=0.874
+[    0.2s] n=32 L=4 seed=307 onb: m=32 R=64 m*risk/V=0.7257 (+-0.0553) gain_vs_mc=1.378
+[    0.2s] n=32 L=4 seed=307 simplex: m=33 R=64 m*risk/V=0.1783 (+-0.0096) gain_vs_mc=5.608
+[    0.2s] n=32 L=4 seed=307 cross: m=64 R=64 m*risk/V=0.1375 (+-0.0066) gain_vs_mc=7.273
+[    1.5s] n=32 L=4 seed=307 rqmc_rb_std_m10: m*risk/V=0.1644 (+-0.0158) gain_vs_mc=6.083
+[    1.6s] n=32 L=4 seed=307 rqmc_rb_std_m12: m*risk/V=0.1448 (+-0.0172) gain_vs_mc=6.905
+[    2.3s] n=32 L=4 seed=307 rqmc_rb_std_m14: m*risk/V=0.1452 (+-0.0237) gain_vs_mc=6.888
+[    2.4s] n=32 L=4 seed=307 rqmc_rb_polar_m10: m*risk/V=0.1534 (+-0.0174) gain_vs_mc=6.519
+[    2.4s] n=32 L=4 seed=307 rqmc_rb_polar_m12: m*risk/V=0.1334 (+-0.0173) gain_vs_mc=7.495
+[    3.6s] n=32 L=4 seed=307 rqmc_rb_polar_m14: m*risk/V=0.1209 (+-0.0114) gain_vs_mc=8.274
+[    3.8s] n=32 L=4 seed=307 rqmc_rb_svd_m10: m*risk/V=0.1189 (+-0.0110) gain_vs_mc=8.412
+[    4.2s] n=32 L=4 seed=307 rqmc_rb_svd_m12: m*risk/V=0.1241 (+-0.0140) gain_vs_mc=8.060
+[    5.5s] n=32 L=4 seed=307 rqmc_rb_svd_m14: m*risk/V=0.1028 (+-0.0103) gain_vs_mc=9.723
+[    5.6s] n=32 L=4 seed=307 rqmc_anti_rb_std_m12: m*risk/V=0.1703 (+-0.0192) gain_vs_mc=5.873
+[    5.9s] n=32 L=4 seed=307 rqmc_anti_rb_std_m14: m*risk/V=0.1451 (+-0.0124) gain_vs_mc=6.893
+[    6.0s] n=32 L=4 seed=307 rqmc_anti_rb_polar_m12: m*risk/V=0.1488 (+-0.0181) gain_vs_mc=6.721
+[    6.3s] n=32 L=4 seed=307 rqmc_anti_rb_polar_m14: m*risk/V=0.1549 (+-0.0184) gain_vs_mc=6.457
+[    6.3s] n=32 L=4 seed=307 sobol_det m=2^10: nmse*m=0.1158 (polar 0.1935)
+[    6.3s] n=32 L=4 seed=307 sobol_det m=2^12: nmse*m=0.1425 (polar 0.1065)
+[    6.3s] n=32 L=4 seed=307 sobol_det m=2^14: nmse*m=0.1629 (polar 0.2156)
+[    6.6s] n=32 L=4 seed=307 sobol_det m=2^16: nmse*m=0.0732 (polar 0.0803)
+[    6.6s] n=32 L=4 seed=307 done passes=1919040 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n32_L4_s307.json
+[    0.4s] n=64 L=8 seed=300 V=23.59 V_rb/V=0.9557 even/rb=0.401 odd/rb=0.605 |mu|^2/V=4.44
+[    0.6s] n=64 L=8 seed=300 multilevel best r=1 gain_vs_rb=0.868 resid_share=0.933
+[    0.6s] n=64 L=8 seed=300 onb: m=64 R=64 m*risk/V=0.6791 (+-0.0652) gain_vs_mc=1.472
+[    0.7s] n=64 L=8 seed=300 simplex: m=65 R=64 m*risk/V=0.2805 (+-0.0176) gain_vs_mc=3.565
+[    0.7s] n=64 L=8 seed=300 cross: m=128 R=64 m*risk/V=0.2008 (+-0.0142) gain_vs_mc=4.981
+[    1.6s] n=64 L=8 seed=300 rqmc_rb_std_m10: m*risk/V=0.3454 (+-0.0415) gain_vs_mc=2.896
+[    2.0s] n=64 L=8 seed=300 rqmc_rb_std_m12: m*risk/V=0.3017 (+-0.0483) gain_vs_mc=3.314
+[    3.0s] n=64 L=8 seed=300 rqmc_rb_std_m14: m*risk/V=0.2089 (+-0.0207) gain_vs_mc=4.787
+[    3.1s] n=64 L=8 seed=300 rqmc_rb_polar_m10: m*risk/V=0.2185 (+-0.0255) gain_vs_mc=4.577
+[    3.4s] n=64 L=8 seed=300 rqmc_rb_polar_m12: m*risk/V=0.2596 (+-0.0282) gain_vs_mc=3.852
+[    4.7s] n=64 L=8 seed=300 rqmc_rb_polar_m14: m*risk/V=0.1759 (+-0.0217) gain_vs_mc=5.686
+[    4.8s] n=64 L=8 seed=300 rqmc_rb_svd_m10: m*risk/V=0.2669 (+-0.0410) gain_vs_mc=3.747
+[    5.0s] n=64 L=8 seed=300 rqmc_rb_svd_m12: m*risk/V=0.2504 (+-0.0292) gain_vs_mc=3.993
+[    6.7s] n=64 L=8 seed=300 rqmc_rb_svd_m14: m*risk/V=0.1892 (+-0.0143) gain_vs_mc=5.287
+[    6.9s] n=64 L=8 seed=300 rqmc_anti_rb_std_m12: m*risk/V=0.2689 (+-0.0461) gain_vs_mc=3.718
+[    7.9s] n=64 L=8 seed=300 rqmc_anti_rb_std_m14: m*risk/V=0.2730 (+-0.0496) gain_vs_mc=3.663
+[    8.1s] n=64 L=8 seed=300 rqmc_anti_rb_polar_m12: m*risk/V=0.2544 (+-0.0259) gain_vs_mc=3.930
+[    9.1s] n=64 L=8 seed=300 rqmc_anti_rb_polar_m14: m*risk/V=0.2169 (+-0.0273) gain_vs_mc=4.610
+[    9.1s] n=64 L=8 seed=300 sobol_det m=2^10: nmse*m=0.3776 (polar 0.1599)
+[    9.2s] n=64 L=8 seed=300 sobol_det m=2^12: nmse*m=0.0877 (polar 0.1562)
+[    9.7s] n=64 L=8 seed=300 sobol_det m=2^14: nmse*m=0.1403 (polar 0.4590)
+[   12.3s] n=64 L=8 seed=300 sobol_det m=2^16: nmse*m=0.1373 (polar 0.3419)
+[   12.3s] n=64 L=8 seed=300 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s300.json
+[    0.3s] n=64 L=8 seed=301 V=12.91 V_rb/V=0.9665 even/rb=0.413 odd/rb=0.592 |mu|^2/V=3.42
+[    1.3s] n=64 L=8 seed=301 multilevel best r=1 gain_vs_rb=0.932 resid_share=0.913
+[    1.3s] n=64 L=8 seed=301 onb: m=64 R=64 m*risk/V=0.6895 (+-0.0585) gain_vs_mc=1.450
+[    1.4s] n=64 L=8 seed=301 simplex: m=65 R=64 m*risk/V=0.3840 (+-0.0213) gain_vs_mc=2.604
+[    1.4s] n=64 L=8 seed=301 cross: m=128 R=64 m*risk/V=0.2910 (+-0.0168) gain_vs_mc=3.437
+[    2.5s] n=64 L=8 seed=301 rqmc_rb_std_m10: m*risk/V=0.3619 (+-0.0310) gain_vs_mc=2.763
+[    3.2s] n=64 L=8 seed=301 rqmc_rb_std_m12: m*risk/V=0.3750 (+-0.0414) gain_vs_mc=2.667
+[    4.2s] n=64 L=8 seed=301 rqmc_rb_std_m14: m*risk/V=0.2906 (+-0.0382) gain_vs_mc=3.441
+[    4.4s] n=64 L=8 seed=301 rqmc_rb_polar_m10: m*risk/V=0.2967 (+-0.0311) gain_vs_mc=3.370
+[    4.6s] n=64 L=8 seed=301 rqmc_rb_polar_m12: m*risk/V=0.2811 (+-0.0194) gain_vs_mc=3.557
+[    5.6s] n=64 L=8 seed=301 rqmc_rb_polar_m14: m*risk/V=0.3115 (+-0.0203) gain_vs_mc=3.211
+[    5.7s] n=64 L=8 seed=301 rqmc_rb_svd_m10: m*risk/V=0.3148 (+-0.0221) gain_vs_mc=3.177
+[    6.0s] n=64 L=8 seed=301 rqmc_rb_svd_m12: m*risk/V=0.3173 (+-0.0253) gain_vs_mc=3.152
+[    7.6s] n=64 L=8 seed=301 rqmc_rb_svd_m14: m*risk/V=0.2753 (+-0.0241) gain_vs_mc=3.632
+[    7.8s] n=64 L=8 seed=301 rqmc_anti_rb_std_m12: m*risk/V=0.3450 (+-0.0289) gain_vs_mc=2.898
+[    8.8s] n=64 L=8 seed=301 rqmc_anti_rb_std_m14: m*risk/V=0.4059 (+-0.0179) gain_vs_mc=2.463
+[    9.0s] n=64 L=8 seed=301 rqmc_anti_rb_polar_m12: m*risk/V=0.3290 (+-0.0349) gain_vs_mc=3.039
+[   10.0s] n=64 L=8 seed=301 rqmc_anti_rb_polar_m14: m*risk/V=0.2856 (+-0.0265) gain_vs_mc=3.502
+[   10.0s] n=64 L=8 seed=301 sobol_det m=2^10: nmse*m=0.3915 (polar 0.1710)
+[   10.1s] n=64 L=8 seed=301 sobol_det m=2^12: nmse*m=0.2641 (polar 0.2657)
+[   10.3s] n=64 L=8 seed=301 sobol_det m=2^14: nmse*m=0.5084 (polar 0.1378)
+[   12.8s] n=64 L=8 seed=301 sobol_det m=2^16: nmse*m=0.3407 (polar 0.1804)
+[   12.8s] n=64 L=8 seed=301 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s301.json
+[    0.6s] n=64 L=8 seed=302 V=22.83 V_rb/V=0.9543 even/rb=0.365 odd/rb=0.641 |mu|^2/V=4.46
+[    1.0s] n=64 L=8 seed=302 multilevel best r=1 gain_vs_rb=0.779 resid_share=0.880
+[    1.0s] n=64 L=8 seed=302 onb: m=64 R=64 m*risk/V=0.6327 (+-0.0492) gain_vs_mc=1.581
+[    1.1s] n=64 L=8 seed=302 simplex: m=65 R=64 m*risk/V=0.2472 (+-0.0162) gain_vs_mc=4.046
+[    1.1s] n=64 L=8 seed=302 cross: m=128 R=64 m*risk/V=0.2267 (+-0.0109) gain_vs_mc=4.412
+[    2.7s] n=64 L=8 seed=302 rqmc_rb_std_m10: m*risk/V=0.2611 (+-0.0301) gain_vs_mc=3.830
+[    3.2s] n=64 L=8 seed=302 rqmc_rb_std_m12: m*risk/V=0.2252 (+-0.0233) gain_vs_mc=4.440
+[    5.4s] n=64 L=8 seed=302 rqmc_rb_std_m14: m*risk/V=0.2041 (+-0.0261) gain_vs_mc=4.900
+[    5.7s] n=64 L=8 seed=302 rqmc_rb_polar_m10: m*risk/V=0.1982 (+-0.0248) gain_vs_mc=5.046
+[    6.2s] n=64 L=8 seed=302 rqmc_rb_polar_m12: m*risk/V=0.1757 (+-0.0226) gain_vs_mc=5.691
+[    9.0s] n=64 L=8 seed=302 rqmc_rb_polar_m14: m*risk/V=0.2156 (+-0.0221) gain_vs_mc=4.638
+[    9.1s] n=64 L=8 seed=302 rqmc_rb_svd_m10: m*risk/V=0.1900 (+-0.0222) gain_vs_mc=5.263
+[    9.4s] n=64 L=8 seed=302 rqmc_rb_svd_m12: m*risk/V=0.2255 (+-0.0450) gain_vs_mc=4.435
+[   13.5s] n=64 L=8 seed=302 rqmc_rb_svd_m14: m*risk/V=0.1870 (+-0.0192) gain_vs_mc=5.349
+[   13.7s] n=64 L=8 seed=302 rqmc_anti_rb_std_m12: m*risk/V=0.3087 (+-0.0574) gain_vs_mc=3.239
+[   16.6s] n=64 L=8 seed=302 rqmc_anti_rb_std_m14: m*risk/V=0.2343 (+-0.0198) gain_vs_mc=4.269
+[   16.8s] n=64 L=8 seed=302 rqmc_anti_rb_polar_m12: m*risk/V=0.2028 (+-0.0222) gain_vs_mc=4.931
+[   19.3s] n=64 L=8 seed=302 rqmc_anti_rb_polar_m14: m*risk/V=0.1936 (+-0.0281) gain_vs_mc=5.167
+[   19.3s] n=64 L=8 seed=302 sobol_det m=2^10: nmse*m=0.2794 (polar 0.1180)
+[   19.3s] n=64 L=8 seed=302 sobol_det m=2^12: nmse*m=0.2670 (polar 0.2474)
+[   19.9s] n=64 L=8 seed=302 sobol_det m=2^14: nmse*m=0.2043 (polar 0.1815)
+[   23.6s] n=64 L=8 seed=302 sobol_det m=2^16: nmse*m=0.1840 (polar 0.1431)
+[   23.6s] n=64 L=8 seed=302 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s302.json
+[    2.0s] n=64 L=8 seed=303 V=8.339 V_rb/V=0.9502 even/rb=0.415 odd/rb=0.592 |mu|^2/V=3.38
+[    2.8s] n=64 L=8 seed=303 multilevel best r=1 gain_vs_rb=0.848 resid_share=0.939
+[    2.9s] n=64 L=8 seed=303 onb: m=64 R=64 m*risk/V=0.7292 (+-0.0479) gain_vs_mc=1.371
+[    2.9s] n=64 L=8 seed=303 simplex: m=65 R=64 m*risk/V=0.3626 (+-0.0161) gain_vs_mc=2.758
+[    3.0s] n=64 L=8 seed=303 cross: m=128 R=64 m*risk/V=0.3036 (+-0.0140) gain_vs_mc=3.294
+[    4.0s] n=64 L=8 seed=303 rqmc_rb_std_m10: m*risk/V=0.3905 (+-0.0340) gain_vs_mc=2.561
+[    4.6s] n=64 L=8 seed=303 rqmc_rb_std_m12: m*risk/V=0.4306 (+-0.0456) gain_vs_mc=2.322
+[    5.8s] n=64 L=8 seed=303 rqmc_rb_std_m14: m*risk/V=0.3406 (+-0.0349) gain_vs_mc=2.936
+[    6.0s] n=64 L=8 seed=303 rqmc_rb_polar_m10: m*risk/V=0.3709 (+-0.0248) gain_vs_mc=2.696
+[    6.4s] n=64 L=8 seed=303 rqmc_rb_polar_m12: m*risk/V=0.3264 (+-0.0178) gain_vs_mc=3.064
+[    9.0s] n=64 L=8 seed=303 rqmc_rb_polar_m14: m*risk/V=0.3608 (+-0.0277) gain_vs_mc=2.771
+[    9.1s] n=64 L=8 seed=303 rqmc_rb_svd_m10: m*risk/V=0.3299 (+-0.0325) gain_vs_mc=3.031
+[    9.6s] n=64 L=8 seed=303 rqmc_rb_svd_m12: m*risk/V=0.3084 (+-0.0291) gain_vs_mc=3.243
+[   11.3s] n=64 L=8 seed=303 rqmc_rb_svd_m14: m*risk/V=0.3082 (+-0.0256) gain_vs_mc=3.245
+[   11.5s] n=64 L=8 seed=303 rqmc_anti_rb_std_m12: m*risk/V=0.3907 (+-0.0457) gain_vs_mc=2.559
+[   13.0s] n=64 L=8 seed=303 rqmc_anti_rb_std_m14: m*risk/V=0.4366 (+-0.0397) gain_vs_mc=2.290
+[   13.2s] n=64 L=8 seed=303 rqmc_anti_rb_polar_m12: m*risk/V=0.3760 (+-0.0388) gain_vs_mc=2.659
+[   14.4s] n=64 L=8 seed=303 rqmc_anti_rb_polar_m14: m*risk/V=0.3040 (+-0.0240) gain_vs_mc=3.289
+[   14.4s] n=64 L=8 seed=303 sobol_det m=2^10: nmse*m=0.3422 (polar 0.2875)
+[   14.5s] n=64 L=8 seed=303 sobol_det m=2^12: nmse*m=0.4014 (polar 0.1790)
+[   14.9s] n=64 L=8 seed=303 sobol_det m=2^14: nmse*m=0.3098 (polar 0.2816)
+[   17.8s] n=64 L=8 seed=303 sobol_det m=2^16: nmse*m=0.4359 (polar 0.1924)
+[   17.8s] n=64 L=8 seed=303 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s303.json
+[    1.5s] n=64 L=8 seed=304 V=24.33 V_rb/V=0.9559 even/rb=0.386 odd/rb=0.616 |mu|^2/V=3.74
+[    2.2s] n=64 L=8 seed=304 multilevel best r=1 gain_vs_rb=0.894 resid_share=0.942
+[    2.2s] n=64 L=8 seed=304 onb: m=64 R=64 m*risk/V=0.6422 (+-0.0511) gain_vs_mc=1.557
+[    2.3s] n=64 L=8 seed=304 simplex: m=65 R=64 m*risk/V=0.3446 (+-0.0190) gain_vs_mc=2.902
+[    2.3s] n=64 L=8 seed=304 cross: m=128 R=64 m*risk/V=0.2373 (+-0.0149) gain_vs_mc=4.215
+[    3.1s] n=64 L=8 seed=304 rqmc_rb_std_m10: m*risk/V=0.3358 (+-0.0328) gain_vs_mc=2.978
+[    3.5s] n=64 L=8 seed=304 rqmc_rb_std_m12: m*risk/V=0.2946 (+-0.0374) gain_vs_mc=3.395
+[    5.3s] n=64 L=8 seed=304 rqmc_rb_std_m14: m*risk/V=0.2692 (+-0.0151) gain_vs_mc=3.715
+[    5.4s] n=64 L=8 seed=304 rqmc_rb_polar_m10: m*risk/V=0.2846 (+-0.0211) gain_vs_mc=3.514
+[    5.9s] n=64 L=8 seed=304 rqmc_rb_polar_m12: m*risk/V=0.2892 (+-0.0383) gain_vs_mc=3.458
+[    8.1s] n=64 L=8 seed=304 rqmc_rb_polar_m14: m*risk/V=0.2598 (+-0.0213) gain_vs_mc=3.849
+[    8.3s] n=64 L=8 seed=304 rqmc_rb_svd_m10: m*risk/V=0.3205 (+-0.0433) gain_vs_mc=3.120
+[    8.5s] n=64 L=8 seed=304 rqmc_rb_svd_m12: m*risk/V=0.3012 (+-0.0301) gain_vs_mc=3.320
+[   11.9s] n=64 L=8 seed=304 rqmc_rb_svd_m14: m*risk/V=0.2658 (+-0.0224) gain_vs_mc=3.763
+[   12.1s] n=64 L=8 seed=304 rqmc_anti_rb_std_m12: m*risk/V=0.2966 (+-0.0272) gain_vs_mc=3.371
+[   12.8s] n=64 L=8 seed=304 rqmc_anti_rb_std_m14: m*risk/V=0.3042 (+-0.0246) gain_vs_mc=3.288
+[   13.1s] n=64 L=8 seed=304 rqmc_anti_rb_polar_m12: m*risk/V=0.2409 (+-0.0369) gain_vs_mc=4.151
+[   14.4s] n=64 L=8 seed=304 rqmc_anti_rb_polar_m14: m*risk/V=0.2677 (+-0.0356) gain_vs_mc=3.736
+[   14.4s] n=64 L=8 seed=304 sobol_det m=2^10: nmse*m=0.2468 (polar 0.2536)
+[   14.4s] n=64 L=8 seed=304 sobol_det m=2^12: nmse*m=0.1725 (polar 0.2622)
+[   15.3s] n=64 L=8 seed=304 sobol_det m=2^14: nmse*m=0.5374 (polar 0.4072)
+[   18.3s] n=64 L=8 seed=304 sobol_det m=2^16: nmse*m=0.2827 (polar 0.1824)
+[   18.3s] n=64 L=8 seed=304 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s304.json
+[    0.2s] n=64 L=8 seed=305 V=8.594 V_rb/V=0.9620 even/rb=0.409 odd/rb=0.593 |mu|^2/V=3.15
+[    1.0s] n=64 L=8 seed=305 multilevel best r=1 gain_vs_rb=0.757 resid_share=1.003
+[    1.0s] n=64 L=8 seed=305 onb: m=64 R=64 m*risk/V=0.7327 (+-0.0581) gain_vs_mc=1.365
+[    1.0s] n=64 L=8 seed=305 simplex: m=65 R=64 m*risk/V=0.3662 (+-0.0182) gain_vs_mc=2.730
+[    1.1s] n=64 L=8 seed=305 cross: m=128 R=64 m*risk/V=0.3111 (+-0.0132) gain_vs_mc=3.215
+[    2.3s] n=64 L=8 seed=305 rqmc_rb_std_m10: m*risk/V=0.4635 (+-0.0622) gain_vs_mc=2.158
+[    2.7s] n=64 L=8 seed=305 rqmc_rb_std_m12: m*risk/V=0.3483 (+-0.0314) gain_vs_mc=2.871
+[    4.1s] n=64 L=8 seed=305 rqmc_rb_std_m14: m*risk/V=0.3492 (+-0.0322) gain_vs_mc=2.863
+[    4.2s] n=64 L=8 seed=305 rqmc_rb_polar_m10: m*risk/V=0.2752 (+-0.0318) gain_vs_mc=3.633
+[    4.6s] n=64 L=8 seed=305 rqmc_rb_polar_m12: m*risk/V=0.3659 (+-0.0309) gain_vs_mc=2.733
+[    6.4s] n=64 L=8 seed=305 rqmc_rb_polar_m14: m*risk/V=0.2830 (+-0.0221) gain_vs_mc=3.534
+[    6.5s] n=64 L=8 seed=305 rqmc_rb_svd_m10: m*risk/V=0.3972 (+-0.0464) gain_vs_mc=2.517
+[    6.8s] n=64 L=8 seed=305 rqmc_rb_svd_m12: m*risk/V=0.3789 (+-0.0359) gain_vs_mc=2.639
+[    9.1s] n=64 L=8 seed=305 rqmc_rb_svd_m14: m*risk/V=0.3083 (+-0.0281) gain_vs_mc=3.244
+[    9.3s] n=64 L=8 seed=305 rqmc_anti_rb_std_m12: m*risk/V=0.2994 (+-0.0206) gain_vs_mc=3.340
+[   10.6s] n=64 L=8 seed=305 rqmc_anti_rb_std_m14: m*risk/V=0.3439 (+-0.0221) gain_vs_mc=2.908
+[   10.9s] n=64 L=8 seed=305 rqmc_anti_rb_polar_m12: m*risk/V=0.3315 (+-0.0214) gain_vs_mc=3.016
+[   12.3s] n=64 L=8 seed=305 rqmc_anti_rb_polar_m14: m*risk/V=0.3147 (+-0.0339) gain_vs_mc=3.178
+[   12.3s] n=64 L=8 seed=305 sobol_det m=2^10: nmse*m=0.3094 (polar 0.1952)
+[   12.4s] n=64 L=8 seed=305 sobol_det m=2^12: nmse*m=0.5407 (polar 0.1756)
+[   12.5s] n=64 L=8 seed=305 sobol_det m=2^14: nmse*m=0.2216 (polar 0.3361)
+[   14.5s] n=64 L=8 seed=305 sobol_det m=2^16: nmse*m=0.1943 (polar 0.1674)
+[   14.5s] n=64 L=8 seed=305 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s305.json
+[    0.5s] n=64 L=8 seed=306 V=14.17 V_rb/V=0.9660 even/rb=0.416 odd/rb=0.585 |mu|^2/V=3.36
+[    0.8s] n=64 L=8 seed=306 multilevel best r=1 gain_vs_rb=0.934 resid_share=0.947
+[    0.8s] n=64 L=8 seed=306 onb: m=64 R=64 m*risk/V=0.7144 (+-0.0490) gain_vs_mc=1.400
+[    0.8s] n=64 L=8 seed=306 simplex: m=65 R=64 m*risk/V=0.3477 (+-0.0145) gain_vs_mc=2.876
+[    0.9s] n=64 L=8 seed=306 cross: m=128 R=64 m*risk/V=0.2799 (+-0.0152) gain_vs_mc=3.573
+[    1.9s] n=64 L=8 seed=306 rqmc_rb_std_m10: m*risk/V=0.3436 (+-0.0387) gain_vs_mc=2.911
+[    2.2s] n=64 L=8 seed=306 rqmc_rb_std_m12: m*risk/V=0.4250 (+-0.0733) gain_vs_mc=2.353
+[    3.1s] n=64 L=8 seed=306 rqmc_rb_std_m14: m*risk/V=0.3250 (+-0.0271) gain_vs_mc=3.077
+[    3.3s] n=64 L=8 seed=306 rqmc_rb_polar_m10: m*risk/V=0.3246 (+-0.0347) gain_vs_mc=3.080
+[    3.6s] n=64 L=8 seed=306 rqmc_rb_polar_m12: m*risk/V=0.2989 (+-0.0333) gain_vs_mc=3.345
+[    5.5s] n=64 L=8 seed=306 rqmc_rb_polar_m14: m*risk/V=0.3014 (+-0.0200) gain_vs_mc=3.318
+[    5.6s] n=64 L=8 seed=306 rqmc_rb_svd_m10: m*risk/V=0.3004 (+-0.0271) gain_vs_mc=3.329
+[    5.8s] n=64 L=8 seed=306 rqmc_rb_svd_m12: m*risk/V=0.2936 (+-0.0183) gain_vs_mc=3.406
+[    6.9s] n=64 L=8 seed=306 rqmc_rb_svd_m14: m*risk/V=0.2609 (+-0.0389) gain_vs_mc=3.833
+[    7.2s] n=64 L=8 seed=306 rqmc_anti_rb_std_m12: m*risk/V=0.3469 (+-0.0371) gain_vs_mc=2.883
+[    8.9s] n=64 L=8 seed=306 rqmc_anti_rb_std_m14: m*risk/V=0.3046 (+-0.0269) gain_vs_mc=3.283
+[    9.0s] n=64 L=8 seed=306 rqmc_anti_rb_polar_m12: m*risk/V=0.3276 (+-0.0307) gain_vs_mc=3.052
+[   10.0s] n=64 L=8 seed=306 rqmc_anti_rb_polar_m14: m*risk/V=0.3026 (+-0.0256) gain_vs_mc=3.304
+[   10.0s] n=64 L=8 seed=306 sobol_det m=2^10: nmse*m=0.3698 (polar 0.3391)
+[   10.0s] n=64 L=8 seed=306 sobol_det m=2^12: nmse*m=0.2554 (polar 0.1732)
+[   10.1s] n=64 L=8 seed=306 sobol_det m=2^14: nmse*m=0.2474 (polar 0.4054)
+[   11.5s] n=64 L=8 seed=306 sobol_det m=2^16: nmse*m=0.1589 (polar 0.5578)
+[   11.5s] n=64 L=8 seed=306 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s306.json
+[    0.2s] n=64 L=8 seed=307 V=9.377 V_rb/V=0.9602 even/rb=0.435 odd/rb=0.567 |mu|^2/V=3.95
+[    0.6s] n=64 L=8 seed=307 multilevel best r=1 gain_vs_rb=0.818 resid_share=0.956
+[    0.6s] n=64 L=8 seed=307 onb: m=64 R=64 m*risk/V=0.7388 (+-0.0397) gain_vs_mc=1.354
+[    0.6s] n=64 L=8 seed=307 simplex: m=65 R=64 m*risk/V=0.3939 (+-0.0197) gain_vs_mc=2.539
+[    0.6s] n=64 L=8 seed=307 cross: m=128 R=64 m*risk/V=0.3440 (+-0.0173) gain_vs_mc=2.907
+[    1.7s] n=64 L=8 seed=307 rqmc_rb_std_m10: m*risk/V=0.4907 (+-0.0622) gain_vs_mc=2.038
+[    2.2s] n=64 L=8 seed=307 rqmc_rb_std_m12: m*risk/V=0.4322 (+-0.0454) gain_vs_mc=2.314
+[    4.4s] n=64 L=8 seed=307 rqmc_rb_std_m14: m*risk/V=0.4110 (+-0.0489) gain_vs_mc=2.433
+[    4.5s] n=64 L=8 seed=307 rqmc_rb_polar_m10: m*risk/V=0.3843 (+-0.0344) gain_vs_mc=2.602
+[    4.8s] n=64 L=8 seed=307 rqmc_rb_polar_m12: m*risk/V=0.3492 (+-0.0300) gain_vs_mc=2.863
+[    6.1s] n=64 L=8 seed=307 rqmc_rb_polar_m14: m*risk/V=0.4399 (+-0.0697) gain_vs_mc=2.273
+[    6.3s] n=64 L=8 seed=307 rqmc_rb_svd_m10: m*risk/V=0.4201 (+-0.0324) gain_vs_mc=2.381
+[    6.6s] n=64 L=8 seed=307 rqmc_rb_svd_m12: m*risk/V=0.4025 (+-0.0364) gain_vs_mc=2.485
+[    8.3s] n=64 L=8 seed=307 rqmc_rb_svd_m14: m*risk/V=0.3299 (+-0.0270) gain_vs_mc=3.031
+[    8.5s] n=64 L=8 seed=307 rqmc_anti_rb_std_m12: m*risk/V=0.5069 (+-0.0707) gain_vs_mc=1.973
+[   10.3s] n=64 L=8 seed=307 rqmc_anti_rb_std_m14: m*risk/V=0.3592 (+-0.0390) gain_vs_mc=2.784
+[   10.5s] n=64 L=8 seed=307 rqmc_anti_rb_polar_m12: m*risk/V=0.4256 (+-0.0417) gain_vs_mc=2.350
+[   12.2s] n=64 L=8 seed=307 rqmc_anti_rb_polar_m14: m*risk/V=0.3356 (+-0.0336) gain_vs_mc=2.980
+[   12.2s] n=64 L=8 seed=307 sobol_det m=2^10: nmse*m=0.3197 (polar 0.4159)
+[   12.3s] n=64 L=8 seed=307 sobol_det m=2^12: nmse*m=0.5193 (polar 0.4034)
+[   12.5s] n=64 L=8 seed=307 sobol_det m=2^14: nmse*m=0.2846 (polar 0.6424)
+[   14.8s] n=64 L=8 seed=307 sobol_det m=2^16: nmse*m=0.6004 (polar 0.2861)
+[   14.8s] n=64 L=8 seed=307 done passes=1927232 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n64_L8_s307.json
+[    1.1s] n=128 L=16 seed=300 V=10.07 V_rb/V=0.9538 even/rb=0.468 odd/rb=0.535 |mu|^2/V=12.10
+[    2.6s] n=128 L=16 seed=300 multilevel best r=1 gain_vs_rb=0.968 resid_share=0.889
+[    2.8s] n=128 L=16 seed=300 onb: m=128 R=64 m*risk/V=0.6563 (+-0.0442) gain_vs_mc=1.524
+[    3.0s] n=128 L=16 seed=300 simplex: m=129 R=64 m*risk/V=0.5371 (+-0.0353) gain_vs_mc=1.862
+[    3.3s] n=128 L=16 seed=300 cross: m=256 R=64 m*risk/V=0.4249 (+-0.0276) gain_vs_mc=2.354
+[    4.2s] n=128 L=16 seed=300 rqmc_rb_std_m10: m*risk/V=0.4751 (+-0.0786) gain_vs_mc=2.105
+[    4.8s] n=128 L=16 seed=300 rqmc_rb_std_m12: m*risk/V=0.4665 (+-0.0469) gain_vs_mc=2.144
+[   10.1s] n=128 L=16 seed=300 rqmc_rb_std_m14: m*risk/V=0.3962 (+-0.0385) gain_vs_mc=2.524
+[   10.3s] n=128 L=16 seed=300 rqmc_rb_polar_m10: m*risk/V=0.4743 (+-0.1010) gain_vs_mc=2.109
+[   11.3s] n=128 L=16 seed=300 rqmc_rb_polar_m12: m*risk/V=0.3943 (+-0.0486) gain_vs_mc=2.536
+[   16.9s] n=128 L=16 seed=300 rqmc_rb_polar_m14: m*risk/V=0.3381 (+-0.0389) gain_vs_mc=2.957
+[   17.3s] n=128 L=16 seed=300 rqmc_rb_svd_m10: m*risk/V=0.3903 (+-0.0473) gain_vs_mc=2.562
+[   18.3s] n=128 L=16 seed=300 rqmc_rb_svd_m12: m*risk/V=0.4143 (+-0.0329) gain_vs_mc=2.414
+[   24.2s] n=128 L=16 seed=300 rqmc_rb_svd_m14: m*risk/V=0.4253 (+-0.0486) gain_vs_mc=2.351
+[   24.8s] n=128 L=16 seed=300 rqmc_anti_rb_std_m12: m*risk/V=0.5445 (+-0.0623) gain_vs_mc=1.836
+[   29.5s] n=128 L=16 seed=300 rqmc_anti_rb_std_m14: m*risk/V=0.4242 (+-0.0690) gain_vs_mc=2.357
+[   30.4s] n=128 L=16 seed=300 rqmc_anti_rb_polar_m12: m*risk/V=0.3936 (+-0.0707) gain_vs_mc=2.540
+[   35.9s] n=128 L=16 seed=300 rqmc_anti_rb_polar_m14: m*risk/V=0.4471 (+-0.0598) gain_vs_mc=2.237
+[   36.0s] n=128 L=16 seed=300 sobol_det m=2^10: nmse*m=0.1532 (polar 0.3126)
+[   36.3s] n=128 L=16 seed=300 sobol_det m=2^12: nmse*m=0.5948 (polar 0.2854)
+[   37.2s] n=128 L=16 seed=300 sobol_det m=2^14: nmse*m=0.3218 (polar 0.3024)
+[   42.7s] n=128 L=16 seed=300 sobol_det m=2^16: nmse*m=0.2757 (polar 0.5587)
+[   42.7s] n=128 L=16 seed=300 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s300.json
+[    1.4s] n=128 L=16 seed=301 V=11.32 V_rb/V=0.9677 even/rb=0.436 odd/rb=0.564 |mu|^2/V=6.58
+[    2.7s] n=128 L=16 seed=301 multilevel best r=1 gain_vs_rb=0.953 resid_share=0.933
+[    2.8s] n=128 L=16 seed=301 onb: m=128 R=64 m*risk/V=0.7967 (+-0.0577) gain_vs_mc=1.255
+[    3.0s] n=128 L=16 seed=301 simplex: m=129 R=64 m*risk/V=0.4961 (+-0.0270) gain_vs_mc=2.016
+[    3.2s] n=128 L=16 seed=301 cross: m=256 R=64 m*risk/V=0.4150 (+-0.0235) gain_vs_mc=2.410
+[    4.6s] n=128 L=16 seed=301 rqmc_rb_std_m10: m*risk/V=0.5478 (+-0.0607) gain_vs_mc=1.825
+[    5.3s] n=128 L=16 seed=301 rqmc_rb_std_m12: m*risk/V=0.5820 (+-0.0630) gain_vs_mc=1.718
+[    9.1s] n=128 L=16 seed=301 rqmc_rb_std_m14: m*risk/V=0.5293 (+-0.0623) gain_vs_mc=1.889
+[    9.3s] n=128 L=16 seed=301 rqmc_rb_polar_m10: m*risk/V=0.3979 (+-0.0371) gain_vs_mc=2.513
+[   10.3s] n=128 L=16 seed=301 rqmc_rb_polar_m12: m*risk/V=0.4055 (+-0.0264) gain_vs_mc=2.466
+[   16.0s] n=128 L=16 seed=301 rqmc_rb_polar_m14: m*risk/V=0.3811 (+-0.0571) gain_vs_mc=2.624
+[   16.2s] n=128 L=16 seed=301 rqmc_rb_svd_m10: m*risk/V=0.4299 (+-0.0396) gain_vs_mc=2.326
+[   16.9s] n=128 L=16 seed=301 rqmc_rb_svd_m12: m*risk/V=0.5108 (+-0.0724) gain_vs_mc=1.958
+[   23.1s] n=128 L=16 seed=301 rqmc_rb_svd_m14: m*risk/V=0.4291 (+-0.0400) gain_vs_mc=2.331
+[   24.2s] n=128 L=16 seed=301 rqmc_anti_rb_std_m12: m*risk/V=0.4982 (+-0.0624) gain_vs_mc=2.007
+[   28.7s] n=128 L=16 seed=301 rqmc_anti_rb_std_m14: m*risk/V=0.4372 (+-0.0489) gain_vs_mc=2.287
+[   29.4s] n=128 L=16 seed=301 rqmc_anti_rb_polar_m12: m*risk/V=0.5721 (+-0.0934) gain_vs_mc=1.748
+[   32.7s] n=128 L=16 seed=301 rqmc_anti_rb_polar_m14: m*risk/V=0.4515 (+-0.0488) gain_vs_mc=2.215
+[   32.7s] n=128 L=16 seed=301 sobol_det m=2^10: nmse*m=0.3317 (polar 0.4343)
+[   32.8s] n=128 L=16 seed=301 sobol_det m=2^12: nmse*m=0.2969 (polar 0.4892)
+[   33.2s] n=128 L=16 seed=301 sobol_det m=2^14: nmse*m=0.2203 (polar 0.3050)
+[   37.1s] n=128 L=16 seed=301 sobol_det m=2^16: nmse*m=0.3903 (polar 0.2645)
+[   37.1s] n=128 L=16 seed=301 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s301.json
+[    1.4s] n=128 L=16 seed=302 V=22.3 V_rb/V=0.9633 even/rb=0.412 odd/rb=0.590 |mu|^2/V=9.62
+[    2.6s] n=128 L=16 seed=302 multilevel best r=1 gain_vs_rb=0.955 resid_share=0.912
+[    2.8s] n=128 L=16 seed=302 onb: m=128 R=64 m*risk/V=0.8024 (+-0.0803) gain_vs_mc=1.246
+[    3.0s] n=128 L=16 seed=302 simplex: m=129 R=64 m*risk/V=0.4583 (+-0.0278) gain_vs_mc=2.182
+[    3.2s] n=128 L=16 seed=302 cross: m=256 R=64 m*risk/V=0.3252 (+-0.0200) gain_vs_mc=3.075
+[    4.3s] n=128 L=16 seed=302 rqmc_rb_std_m10: m*risk/V=0.4308 (+-0.0524) gain_vs_mc=2.321
+[    5.1s] n=128 L=16 seed=302 rqmc_rb_std_m12: m*risk/V=0.4016 (+-0.0364) gain_vs_mc=2.490
+[    9.1s] n=128 L=16 seed=302 rqmc_rb_std_m14: m*risk/V=0.4087 (+-0.0480) gain_vs_mc=2.447
+[    9.7s] n=128 L=16 seed=302 rqmc_rb_polar_m10: m*risk/V=0.3135 (+-0.0315) gain_vs_mc=3.190
+[   10.7s] n=128 L=16 seed=302 rqmc_rb_polar_m12: m*risk/V=0.3455 (+-0.0287) gain_vs_mc=2.895
+[   17.4s] n=128 L=16 seed=302 rqmc_rb_polar_m14: m*risk/V=0.2955 (+-0.0226) gain_vs_mc=3.384
+[   17.8s] n=128 L=16 seed=302 rqmc_rb_svd_m10: m*risk/V=0.4433 (+-0.0910) gain_vs_mc=2.256
+[   18.9s] n=128 L=16 seed=302 rqmc_rb_svd_m12: m*risk/V=0.4073 (+-0.0758) gain_vs_mc=2.455
+[   24.4s] n=128 L=16 seed=302 rqmc_rb_svd_m14: m*risk/V=0.3859 (+-0.0612) gain_vs_mc=2.591
+[   25.0s] n=128 L=16 seed=302 rqmc_anti_rb_std_m12: m*risk/V=0.3973 (+-0.0530) gain_vs_mc=2.517
+[   29.0s] n=128 L=16 seed=302 rqmc_anti_rb_std_m14: m*risk/V=0.3318 (+-0.0384) gain_vs_mc=3.014
+[   30.1s] n=128 L=16 seed=302 rqmc_anti_rb_polar_m12: m*risk/V=0.3024 (+-0.0410) gain_vs_mc=3.307
+[   35.0s] n=128 L=16 seed=302 rqmc_anti_rb_polar_m14: m*risk/V=0.3904 (+-0.0459) gain_vs_mc=2.561
+[   35.0s] n=128 L=16 seed=302 sobol_det m=2^10: nmse*m=0.2210 (polar 1.6948)
+[   35.1s] n=128 L=16 seed=302 sobol_det m=2^12: nmse*m=0.2453 (polar 0.3035)
+[   35.6s] n=128 L=16 seed=302 sobol_det m=2^14: nmse*m=0.5071 (polar 0.3959)
+[   42.0s] n=128 L=16 seed=302 sobol_det m=2^16: nmse*m=0.3744 (polar 0.2782)
+[   42.0s] n=128 L=16 seed=302 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s302.json
+[    1.1s] n=128 L=16 seed=303 V=7.426 V_rb/V=0.9729 even/rb=0.452 odd/rb=0.539 |mu|^2/V=5.76
+[    3.5s] n=128 L=16 seed=303 multilevel best r=1 gain_vs_rb=0.932 resid_share=0.953
+[    3.7s] n=128 L=16 seed=303 onb: m=128 R=64 m*risk/V=0.8965 (+-0.0817) gain_vs_mc=1.116
+[    3.9s] n=128 L=16 seed=303 simplex: m=129 R=64 m*risk/V=0.6588 (+-0.0459) gain_vs_mc=1.518
+[    4.2s] n=128 L=16 seed=303 cross: m=256 R=64 m*risk/V=0.5974 (+-0.0368) gain_vs_mc=1.674
+[    5.1s] n=128 L=16 seed=303 rqmc_rb_std_m10: m*risk/V=0.5937 (+-0.0575) gain_vs_mc=1.684
+[    6.5s] n=128 L=16 seed=303 rqmc_rb_std_m12: m*risk/V=0.4761 (+-0.0496) gain_vs_mc=2.100
+[   10.9s] n=128 L=16 seed=303 rqmc_rb_std_m14: m*risk/V=0.6197 (+-0.0879) gain_vs_mc=1.614
+[   11.2s] n=128 L=16 seed=303 rqmc_rb_polar_m10: m*risk/V=0.5405 (+-0.0666) gain_vs_mc=1.850
+[   12.4s] n=128 L=16 seed=303 rqmc_rb_polar_m12: m*risk/V=0.6034 (+-0.1032) gain_vs_mc=1.657
+[   17.5s] n=128 L=16 seed=303 rqmc_rb_polar_m14: m*risk/V=0.5556 (+-0.0692) gain_vs_mc=1.800
+[   17.9s] n=128 L=16 seed=303 rqmc_rb_svd_m10: m*risk/V=0.4763 (+-0.0467) gain_vs_mc=2.100
+[   18.8s] n=128 L=16 seed=303 rqmc_rb_svd_m12: m*risk/V=0.4903 (+-0.0737) gain_vs_mc=2.039
+[   23.8s] n=128 L=16 seed=303 rqmc_rb_svd_m14: m*risk/V=0.5424 (+-0.0798) gain_vs_mc=1.844
+[   24.9s] n=128 L=16 seed=303 rqmc_anti_rb_std_m12: m*risk/V=0.5967 (+-0.0642) gain_vs_mc=1.676
+[   30.1s] n=128 L=16 seed=303 rqmc_anti_rb_std_m14: m*risk/V=0.5986 (+-0.0767) gain_vs_mc=1.671
+[   31.0s] n=128 L=16 seed=303 rqmc_anti_rb_polar_m12: m*risk/V=0.5760 (+-0.0678) gain_vs_mc=1.736
+[   35.6s] n=128 L=16 seed=303 rqmc_anti_rb_polar_m14: m*risk/V=0.5093 (+-0.0446) gain_vs_mc=1.963
+[   35.7s] n=128 L=16 seed=303 sobol_det m=2^10: nmse*m=0.3375 (polar 1.0850)
+[   35.8s] n=128 L=16 seed=303 sobol_det m=2^12: nmse*m=0.6374 (polar 0.3772)
+[   36.4s] n=128 L=16 seed=303 sobol_det m=2^14: nmse*m=0.3181 (polar 0.4666)
+[   42.6s] n=128 L=16 seed=303 sobol_det m=2^16: nmse*m=0.8882 (polar 0.3635)
+[   42.6s] n=128 L=16 seed=303 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s303.json
+[    1.1s] n=128 L=16 seed=304 V=8.185 V_rb/V=0.9653 even/rb=0.433 odd/rb=0.575 |mu|^2/V=6.21
+[    3.2s] n=128 L=16 seed=304 multilevel best r=1 gain_vs_rb=0.904 resid_share=0.944
+[    3.4s] n=128 L=16 seed=304 onb: m=128 R=64 m*risk/V=0.7508 (+-0.0554) gain_vs_mc=1.332
+[    3.5s] n=128 L=16 seed=304 simplex: m=129 R=64 m*risk/V=0.5039 (+-0.0285) gain_vs_mc=1.984
+[    3.8s] n=128 L=16 seed=304 cross: m=256 R=64 m*risk/V=0.4139 (+-0.0219) gain_vs_mc=2.416
+[    4.9s] n=128 L=16 seed=304 rqmc_rb_std_m10: m*risk/V=0.5134 (+-0.0575) gain_vs_mc=1.948
+[    5.7s] n=128 L=16 seed=304 rqmc_rb_std_m12: m*risk/V=0.5806 (+-0.0587) gain_vs_mc=1.722
+[   11.3s] n=128 L=16 seed=304 rqmc_rb_std_m14: m*risk/V=0.4358 (+-0.0495) gain_vs_mc=2.295
+[   11.6s] n=128 L=16 seed=304 rqmc_rb_polar_m10: m*risk/V=0.4732 (+-0.0605) gain_vs_mc=2.113
+[   12.8s] n=128 L=16 seed=304 rqmc_rb_polar_m12: m*risk/V=0.3625 (+-0.0381) gain_vs_mc=2.758
+[   19.8s] n=128 L=16 seed=304 rqmc_rb_polar_m14: m*risk/V=0.5478 (+-0.0500) gain_vs_mc=1.826
+[   20.1s] n=128 L=16 seed=304 rqmc_rb_svd_m10: m*risk/V=0.5388 (+-0.0633) gain_vs_mc=1.856
+[   21.1s] n=128 L=16 seed=304 rqmc_rb_svd_m12: m*risk/V=0.6289 (+-0.0721) gain_vs_mc=1.590
+[   29.4s] n=128 L=16 seed=304 rqmc_rb_svd_m14: m*risk/V=0.4898 (+-0.0608) gain_vs_mc=2.042
+[   29.9s] n=128 L=16 seed=304 rqmc_anti_rb_std_m12: m*risk/V=0.5058 (+-0.0469) gain_vs_mc=1.977
+[   34.0s] n=128 L=16 seed=304 rqmc_anti_rb_std_m14: m*risk/V=0.5135 (+-0.0778) gain_vs_mc=1.947
+[   34.9s] n=128 L=16 seed=304 rqmc_anti_rb_polar_m12: m*risk/V=0.4688 (+-0.0660) gain_vs_mc=2.133
+[   39.4s] n=128 L=16 seed=304 rqmc_anti_rb_polar_m14: m*risk/V=0.4246 (+-0.0384) gain_vs_mc=2.355
+[   39.4s] n=128 L=16 seed=304 sobol_det m=2^10: nmse*m=0.4306 (polar 0.3210)
+[   39.5s] n=128 L=16 seed=304 sobol_det m=2^12: nmse*m=0.6590 (polar 0.3298)
+[   40.0s] n=128 L=16 seed=304 sobol_det m=2^14: nmse*m=0.5173 (polar 0.4415)
+[   45.1s] n=128 L=16 seed=304 sobol_det m=2^16: nmse*m=0.5857 (polar 0.3994)
+[   45.1s] n=128 L=16 seed=304 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s304.json
+[    3.1s] n=128 L=16 seed=305 V=21.85 V_rb/V=0.9616 even/rb=0.415 odd/rb=0.580 |mu|^2/V=10.40
+[    4.6s] n=128 L=16 seed=305 multilevel best r=1 gain_vs_rb=0.906 resid_share=0.892
+[    4.9s] n=128 L=16 seed=305 onb: m=128 R=64 m*risk/V=0.7085 (+-0.0787) gain_vs_mc=1.411
+[    5.1s] n=128 L=16 seed=305 simplex: m=129 R=64 m*risk/V=0.3501 (+-0.0293) gain_vs_mc=2.857
+[    5.5s] n=128 L=16 seed=305 cross: m=256 R=64 m*risk/V=0.3460 (+-0.0357) gain_vs_mc=2.890
+[    6.6s] n=128 L=16 seed=305 rqmc_rb_std_m10: m*risk/V=0.3586 (+-0.0466) gain_vs_mc=2.789
+[    7.7s] n=128 L=16 seed=305 rqmc_rb_std_m12: m*risk/V=0.3909 (+-0.0663) gain_vs_mc=2.559
+[   12.7s] n=128 L=16 seed=305 rqmc_rb_std_m14: m*risk/V=0.3290 (+-0.0270) gain_vs_mc=3.040
+[   13.3s] n=128 L=16 seed=305 rqmc_rb_polar_m10: m*risk/V=0.4575 (+-0.0542) gain_vs_mc=2.186
+[   14.8s] n=128 L=16 seed=305 rqmc_rb_polar_m12: m*risk/V=0.3743 (+-0.0662) gain_vs_mc=2.671
+[   20.9s] n=128 L=16 seed=305 rqmc_rb_polar_m14: m*risk/V=0.2803 (+-0.0347) gain_vs_mc=3.568
+[   21.3s] n=128 L=16 seed=305 rqmc_rb_svd_m10: m*risk/V=0.5237 (+-0.1127) gain_vs_mc=1.909
+[   22.7s] n=128 L=16 seed=305 rqmc_rb_svd_m12: m*risk/V=0.3690 (+-0.0558) gain_vs_mc=2.710
+[   29.3s] n=128 L=16 seed=305 rqmc_rb_svd_m14: m*risk/V=0.3765 (+-0.0597) gain_vs_mc=2.656
+[   29.9s] n=128 L=16 seed=305 rqmc_anti_rb_std_m12: m*risk/V=0.3813 (+-0.0667) gain_vs_mc=2.623
+[   34.3s] n=128 L=16 seed=305 rqmc_anti_rb_std_m14: m*risk/V=0.2977 (+-0.0371) gain_vs_mc=3.359
+[   35.2s] n=128 L=16 seed=305 rqmc_anti_rb_polar_m12: m*risk/V=0.3771 (+-0.0577) gain_vs_mc=2.652
+[   39.9s] n=128 L=16 seed=305 rqmc_anti_rb_polar_m14: m*risk/V=0.3735 (+-0.0697) gain_vs_mc=2.677
+[   39.9s] n=128 L=16 seed=305 sobol_det m=2^10: nmse*m=0.4166 (polar 0.9315)
+[   40.0s] n=128 L=16 seed=305 sobol_det m=2^12: nmse*m=0.7643 (polar 2.1971)
+[   40.5s] n=128 L=16 seed=305 sobol_det m=2^14: nmse*m=0.6129 (polar 0.5539)
+[   48.6s] n=128 L=16 seed=305 sobol_det m=2^16: nmse*m=0.2186 (polar 0.1791)
+[   48.6s] n=128 L=16 seed=305 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s305.json
+[    1.7s] n=128 L=16 seed=306 V=12.43 V_rb/V=0.9572 even/rb=0.419 odd/rb=0.587 |mu|^2/V=8.47
+[    5.2s] n=128 L=16 seed=306 multilevel best r=1 gain_vs_rb=0.961 resid_share=0.916
+[    5.4s] n=128 L=16 seed=306 onb: m=128 R=64 m*risk/V=0.6928 (+-0.0676) gain_vs_mc=1.443
+[    5.6s] n=128 L=16 seed=306 simplex: m=129 R=64 m*risk/V=0.4384 (+-0.0416) gain_vs_mc=2.281
+[    5.9s] n=128 L=16 seed=306 cross: m=256 R=64 m*risk/V=0.3653 (+-0.0276) gain_vs_mc=2.737
+[    7.3s] n=128 L=16 seed=306 rqmc_rb_std_m10: m*risk/V=0.4017 (+-0.0510) gain_vs_mc=2.489
+[    8.4s] n=128 L=16 seed=306 rqmc_rb_std_m12: m*risk/V=0.3267 (+-0.0350) gain_vs_mc=3.061
+[   15.6s] n=128 L=16 seed=306 rqmc_rb_std_m14: m*risk/V=0.3724 (+-0.0680) gain_vs_mc=2.685
+[   15.8s] n=128 L=16 seed=306 rqmc_rb_polar_m10: m*risk/V=0.4331 (+-0.0613) gain_vs_mc=2.309
+[   16.7s] n=128 L=16 seed=306 rqmc_rb_polar_m12: m*risk/V=0.4038 (+-0.0666) gain_vs_mc=2.476
+[   22.2s] n=128 L=16 seed=306 rqmc_rb_polar_m14: m*risk/V=0.3788 (+-0.0377) gain_vs_mc=2.640
+[   22.5s] n=128 L=16 seed=306 rqmc_rb_svd_m10: m*risk/V=0.4264 (+-0.0699) gain_vs_mc=2.345
+[   23.3s] n=128 L=16 seed=306 rqmc_rb_svd_m12: m*risk/V=0.4518 (+-0.0561) gain_vs_mc=2.213
+[   30.2s] n=128 L=16 seed=306 rqmc_rb_svd_m14: m*risk/V=0.4863 (+-0.0681) gain_vs_mc=2.056
+[   31.1s] n=128 L=16 seed=306 rqmc_anti_rb_std_m12: m*risk/V=0.5536 (+-0.0937) gain_vs_mc=1.806
+[   35.6s] n=128 L=16 seed=306 rqmc_anti_rb_std_m14: m*risk/V=0.4741 (+-0.0682) gain_vs_mc=2.109
+[   36.3s] n=128 L=16 seed=306 rqmc_anti_rb_polar_m12: m*risk/V=0.3922 (+-0.0417) gain_vs_mc=2.550
+[   42.4s] n=128 L=16 seed=306 rqmc_anti_rb_polar_m14: m*risk/V=0.3145 (+-0.0231) gain_vs_mc=3.180
+[   42.4s] n=128 L=16 seed=306 sobol_det m=2^10: nmse*m=0.2680 (polar 1.5803)
+[   42.6s] n=128 L=16 seed=306 sobol_det m=2^12: nmse*m=0.3566 (polar 0.5540)
+[   43.3s] n=128 L=16 seed=306 sobol_det m=2^14: nmse*m=0.5626 (polar 0.4346)
+[   50.4s] n=128 L=16 seed=306 sobol_det m=2^16: nmse*m=0.1775 (polar 0.7928)
+[   50.4s] n=128 L=16 seed=306 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s306.json
+[    1.4s] n=128 L=16 seed=307 V=23.29 V_rb/V=0.9610 even/rb=0.409 odd/rb=0.583 |mu|^2/V=12.16
+[    3.2s] n=128 L=16 seed=307 multilevel best r=2 gain_vs_rb=0.928 resid_share=0.734
+[    3.5s] n=128 L=16 seed=307 onb: m=128 R=64 m*risk/V=0.6985 (+-0.0623) gain_vs_mc=1.432
+[    3.6s] n=128 L=16 seed=307 simplex: m=129 R=64 m*risk/V=0.3723 (+-0.0314) gain_vs_mc=2.686
+[    3.8s] n=128 L=16 seed=307 cross: m=256 R=64 m*risk/V=0.3124 (+-0.0218) gain_vs_mc=3.201
+[    5.9s] n=128 L=16 seed=307 rqmc_rb_std_m10: m*risk/V=0.3450 (+-0.0582) gain_vs_mc=2.899
+[    7.5s] n=128 L=16 seed=307 rqmc_rb_std_m12: m*risk/V=0.2963 (+-0.0703) gain_vs_mc=3.375
+[   13.8s] n=128 L=16 seed=307 rqmc_rb_std_m14: m*risk/V=0.4689 (+-0.1014) gain_vs_mc=2.133
+[   14.1s] n=128 L=16 seed=307 rqmc_rb_polar_m10: m*risk/V=0.6091 (+-0.1374) gain_vs_mc=1.642
+[   15.2s] n=128 L=16 seed=307 rqmc_rb_polar_m12: m*risk/V=0.3052 (+-0.0417) gain_vs_mc=3.276
+[   22.3s] n=128 L=16 seed=307 rqmc_rb_polar_m14: m*risk/V=0.2297 (+-0.0208) gain_vs_mc=4.353
+[   22.6s] n=128 L=16 seed=307 rqmc_rb_svd_m10: m*risk/V=0.3691 (+-0.0388) gain_vs_mc=2.709
+[   23.8s] n=128 L=16 seed=307 rqmc_rb_svd_m12: m*risk/V=0.2346 (+-0.0225) gain_vs_mc=4.263
+[   30.3s] n=128 L=16 seed=307 rqmc_rb_svd_m14: m*risk/V=0.2933 (+-0.0423) gain_vs_mc=3.410
+[   31.1s] n=128 L=16 seed=307 rqmc_anti_rb_std_m12: m*risk/V=0.4037 (+-0.0600) gain_vs_mc=2.477
+[   37.0s] n=128 L=16 seed=307 rqmc_anti_rb_std_m14: m*risk/V=0.3045 (+-0.0434) gain_vs_mc=3.284
+[   37.7s] n=128 L=16 seed=307 rqmc_anti_rb_polar_m12: m*risk/V=0.4044 (+-0.0530) gain_vs_mc=2.473
+[   43.8s] n=128 L=16 seed=307 rqmc_anti_rb_polar_m14: m*risk/V=0.2412 (+-0.0171) gain_vs_mc=4.146
+[   43.8s] n=128 L=16 seed=307 sobol_det m=2^10: nmse*m=0.3101 (polar 0.2290)
+[   43.9s] n=128 L=16 seed=307 sobol_det m=2^12: nmse*m=0.3961 (polar 0.1788)
+[   45.1s] n=128 L=16 seed=307 sobol_det m=2^14: nmse*m=0.5050 (polar 0.3353)
+[   52.4s] n=128 L=16 seed=307 sobol_det m=2^16: nmse*m=0.1519 (polar 0.7497)
+[   52.4s] n=128 L=16 seed=307 done passes=1943616 -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/struct_n128_L16_s307.json

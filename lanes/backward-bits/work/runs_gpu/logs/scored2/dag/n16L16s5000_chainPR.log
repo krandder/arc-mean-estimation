@@ -1,0 +1,6 @@
+[      1s] l=14: resumed
+[      1s] l=13: resumed
+[    321s] l=12: T 3.058 (erased 2.687 of 5.745) | code K=256 H 7.773 I 2.930 deficit 0.128 | reuse H 7.773 I 2.930 | exCE 0.0203 | 320s
+[    577s] l=11: T 2.513 (erased 3.235 of 5.747) | code K=256 H 7.744 I 2.419 deficit 0.093 | reuse H 7.744 I 2.419 | exCE 0.0205 | 256s
+[    861s] l=10: T 2.134 (erased 3.604 of 5.738) | code K=256 H 7.681 I 2.068 deficit 0.066 | reuse H 7.681 I 2.068 | exCE 0.0166 | 284s
+[   1099s] l=9: T 1.863 (erased 3.879 of 5.743) | code K=256 H 7.562 I 1.813 deficit 0.050 | reuse H 7.562 I 1.813 | exCE 0.0132 | 238s

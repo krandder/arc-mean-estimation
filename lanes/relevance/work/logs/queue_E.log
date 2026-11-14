@@ -1,0 +1,33 @@
+arc seed 4007 l 0 done in 467s
+arc seed 4006 l 0 done in 467s
+arc seed 4007 l 4 done in 557s
+arc seed 4006 l 4 done in 567s
+arc seed 4007 l 8 done in 410s
+arc seed 4006 l 8 done in 424s
+arc seed 4007 l 16 done in 301s
+arc seed 4006 l 16 done in 302s
+arc seed 4007 l 24 done in 229s
+arc seed 4006 l 24 done in 253s
+arc seed 4007 l 28 done in 190s
+arc seed 4006 l 28 done in 187s
+arc seed 4007 l 31 done in 92s
+net 4007 done 02:04:07Z
+arc seed 4006 l 31 done in 104s
+net 4006 done 02:05:05Z
+arc seed 4009 l 0 done in 517s
+arc seed 4008 l 0 done in 493s
+arc seed 4009 l 4 done in 405s
+arc seed 4008 l 4 done in 424s
+arc seed 4009 l 8 done in 395s
+arc seed 4008 l 8 done in 393s
+arc seed 4009 l 16 done in 257s
+arc seed 4008 l 16 done in 265s
+arc seed 4009 l 24 done in 169s
+arc seed 4008 l 24 done in 156s
+arc seed 4009 l 28 done in 114s
+arc seed 4008 l 28 done in 94s
+arc seed 4009 l 31 done in 37s
+net 4009 done 02:35:42Z
+arc seed 4008 l 31 done in 30s
+net 4008 done 02:36:01Z
+queue E done 02:36:01Z

@@ -1,0 +1,10 @@
+r1 start 00:07:41Z
+r1 exit 0 00:16:12Z
+r2a start 04:48:18Z
+r2a exit 0 04:53:54Z
+r2b start 12:19:35Z
+r2b exit 0 12:26:58Z
+r2c start 15:33:35Z
+r2c exit 0 15:38:34Z
+r3 start 23:33:20Z
+r3 exit 0 23:37:35Z

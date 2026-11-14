@@ -1,0 +1,23 @@
+PASS T1 linear net exact mean, gpoe  2.4e-09
+PASS T1 linear net exact covariance, gpoe  4.8e-10
+PASS T1 linear net exact mean, mix  2.4e-09
+PASS T1 linear net exact covariance, mix  4.8e-10
+PASS T1 linear net exact mean, tgpoe  2.4e-09
+PASS T1 linear net exact covariance, tgpoe  4.8e-10
+PASS T1 linear net exact mean, poe  2.4e-09
+PASS T1 linear net exact covariance, poe  4.8e-10
+PASS T2 rectified mean within 1e-3, gpoe, split threshold 0.2  max error 2.94e-04; splits 0
+PASS T2 rectified mean within 1e-3, mix, split threshold 0.2  max error 2.94e-04; splits 0
+PASS T2 rectified mean within 1e-3, tgpoe, split threshold 0.2  max error 2.94e-04; splits 0
+PASS T2 rectified mean within 1e-3, poe, split threshold 0.2  max error 2.94e-04; splits 0
+FAIL T2 rectified mean within 1e-3, gpoe, split threshold 0.01  max error 7.00e-02; splits 1
+PASS T3 K=1 equals the regression estimator, gpoe  2.8e-09
+PASS T3 K=1 equals the regression estimator, mix  1.4e-09
+PASS T3 K=1 equals the regression estimator, tgpoe  2.8e-09
+PASS T3 K=1 equals the regression estimator, poe  1.3e-09
+PASS T4 tiny populations -> pointwise prediction, gpoe  relative 1.8e-07
+PASS T4 tiny populations -> pointwise prediction, mix  relative 5.6e-07
+PASS T4 tiny populations -> pointwise prediction, tgpoe  relative 1.0e-06
+PASS T4 tiny populations -> pointwise prediction, poe  relative 2.1e-06
+PASS T5 planted 2-piece linear map recovered (max abs coefficient error < 0.05)  0.000
+FAILED: T2 rectified mean within 1e-3, gpoe, split threshold 0.01

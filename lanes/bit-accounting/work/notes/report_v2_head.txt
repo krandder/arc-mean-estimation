@@ -1,0 +1,19 @@
+# How many bits each layer needs (bit-accounting lane, 1-2 November 2026)
+
+Status: REPORT v2 (phase 1). Phase 1 (Kelvin 02:55Z): the best bits-vs-accuracy curve of every layer, one
+lambda-conditioned variable-rate code per layer and encoder class, with certificates on every curve (PREREG Part P1,
+registered 04:01Z). Phase 2 (registered as Part P2.0: Kelvin's near-identity hypothesis; then the unscrambling loss at
+fixed rate) is in sections 3.1-3.5. Earlier measurements (fixed-budget codes, scrambling tests, estimation) are kept in
+sections 4-6 as background.
+
+Work directory work/bit-accounting/: PREREG.md + prereg_hashes.txt, FORMAL.md (theory), notes/DEVIATIONS.md,
+GPU-LOG.md, results/ (P1_table.md: every cell; P1_summary.md: by layer; P1_scores.json), figs/P1_curves_*.png, runs/P1/
+(raw JSON per cell). Labels: PROVEN, MEASURED, HEURISTIC.
+
+## Summary for Kelvin
+
+[filled from results]
+
+## 1. What phase 1 measures
+
+[notes/report_p1_method.txt]

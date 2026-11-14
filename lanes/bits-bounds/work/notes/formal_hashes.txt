@@ -1,0 +1,17 @@
+1dee191975e0d214bfc1b64bfec2508101f0373d3b4e23f845d703299a7f60e2  FORMAL.md
+FORMAL.md v1 frozen 21:17:58Z, before reading coprover/astra_r1.raw beyond its header
+dbdcb7f7f6b123a2eaa719cbae316a2fcb13987df77251f40400b65862a84d62  FORMAL.md
+rehashed 21:18:05Z after fixing only the header's writing-time typo (21:15-22:20Z -> 21:07-21:18Z); co-prover answer still unread
+35611dede229f82ccc5645560840e9886e3063b8db9936ffb75bd3bf32731764  FORMAL.md
+FORMAL.md v2 + round-3/closure updates (sections 0, 10, 11 C4) hashed 22:55:45Z, before the focused re-review (review/prompt_review2.md)
+213314aee886f7fed740b3873bcfe452646fdedabb630cbe0a0c642e7d1da820  FORMAL.md
+805c850b11a54f357b5bafd710b381c039e076ddde4dc7e7db931ca46d2f1665  /home/agent/workspaces/mats/outbox/bits-bounds-2026-11-01.md
+after review 2 (14 findings applied or answered) at 23:10:50Z
+e67ca54f663cac19c98862b6626b57cc1c3873c4b0358495c0a606779125bfc6  FORMAL.md
+FORMAL v2.2 (section 6.6 added) frozen 23:20:57Z, before co-prover round 4
+5547b83e37defa78780233a3b9a6e08ecdefa203416c5424cffb976185f07700  FORMAL.md
+rehashed 23:21:12Z after fixing only 6.6's header time (23:20-23:35Z -> 23:12-23:21Z); round 4 not yet launched
+d284ff62325cf17471566fa3a818e7a02c1aac5e2c37800a6eaf9129bbc1b3de  FORMAL.md
+e9575f7f0ba56a358b416b1af7692e993482db53fd3a1fc5701faf35f5f76dff  /home/agent/workspaces/mats/outbox/bits-bounds-2026-11-01.md
+812207148a9d58adbd8f3c0059e930bb72a4ebc4ecf98ee6c72f900eae0df188  coprover/PROVENANCE.md
+FORMAL v2.3 (6.6 rewritten after co-prover round 4) and report hashed 23:46:51Z

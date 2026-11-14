@@ -1,0 +1,20 @@
+R=2 noise corr 0.5: delta                                  KS p=0.2  z=-1.16  mean net 0.24619 chain 0.25133  ok
+R=2 noise corr 0.5: Q                                      KS p=0.141  z=+0.43  mean net 20.132 chain 19.64  ok
+R=2 noise corr 0.5: ell                                    KS p=0.355  z=+0.53  mean net 0.0059958 chain 0.0012437  ok
+R=3 labels (0,1 share except layer 4): delta_01            KS p=0.685  z=-1.05  mean net 0.042297 chain 0.043792  ok
+R=3 labels (0,1 share except layer 4): delta_02            KS p=0.483  z=-0.70  mean net 0.41958 chain 0.42387  ok
+R=2 coordinate sharing t=0.5: delta                        KS p=0.0257  z=-2.38  mean net 0.24754 chain 0.25838  ok
+tangent: |J t1|^2/n (annealed mean must be 1)              KS p=0.954  z=-0.50  mean net 0.99901 chain 1.0294  ok
+tangent: (J t1 . J t2)/n                                   KS p=0.341  z=-1.21  mean net -0.052029 chain -0.0076218  ok
+tangent: (J t1 . h)/n                                      KS p=0.591  z=+0.85  mean net 0.10501 chain -5.7561e-05  ok
+tangent: chain E|J t|^2/n = 1 exactly                      z=+0.64 ok
+surgery eps=0.3, shared noise: delta_01                    KS p=0.685  z=+0.00  mean net 0.015171 chain 0.015171  ok
+surgery: (d1 . d2) of the two perturbations                KS p=0.466  z=+1.17  mean net 1.1284 chain 0.71583  ok
+inputs sigma=0: initial Wishart rho_01                     KS p=0.5  z=-0.81  mean net -0.0043265 chain 0.00011591  ok
+inputs sigma=0, L=8: delta_01                              KS p=0.888  z=+0.43  mean net 0.1545 chain 0.15278  ok
+inputs sigma=0, L=8: sqrt Q_0 (exact zeros possible)       KS p=0.432  z=-0.34  mean net 0.70954 chain 0.71479  ok
+output layer closed form E[G_out[0,0]|G]                   z=-0.06 ok
+output layer closed form E[G_out[0,1]|G]                   z=-0.62 ok
+output layer closed form E[G_out[1,1]|G]                   z=-1.40 ok
+mean-field fixed point vs two-term series                  rel.err [4.35e-03 1.99e-04 9.18e-06] ok
+ALL PASS

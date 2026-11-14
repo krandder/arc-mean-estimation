@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_chain.py", line 179, in <module>
+    c_tr = bb.mc_counts_next(net, l, h_tr, code_next, args.Mtr, g)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/bb.py", line 501, in mc_counts_next
+    c = code_next.assign(zz)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/bb.py", line 407, in assign
+    return self.assign_out(self.net.pre(h, self.net.L))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/bb.py", line 403, in assign_out
+    return torch.argmax(2 * a @ self.C.T - self.cc, 1)
+                        ~~~~~~~~~~~~~~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 365.75 MiB is free. Process 9701 has 1.96 GiB memory in use. Process 9707 has 2.09 GiB memory in use. Process 9699 has 1.96 GiB memory in use. Process 9687 has 1.97 GiB memory in use. Process 10224 has 2.17 GiB memory in use. Process 10245 has 1.96 GiB memory in use. Process 10248 has 2.17 GiB memory in use. Process 10212 has 2.17 GiB memory in use. Process 10243 has 2.17 GiB memory in use. Process 10241 has 1.96 GiB memory in use. Including non-PyTorch memory, this process has 1.01 GiB memory in use. Of the allocated memory 796.05 MiB is allocated by PyTorch, and 13.95 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

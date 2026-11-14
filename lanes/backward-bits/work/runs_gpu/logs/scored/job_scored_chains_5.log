@@ -1,0 +1,16 @@
+[    210s] l=14: T 3.784 (erased 2.113 of 5.896) | code K=14 H 3.778 I 2.260 deficit 1.524 | reuse H 5.855 I 3.016 | exCE 0.0140 | 209s
+[    362s] l=13: T 2.264 (erased 1.511 of 3.775) | code K=5 H 2.296 I 1.318 deficit 0.945 | reuse H 3.767 I 1.821 | exCE 0.0076 | 152s
+[    494s] l=12: T 1.335 (erased 0.964 of 2.299) | code K=2 H 0.984 I 0.557 deficit 0.779 | reuse H 2.290 I 1.042 | exCE 0.0040 | 133s
+[    602s] l=11: T 0.609 (erased 0.375 of 0.983) | code K=2 H 0.602 I 0.204 deficit 0.404 | reuse H 0.980 I 0.462 | exCE 0.0020 | 107s
+[    703s] l=10: T 0.409 (erased 0.191 of 0.600) | code K=2 H 0.430 I 0.242 deficit 0.167 | reuse H 0.541 I 0.294 | exCE 0.0014 | 101s
+[    797s] l=9: T 0.304 (erased 0.134 of 0.438) | code K=2 H 0.292 I 0.172 deficit 0.132 | reuse H 0.375 I 0.212 | exCE 0.0013 | 94s
+[    895s] l=8: T 0.200 (erased 0.084 of 0.284) | code K=2 H 0.206 I 0.121 deficit 0.078 | reuse H 0.241 I 0.136 | exCE 0.0014 | 98s
+[    999s] l=7: T 0.157 (erased 0.054 of 0.211) | code K=2 H 0.178 I 0.105 deficit 0.051 | reuse H 0.169 I 0.103 | exCE 0.0011 | 104s
+[   1085s] l=6: T 0.146 (erased 0.028 of 0.174) | code K=2 H 0.164 I 0.113 deficit 0.033 | reuse H 0.158 I 0.112 | exCE 0.0016 | 85s
+[   1170s] l=5: T 0.133 (erased 0.026 of 0.159) | code K=2 H 0.147 I 0.102 deficit 0.031 | reuse H 0.145 I 0.102 | exCE 0.0012 | 85s
+[   1259s] l=4: T 0.121 (erased 0.029 of 0.149) | code K=2 H 0.141 I 0.090 deficit 0.030 | reuse H 0.131 I 0.087 | exCE 0.0011 | 88s
+[   1354s] l=3: T 0.111 (erased 0.031 of 0.143) | code K=2 H 0.127 I 0.077 deficit 0.034 | reuse H 0.124 I 0.077 | exCE 0.0017 | 95s
+[   1456s] l=2: T 0.104 (erased 0.024 of 0.128) | code K=2 H 0.118 I 0.075 deficit 0.029 | reuse H 0.115 I 0.076 | exCE 0.0028 | 102s
+[   1540s] l=1: T 0.095 (erased 0.019 of 0.114) | code K=2 H 0.109 I 0.067 deficit 0.027 | reuse H 0.105 I 0.072 | exCE 0.0048 | 84s
+[   1622s] l=0: T 0.099 (erased 0.014 of 0.113) | code K=2 H 0.111 I 0.066 deficit 0.033 | reuse H 0.109 I 0.081 | exCE 0.0145 | 82s
+[   1622s] done

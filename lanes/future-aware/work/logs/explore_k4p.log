@@ -1,0 +1,45 @@
+n=64 L=8 s=300 k2 3.859e-03 k3 2.694e-04
+n=64 L=8 s=300 k4 none: nMSE 1.634e-04 (ARC passes 306817) 157s
+n=64 L=8 s=300 k4 futv16: nMSE 3.298e-04 (ARC passes 306817) 221s
+n=64 L=8 s=300 k4 futv32: nMSE 1.387e-04 (ARC passes 306817) 202s
+n=64 L=8 s=300 k4 pca16: nMSE 8.345e-04 (ARC passes 306817) 238s
+n=64 L=8 s=300 k4 pca32: nMSE 2.655e-04 (ARC passes 306817) 237s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s300_x.json 1058s
+n=64 L=8 s=300 k2 3.859e-03 k3 2.694e-04
+n=64 L=8 s=300 k4 futv16: nMSE 4.676e-05 (ARC passes 306817) 241s
+n=64 L=8 s=300 k4 futv32: nMSE 1.235e-04 (ARC passes 306817) 260s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s300_x4only.json 506s
+n=64 L=8 s=300 k2 3.859e-03 k3 2.694e-04
+n=64 L=8 s=300 k4 futv16: nMSE 4.900e-04 (ARC passes 306817) 234s
+n=64 L=8 s=300 k4 futv32: nMSE 1.650e-04 (ARC passes 306817) 169s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s300_x3only.json 412s
+n=64 L=8 s=301 k2 3.601e-03 k3 3.124e-04
+n=64 L=8 s=301 k4 none: nMSE 6.155e-05 (ARC passes 306817) 148s
+n=64 L=8 s=301 k4 futv16: nMSE 5.762e-04 (ARC passes 306817) 236s
+n=64 L=8 s=301 k4 futv32: nMSE 1.246e-04 (ARC passes 306817) 207s
+n=64 L=8 s=301 k4 pca16: nMSE 1.214e-03 (ARC passes 306817) 161s
+n=64 L=8 s=301 k4 pca32: nMSE 4.086e-04 (ARC passes 306817) 225s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s301_x.json 983s
+n=64 L=8 s=301 k2 3.601e-03 k3 3.124e-04
+n=64 L=8 s=301 k4 futv16: nMSE 5.253e-05 (ARC passes 306817) 196s
+n=64 L=8 s=301 k4 futv32: nMSE 4.802e-05 (ARC passes 306817) 322s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s301_x4only.json 525s
+n=64 L=8 s=301 k2 3.601e-03 k3 3.124e-04
+n=64 L=8 s=301 k4 futv16: nMSE 6.326e-04 (ARC passes 306817) 412s
+n=64 L=8 s=301 k4 futv32: nMSE 1.380e-04 (ARC passes 306817) 406s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s301_x3only.json 823s
+n=64 L=8 s=302 k2 1.918e-03 k3 4.451e-04
+n=64 L=8 s=302 k4 none: nMSE 1.197e-04 (ARC passes 306817) 477s
+n=64 L=8 s=302 k4 futv16: nMSE 1.335e-04 (ARC passes 306817) 452s
+n=64 L=8 s=302 k4 futv32: nMSE 9.105e-05 (ARC passes 306817) 329s
+n=64 L=8 s=302 k4 pca16: nMSE 4.189e-04 (ARC passes 306817) 516s
+n=64 L=8 s=302 k4 pca32: nMSE 8.310e-05 (ARC passes 306817) 356s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s302_x.json 2138s
+n=64 L=8 s=302 k2 1.918e-03 k3 4.451e-04
+n=64 L=8 s=302 k4 futv16: nMSE 6.626e-05 (ARC passes 306817) 321s
+n=64 L=8 s=302 k4 futv32: nMSE 8.850e-05 (ARC passes 306817) 471s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s302_x4only.json 800s
+n=64 L=8 s=302 k2 1.918e-03 k3 4.451e-04
+n=64 L=8 s=302 k4 futv16: nMSE 1.541e-04 (ARC passes 306817) 446s
+n=64 L=8 s=302 k4 futv32: nMSE 1.182e-04 (ARC passes 306817) 477s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k4p_n64_L8_s302_x3only.json 932s

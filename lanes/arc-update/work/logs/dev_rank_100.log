@@ -1,0 +1,11 @@
+l=1: fro2 5.351e+02 std 9.97e-05 pr3 114.6 covPR 163.9 cap8 0.005 cap32 0.066 (23s)
+l=2: fro2 5.015e+02 std 1.47e-04 pr3 68.2 covPR 104.3 cap8 0.033 cap32 0.192 (44s)
+l=4: fro2 3.866e+02 std 3.80e-04 pr3 24.0 covPR 55.4 cap8 0.203 cap32 0.510 (69s)
+l=8: fro2 2.012e+02 std 1.43e-03 pr3 6.6 covPR 25.0 cap8 0.558 cap32 0.813 (91s)
+l=12: fro2 1.183e+02 std 4.66e-03 pr3 2.7 covPR 13.3 cap8 0.783 cap32 0.939 (115s)
+l=16: fro2 1.756e+02 std 1.28e-02 pr3 1.5 covPR 6.4 cap8 0.924 cap32 0.985 (141s)
+l=20: fro2 1.312e+02 std 1.71e-02 pr3 1.5 covPR 5.6 cap8 0.941 cap32 0.989 (170s)
+l=24: fro2 3.030e+01 std 2.21e-02 pr3 1.6 covPR 5.1 cap8 0.955 cap32 0.992 (200s)
+l=28: fro2 8.694e+01 std 4.41e-02 pr3 1.2 covPR 3.1 cap8 0.986 cap32 0.997 (225s)
+l=31: fro2 5.050e+01 std 4.90e-02 pr3 1.1 covPR 2.9 cap8 0.990 cap32 0.998 (245s)
+done 245s

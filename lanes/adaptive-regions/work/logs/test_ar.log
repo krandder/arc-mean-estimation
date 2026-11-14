@@ -1,0 +1,50 @@
+PASS forward == au.forward
+PASS jvp == finite difference
+PASS vjp transpose identity <J^T v, t> = <v, J t>
+PASS homogeneity f(x) = J(x) x
+PASS IBP sound l=0 r=0.001  max violation 0.00e+00
+PASS CROWN sound l=0 r=0.001  max violation 0.00e+00
+PASS CROWN tighter than IBP l=0 r=0.001  4.824e-03 vs 1.654e-01
+PASS CROWN intermediate bounds sound l=0 r=0.001  0.00e+00
+PASS IBP sound l=0 r=0.05  max violation 0.00e+00
+PASS CROWN sound l=0 r=0.05  max violation 0.00e+00
+PASS CROWN tighter than IBP l=0 r=0.05  4.061e-01 vs 8.928e+00
+PASS CROWN intermediate bounds sound l=0 r=0.05  0.00e+00
+PASS IBP sound l=0 r=0.3  max violation 0.00e+00
+PASS CROWN sound l=0 r=0.3  max violation 0.00e+00
+PASS CROWN tighter than IBP l=0 r=0.3  1.290e+01 vs 5.754e+01
+PASS CROWN intermediate bounds sound l=0 r=0.3  0.00e+00
+PASS IBP sound l=1 r=0.001  max violation 0.00e+00
+PASS CROWN sound l=1 r=0.001  max violation 0.00e+00
+PASS CROWN tighter than IBP l=1 r=0.001  5.561e-03 vs 6.207e-02
+PASS CROWN intermediate bounds sound l=1 r=0.001  0.00e+00
+PASS IBP sound l=1 r=0.05  max violation 0.00e+00
+PASS CROWN sound l=1 r=0.05  max violation 0.00e+00
+PASS CROWN tighter than IBP l=1 r=0.05  3.689e-01 vs 3.427e+00
+PASS CROWN intermediate bounds sound l=1 r=0.05  0.00e+00
+PASS IBP sound l=1 r=0.3  max violation 0.00e+00
+PASS CROWN sound l=1 r=0.3  max violation 0.00e+00
+PASS CROWN tighter than IBP l=1 r=0.3  5.630e+00 vs 1.934e+01
+PASS CROWN intermediate bounds sound l=1 r=0.3  0.00e+00
+PASS IBP sound l=3 r=0.001  max violation 0.00e+00
+PASS CROWN sound l=3 r=0.001  max violation 0.00e+00
+PASS CROWN tighter than IBP l=3 r=0.001  5.541e-03 vs 5.541e-03
+PASS CROWN intermediate bounds sound l=3 r=0.001  0.00e+00
+PASS IBP sound l=3 r=0.05  max violation 0.00e+00
+PASS CROWN sound l=3 r=0.05  max violation 0.00e+00
+PASS CROWN tighter than IBP l=3 r=0.05  2.750e-01 vs 2.750e-01
+PASS CROWN intermediate bounds sound l=3 r=0.05  0.00e+00
+PASS IBP sound l=3 r=0.3  max violation 0.00e+00
+PASS CROWN sound l=3 r=0.3  max violation 0.00e+00
+PASS CROWN tighter than IBP l=3 r=0.3  1.771e+00 vs 1.771e+00
+PASS CROWN intermediate bounds sound l=3 r=0.3  0.00e+00
+PASS CROWN exact on a tiny box (linear piece)
+PASS CROWN sound on rotated boxes  0.00e+00
+PASS frame sign cells mass 1/8  [0.1249 0.1262 0.1261 0.1255 0.1244 0.1249 0.1238 0.1242]
+PASS gate-cone probabilities vs MC  [0.1273 0.1071 0.1592 0.1064 0.1065 0.1592 0.1068 0.1276] vs [0.127  0.1071 0.16   0.1066 0.1066 0.1596 0.1069 0.1262]
+PASS gate-cone centroid identity vs MC  0.021
+PASS Genz orthant prob vs sampling  0.1271 vs 0.1276
+PASS gains: G_N >= G_P >= 1  G_N 1.028 G_P 1.026
+PASS closed index of the full space = 1  1.000000
+PASS collision stats run; layer-1 patterns mostly distinct at n=32  5000
+ALL PASS

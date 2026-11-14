@@ -1,0 +1,7 @@
+PASS test_euler_identity
+PASS test_residual_decomposition
+PASS test_one_layer_law
+PASS test_meanfield_one_layer_matches_formula
+PASS test_chain3_large_n_matches_meanfield
+PASS test_chain3_against_nets
+PASS test_two_level_unbiased

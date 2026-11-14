@@ -1,0 +1,91 @@
+half A done
+half B done
+{"odd": 0.6416374620185651, "deg1": 0.5256497419559447, "odd_ge3": 0.11598772006262033, "deg2": 0.29845662619605656, "even_ge4": 0.05999523147575972, "even_ge2": 0.3584518576718163} radial_share 0.045
+half A done
+half B done
+{"odd": 0.6355327846952203, "deg1": 0.45006194335686717, "odd_ge3": 0.18547084133835312, "deg2": 0.31098684528028986, "even_ge4": 0.051129567399310336, "even_ge2": 0.3621164126796002} radial_share 0.048
+half A done
+half B done
+{"odd": 0.5856455207602635, "deg1": 0.3769370264457154, "odd_ge3": 0.2087084943145481, "deg2": 0.04738247746925713, "even_ge4": 0.3574891857732466, "even_ge2": 0.40487166324250373} radial_share 0.039
+half A done
+half B done
+{"odd": 0.556193726727896, "deg1": 0.32626458319166385, "odd_ge3": 0.22992914353623214, "deg2": 0.4464048529430796, "even_ge4": -0.00295827327600688, "even_ge2": 0.44344657966707274} radial_share 0.034
+half A done
+half B done
+{"odd": 0.5661675072741652, "deg1": 0.2544607936285126, "odd_ge3": 0.31170671364565267, "deg2": -0.1206310942468004, "even_ge4": 0.5592711497700023, "even_ge2": 0.4386400555232018} radial_share 0.039
+half A done
+half B done
+{"odd": 0.6418416784584725, "deg1": 0.5078104338187703, "odd_ge3": 0.13403124463970226, "deg2": 0.267943184877029, "even_ge4": 0.09416886169365056, "even_ge2": 0.3621120465706795} radial_share 0.032
+half A done
+half B done
+{"odd": 0.5906919951741694, "deg1": 0.36357065053204257, "odd_ge3": 0.22712134464212674, "deg2": 0.2400437445094996, "even_ge4": 0.17250880934461577, "even_ge2": 0.4125525538541154} radial_share 0.036
+half A done
+half B done
+{"odd": 0.5432100206032382, "deg1": 0.2143120620646175, "odd_ge3": 0.32889795853862075, "deg2": 0.18877029365319467, "even_ge4": 0.2637139258764867, "even_ge2": 0.4524842195296813} radial_share 0.031
+queue C done 14:46:47Z
+{"n": 64, "L": 8, "K": 256, "exkurt_unit_output": 7.542273581929377, "exkurt_preact": 2.1051407260015083, "exkurt_angular_diff": 7.553234610880811, "exkurt_one_point_error": 7.949235905840645, "exkurt_one_point_error_scaled": 7.566529435701407, "var_log_norm2": 0.7010672625104741, "hanin_nica_5L_over_n": 0.625, "frac_zero_units": 0.50469970703125}
+{"n": 128, "L": 16, "K": 256, "exkurt_unit_output": 9.062625513612433, "exkurt_preact": 2.3909941213389647, "exkurt_angular_diff": 8.064442856124053, "exkurt_one_point_error": 8.677043216895472, "exkurt_one_point_error_scaled": 6.045307286372871, "var_log_norm2": 0.666196667893518, "hanin_nica_5L_over_n": 0.625, "frac_zero_units": 0.5}
+{"n": 256, "L": 32, "K": 96, "exkurt_unit_output": 6.925902687134389, "exkurt_preact": 1.8767445486330656, "exkurt_angular_diff": 13.433408715134007, "exkurt_one_point_error": 16.40179237095849, "exkurt_one_point_error_scaled": 8.757726012461596, "var_log_norm2": 0.7330263320982692, "hanin_nica_5L_over_n": 0.625, "frac_zero_units": 0.4977213541666667}
+{"n": 32, "L": 4, "K": 512, "exkurt_unit_output": 8.522827574396208, "exkurt_preact": 1.7944115559959588, "exkurt_angular_diff": 5.440338281441965, "exkurt_one_point_error": 6.663949563468266, "exkurt_one_point_error_scaled": 5.678604086527031, "var_log_norm2": 0.671805502745581, "hanin_nica_5L_over_n": 0.625, "frac_zero_units": 0.499267578125}
+queue C (F9) done 14:47:41Z
+small n=6 L=3 s=1 PI_jac     p= 2 cost     1874.4 passes  nMSE(rep) 4.270e-02  C*nMSE 8.003e+01   [0s]
+small n=6 L=3 s=1 PI_jac     p= 3 cost     2109.5 passes  nMSE(rep) 1.615e-02  C*nMSE 3.407e+01   [0s]
+small n=6 L=3 s=1 PI_jac     p= 4 cost     2585.3 passes  nMSE(rep) 3.263e-03  C*nMSE 8.436e+00   [0s]
+small n=6 L=3 s=1 PI_jac     p= 5 cost     3542.7 passes  nMSE(rep) 1.099e-03  C*nMSE 3.894e+00   [0s]
+small n=6 L=3 s=1 PI_jac     p= 6 cost     5459.2 passes  nMSE(rep) 3.991e-04  C*nMSE 2.179e+00   [0s]
+small n=6 L=3 s=1 PI_jac     p= 7 cost     9313.1 passes  nMSE(rep) 1.072e-04  C*nMSE 9.987e-01   [1s]
+small n=6 L=3 s=1 PI_jac     p= 8 cost    16949.5 passes  nMSE(rep) 3.084e-05  C*nMSE 5.227e-01   [1s]
+small n=6 L=3 s=1 PI_jac     p= 9 cost    32275.3 passes  nMSE(rep) 9.955e-06  C*nMSE 3.213e-01   [2s]
+small n=6 L=3 s=1 PI_jac     p=10 cost    62945.8 passes  nMSE(rep) 3.888e-06  C*nMSE 2.447e-01   [3s]
+small n=6 L=3 s=1 PI_jac     p=11 cost   124514.0 passes  nMSE(rep) 1.914e-06  C*nMSE 2.384e-01   [6s]
+small n=6 L=3 s=1 PI_jac     p=12 cost   247101.8 passes  nMSE(rep) 3.520e-07  C*nMSE 8.698e-02   [12s]
+small n=6 L=3 s=1 PI_jac     p=13 cost   492828.3 passes  nMSE(rep) 7.754e-08  C*nMSE 3.821e-02   [21s]
+small n=6 L=3 s=1 PI_as      p= 2 cost      875.2 passes  nMSE(rep) 4.977e-02  C*nMSE 4.356e+01   [21s]
+small n=6 L=3 s=1 PI_as      p= 3 cost     1146.1 passes  nMSE(rep) 1.330e-02  C*nMSE 1.525e+01   [21s]
+small n=6 L=3 s=1 PI_as      p= 4 cost     1612.3 passes  nMSE(rep) 3.521e-03  C*nMSE 5.677e+00   [22s]
+small n=6 L=3 s=1 PI_as      p= 5 cost     2566.0 passes  nMSE(rep) 8.871e-04  C*nMSE 2.276e+00   [22s]
+small n=6 L=3 s=1 PI_as      p= 6 cost     4546.8 passes  nMSE(rep) 3.743e-04  C*nMSE 1.702e+00   [22s]
+small n=6 L=3 s=1 PI_as      p= 7 cost     8375.3 passes  nMSE(rep) 9.284e-05  C*nMSE 7.776e-01   [22s]
+small n=6 L=3 s=1 PI_as      p= 8 cost    16101.6 passes  nMSE(rep) 4.502e-05  C*nMSE 7.249e-01   [22s]
+small n=6 L=3 s=1 PI_as      p= 9 cost    31792.5 passes  nMSE(rep) 8.950e-06  C*nMSE 2.846e-01   [23s]
+small n=6 L=3 s=1 PI_as      p=10 cost    62700.0 passes  nMSE(rep) 4.474e-06  C*nMSE 2.805e-01   [24s]
+small n=6 L=3 s=1 PI_as      p=11 cost   124909.1 passes  nMSE(rep) 9.594e-07  C*nMSE 1.198e-01   [27s]
+small n=6 L=3 s=1 PI_as      p=12 cost   248410.8 passes  nMSE(rep) 4.440e-07  C*nMSE 1.103e-01   [33s]
+small n=6 L=3 s=1 PI_as      p=13 cost   497632.4 passes  nMSE(rep) 1.014e-07  C*nMSE 5.046e-02   [44s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 2 cost     1801.2 passes  nMSE(rep) 9.418e-02  C*nMSE 1.696e+02 truth 9.54e-02 bias_ratio 1.10  [0s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 3 cost     1998.0 passes  nMSE(rep) 5.084e-02  C*nMSE 1.016e+02 truth 4.92e-02 bias_ratio 0.74  [0s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 4 cost     2371.9 passes  nMSE(rep) 2.700e-02  C*nMSE 6.405e+01 truth 2.71e-02 bias_ratio 1.03  [1s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 5 cost     3161.4 passes  nMSE(rep) 1.615e-02  C*nMSE 5.107e+01 truth 1.54e-02 bias_ratio 0.63  [1s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 6 cost     4666.9 passes  nMSE(rep) 4.912e-03  C*nMSE 2.293e+01 truth 5.81e-03 bias_ratio 2.47  [2s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 7 cost     7821.6 passes  nMSE(rep) 2.041e-03  C*nMSE 1.596e+01 truth 2.10e-03 bias_ratio 1.25  [2s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 8 cost    13791.0 passes  nMSE(rep) 7.481e-04  C*nMSE 1.032e+01 truth 7.58e-04 bias_ratio 1.10  [6s]
+arc n=32 L=4 s=9500 PI_jac_w   p= 9 cost    26117.6 passes  nMSE(rep) 2.862e-04  C*nMSE 7.476e+00 truth 2.82e-04 bias_ratio 0.88  [11s]
+arc n=32 L=4 s=9500 PI_jac_w   p=10 cost    50642.2 passes  nMSE(rep) 1.718e-04  C*nMSE 8.700e+00 truth 1.67e-04 bias_ratio 0.79  [22s]
+arc n=32 L=4 s=9500 PI_as_w    p= 2 cost      405.0 passes  nMSE(rep) 1.070e-01  C*nMSE 4.334e+01 truth 1.03e-01 bias_ratio 0.72  [22s]
+arc n=32 L=4 s=9500 PI_as_w    p= 3 cost      603.4 passes  nMSE(rep) 5.270e-02  C*nMSE 3.180e+01 truth 5.26e-02 bias_ratio 0.98  [23s]
+arc n=32 L=4 s=9500 PI_as_w    p= 4 cost     1002.0 passes  nMSE(rep) 2.828e-02  C*nMSE 2.833e+01 truth 2.76e-02 bias_ratio 0.81  [23s]
+arc n=32 L=4 s=9500 PI_as_w    p= 5 cost     1777.1 passes  nMSE(rep) 1.072e-02  C*nMSE 1.905e+01 truth 1.08e-02 bias_ratio 1.07  [23s]
+arc n=32 L=4 s=9500 PI_as_w    p= 6 cost     3372.9 passes  nMSE(rep) 4.690e-03  C*nMSE 1.582e+01 truth 4.47e-03 bias_ratio 0.63  [23s]
+arc n=32 L=4 s=9500 PI_as_w    p= 7 cost     6432.1 passes  nMSE(rep) 1.611e-03  C*nMSE 1.036e+01 truth 1.59e-03 bias_ratio 0.89  [24s]
+arc n=32 L=4 s=9500 PI_as_w    p= 8 cost    12659.3 passes  nMSE(rep) 5.145e-04  C*nMSE 6.513e+00 truth 5.35e-04 bias_ratio 1.31  [26s]
+arc n=32 L=4 s=9500 PI_as_w    p= 9 cost    25191.9 passes  nMSE(rep) 3.223e-04  C*nMSE 8.120e+00 truth 3.17e-04 bias_ratio 0.86  [31s]
+arc n=32 L=4 s=9500 PI_as_w    p=10 cost    50356.0 passes  nMSE(rep) 1.499e-04  C*nMSE 7.546e+00 truth 1.57e-04 bias_ratio 1.40  [44s]
+nd n=8 L=256 s=103 PIJ_jac    p= 2 cost      446.5 passes  nMSE(rep) 9.461e-02  C*nMSE 4.224e+01 truth 9.72e-02 bias_ratio 1.22  [0s]
+nd n=8 L=256 s=103 PIJ_jac    p= 3 cost      594.2 passes  nMSE(rep) 1.675e-02  C*nMSE 9.955e+00 truth 2.19e-02 bias_ratio 3.46  [1s]
+nd n=8 L=256 s=103 PIJ_jac    p= 4 cost      857.0 passes  nMSE(rep) 5.399e-03  C*nMSE 4.627e+00 truth 1.42e-02 bias_ratio 14.10  [1s]
+nd n=8 L=256 s=103 PIJ_jac    p= 5 cost     1374.3 passes  nMSE(rep) 2.544e-03  C*nMSE 3.497e+00 truth 2.63e-03 bias_ratio 1.28  [3s]
+nd n=8 L=256 s=103 PIJ_jac    p= 6 cost     2603.6 passes  nMSE(rep) 1.293e-03  C*nMSE 3.367e+00 truth 1.30e-03 bias_ratio 1.06  [5s]
+nd n=8 L=256 s=103 PIJ_jac    p= 7 cost     4678.9 passes  nMSE(rep) 6.833e-04  C*nMSE 3.197e+00 truth 6.00e-04 bias_ratio 0.03  [10s]
+nd n=8 L=256 s=103 PIJ_jac    p= 8 cost     9143.2 passes  nMSE(rep) 4.295e-05  C*nMSE 3.927e-01 truth 4.45e-05 bias_ratio 1.30  [19s]
+nd n=8 L=256 s=103 PIJ_jac    p= 9 cost    18035.3 passes  nMSE(rep) 6.398e-05  C*nMSE 1.154e+00 truth 6.88e-05 bias_ratio 1.61  [38s]
+nd n=8 L=256 s=103 PIJ_jac    p=10 cost    34613.1 passes  nMSE(rep) 2.198e-05  C*nMSE 7.607e-01 truth 3.04e-05 bias_ratio 4.06  [76s]
+nd n=8 L=256 s=103 PIJ_as     p= 2 cost      181.2 passes  nMSE(rep) 3.933e-02  C*nMSE 7.128e+00 truth 4.90e-02 bias_ratio 2.97  [77s]
+nd n=8 L=256 s=103 PIJ_as     p= 3 cost      302.0 passes  nMSE(rep) 2.430e-02  C*nMSE 7.337e+00 truth 2.20e-02 bias_ratio 0.23  [77s]
+nd n=8 L=256 s=103 PIJ_as     p= 4 cost      576.5 passes  nMSE(rep) 1.043e-02  C*nMSE 6.011e+00 truth 9.87e-03 bias_ratio 0.57  [78s]
+nd n=8 L=256 s=103 PIJ_as     p= 5 cost     1157.7 passes  nMSE(rep) 2.498e-03  C*nMSE 2.892e+00 truth 2.20e-03 bias_ratio 0.04  [79s]
+nd n=8 L=256 s=103 PIJ_as     p= 6 cost     2241.4 passes  nMSE(rep) 1.800e-03  C*nMSE 4.034e+00 truth 1.62e-03 bias_ratio 0.20  [81s]
+nd n=8 L=256 s=103 PIJ_as     p= 7 cost     4286.3 passes  nMSE(rep) 6.520e-04  C*nMSE 2.795e+00 truth 6.52e-04 bias_ratio 1.01  [85s]
+nd n=8 L=256 s=103 PIJ_as     p= 8 cost     8519.7 passes  nMSE(rep) 4.487e-04  C*nMSE 3.823e+00 truth 3.93e-04 bias_ratio 0.00  [94s]
+nd n=8 L=256 s=103 PIJ_as     p= 9 cost    16766.7 passes  nMSE(rep) 1.047e-04  C*nMSE 1.755e+00 truth 1.42e-04 bias_ratio 3.83  [108s]
+nd n=8 L=256 s=103 PIJ_as     p=10 cost    34359.5 passes  nMSE(rep) 5.302e-05  C*nMSE 1.822e+00 truth 4.65e-05 bias_ratio 0.02  [143s]
+queue C (posthoc jac) done 14:51:45Z

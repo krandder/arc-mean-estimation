@@ -1,0 +1,17 @@
+P_relu_n16_L16_s5000_l13_unres {'0.01': {'r2_Tlin': 0.959, 'r2_Tmlp': 0.996, 'r2_path': 0.984, 'agree_Tmlp_path': 0.98, 'tracked_frac': 1.0, 'rot_cos2': 0.225}}
+P_relu_n16_L16_s5000_l1_unres {'0.01': {'r2_Tlin': 0.895, 'r2_Tmlp': 0.983, 'r2_path': 0.974, 'agree_Tmlp_path': 0.965, 'tracked_frac': 0.0, 'rot_cos2': 0.906}}
+P_relu_n16_L16_s5000_l5_unres {'0.01': {'r2_Tlin': 0.999, 'r2_Tmlp': 0.993, 'r2_path': 0.985, 'agree_Tmlp_path': 0.979, 'tracked_frac': 0.312, 'rot_cos2': 0.491}}
+P_relu_n16_L16_s5000_l9_unres {'0.01': {'r2_Tlin': 1.0, 'r2_Tmlp': 0.993, 'r2_path': 0.986, 'agree_Tmlp_path': 0.979, 'tracked_frac': 0.75, 'rot_cos2': 0.424}}
+P_relu_n16_L16_s5001_l13_unres {'0.01': {'r2_Tlin': 1.0, 'r2_Tmlp': 0.996, 'r2_path': 0.987, 'agree_Tmlp_path': 0.982, 'tracked_frac': 0.625, 'rot_cos2': 0.486}}
+P_relu_n16_L16_s5001_l1_unres {'0.01': {'r2_Tlin': 0.998, 'r2_Tmlp': 0.988, 'r2_path': 0.984, 'agree_Tmlp_path': 0.974, 'tracked_frac': 0.0, 'rot_cos2': 0.709}}
+P_relu_n16_L16_s5001_l5_unres {'0.01': {'r2_Tlin': 0.975, 'r2_Tmlp': 0.99, 'r2_path': 0.983, 'agree_Tmlp_path': 0.977, 'tracked_frac': 0.188, 'rot_cos2': 0.179}}
+P_relu_n16_L16_s5001_l9_unres {'0.01': {'r2_Tlin': 0.997, 'r2_Tmlp': 0.994, 'r2_path': 0.986, 'agree_Tmlp_path': 0.98, 'tracked_frac': 0.5, 'rot_cos2': 0.221}}
+P_relu_n16_L16_s5002_l13_unres {'0.01': {'r2_Tlin': 1.0, 'r2_Tmlp': 0.995, 'r2_path': 0.988, 'agree_Tmlp_path': 0.983, 'tracked_frac': 0.812, 'rot_cos2': 0.149}}
+P_relu_n16_L16_s5002_l1_unres {'0.01': {'r2_Tlin': 0.996, 'r2_Tmlp': 0.991, 'r2_path': 0.982, 'agree_Tmlp_path': 0.976, 'tracked_frac': 0.0, 'rot_cos2': 0.886}}
+P_relu_n16_L16_s5002_l5_unres {'0.01': {'r2_Tlin': 0.999, 'r2_Tmlp': 0.993, 'r2_path': 0.987, 'agree_Tmlp_path': 0.98, 'tracked_frac': 0.25, 'rot_cos2': 0.519}}
+P_relu_n16_L16_s5002_l9_unres {'0.01': {'r2_Tlin': 1.0, 'r2_Tmlp': 0.994, 'r2_path': 0.987, 'agree_Tmlp_path': 0.981, 'tracked_frac': 0.625, 'rot_cos2': 0.065}}
+P_tanh4_n16_L16_s5000_l13_unres {'0.01': {'r2_Tlin': 0.974, 'r2_Tmlp': 0.989, 'r2_path': 0.966, 'agree_Tmlp_path': 0.952, 'tracked_frac': 0.188, 'rot_cos2': 0.808}}
+P_tanh4_n16_L16_s5000_l1_unres {'0.01': {'r2_Tlin': 0.836, 'r2_Tmlp': 0.939, 'r2_path': 0.921, 'agree_Tmlp_path': 0.909, 'tracked_frac': 0.875, 'rot_cos2': 0.988}}
+P_tanh4_n16_L16_s5000_l5_unres {'0.01': {'r2_Tlin': 0.928, 'r2_Tmlp': 0.955, 'r2_path': 0.914, 'agree_Tmlp_path': 0.922, 'tracked_frac': 0.0, 'rot_cos2': 0.811}}
+P_tanh4_n16_L16_s5000_l9_unres {'0.01': {'r2_Tlin': 0.978, 'r2_Tmlp': 0.982, 'r2_path': 0.958, 'agree_Tmlp_path': 0.95, 'tracked_frac': 0.0, 'rot_cos2': 0.835}}
+ALL DONE

@@ -1,0 +1,4 @@
+done arc [4001, 4002, 4003] l=0 local h1 train 1529s total 1990s
+done arc [4001, 4002, 4003] l=4 local h1 train 1486s total 1909s
+done arc [4001, 4002, 4003] l=8 local h1 train 1373s total 1833s
+done arc [4001, 4002, 4003] l=2 local h1 train 1490s total 1901s

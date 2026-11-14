@@ -1,0 +1,18 @@
+B4a start 23:07:49Z
+stat n 128 seed 1001 s 0 done in 6s
+stat n 128 seed 1001 s 1 done in 12s
+stat n 128 seed 1001 s 3 done in 25s
+stat n 128 seed 1001 s 7 done in 43s
+stat n 128 seed 1001 s 15 done in 108s
+stat n 128 seed 1001 s 31 done in 240s
+stat n 128 seed 1001 s 63 done in 684s
+stat n 128 seed 1001 s 127 done in 911s
+stat n 256 seed 1000 s 0 done in 11s
+stat n 256 seed 1000 s 1 done in 22s
+stat n 256 seed 1000 s 3 done in 34s
+stat n 256 seed 1000 s 7 done in 68s
+stat n 256 seed 1000 s 15 done in 157s
+stat n 256 seed 1000 s 31 done in 304s
+stat n 256 seed 1000 s 63 done in 712s
+stat n 256 seed 1000 s 127 done in 1697s
+B4a done 00:35:06Z

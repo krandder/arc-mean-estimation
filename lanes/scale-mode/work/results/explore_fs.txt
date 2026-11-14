@@ -1,0 +1,10 @@
+E1        LVTV2 cost     688 -> flopscope-priced    1325 passes; median G_RQ 2.47 -> 1.16; nets beating RQMC 5/5 -> 5/5
+E2_n32    LVTV2 cost     200 -> flopscope-priced     686 passes; median G_RQ 1.85 -> 0.47; nets beating RQMC 7/8 -> 1/8
+E2_n64    LVTV2 cost     287 -> flopscope-priced     858 passes; median G_RQ 2.05 -> 0.61; nets beating RQMC 8/8 -> 0/8
+E2_n128   LVTV2 cost     426 -> flopscope-priced    1042 passes; median G_RQ 2.36 -> 0.86; nets beating RQMC 8/8 -> 1/8
+E3_n64    LVTV2 cost     302 -> flopscope-priced     915 passes; median G_RQ 0.79 -> 0.26; nets beating RQMC 1/8 -> 0/8
+E3_n128   LVTV2 cost     436 -> flopscope-priced    1072 passes; median G_RQ 0.73 -> 0.24; nets beating RQMC 2/8 -> 0/8
+E3_n256   LVTV2 cost     695 -> flopscope-priced    1343 passes; median G_RQ 1.16 -> 0.58; nets beating RQMC 7/8 -> 0/8
+E3_n512   LVTV2 cost    1208 -> flopscope-priced    1862 passes; median G_RQ 0.43 -> 0.30; nets beating RQMC 3/8 -> 3/8
+E3_n1024  LVTV2 cost    2233 -> flopscope-priced    2890 passes; median G_RQ 1.96 -> 1.49; nets beating RQMC 7/8 -> 5/8
+E4        LVTV2 cost    2162 -> flopscope-priced    2780 passes; median G_RQ 19.54 -> 14.59; nets beating RQMC 12/12 -> 12/12

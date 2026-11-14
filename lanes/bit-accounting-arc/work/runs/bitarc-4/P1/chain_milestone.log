@@ -1,0 +1,15 @@
+done arc [4000] l=31 local base train 468s total 1439s
+done arc [4000] l=31 unres base train 613s total 1572s
+done arc [4000] l=31 local base train 439s total 1410s
+all done
+done arc [4000] l=0 local base train 493s total 606s
+done arc [4000] l=0 unres base train 781s total 948s
+done arc [4000] l=16 local base train 537s total 623s
+done arc [4000] l=16 unres base train 619s total 718s
+done arc [4000] l=32 out base train 505s total 552s
+done arc [4000] l=0 local steps2 train 1039s total 1173s
+done arc [4000] l=0 local cap2 train 671s total 803s
+done arc [4000] l=0 unres steps2 train 1341s total 1441s
+done arc [4000] l=0 unres cap2 train 1031s total 1178s
+done arc [4000] l=16 local steps2 train 729s total 803s
+done arc [4000] l=16 local cap2 train 648s total 747s

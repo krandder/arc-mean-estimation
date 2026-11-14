@@ -1,0 +1,11 @@
+done arc [4000] l=31 local steps2 train 960s total 1014s
+done arc [4000] l=31 local cap2 train 607s total 665s
+done nd [203, 216, 217, 220, 221, 223] l=256 out base train 2717s total 2807s
+done arc [4000, 4001, 4002, 4003] l=0 local base train 2210s total 2833s
+done arc [4000] l=0 local fixlam train 1376s total 1839s
+done arc [4000] l=31 local fixlam train 1265s total 1442s
+done arc [4000, 4001, 4002, 4003] l=16 local base train 1979s total 2375s
+done nd [203, 216, 217, 220, 221, 223] l=0 local base train 2889s total 3394s
+done arc [4000, 4001, 4002, 4003] l=8 local base train 2027s total 2547s
+done nd [203, 216, 217, 220, 221, 223] l=64 local base train 2972s total 3404s
+done arc [4000, 4001, 4002, 4003] l=24 local base train 1733s total 1863s

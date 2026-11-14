@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_entropy.py", line 281, in <module>
+    ce, cv = res['curves'][KINDS[0]], res['curves'][KINDS[1]]
+                                                    ~~~~~^^^
+IndexError: list index out of range
+E_n16_L16_s5000_l0_unres: 142s | gfix (rate, nMSE) (0.0,1.000) (0.1,1.000) (0.1,1.000) (0.1,1.000) (0.0,1.000) (0.0,1.000) (0.1,1.000) | total 144s
+E_n16_L16_s5000_l4_local: 99s | gfix (rate, nMSE) (0.1,1.000) (0.1,1.000) (0.1,1.000) (0.0,1.000) (0.1,1.000) (0.1,1.000) (0.1,1.000) | total 242s
+E_n16_L16_s5000_l4_unres: 122s | gfix (rate, nMSE) (0.0,1.000) (0.2,1.000) (0.1,1.000) (0.1,1.000) (0.1,1.000) (0.0,1.000) (0.1,1.000) | total 364s
+E_n16_L16_s5000_l8_local: 85s | gfix (rate, nMSE) (0.1,1.000) (0.1,1.000) (0.1,1.000) (0.0,1.000) (0.1,1.000) (0.1,1.000) (0.1,1.000) | total 449s
+E_n16_L16_s5000_l8_unres: 110s | gfix (rate, nMSE) (0.1,1.000) (0.0,1.000) (0.0,1.000) (0.1,1.000) (0.0,1.000) (0.1,1.000) (0.0,1.000) | total 559s
+E_n16_L16_s5000_l12_local: 72s | gfix (rate, nMSE) (nan,nan) (nan,nan) (nan,nan) (nan,nan) (nan,nan) (nan,nan) (nan,nan) | total 631s
+E_n16_L16_s5000_l12_unres: 95s | gfix (rate, nMSE) (0.0,1.000) (0.1,1.000) (0.1,1.000) (0.1,1.000) (0.0,1.000) (0.0,1.000) (0.0,1.000) | total 725s
+E_n16_L16_s5000_l15_local: 42s | gfix (rate, nMSE) (0.1,1.000) (0.1,1.000) (0.1,0.997) (9.1,0.539) (24.0,0.169) (32.3,0.115) (36.2,0.137) | total 768s
+E_n16_L16_s5000_l15_unres: 51s | gfix (rate, nMSE) (0.1,1.000) (0.1,1.000) (0.1,0.996) (16.6,0.181) (23.9,0.044) (32.3,0.034) (42.9,0.021) | total 818s
+E_n16_L16_s5000_l16_unres: 75s | gfix (rate, nMSE) (0.1,1.000) (0.0,1.000) (0.2,0.990) (14.8,0.170) (21.5,0.040) (26.7,0.016) (32.6,0.009) | total 893s
+ALL DONE 893s

@@ -1,0 +1,2 @@
+done arc [4000] l=28 local bwdtest train 60s total 66s
+exit 0

@@ -1,0 +1,91 @@
+# future-aware lane deviations (times UTC, 2 Nov 2026)
+1. Header times typed ahead of the clock: QUESTIONS.md ("11:15Z", written 11:03Z), READING.md ("11:15Z", 11:04Z),
+   FORMAL.md v1 header ("10:40-11:05Z"; corrected and rehashed 10:39:14Z before the co-prover's answer existed) and
+   PREREG.md ("11:30-12:40Z"; corrected to 11:09-11:22Z before the hash at 11:21:08Z). File mtimes and hash times are
+   authoritative.
+2. lib/fa_kprop.py (frozen by the PREREG, sha f47f5b30) was modified at ~11:27Z (an exploratory order-4 function
+   appended) and restored byte-identically from frozen/part1/ at ~11:28Z (sha re-verified f47f5b30). The only eval
+   process using it then (run_k3p.py on net 200, started 11:22Z) had imported the original before the change; no run
+   started in the window. The order-4 code now lives in lib/fa_kprop4.py (exploratory, not registered).
+3. Numerical failure (seen 11:31Z in logs/eval_k3p.log): D1 variants futv128 and futmf2_128 at 256 x 32 return NaN on
+   net 200. Cause: fa.features('fut', k, S, R) divides by the whitened relevance eigenvalues, some of which are exactly
+   0 when ARC's state covariance S is rank-deficient (its PSD square root has zero eigenvalues) and k = n/2 exceeds
+   the numerical rank. Scoring rule added BEFORE any score was computed: a NaN run is a failed run, reported as such
+   and excluded from P7's "every D1 variant"; k = n/2 enters no other registered prediction. A post hoc rerun with a
+   rank guard (keep only eigenvalues > 1e-12 x the largest) is labelled post hoc.
+4. Interim look: at ~11:31Z I ran scratch/tables_part1.py (which runs the hashed scorer) on partial evaluation data
+   (n = 64: 5 single-cut nets and 1 recursion net; 256: 2 k3p nets) to test the table code. Nothing registered was
+   changed afterwards (all predictions and scorers were hashed at 11:21:08Z); the correction script for item 3 was
+   written from the NaN observation, not from scores. Exploratory runs outside the registration (order-4 truncation at
+   n = 32, runs/k4p_*_x*.json; a 2^20-particle finite-sample check at n = 64, runs/rec_n64_L8_s9500_dev20.json) are
+   labelled exploratory.
+5. Exploratory additions after the Part 1 hash (labelled exploratory, not registered): scratch/run_ridge.py (ridge test:
+   independent 1-D marginals of the future directions; dev net 9500 and the eight n = 64 evaluation nets, tag _x),
+   scratch/share_vs_improvement.py and scratch/paired_cut.py (post hoc analyses of the registered B1 runs), the order-4
+   runs (lib/fa_kprop4.py, scratch/run_k4p.py, tag _x / _x3only / _x4only), the Gaussian-mixture test
+   (scratch/run_mix.py, dev net 9500). Amendment 1 (n = 512) was registered before its runs (12:17:16Z).
+6. At main's request (13:40-14:05Z) two exploratory pricing runs were added: scratch/run_mixrec.py (mixture-constrained
+   recursion, n = 64 nets 300-303) and scratch/run_cvk.py (exact-mean controls of growing complexity, nets 300 at
+   n = 64 and 128). They ran as single-thread processes next to the three queue processes (about 15 and 5 minutes),
+   briefly a fourth heavy process; labelled exploratory.
+7. Scorer naming bug found at the final scoring (14:38Z): score_part1.py looks up 'futmf264' for P8 while the registered
+   queue named the runs 'futmf2_64', so P8's futmf2 half had no data and P8 FAILS as scored. A post hoc correction
+   (scratch/score_corrections_posthoc.py, results/score_corrections_posthoc.json) recomputes P8 with the actual names and
+   the registered formula unchanged; both outcomes are reported. P6 is unaffected (its criteria use futv and pca only;
+   the scorer's futmf2 R entries are NaN for the same reason).
+8. Found by the GPT-6 review (14:55Z): the hashed scorer replaces recursion b2 by max(b2, replicate noise, 1e-7), a rule
+   that is not in the PREREG wording, and it does not apply the PREREG's truth-floor exclusion in P1. Literal
+   recomputation (scratch/review_recompute.py, results/review_recompute.json): P1's l = 16 median 0.552 -> 0.755
+   (3 nets), P3's n/2 medians 121 -> 139 (n = 128) and 204 -> 236 (n = 256, 4 nets); no pass/fail outcome changes. The
+   report's recursion table now shows raw b2.
+9. scratch/tables_part1.py (descriptive, hashed 11:46:17Z) had a column bug in the relevance-spectrum table when k = 16
+   coincides with n/4 (n = 64): duplicate dictionary keys collapsed a column. Fixed after the review (15:00Z); the
+   registered scores do not use this table.
+10. GPT-6 review round 2 (15:08Z), findings 2-3: scratch/review_recompute.py and scratch/score_corrections_posthoc.py
+   imported score_part1, whose module code rewrites results/score_part1.json. They (and scratch/tables_part1.py) now
+   import scratch/score_helpers.py, side-effect-free copies of the scorer's helpers (AST-identical function bodies).
+   Evidence that nothing registered changed (15:15Z): the hashed scorer (sha dd794917) re-run in a scratch copy
+   (/tmp, runs symlinked) reproduces results/score_part1.json byte for byte (sha 23584194); results/scorecard.md
+   (written 14:38:19Z) regenerates byte for byte from the current file; both post hoc outputs are byte-identical
+   after the change. review_recompute.py's literal P3 now also requires the Gaussian numerator above the truth floor
+   (no value changes). results/tables_part1.md T2 now shows raw b2, the literal truth-floor ratios and the hashed
+   scorer's floored statistic, each labelled; T4 is labelled as the residual-against-reference metric.
+11. GPT-6 review round 2, finding 1: the registered H1 score (beta + residual error against a reference control mean)
+   omits the cross term between the two errors. POST HOC direct scoring: scratch/run_hyb_direct.py rebuilds the same
+   controls with the same seeds, reruns the same scrambles (plus N = 2^15, 2^16) and scores |E_Q[c] + mean(h_L - c) -
+   Y|^2 / V (runs/hybd_*.json; scratch/score_hyb_direct.py -> results/hyb_direct.{md,json}). Version note: seed 200
+   at n = 256 ran with v1 (control evaluated per sample; copy kept as scratch/run_hyb_direct_v1.py); from seed 201 on
+   v2 sums h_l and the quadratic features first (the controls are linear in them), identical up to rounding and much
+   faster. Both reproduce the registered eta, beta and residual values (scorer's reproduction check). Run as the third
+   heavy process (queues W and X running).
+12. Post hoc ledger and sensitivity additions (review findings 10, 13): scratch/d1_ledger.py (D1 window with the K = 2
+   pilot and the per-layer direction extraction charged, as scenarios) and scratch/extrap_sensitivity.py (RQMC
+   extrapolation slope); FORMAL.md E15 (v6, 15:20:07Z) supersedes FORMAL section 5's title, E1's last sentence and E3's
+   "q <= n/L" without a co-prover round.
+13. Post hoc additions after review round 2 (16:37-17:25Z): the D1 half-width runs that returned NaN rerun with a rank
+   guard (lib/fa_kprop_guard.py wraps the frozen hook; scratch/run_k3p_guard.py, eval_G.sh, scratch/score_guard.py,
+   results/guard.json; six reruns of registered successes reproduce them to <= 5e-14); the RQMC comparator-noise check
+   (scratch/comparator_noise.py, results/comparator_noise.json); queue X (order 4, n = 64) finished 16:37:50Z and
+   section 5 / FORMAL E14 addendum 2 were updated.
+14. GPT-6 review round 3 (17:34Z): scratch/score_hyb_direct.py now reports three ledgers: 'reg' (registered,
+   historical), 'exp' (expanded: the closure charged once for the mean actually used, plus the previously uncharged
+   linear algebra; formerly called 'full') and 'sum' (exp with the sum-based evaluation run_hyb_direct.py v2 performs:
+   a = 1 + n / pass per sample for linear controls). scratch/d1_ledger.py's optimistic extraction is relabelled an
+   assumed cost (ARC's K = 3 states are indefinite, so plain Cholesky whitening is not feasible). Report wording fixed
+   as listed in section 8.
+15. Exploratory addition (17:46-18:15Z): the whitened nonlinear relevance spectrum on three n = 512 nets (500-502) at cuts
+   1, 8, 16, 32 (scratch/relevance_spectrum.py, runs/relspec_n512_L64_s500.json; the same construction as run_cut.py,
+   2^16 cloud samples; validated on n = 64 net 300, PR 18.5 vs the registered 18.48). Queue W's parent bash was stopped
+   by PID at 17:39:38Z after net 500 so that net 502 could run in parallel with 501 (scratch/eval_W2.sh, same command).
+16. Bug found 18:41Z in the exploratory single-cut mixture script scratch/run_mix.py: sklearn's GaussianMixture.sample
+   re-seeds from the model's fixed random_state at every call, so every batch and both halves reused the same mixture
+   draw of 2^14 feature samples, and b2 carried that draw's noise (biased, not the squared bias alone). Affected: the
+   development single-cut mixture numbers of section 5 (runs/mix_n64_L8_s9500_dev.json) and a first mixture-scaling run
+   (18:06-18:40Z, outputs trashed). Not affected: scratch/run_mixrec.py (one draw per replicate, different seeds per
+   replicate). Fixed (a distinct seed per batch) and rerun: runs/mix_n64_L8_s9500_dev2.json and the scaling runs
+   runs/mix_n{64,128,256}_*_xm2.json (scratch/explore_M2.sh).
+17. Amendment 1 completed 19:47Z (nets 501 and 502 run in parallel; 502's queue parent was also stopped by PID at 17:50Z
+   so that its post hoc guarded run could be started by hand). Scored with the hashed scratch/score_amend1.py (sha
+   d011402e, as registered): P10 holds, P11 and P12 fail for lack of data (every k = n/4 = 128 run returned NaN), P13
+   holds. results/score_part1.json, which that scorer rewrites, kept its sha (23584194). Post hoc: rank-guarded
+   k = n/4 runs at 512 (one finite, two divergent), the k = n/8 substitutes (scratch/amend1_posthoc.py).

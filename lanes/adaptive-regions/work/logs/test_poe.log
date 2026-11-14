@@ -1,0 +1,6 @@
+PASS disjoint: fused means correct (MSE <= 2e-4 per coordinate)  1.04e-04
+PASS disjoint: both ends tight (fused variance <= 3e-4)  [0.00010396 0.00010236]
+PASS identical: fused variance calibrated (within 10% of the actual squared error)  fused var 1.003, actual 1.003
+PASS identical: each expert learned effective variance ~2x the fused one  [[2.457 1.956]
+ [1.768 1.956]]
+ALL PASS

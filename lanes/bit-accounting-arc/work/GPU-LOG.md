@@ -1,0 +1,63 @@
+# GPU-LOG
+
+- 2026-11-02T03:56Z PENDING-CREATE vm=soup-gpu-bitarc-1-1102035559-23573 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-1 by=gpu-up.sh
+- 2026-11-02T03:56Z CREATE vm=soup-gpu-bitarc-1-1102035559-23573 zone=us-west1-c type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=0 group=bitarc run=bitarc-1 by=gpu-up.sh
+- 2026-11-02T03:56Z READY vm=soup-gpu-bitarc-1-1102035559-23573 ip=136.69.246.107 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T03:57Z RUN vm=soup-gpu-bitarc-1-1102035559-23573 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T04:03Z PENDING-CREATE vm=soup-gpu-bitarc-2-1102040340-693 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-2 by=gpu-up.sh
+- 2026-11-02T04:03Z CREATE vm=soup-gpu-bitarc-2-1102040340-693 zone=us-west1-c type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=4.87 group=bitarc run=bitarc-2 by=gpu-up.sh
+- 2026-11-02T04:04Z READY vm=soup-gpu-bitarc-2-1102040340-693 ip=34.168.198.246 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T04:04Z RUN vm=soup-gpu-bitarc-2-1102040340-693 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T04:32Z RUN-SYNC-FAILED vm=soup-gpu-bitarc-2-1102040340-693 (gpu-down.sh will retry with scp)
+- 2026-11-02T04:32Z RUN-END vm=soup-gpu-bitarc-2-1102040340-693 rc=255
+- 2026-11-02T04:32Z PENDING-CREATE vm=soup-gpu-bitarc-4-1102043231-31715 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-4 by=gpu-up.sh
+- 2026-11-02T04:33Z CREATE-FAILED vm=soup-gpu-bitarc-4-1102043231-31715 type=g2-standard-8 zones=us-west1-c us-west1-b us-central1-b us-central1-c us-central1-a err="WARNING: Some requests generated warnings:  - Disk size: '100 GB' is larger than image size: '50 GB'. You might need to resize the root repartition manually if the operating system does not support au"
+- 2026-11-02T04:34Z COST-AUDIT vm=soup-gpu-bitarc-2-1102040340-693 cost_usd=0.41 (spot VM preempted at ~04:31Z after 0.47 h; dev-only results pulled up to 04:27Z kept: BENCH, BENCH2, LRCHK first wave; replacement bitarc-4 on-demand) by=opus-mats-bitarc
+- 2026-11-02T04:34Z PENDING-CREATE vm=soup-gpu-bitarc-4-1102043414-12936 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-4 by=gpu-up.sh
+- 2026-11-02T04:40Z CREATE-FAILED vm=soup-gpu-bitarc-4-1102043414-12936 type=g2-standard-8 zones=us-east1-b us-east1-c us-east1-d us-east4-a us-east4-c us-west4-a us-west4-c us-west1-a us-west1-b err="WARNING: Some requests generated warnings:  - Disk size: '100 GB' is larger than image size: '50 GB'. You might need to resize the root repartition manually if the operating system does not support au"
+- 2026-11-02T04:40Z PENDING-CREATE vm=soup-gpu-bitarc-4-1102044046-12664 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-4 by=gpu-up.sh
+- 2026-11-02T04:41Z CREATE vm=soup-gpu-bitarc-4-1102044046-12664 zone=us-west1-a type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=15.02 group=bitarc run=bitarc-4 by=gpu-up.sh
+- 2026-11-02T04:41Z READY vm=soup-gpu-bitarc-4-1102044046-12664 ip=34.19.72.66 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T04:41Z RUN vm=soup-gpu-bitarc-4-1102044046-12664 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T06:32Z RUN-SYNC-FAILED vm=soup-gpu-bitarc-1-1102035559-23573 (gpu-down.sh will retry with scp)
+- 2026-11-02T06:32Z RUN-END vm=soup-gpu-bitarc-1-1102035559-23573 rc=255
+- 2026-11-02T06:33Z PENDING-CREATE vm=soup-gpu-bitarc-3-1102063312-4406 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-3 by=gpu-up.sh
+- 2026-11-02T06:33Z CREATE vm=soup-gpu-bitarc-3-1102063312-4406 zone=us-central1-a type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=19.89 group=bitarc run=bitarc-3 by=gpu-up.sh
+- 2026-11-02T06:34Z READY vm=soup-gpu-bitarc-3-1102063312-4406 ip=34.60.135.203 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T06:34Z RUN vm=soup-gpu-bitarc-3-1102063312-4406 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T06:40Z COST-AUDIT vm=soup-gpu-bitarc-1-1102035559-23573 cost_usd=2.23 (spot VM preempted ~06:30Z after 2.57 h; final sync failed; results pulled up to 06:28Z kept) by=opus-mats-bitarc
+- 2026-11-02T06:50Z RUN-SYNC-FAILED vm=soup-gpu-bitarc-3-1102063312-4406 (gpu-down.sh will retry with scp)
+- 2026-11-02T06:50Z RUN-END vm=soup-gpu-bitarc-3-1102063312-4406 rc=255
+- 2026-11-02T07:16Z COST-AUDIT vm=soup-gpu-bitarc-4-1102043231-31715 cost_usd=0 (CREATE-FAILED: on-demand stockout in every zone tried; the VM never existed) by=opus-mats-bitarc
+- 2026-11-02T07:16Z COST-AUDIT vm=soup-gpu-bitarc-4-1102043414-12936 cost_usd=0 (CREATE-FAILED: on-demand stockout in every zone tried; the VM never existed) by=opus-mats-bitarc
+- 2026-11-02T07:16Z COST-AUDIT vm=soup-gpu-bitarc-3-1102063312-4406 cost_usd=0.25 (spot VM preempted at ~06:50Z after 0.28 h; final sync failed; nothing finished there) by=opus-mats-bitarc
+- 2026-11-02T07:15Z PENDING-CREATE vm=soup-gpu-bitarc-5-1102071543-18077 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-5 by=gpu-up.sh
+- 2026-11-02T07:16Z CREATE vm=soup-gpu-bitarc-5-1102071543-18077 zone=us-west1-c type=g2-standard-8 gpu=1xnvidia-l4 model=STANDARD max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=7.76 group=bitarc run=bitarc-5 by=gpu-up.sh
+- 2026-11-02T07:16Z READY vm=soup-gpu-bitarc-5-1102071543-18077 ip=34.168.198.246 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T07:16Z RUN vm=soup-gpu-bitarc-5-1102071543-18077 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T09:41Z RUN-END vm=soup-gpu-bitarc-4-1102044046-12664 rc=124
+- 2026-11-02T09:42Z DELETE vm=soup-gpu-bitarc-4-1102044046-12664 zone=us-west1-a type=g2-standard-8 age_h=5.02 cost_usd=4.37 (rate ceiling x age) sync=skipped reason="gpu-run.sh finished rc=124: bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/nu"
+- 2026-11-02T09:43Z PENDING-CREATE vm=soup-gpu-bitarc-6-1102094343-6348 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-6 by=gpu-up.sh
+- 2026-11-02T09:44Z CREATE vm=soup-gpu-bitarc-6-1102094343-6348 zone=us-west1-c type=g2-standard-8 gpu=1xnvidia-l4 model=STANDARD max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=12.13 group=bitarc run=bitarc-6 by=gpu-up.sh
+- 2026-11-02T09:44Z READY vm=soup-gpu-bitarc-6-1102094343-6348 ip=35.247.82.21 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T09:44Z RUN vm=soup-gpu-bitarc-6-1102094343-6348 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T12:16Z RUN-END vm=soup-gpu-bitarc-5-1102071543-18077 rc=124
+- 2026-11-02T12:17Z DELETE vm=soup-gpu-bitarc-5-1102071543-18077 zone=us-west1-c type=g2-standard-8 age_h=5.02 cost_usd=4.37 (rate ceiling x age) sync=skipped reason="gpu-run.sh finished rc=124: bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/nu"
+- 2026-11-02T12:19Z PENDING-CREATE vm=soup-gpu-bitarc-7-1102121852-22397 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-7 by=gpu-up.sh
+- 2026-11-02T12:28Z CREATE-FAILED vm=soup-gpu-bitarc-7-1102121852-22397 type=g2-standard-8 zones=us-west1-c us-west1-a us-west1-b us-central1-a us-central1-b us-central1-c us-east1-b us-east1-c us-east1-d us-east4-a us-east4-c us-west4-a us-west4-c err="WARNING: Some requests generated warnings:  - Disk size: '100 GB' is larger than image size: '50 GB'. You might need to resize the root repartition manually if the operating system does not support au"
+- 2026-11-02T12:28Z COST-AUDIT vm=soup-gpu-bitarc-7-1102121852-22397 cost_usd=0 (CREATE-FAILED: on-demand stockout in every zone tried; the VM never existed) by=opus-mats-bitarc
+- 2026-11-02T12:29Z PENDING-CREATE vm=soup-gpu-bitarc-7-1102122937-23545 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=4.87 group=bitarc run=bitarc-7 by=gpu-up.sh
+- 2026-11-02T12:30Z CREATE vm=soup-gpu-bitarc-7-1102122937-23545 zone=us-west1-c type=g2-standard-8 gpu=1xnvidia-l4 model=SPOT max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=4.87 spent_before_usd=16.50 group=bitarc run=bitarc-7 by=gpu-up.sh
+- 2026-11-02T12:30Z READY vm=soup-gpu-bitarc-7-1102122937-23545 ip=34.19.72.66 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T12:30Z RUN vm=soup-gpu-bitarc-7-1102122937-23545 timeout=5h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T14:26Z RUN-END vm=soup-gpu-bitarc-6-1102094343-6348 rc=0
+- 2026-11-02T14:27Z DELETE vm=soup-gpu-bitarc-6-1102094343-6348 zone=us-west1-c type=g2-standard-8 age_h=4.71 cost_usd=4.10 (rate ceiling x age) sync=skipped reason="gpu-run.sh finished rc=0: bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/nu"
+- 2026-11-02T14:32Z RUN-SYNC-FAILED vm=soup-gpu-bitarc-7-1102122937-23545 (gpu-down.sh will retry with scp)
+- 2026-11-02T14:32Z RUN-END vm=soup-gpu-bitarc-7-1102122937-23545 rc=255
+- 2026-11-02T14:45Z COST-AUDIT vm=soup-gpu-bitarc-7-1102122937-23545 cost_usd=1.77 (spot VM preempted ~14:32Z after 2.03 h; final sync failed; results pulled up to 14:30Z kept) by=opus-mats-bitarc
+- 2026-11-02T14:47Z PENDING-CREATE vm=soup-gpu-bitarc-9-1102144653-24876 type=g2-standard-8 rate_usd_h=0.87 reserve_usd=3.13 group=bitarc run=bitarc-9 by=gpu-up.sh
+- 2026-11-02T14:48Z CREATE vm=soup-gpu-bitarc-9-1102144653-24876 zone=us-central1-a type=g2-standard-8 gpu=1xnvidia-l4 model=STANDARD max_run=6h rate_usd_h=0.87 (UNVERIFIED ceiling: on-demand list price, Billing API disabled; spot is lower) reserve_usd=3.13 spent_before_usd=17.50 group=bitarc run=bitarc-9 by=gpu-up.sh
+- 2026-11-02T14:48Z READY vm=soup-gpu-bitarc-9-1102144653-24876 ip=34.136.19.254 gpu=NVIDIA L4, 580.178.04 startup=minimal 
+- 2026-11-02T14:49Z RUN vm=soup-gpu-bitarc-9-1102144653-24876 timeout=3h cmd="bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/null\ \&\&\ apt-get\ install\ -y\ -q\ python3-venv\ python3-pip\ \>/dev/null\ \&\&"
+- 2026-11-02T16:50Z RUN-END vm=soup-gpu-bitarc-9-1102144653-24876 rc=0
+- 2026-11-02T16:51Z DELETE vm=soup-gpu-bitarc-9-1102144653-24876 zone=us-central1-a type=g2-standard-8 age_h=2.04 cost_usd=1.77 (rate ceiling x age) sync=skipped reason="gpu-run.sh finished rc=0: bash -c export\ DEBIAN_FRONTEND=noninteractive\;\ apt-get\ update\ -q\ \>/dev/nu"

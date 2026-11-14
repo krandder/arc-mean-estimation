@@ -1,0 +1,51 @@
+creating soup-gpu-bitacct-4-1102004017-18549 (g2-standard-8 + nvidia-l4, SPOT) in us-west1-c ...
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+---
+code: ZONE_RESOURCE_POOL_EXHAUSTED_WITH_DETAILS
+errorDetails:
+- help:
+    links:
+    - description: Troubleshooting documentation
+      url: https://cloud.google.com/compute/docs/resource-error
+- localizedMessage:
+    locale: en-US
+    message: A g2-standard-8 VM instance with 1 nvidia-l4 accelerator(s) is currently
+      unavailable in the us-west1-c zone. Consider trying your request in another
+      zone which has capacity to accommodate your request. Alternatively, you can
+      try your request again with a different VM hardware configuration or at a later
+      time. For more information, see the troubleshooting documentation.
+- errorInfo:
+    domain: compute.googleapis.com
+    metadatas:
+      attachment: nvidia-l4:1
+      vmType: g2-standard-8
+      zone: us-west1-c
+      zonesAvailable: ''
+    reason: stockout
+message: The zone 'projects/mnx-kas-dev/zones/us-west1-c' does not have enough resources
+  available to fulfill the request.  '(resource type:compute)'.
+
+creating soup-gpu-bitacct-4-1102004017-18549 (g2-standard-8 + nvidia-l4, SPOT) in us-west1-b ...
+NAME                                 ZONE        MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+soup-gpu-bitacct-4-1102004017-18549  us-west1-b  g2-standard-8  true         10.138.0.29  136.70.30.224  RUNNING
+waiting for soup-gpu-bitacct-4-1102004017-18549 (136.70.30.224) startup script (up to 25 min) ...
+gpu=NVIDIA L4, 580.178.04
+startup=minimal
+READY: soup-gpu-bitacct-4-1102004017-18549 us-west1-b 136.70.30.224
+rsync /home/agent/workspaces/mats/work/bit-accounting -> soup-gpu-bitacct-4-1102004017-18549:/root/soup
+W: http://packages.cloud.google.com/apt/dists/apt-transport-artifact-registry-stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: https://us-apt.pkg.dev/projects/gce-ai-infra/dists/gpudirect-gib-apt/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Terminated
+Terminated
+rsync soup-gpu-bitacct-4-1102004017-18549:/root/runs -> /home/agent/workspaces/mats/work/bit-accounting/runs
+Deleted [https://www.googleapis.com/compute/v1/projects/mnx-kas-dev/zones/us-west1-b/instances/soup-gpu-bitacct-4-1102004017-18549].

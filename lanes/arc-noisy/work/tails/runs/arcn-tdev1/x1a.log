@@ -1,0 +1,22 @@
+GPU 0: NVIDIA L4 (UUID: GPU-886108e1-c73f-c174-cc2b-1306e9ec9559)
+thresholds done 11s
+per-neuron GS done 141s
+mode +1 done 153s
+mode -1 done 164s
+done 164s
+thresholds done 3s
+per-neuron GS done 33s
+mode +1 done 36s
+mode -1 done 38s
+done 38s
+thresholds done 11s
+per-neuron GS done 134s
+mode +1 done 146s
+mode -1 done 157s
+done 157s
+thresholds done 3s
+per-neuron GS done 33s
+mode +1 done 36s
+mode -1 done 38s
+done 38s
+JOB-EXIT 0

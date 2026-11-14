@@ -1,0 +1,16 @@
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n16_L4_s5001_l1_local 1382s x0: R(0.1)=11.63 R(0.01)=32.64 | x1: R(0.1)=11.51 R(0.01)=32.62 | x2: R(0.1)=11.71 R(0.01)=33.00 | wdec: R(0.1)=18.05 R(0.01)=41.74 | linref_heldout_power: R(0.1)=22.14 R(0.01)=49.25 | centroid2 [(0.639, 0.6177), (0.0984, 0.0961), (0.0108, 0.0109)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n16_L4_s5002_l3_local 1374s x0: R(0.1)=7.54 R(0.01)=20.50 | x1: R(0.1)=7.57 R(0.01)=20.53 | x2: R(0.1)=7.57 R(0.01)=20.54 | wdec: R(0.1)=7.71 R(0.01)=20.84 | linref_heldout_power: R(0.1)=9.90 R(0.01)=27.47 | centroid2 [(0.3359, 0.3354), (0.0547, 0.0539), (0.0068, 0.0067)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n32_L8_s5000_l2_local 1469s x0: R(0.1)=10.91 R(0.01)=45.08 | x1: R(0.1)=11.01 R(0.01)=45.31 | x2: R(0.1)=10.86 R(0.01)=45.28 | wdec: R(0.1)=16.74 R(0.01)=57.75 | linref_heldout_power: R(0.1)=21.12 R(0.01)=63.73 | centroid2 [(0.449, 0.4384), (0.1307, 0.127), (0.0187, 0.0188)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n32_L8_s5001_l4_local 1465s x0: R(0.1)=6.34 R(0.01)=27.54 | x1: R(0.1)=6.31 R(0.01)=27.65 | x2: R(0.1)=6.34 R(0.01)=27.59 | wdec: R(0.1)=7.04 R(0.01)=32.27 | linref_heldout_power: R(0.1)=9.32 R(0.01)=41.36 | centroid2 [(0.2822, 0.2781), (0.0798, 0.0777), (0.014, 0.0137)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE

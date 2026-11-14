@@ -1,0 +1,9 @@
+done nd [203, 216, 217, 220, 221, 223] l=255 unres base train 3366s total 3829s
+all done
+done arc [4000, 4001, 4002, 4003] l=31 unres base train 5128s total 5695s
+done toy [1] l=0 local base train 1232s total 1380s
+done nd [203, 216, 217, 220, 221, 223] l=0 unres base train 3998s total 4576s
+done toy [1] l=0 unres base train 1488s total 1648s
+done toy [1] l=0 local base train 1058s total 1247s
+done nd [203, 216, 217, 220, 221, 223] l=64 unres base train 2790s total 3019s
+done arc [4000, 4001, 4002, 4003] l=0 unres base train 4525s total 5107s

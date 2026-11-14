@@ -1,0 +1,33 @@
+2f5470504cf5403d9504ad3b6d3cc2cc34699b0a61e4d2fc0d8508cc51491be9  FORMAL.md
+2f5470504cf5403d9504ad3b6d3cc2cc34699b0a61e4d2fc0d8508cc51491be9  coprover/FORMAL_v1_as_written.md
+FORMAL v1 frozen 10:39:09Z (co-prover r1 running since 10:36:38Z; its answer not read)
+171b2d39b5c9eab38a0078f3a9c4b10401c32f21c4ac8c3395bef03a4cc0a772  FORMAL.md
+171b2d39b5c9eab38a0078f3a9c4b10401c32f21c4ac8c3395bef03a4cc0a772  coprover/FORMAL_v1_as_written.md
+header time corrected (typed ahead of the clock) and rehashed 10:39:14Z; co-prover r1 answer still not read
+5bb311dc2d751503fb899a0d63ad677267d7e440f0e57d658dcceed2ea73783e  FORMAL.md
+5bb311dc2d751503fb899a0d63ad677267d7e440f0e57d658dcceed2ea73783e  coprover/FORMAL_v2_as_written.md
+44f6d811f0fc689961be69632b860af40dd0c0315eb71c8eb22301c46d8e5051  coprover/STATEMENT_r2.md
+FORMAL v2 (E1-E6) frozen 11:28:22Z before co-prover round 2 is launched
+b83d896930154f94821f52c01aa0544ef6f71e07329d95bfd2f0f15d374f99fc  FORMAL.md
+b83d896930154f94821f52c01aa0544ef6f71e07329d95bfd2f0f15d374f99fc  coprover/FORMAL_v3_as_written.md
+FORMAL v3 (E7-E8) frozen 11:50:27Z; co-prover r2 finished 11:50:14Z, its answer not yet read
+f835a25005251552ac82b874681c7e02c22832f8ee0b5a3ee4b8415dd774b357  FORMAL.md
+f835a25005251552ac82b874681c7e02c22832f8ee0b5a3ee4b8415dd774b357  coprover/FORMAL_v4_as_written.md
+FORMAL v4 (E9-E12) frozen 13:00:22Z before co-prover round 3 (audit)
+54fcac82880757c07cd606f82b253fbf25b04bdcaec94636be9c88551e735c25  FORMAL.md
+FORMAL v5 (E13-E14, after round 3) recorded 14:41:47Z
+d703cbae66431cc14e857b2b804e5d90c6ee20ffae0253778554d5aa4c6626fc  FORMAL.md
+d703cbae66431cc14e857b2b804e5d90c6ee20ffae0253778554d5aa4c6626fc  coprover/FORMAL_v6_as_written.md
+FORMAL v6 (E15, corrections after GPT-6 review rounds 1-2; no co-prover round) recorded 15:20:07Z
+50098cd587c946121c899dc506cd1907a3e4effe156cc73539af23b2cc3463dd  FORMAL.md
+50098cd587c946121c899dc506cd1907a3e4effe156cc73539af23b2cc3463dd  coprover/FORMAL_v7_as_written.md
+FORMAL v7 (E14 addendum 2, order 4 at n = 64 nets 300-302) recorded 17:24:08Z
+d0893ac84332a2eb527f3dc40ed36ea7596a1ef239fc686bf51c86b3239fe9f5  FORMAL.md
+d0893ac84332a2eb527f3dc40ed36ea7596a1ef239fc686bf51c86b3239fe9f5  coprover/FORMAL_v8_as_written.md
+FORMAL v8 (E14 addendum 2 ratio 1.65) recorded 20:03:53Z
+9d42516afc41c002ebad418ce5d962e7941ac29e71a2b8bf99880293f1d77540  FORMAL.md
+9d42516afc41c002ebad418ce5d962e7941ac29e71a2b8bf99880293f1d77540  coprover/FORMAL_v9_as_written.md
+4a067cd5afebbd10b635abea0457cccd790f0cdb7ea1ae5c555ec2d07268133d  coprover/STATEMENT_r4.md
+FORMAL v9 (E16) frozen 20:05:58Z before co-prover round 4
+24bb431a6961dc5b943012a2dd4cc510632aab9dee468f2ba4fa495324ba7064  FORMAL.md
+FORMAL v10 (E17, after co-prover round 4) recorded 20:24:55Z

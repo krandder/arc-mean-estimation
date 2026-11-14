@@ -1,0 +1,11 @@
+663542c9ca3e7b6574195f087da5e3b1ab5c9bfcf31d17da7db474ad8235d02c  STATEMENT_r1.md
+91f27fa97f33249421cd89bfcff1aaa9c63ee250eab4538539135d1b1c7a0a63  prompt_r1.md
+hashed 04:40:27Z before launch
+801d9daba2345f8449ab469761c0de7243132dfdabbf28f9613a3354f22d4c06  prompt_r2.md
+r2 prompt hashed 05:18:20Z
+6ab43313f192aa753371779038a2ff3369816563ac258816b34e0e011a40a502  prompt_r3.md
+r3 prompt hashed 06:15:23Z
+16b2379d535479830281f786cc1bca00321b59233a2905884e60b9fdca12a3e8  coprover/prompt_r4.md
+416c00943aa989d0ddfd5b0afd184f029e99739b715b590313026ef47992a797  coprover/run_r4.sh
+2e2a1c79acd62905cf0b73a8cbb4fb18e89833b45961de6f3f22ea1d45057ac0  FORMAL.md
+round 4 prompt frozen 09:33:30Z; FORMAL frozen at E11 (sha above) before reading any round-4 output

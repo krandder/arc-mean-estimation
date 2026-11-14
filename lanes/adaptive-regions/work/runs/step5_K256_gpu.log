@@ -1,0 +1,21 @@
+[1s] advice: 300 populations x 256 paths
+Traceback (most recent call last):
+  File "/root/soup/step5_gpu.py", line 192, in <module>
+    parts, out_u, layer_means, keep, (w, mk, Sk) = deduce(model, p['mu'], p['s'])
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/step5_gpu.py", line 154, in deduce
+    outs = model.propagate_parts(mk[keep], Sk[keep], eps, mode=args.fusion)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/lmle.py", line 370, in propagate_parts
+    pred, Unc, J = self.pointwise(bank, Z.reshape(-1, d), mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/lmle.py", line 216, in pointwise
+    beta = torch.exp(bank.log_gates(z))                                       # (N, K)
+                     ^^^^^^^^^^^^^^^^^
+  File "/root/soup/lmle.py", line 138, in log_gates
+    q = (torch.einsum('...ki,kij->...kj', diff, P) * diff).sum(-1)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+  File "/root/venv/lib/python3.12/site-packages/torch/utils/_device.py", line 122, in __torch_function__
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 3.12 MiB is free. Including non-PyTorch memory, this process has 22.02 GiB memory in use. Of the allocated memory 21.63 GiB is allocated by PyTorch, and 163.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

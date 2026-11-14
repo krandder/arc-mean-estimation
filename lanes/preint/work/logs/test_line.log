@@ -1,0 +1,11 @@
+single lines vs fine-grid quadrature: worst relative error 1.45e-10
+window eps=1e-10: max rel diff to full 1.3e-10 (vertices 41 vs 42); eps=0.3 tail draws: max |z| 0.51
+pieces checked 203, pattern not constant in 0
+depth 1: max |z| = 1.25 (n = 7 units), per-line variance / plain variance 0.542
+live units 5 of 6
+deep 6x10: max |z| vs 2^21-path MC = 1.82; mean interior vertices per line 18.8; cost 29.2 passes/line
+chunk invariance: max rel diff 0.0e+00; flops equal True; counts equal True
+tail map: max rel diff 4.4e-16
+coincident roots: worst relative error vs quadrature 6.5e-12
+flop counter: reported 11046, recomputed 11046
+all tests passed

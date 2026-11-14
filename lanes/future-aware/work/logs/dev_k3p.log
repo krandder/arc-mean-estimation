@@ -1,0 +1,22 @@
+n=64 L=8 s=9500 k2: nMSE 1.724e-03 passes 106
+n=64 L=8 s=9500 futmf2_8: nMSE 6.176e-04 passes 8692 (ARC 7234, hook 1176, backward 112) 2s
+n=64 L=8 s=9500 futmf2_16: nMSE 4.555e-04 passes 9588 (ARC 7234, hook 2072, backward 112) 2s
+n=64 L=8 s=9500 futmf2_32: nMSE 3.897e-04 passes 11380 (ARC 7234, hook 3864, backward 112) 2s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n64_L8_s9500_dev2.json 8s
+n=128 L=16 s=9500 k2: nMSE 1.797e-03 passes 201
+n=128 L=16 s=9500 none: nMSE 3.670e-04 passes 23954 (ARC 23954, hook 0, backward 0) 13s
+n=128 L=16 s=9500 pca16: nMSE 9.756e-04 passes 28394 (ARC 23954, hook 4440, backward 0) 17s
+n=128 L=16 s=9500 pca32: nMSE 4.055e-04 passes 32234 (ARC 23954, hook 8280, backward 0) 19s
+n=128 L=16 s=9500 pca64: nMSE 2.681e-04 passes 39914 (ARC 23954, hook 15960, backward 0) 21s
+n=128 L=16 s=9500 futmf2_32: nMSE 5.240e-04 passes 32803 (ARC 23954, hook 8280, backward 240) 15s
+n=128 L=16 s=9500 futv16: nMSE 6.037e-04 passes 74474 (ARC 23954, hook 4440, backward 46080) 19s
+n=128 L=16 s=9500 futv32: nMSE 4.419e-04 passes 78314 (ARC 23954, hook 8280, backward 46080) 13s
+n=128 L=16 s=9500 futv64: nMSE 3.939e-04 passes 85994 (ARC 23954, hook 15960, backward 46080) 20s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n128_L16_s9500_dev.json 139s
+n=256 L=32 s=100 k2: nMSE 6.159e-04 passes 393
+n=256 L=32 s=100 none: nMSE 3.211e-04 passes 49097 (ARC 49097, hook 0, backward 0) 13s
+n=256 L=32 s=100 futv64: nMSE 2.764e-04 passes 169439 (ARC 49097, hook 25110, backward 95232) 22s
+n=256 L=32 s=100 pca64: nMSE 2.529e-04 passes 74207 (ARC 49097, hook 25110, backward 0) 12s
+n=256 L=32 s=100 futmf2_64: nMSE 2.613e-04 passes 75352 (ARC 49097, hook 25110, backward 496) 14s
+n=256 L=32 s=100 futv32: nMSE 2.691e-04 passes 169408 (ARC 49097, hook 25079, backward 95232) 17s
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/k3p_n256_L32_s100_dev.json 82s

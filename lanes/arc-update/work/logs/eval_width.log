@@ -1,0 +1,137 @@
+n=32 L=4 s=300 l=1: Gamma2 1.286e-03 Gamma_rad 4.549e-04 (half-diff 2.4e-06, 4.4e-06) (4s)
+n=32 L=4 s=300 l=2: Gamma2 8.404e-04 Gamma_rad 4.205e-04 (half-diff 1.7e-06, 6.9e-06) (8s)
+n=32 L=4 s=300 l=3: Gamma2 5.697e-04 Gamma_rad 3.409e-04 (half-diff 1.9e-06, 8.4e-06) (12s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s300.json 12s
+n=32 L=4 s=301 l=1: Gamma2 5.081e-04 Gamma_rad 4.423e-04 (half-diff 1.7e-06, 2.3e-06) (4s)
+n=32 L=4 s=301 l=2: Gamma2 5.080e-04 Gamma_rad 3.596e-04 (half-diff 6.5e-06, 4.3e-06) (7s)
+n=32 L=4 s=301 l=3: Gamma2 9.292e-04 Gamma_rad 3.956e-04 (half-diff 1.6e-06, 3.1e-06) (11s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s301.json 11s
+n=32 L=4 s=302 l=1: Gamma2 8.549e-04 Gamma_rad 5.829e-04 (half-diff 6.4e-06, 2.3e-06) (4s)
+n=32 L=4 s=302 l=2: Gamma2 2.691e-03 Gamma_rad 2.250e-03 (half-diff 6.0e-06, 4.6e-06) (7s)
+n=32 L=4 s=302 l=3: Gamma2 1.273e-03 Gamma_rad 1.327e-03 (half-diff 2.3e-06, 1.8e-06) (10s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s302.json 10s
+n=32 L=4 s=303 l=1: Gamma2 9.172e-04 Gamma_rad 7.648e-04 (half-diff 5.1e-06, 4.2e-06) (4s)
+n=32 L=4 s=303 l=2: Gamma2 7.358e-04 Gamma_rad 6.040e-04 (half-diff 2.0e-06, 3.4e-06) (7s)
+n=32 L=4 s=303 l=3: Gamma2 5.591e-04 Gamma_rad 3.150e-04 (half-diff 2.2e-06, 2.9e-06) (11s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s303.json 11s
+n=32 L=4 s=304 l=1: Gamma2 5.154e-04 Gamma_rad 3.886e-04 (half-diff 3.7e-06, 4.2e-06) (4s)
+n=32 L=4 s=304 l=2: Gamma2 1.537e-03 Gamma_rad 8.832e-04 (half-diff 3.7e-06, 2.5e-06) (8s)
+n=32 L=4 s=304 l=3: Gamma2 8.959e-04 Gamma_rad 1.231e-03 (half-diff 2.3e-06, 1.5e-05) (12s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s304.json 12s
+n=32 L=4 s=305 l=1: Gamma2 6.590e-04 Gamma_rad 2.785e-04 (half-diff 2.6e-06, 1.4e-06) (4s)
+n=32 L=4 s=305 l=2: Gamma2 2.123e-03 Gamma_rad 8.018e-04 (half-diff 3.1e-06, 2.7e-06) (8s)
+n=32 L=4 s=305 l=3: Gamma2 8.618e-04 Gamma_rad 7.342e-04 (half-diff 1.6e-06, 6.9e-06) (12s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s305.json 12s
+n=32 L=4 s=306 l=1: Gamma2 6.045e-04 Gamma_rad 5.331e-04 (half-diff 3.9e-06, 6.3e-06) (5s)
+n=32 L=4 s=306 l=2: Gamma2 9.571e-04 Gamma_rad 4.372e-04 (half-diff 1.5e-06, 2.5e-06) (9s)
+n=32 L=4 s=306 l=3: Gamma2 5.013e-04 Gamma_rad 4.967e-04 (half-diff 2.9e-06, 4.8e-06) (13s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s306.json 13s
+n=32 L=4 s=307 l=1: Gamma2 5.626e-04 Gamma_rad 1.910e-04 (half-diff 7.1e-06, 5.0e-06) (5s)
+n=32 L=4 s=307 l=2: Gamma2 1.455e-03 Gamma_rad 7.594e-04 (half-diff 3.4e-06, 2.7e-06) (8s)
+n=32 L=4 s=307 l=3: Gamma2 1.167e-03 Gamma_rad 9.993e-04 (half-diff 2.9e-06, 8.3e-06) (12s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n32_L4_s307.json 12s
+n=64 L=8 s=300 l=1: Gamma2 4.813e-04 Gamma_rad 8.075e-05 (half-diff 3.3e-06, 4.5e-06) (10s)
+n=64 L=8 s=300 l=2: Gamma2 1.085e-03 Gamma_rad 2.194e-04 (half-diff 2.5e-06, 2.4e-06) (17s)
+n=64 L=8 s=300 l=4: Gamma2 7.530e-04 Gamma_rad 3.181e-04 (half-diff 2.2e-06, 5.2e-06) (25s)
+n=64 L=8 s=300 l=6: Gamma2 4.701e-04 Gamma_rad 4.654e-04 (half-diff 1.2e-06, 2.5e-05) (31s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s300.json 31s
+n=64 L=8 s=301 l=1: Gamma2 7.352e-04 Gamma_rad 2.376e-04 (half-diff 3.8e-06, 4.6e-06) (8s)
+n=64 L=8 s=301 l=2: Gamma2 7.431e-04 Gamma_rad 2.644e-04 (half-diff 3.4e-06, 7.3e-06) (17s)
+n=64 L=8 s=301 l=4: Gamma2 1.417e-03 Gamma_rad 4.671e-04 (half-diff 1.8e-06, 5.1e-06) (24s)
+n=64 L=8 s=301 l=6: Gamma2 7.409e-04 Gamma_rad 2.942e-04 (half-diff 1.3e-06, 2.9e-06) (30s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s301.json 30s
+n=64 L=8 s=302 l=1: Gamma2 4.384e-04 Gamma_rad 1.031e-04 (half-diff 2.8e-06, 2.3e-05) (9s)
+n=64 L=8 s=302 l=2: Gamma2 5.274e-04 Gamma_rad 1.338e-04 (half-diff 2.3e-06, 1.2e-05) (17s)
+n=64 L=8 s=302 l=4: Gamma2 6.071e-04 Gamma_rad 3.722e-04 (half-diff 1.8e-06, 2.2e-06) (25s)
+n=64 L=8 s=302 l=6: Gamma2 3.515e-04 Gamma_rad 2.101e-04 (half-diff 8.1e-07, 4.6e-05) (30s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s302.json 30s
+n=64 L=8 s=303 l=1: Gamma2 3.903e-04 Gamma_rad 7.695e-05 (half-diff 3.1e-06, 1.3e-06) (8s)
+n=64 L=8 s=303 l=2: Gamma2 6.919e-04 Gamma_rad 2.674e-04 (half-diff 2.4e-06, 2.3e-06) (14s)
+n=64 L=8 s=303 l=4: Gamma2 9.316e-04 Gamma_rad 6.460e-04 (half-diff 4.1e-06, 1.2e-05) (20s)
+n=64 L=8 s=303 l=6: Gamma2 3.501e-04 Gamma_rad 2.767e-04 (half-diff 5.7e-06, 4.2e-06) (25s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s303.json 25s
+n=64 L=8 s=304 l=1: Gamma2 3.549e-04 Gamma_rad 1.040e-04 (half-diff 4.1e-06, 1.9e-06) (9s)
+n=64 L=8 s=304 l=2: Gamma2 7.255e-04 Gamma_rad 2.321e-04 (half-diff 2.8e-06, 2.2e-05) (16s)
+n=64 L=8 s=304 l=4: Gamma2 5.672e-04 Gamma_rad 3.981e-04 (half-diff 2.8e-06, 5.9e-06) (22s)
+n=64 L=8 s=304 l=6: Gamma2 3.518e-04 Gamma_rad 6.075e-04 (half-diff 1.9e-06, 7.1e-06) (28s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s304.json 28s
+n=64 L=8 s=305 l=1: Gamma2 3.881e-04 Gamma_rad 9.995e-05 (half-diff 1.8e-06, 5.8e-06) (9s)
+n=64 L=8 s=305 l=2: Gamma2 7.689e-04 Gamma_rad 2.137e-04 (half-diff 3.8e-06, 4.7e-06) (16s)
+n=64 L=8 s=305 l=4: Gamma2 5.857e-04 Gamma_rad 3.923e-04 (half-diff 3.7e-06, 1.6e-06) (22s)
+n=64 L=8 s=305 l=6: Gamma2 6.686e-04 Gamma_rad 5.398e-04 (half-diff 1.9e-06, 6.2e-06) (28s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s305.json 28s
+n=64 L=8 s=306 l=1: Gamma2 3.724e-04 Gamma_rad 1.843e-04 (half-diff 1.5e-06, 3.2e-06) (7s)
+n=64 L=8 s=306 l=2: Gamma2 8.066e-04 Gamma_rad 2.672e-04 (half-diff 4.4e-06, 3.5e-06) (14s)
+n=64 L=8 s=306 l=4: Gamma2 7.007e-04 Gamma_rad 2.485e-04 (half-diff 4.9e-06, 4.7e-05) (20s)
+n=64 L=8 s=306 l=6: Gamma2 9.108e-04 Gamma_rad 5.978e-04 (half-diff 2.7e-06, 8.5e-06) (25s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s306.json 25s
+n=64 L=8 s=307 l=1: Gamma2 4.145e-04 Gamma_rad 1.009e-04 (half-diff 4.4e-06, 9.2e-06) (7s)
+n=64 L=8 s=307 l=2: Gamma2 6.743e-04 Gamma_rad 1.660e-04 (half-diff 2.4e-06, 4.4e-06) (14s)
+n=64 L=8 s=307 l=4: Gamma2 1.351e-03 Gamma_rad 3.449e-04 (half-diff 7.1e-06, 2.0e-05) (20s)
+n=64 L=8 s=307 l=6: Gamma2 6.934e-04 Gamma_rad 5.038e-04 (half-diff 1.9e-06, 6.0e-06) (26s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n64_L8_s307.json 26s
+n=128 L=16 s=300 l=1: Gamma2 3.293e-04 Gamma_rad 2.787e-05 (half-diff 2.0e-06, 3.3e-06) (30s)
+n=128 L=16 s=300 l=4: Gamma2 5.665e-04 Gamma_rad 6.057e-05 (half-diff 2.8e-06, 4.3e-06) (51s)
+n=128 L=16 s=300 l=8: Gamma2 7.645e-04 Gamma_rad 5.449e-04 (half-diff 1.2e-06, 6.1e-06) (68s)
+n=128 L=16 s=300 l=12: Gamma2 2.169e-04 Gamma_rad 1.944e-04 (half-diff 4.4e-06, 2.2e-05) (83s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s300.json 83s
+n=128 L=16 s=301 l=1: Gamma2 1.806e-04 Gamma_rad 3.465e-05 (half-diff 2.1e-06, 2.8e-06) (25s)
+n=128 L=16 s=301 l=4: Gamma2 1.135e-04 Gamma_rad 3.879e-04 (half-diff 2.1e-06, 8.6e-06) (50s)
+n=128 L=16 s=301 l=8: Gamma2 2.707e-04 Gamma_rad 1.690e-04 (half-diff 2.8e-06, 2.8e-06) (69s)
+n=128 L=16 s=301 l=12: Gamma2 2.753e-04 Gamma_rad 2.703e-04 (half-diff 1.4e-06, 1.8e-06) (87s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s301.json 87s
+n=128 L=16 s=302 l=1: Gamma2 5.692e-05 Gamma_rad 5.350e-05 (half-diff 3.1e-06, 7.7e-06) (24s)
+n=128 L=16 s=302 l=4: Gamma2 3.798e-04 Gamma_rad 1.433e-04 (half-diff 1.0e-06, 1.8e-06) (46s)
+n=128 L=16 s=302 l=8: Gamma2 3.343e-04 Gamma_rad 4.722e-04 (half-diff 2.2e-06, 3.2e-05) (63s)
+n=128 L=16 s=302 l=12: Gamma2 2.530e-04 Gamma_rad 3.904e-04 (half-diff 4.2e-06, 2.5e-06) (79s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s302.json 79s
+n=128 L=16 s=303 l=1: Gamma2 1.186e-04 Gamma_rad 9.423e-05 (half-diff 2.7e-06, 7.8e-06) (26s)
+n=128 L=16 s=303 l=4: Gamma2 6.320e-04 Gamma_rad 2.230e-04 (half-diff 2.0e-06, 5.8e-06) (51s)
+n=128 L=16 s=303 l=8: Gamma2 6.079e-04 Gamma_rad 3.050e-04 (half-diff 1.5e-06, 5.1e-06) (73s)
+n=128 L=16 s=303 l=12: Gamma2 5.378e-04 Gamma_rad 4.028e-04 (half-diff 5.2e-06, 2.5e-06) (86s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s303.json 86s
+n=128 L=16 s=304 l=1: Gamma2 6.335e-05 Gamma_rad 2.253e-05 (half-diff 2.3e-06, 7.8e-06) (25s)
+n=128 L=16 s=304 l=4: Gamma2 2.310e-04 Gamma_rad 1.251e-04 (half-diff 2.9e-06, 2.9e-06) (49s)
+n=128 L=16 s=304 l=8: Gamma2 2.990e-04 Gamma_rad 1.624e-04 (half-diff 2.8e-06, 6.0e-06) (71s)
+n=128 L=16 s=304 l=12: Gamma2 3.947e-04 Gamma_rad 3.118e-04 (half-diff 2.0e-06, 2.9e-06) (86s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s304.json 86s
+n=128 L=16 s=305 l=1: Gamma2 6.176e-04 Gamma_rad 1.022e-04 (half-diff 2.1e-06, 2.9e-05) (28s)
+n=128 L=16 s=305 l=4: Gamma2 4.765e-04 Gamma_rad 9.045e-05 (half-diff 2.2e-06, 1.9e-05) (54s)
+n=128 L=16 s=305 l=8: Gamma2 2.666e-04 Gamma_rad 1.559e-04 (half-diff 4.3e-06, 2.9e-05) (73s)
+n=128 L=16 s=305 l=12: Gamma2 1.601e-04 Gamma_rad 1.802e-04 (half-diff 3.0e-06, 5.7e-06) (92s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s305.json 92s
+n=128 L=16 s=306 l=1: Gamma2 1.838e-04 Gamma_rad 1.487e-05 (half-diff 3.6e-06, 4.8e-06) (33s)
+n=128 L=16 s=306 l=4: Gamma2 1.409e-04 Gamma_rad 1.676e-04 (half-diff 2.7e-06, 1.4e-06) (55s)
+n=128 L=16 s=306 l=8: Gamma2 2.848e-04 Gamma_rad 2.573e-04 (half-diff 2.9e-06, 1.9e-06) (76s)
+n=128 L=16 s=306 l=12: Gamma2 2.523e-04 Gamma_rad 3.458e-04 (half-diff 3.4e-06, 1.2e-05) (103s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s306.json 103s
+n=128 L=16 s=307 l=1: Gamma2 2.829e-04 Gamma_rad 1.409e-05 (half-diff 5.2e-06, 1.4e-05) (33s)
+n=128 L=16 s=307 l=4: Gamma2 2.269e-04 Gamma_rad 1.701e-04 (half-diff 2.4e-06, 7.0e-06) (59s)
+n=128 L=16 s=307 l=8: Gamma2 2.811e-04 Gamma_rad 1.526e-04 (half-diff 1.2e-06, 2.0e-05) (78s)
+n=128 L=16 s=307 l=12: Gamma2 7.200e-05 Gamma_rad 8.972e-05 (half-diff 5.6e-07, 4.3e-06) (97s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n128_L16_s307.json 97s
+n=256 L=32 s=200 l=1: Gamma2 1.515e-04 Gamma_rad 2.018e-05 (half-diff 1.3e-06, 1.4e-06) (96s)
+n=256 L=32 s=200 l=8: Gamma2 8.712e-05 Gamma_rad 1.856e-05 (half-diff 1.1e-06, 3.3e-05) (169s)
+n=256 L=32 s=200 l=16: Gamma2 1.914e-04 Gamma_rad 1.349e-04 (half-diff 1.8e-06, 2.3e-05) (235s)
+n=256 L=32 s=200 l=24: Gamma2 5.546e-05 Gamma_rad 4.201e-05 (half-diff 1.2e-06, 7.1e-05) (296s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n256_L32_s200.json 296s
+n=256 L=32 s=201 l=1: Gamma2 1.080e-04 Gamma_rad 9.448e-06 (half-diff 5.9e-06, 5.5e-06) (89s)
+n=256 L=32 s=201 l=8: Gamma2 1.554e-04 Gamma_rad 6.346e-05 (half-diff 2.4e-06, 5.3e-05) (157s)
+n=256 L=32 s=201 l=16: Gamma2 1.526e-04 Gamma_rad 1.239e-04 (half-diff 3.9e-06, 4.8e-05) (224s)
+n=256 L=32 s=201 l=24: Gamma2 2.256e-04 Gamma_rad 2.334e-04 (half-diff 4.5e-06, 1.2e-05) (279s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n256_L32_s201.json 279s
+n=256 L=32 s=202 l=1: Gamma2 1.015e-04 Gamma_rad 3.293e-06 (half-diff 4.2e-06, 1.9e-06) (93s)
+n=256 L=32 s=202 l=8: Gamma2 2.393e-04 Gamma_rad 1.271e-04 (half-diff 3.4e-06, 1.3e-05) (173s)
+n=256 L=32 s=202 l=16: Gamma2 1.742e-04 Gamma_rad 1.642e-04 (half-diff 3.9e-06, 2.7e-06) (252s)
+n=256 L=32 s=202 l=24: Gamma2 1.786e-04 Gamma_rad 1.539e-04 (half-diff 7.0e-06, 1.1e-05) (315s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n256_L32_s202.json 315s
+n=256 L=32 s=203 l=1: Gamma2 1.065e-04 Gamma_rad -1.850e-06 (half-diff 6.9e-06, 1.8e-05) (106s)
+n=256 L=32 s=203 l=8: Gamma2 2.643e-04 Gamma_rad 8.429e-05 (half-diff 3.0e-06, 4.5e-06) (184s)
+n=256 L=32 s=203 l=16: Gamma2 1.812e-04 Gamma_rad 1.584e-04 (half-diff 2.6e-06, 8.6e-06) (266s)
+n=256 L=32 s=203 l=24: Gamma2 1.281e-04 Gamma_rad 1.304e-04 (half-diff 3.5e-06, 1.8e-05) (326s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n256_L32_s203.json 326s
+n=256 L=32 s=204 l=1: Gamma2 1.314e-04 Gamma_rad 1.082e-06 (half-diff 4.2e-06, 9.5e-06) (102s)
+n=256 L=32 s=204 l=8: Gamma2 3.003e-04 Gamma_rad 6.409e-05 (half-diff 2.7e-06, 2.6e-06) (178s)
+n=256 L=32 s=204 l=16: Gamma2 3.423e-04 Gamma_rad 2.224e-04 (half-diff 4.7e-06, 4.5e-05) (254s)
+n=256 L=32 s=204 l=24: Gamma2 1.313e-04 Gamma_rad 1.437e-04 (half-diff 2.5e-06, 1.1e-05) (321s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/width_n256_L32_s204.json 321s

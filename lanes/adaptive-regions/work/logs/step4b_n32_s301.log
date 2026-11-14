@@ -1,0 +1,29 @@
+sampled 32768 paths in 3s; r=32 PCs capture 1.0000; V(held-out)=11.989 V(truth)=12.034
+p_deep=2 l= 3: zones    4 seen 1.000 switching  32 leftover held-out 0.1092 (train 0.1100)
+p_deep=2 l= 2: zones    4 seen 1.000 switching  32 leftover held-out 0.3225 (train 0.3255)
+p_deep=2 l= 1: zones    4 seen 1.000 switching  32 leftover held-out 0.4973 (train 0.5007)
+p_deep=2 input p0=0: zones 1 leftover 0.7098 | nMSE model 1.48e-01 unbiased 6.46e-05 (expected 4.32e-05) | cost 35960 passes: RQMC 5.26e-06, MC 2.78e-05
+p_deep=2 input p0=2: zones 4 leftover 0.6703 | nMSE model 1.43e-01 unbiased 5.91e-05 (expected 4.08e-05) | cost 36309 passes: RQMC 5.21e-06, MC 2.75e-05
+p_deep=2 input p0=4: zones 16 leftover 0.6370 | nMSE model 1.40e-01 unbiased 7.03e-05 (expected 3.87e-05) | cost 37255 passes: RQMC 5.07e-06, MC 2.68e-05
+p_deep=2 input p0=6: zones 64 leftover 0.6126 | nMSE model 1.38e-01 unbiased 8.12e-05 (expected 3.73e-05) | cost 39055 passes: RQMC 4.83e-06, MC 2.56e-05
+p_deep=2 input p0=8: zones 256 leftover 0.5928 | nMSE model 1.31e-01 unbiased 4.48e-05 (expected 3.60e-05) | cost 42724 passes: RQMC 4.41e-06, MC 2.34e-05
+p_deep=2 input p0=10: zones 1001 leftover 0.5930 | nMSE model 1.31e-01 unbiased 5.00e-05 (expected 3.61e-05) | cost 51922 passes: RQMC 3.61e-06, MC 1.93e-05
+p_deep=6 l= 3: zones   64 seen 1.000 switching  32 leftover held-out 0.0665 (train 0.0653)
+p_deep=6 l= 2: zones   64 seen 1.000 switching  32 leftover held-out 0.2195 (train 0.2189)
+p_deep=6 l= 1: zones   64 seen 1.000 switching  32 leftover held-out 0.4685 (train 0.4691)
+p_deep=6 input p0=0: zones 1 leftover 0.8485 | nMSE model 2.91e-01 unbiased 6.38e-05 (expected 5.16e-05) | cost 38446 passes: RQMC 4.91e-06, MC 2.60e-05
+p_deep=6 input p0=2: zones 4 leftover 0.7771 | nMSE model 2.66e-01 unbiased 5.61e-05 (expected 4.73e-05) | cost 38839 passes: RQMC 4.86e-06, MC 2.57e-05
+p_deep=6 input p0=4: zones 16 leftover 0.7176 | nMSE model 2.55e-01 unbiased 6.60e-05 (expected 4.36e-05) | cost 39941 passes: RQMC 4.72e-06, MC 2.50e-05
+p_deep=6 input p0=6: zones 64 leftover 0.6938 | nMSE model 2.50e-01 unbiased 7.46e-05 (expected 4.22e-05) | cost 42108 passes: RQMC 4.47e-06, MC 2.37e-05
+p_deep=6 input p0=8: zones 256 leftover 0.6659 | nMSE model 2.38e-01 unbiased 3.26e-05 (expected 4.05e-05) | cost 46273 passes: RQMC 4.06e-06, MC 2.16e-05
+p_deep=6 input p0=10: zones 1014 leftover 0.6577 | nMSE model 2.27e-01 unbiased 4.14e-05 (expected 4.00e-05) | cost 55953 passes: RQMC 3.34e-06, MC 1.79e-05
+p_deep=10 l= 3: zones  642 seen 0.993 switching  32 leftover held-out 0.0422 (train 0.0324)
+p_deep=10 l= 2: zones  802 seen 0.993 switching  32 leftover held-out 0.1799 (train 0.1567)
+p_deep=10 l= 1: zones  831 seen 0.993 switching  32 leftover held-out 0.4040 (train 0.3695)
+p_deep=10 input p0=0: zones 1 leftover 0.8794 | nMSE model 3.25e-01 unbiased 6.16e-05 (expected 5.35e-05) | cost 60817 passes: RQMC 3.07e-06, MC 1.64e-05
+p_deep=10 input p0=2: zones 4 leftover 0.7871 | nMSE model 2.88e-01 unbiased 4.88e-05 (expected 4.79e-05) | cost 61529 passes: RQMC 3.03e-06, MC 1.63e-05
+p_deep=10 input p0=4: zones 16 leftover 0.7055 | nMSE model 2.62e-01 unbiased 5.53e-05 (expected 4.29e-05) | cost 63097 passes: RQMC 2.95e-06, MC 1.58e-05
+p_deep=10 input p0=6: zones 64 leftover 0.6636 | nMSE model 2.45e-01 unbiased 3.72e-05 (expected 4.04e-05) | cost 65714 passes: RQMC 2.83e-06, MC 1.52e-05
+p_deep=10 input p0=8: zones 256 leftover 0.6430 | nMSE model 2.40e-01 unbiased 2.86e-05 (expected 3.91e-05) | cost 69966 passes: RQMC 2.65e-06, MC 1.43e-05
+p_deep=10 input p0=10: zones 1005 leftover 0.6272 | nMSE model 2.23e-01 unbiased 2.38e-05 (expected 3.81e-05) | cost 79238 passes: RQMC 2.34e-06, MC 1.26e-05
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step4b_n32_L4_s301.json total 26.65963363647461

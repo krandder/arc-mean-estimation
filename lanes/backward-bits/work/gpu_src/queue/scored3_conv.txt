@@ -1,0 +1,12 @@
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0
+cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0

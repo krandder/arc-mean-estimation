@@ -1,0 +1,2 @@
+arc seeds [9100] l=31 cls=unres variant=outpca M=1 K=256 W=1024 params/model=7919360 dev=cpu
+done arc [9100] l=31 unres outpca train 55s total 87s

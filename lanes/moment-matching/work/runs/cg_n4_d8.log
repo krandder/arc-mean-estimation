@@ -1,0 +1,3 @@
+n=4 d=8 M=495 relu_L1_net0: gap/sd in [0.2829, 76.3701] rounds=40,40 t=501.1+583.2s
+n=4 d=8 M=495 relu_L2_net0: gap/sd in [0.7262, 98.4924] rounds=40,40 t=581.7+491.2s
+n=4 d=8 M=495 relu_L4_net0: gap/sd in [0.2172, 16.2906] rounds=40,40 t=528.6+528.8s

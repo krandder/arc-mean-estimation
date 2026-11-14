@@ -1,0 +1,13 @@
+cells 204 flags Counter({('C3_steps2', 'missing'): 486, ('C3_cap2', 'missing'): 486, ('h1', 'h1_better'): 244, ('C3_r2', 'missing'): 102, ('C1', 'fail'): 26, ('C3_steps2', 'fail'): 22, ('C3_cap2', 'fail'): 19, ('C7', 'fail'): 8, ('C5', 'unreached'): 6, ('h1', 'h1_unreached'): 4, ('C6', 'fail'): 3, ('C5', 'fail'): 3, ('C3_r2', 'fail'): 1})
+P1.1 {'hits': 53, 'n': 54, 'need': 41, 'hit': True, 'status': 'pass', 'desc': 'C1 passes at L - l <= 8 (both curves reached)'}
+P1.2 {'hits': 4, 'n': 4, 'need': 4, 'hit': True, 'status': 'pass', 'desc': 'ARC local R(0.1) at l <= 4 >= 4 R_out(0.1) or unreached, 4 of 4 nets'}
+P1.3 {'hits': 4, 'n': 4, 'need': 3, 'hit': True, 'status': 'pass', 'desc': 'ARC local l = 31 within 15% of R_out at 0.1, 0.01'}
+P1.4 {'arc': [True, True, True, True], 'nd': [True, True, True, True, True, True], 'hit': True, 'status': 'pass', 'desc': 'local R(0.1) non-increasing up to 10% + 1 bit'}
+P1.5 {'arc_hits': 4, 'arc_n': 4, 'nd_hits': 6, 'nd_n': 6, 'hit': True, 'status': 'pass', 'desc': 'slopes (narrow-deep: every interval between 0.01 and 0.001, cells that ran)'}
+P1.6 {'hits': 15, 'n': 16, 'need': 12, 'hit': True, 'status': 'pass', 'desc': 'ARC local slope near 0.01 within [0.5, 2] N(l, 0.01)'}
+P1.7 {'hits': 3, 'n': 3, 'need': 3, 'hit': True, 'status': 'pass', 'desc': 'ARC 4000 local R(0.1) within 2x of the bits-bounds formula (d = PR) at l = 4, 8, 16'}
+P1.8 {'c6_pass': 555, 'c6_n': 557, 'l31_hits': 0, 'l31_n': 4, 'hit': False, 'desc': 'reference'}
+P1.9 {'c2_pass': 120, 'c2_n': 120, 'ratio_hits': 4, 'hit': True, 'desc': 'non-Gaussian output'}
+P1.10 {'sync_hits': 6, 'input_hits': 6, 'n': 6, 'hit': True, 'status': 'pass', 'desc': 'narrow-deep (sync on the cells that ran)'}
+P1.11 {'hits': 5480, 'n': 5865, 'need': 5279, 'hit': True, 'status': 'pass', 'desc': 'mean error < nMSE / 10 (resolved points, nMSE <= 0.1)'}
+P1.12 {'statuses': ['fail', 'unreached', 'unreached', 'pass', 'pass', 'pass', 'fail', 'unreached', 'unreached', 'pass', 'pass', 'pass'], 'hit': False, 'desc': 'toy k = 4, 16 pass C5'}

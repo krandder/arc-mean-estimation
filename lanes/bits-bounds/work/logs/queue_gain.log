@@ -1,0 +1,25 @@
+start gain 64 64 100 22:04:27Z
+end gain 64 64 100 exit=0 22:04:28Z
+start gain 64 64 101 22:04:28Z
+end gain 64 64 101 exit=0 22:04:29Z
+start gain 64 64 102 22:04:29Z
+end gain 64 64 102 exit=0 22:04:29Z
+start gain 64 64 103 22:04:29Z
+end gain 64 64 103 exit=0 22:04:31Z
+start gain 128 128 100 22:04:31Z
+end gain 128 128 100 exit=0 22:04:35Z
+start gain 128 128 101 22:04:35Z
+end gain 128 128 101 exit=0 22:04:39Z
+start gain 128 128 102 22:04:39Z
+end gain 128 128 102 exit=0 22:04:42Z
+start gain 128 128 103 22:04:42Z
+end gain 128 128 103 exit=0 22:04:44Z
+start gain 256 256 100 22:04:44Z
+end gain 256 256 100 exit=0 22:05:03Z
+start gain 256 256 101 22:05:03Z
+end gain 256 256 101 exit=0 22:05:23Z
+start gain 256 256 102 22:05:23Z
+end gain 256 256 102 exit=0 22:05:40Z
+start gain 256 256 103 22:05:40Z
+end gain 256 256 103 exit=0 22:05:56Z
+gain queue done 22:05:56Z

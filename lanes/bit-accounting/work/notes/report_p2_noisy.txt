@@ -1,0 +1,29 @@
+### 3.4 More exploration of the local class (amendment P1-B; 13 of 53 cells, final for this report)
+
+Results: runs/P1Y/Y_*.json, scored by score_P1v2.py (B1, B2), included in R* above. Repeated spot preemptions (the last,
+bitacct-14, at 00:02Z on 3 November after it finished the noisy cells) and L4 stockouts cut this part short; no
+further P1-B cell arrived, and the 40 remaining cells were not relaunched (the remaining GPU budget went to the
+corrected Part U). Rescored at 00:06Z on 3 November: unchanged. On 13 early-layer
+local cells (16x4, 32x8, 16x16):
+- B1 missed (9 of 13). The registered test compares the best P1-B code, including the 12000-step explorers, with
+  the P1-A explorers, and on 4 of 13 cells that code is more than 5% lower.
+- The six extra 6000-step restarts alone move R*(0.1) by at most 5% on 12 of 13 cells.
+- Training twice as long (12000 steps) is within tolerance on 10 of 13 cells (B2 hit), but lowers the input-layer
+  counts by 4-9% (32x8 seed 5000: 29.4 to 27.1 bits with the primary crossing, 8.1%).
+- So the input-layer local counts still fall with longer training. They are upper bounds, not converged values.
+
+### 3.5 Phase 2, P2.0 part 5: do the code maps settle to one shared map in the noisy nets? (amendment P2.0-b)
+
+Results: results/P2_noisy_maps.json (script scratch/p2_noisy_maps.py; summary numbers scratch/summ_noisy.py); all 36
+noisy cells: 16x16 (layers 8-13) and 32x32 (layers 16-21), 3 seeds each. Codes trained with the shared-noise
+distortion at six consecutive layers (lambda = 0.01):
+- The code maps between consecutive layers are less affine than in the noiseless nets: affine R^2 0.55-0.80 on 16x16
+  and 0.64-0.93 on 32x32, with the MLP fit of each step close to it (0.60-0.80, 0.68-0.93).
+- A map fitted at layer l and applied at l+k, after orthogonal Procrustes alignment of the codes, transfers poorly.
+  The MLP fit is below 0 on 43 of 60 transfers (at most 0.59). The affine fit is positive on 50 of 60 (at most 0.83);
+  at l+4 it is 0.34-0.55 on 32x32 and -0.96 to 0.59 on 16x16.
+- H5 (T fitted at l scores R^2 >= 0.8 at l+4 on the noisy 32x32 nets) is missed, 0 of 3, for either fit (the 32x32
+  numbers are unchanged from the earlier partial analysis; the rerun reproduced the 16x16 seed 5000 values to within
+  0.003).
+- This is a failed transfer under this alignment. It is not proof that no shared dynamics exist: the codes at
+  different layers can have different numbers of active directions, which Procrustes alignment cannot repair.

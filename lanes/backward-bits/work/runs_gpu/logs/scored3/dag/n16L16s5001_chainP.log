@@ -1,0 +1,16 @@
+[     86s] l=14: T 3.779 (erased 2.117 of 5.895) | code K=14 H 3.775 I 2.262 deficit 1.516 | reuse H 5.853 I 3.011 | exCE 0.0127 | 86s
+[    149s] l=13: T 1.502 (erased 4.393 of 5.895) | code K=3 H 1.158 I 0.646 deficit 0.856 | reuse H 3.763 I 1.285 | exCE 0.0061 | 62s
+[    203s] l=12: T 0.440 (erased 5.456 of 5.896) | code K=2 H 0.285 I 0.097 deficit 0.343 | reuse H 1.146 I 0.358 | exCE 0.0010 | 55s
+[    259s] l=11: T 0.068 (erased 5.828 of 5.896) | code K=2 H 0.074 I 0.016 deficit 0.052 | reuse H 0.260 I 0.054 | exCE 0.0003 | 56s
+[    301s] l=10: T 0.012 (erased 5.885 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.012 | reuse H 0.066 I 0.009 | exCE 0.0003 | 42s
+[    336s] l=9: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 35s
+[    389s] l=8: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 53s
+[    440s] l=7: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 50s
+[    488s] l=6: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 48s
+[    528s] l=5: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 40s
+[    577s] l=4: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 50s
+[    619s] l=3: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 41s
+[    672s] l=2: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 53s
+[    722s] l=1: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 51s
+[    765s] l=0: T 0.000 (erased 5.896 of 5.896) | code K=1 H 0.000 I 0.000 deficit 0.000 | reuse H 0.000 I 0.000 | exCE 0.0000 | 43s
+[    765s] done

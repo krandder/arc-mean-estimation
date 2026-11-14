@@ -1,0 +1,4 @@
+done arc [4000] l=8 local h1lr train 529s total 647s
+done arc [4000] l=0 local h1lr train 464s total 565s
+done arc [4000] l=16 local h1lr train 471s total 565s
+done arc [4000] l=8 local reflr train 609s total 753s

@@ -1,0 +1,162 @@
+step n=4 L=2 net=0 d=2 l=0->1: mean spread/sd median=0.753 max=0.760
+step n=4 L=2 net=0 d=2 l=1->2: mean spread/sd median=0.733 max=1.026
+prop n=4 L=2 net=0 d=2: readout: all=0.9484414689394906 input=1.9000133205295233 prop=2.1422679702051384 unit: all=0.6032730264186001 input=1.0323136646514717 prop=1.0502000725116172 t=5.8s
+step n=4 L=2 net=0 d=3 l=0->1: mean spread/sd median=0.725 max=0.735
+step n=4 L=2 net=0 d=3 l=1->2: mean spread/sd median=0.529 max=0.622
+prop n=4 L=2 net=0 d=3: readout: all=0.5882855311068208 input=1.6682421577962754 prop=1.7962163117580578 unit: all=0.2736286233290832 input=0.9878926964066816 prop=1.0076025926052201 t=30.1s
+step n=4 L=2 net=1 d=2 l=0->1: mean spread/sd median=0.747 max=0.750
+step n=4 L=2 net=1 d=2 l=1->2: mean spread/sd median=0.429 max=1.101
+prop n=4 L=2 net=1 d=2: readout: all=0.31950140607057026 input=1.2197399307831072 prop=1.338946137539053 unit: all=0.04823517052072689 input=0.7699184143946207 prop=0.7806456259265178 t=4.6s
+step n=4 L=2 net=1 d=3 l=0->1: mean spread/sd median=0.716 max=0.727
+step n=4 L=2 net=1 d=3 l=1->2: mean spread/sd median=0.283 max=0.875
+prop n=4 L=2 net=1 d=3: readout: all=0.21171016815387195 input=1.1313431718639504 prop=1.1922896871595758 unit: all=0.024784078488480833 input=0.7245553090283181 prop=0.7324313093742834 t=52.2s
+step n=4 L=2 net=2 d=2 l=0->1: mean spread/sd median=0.747 max=0.755
+step n=4 L=2 net=2 d=2 l=1->2: mean spread/sd median=0.257 max=0.653
+prop n=4 L=2 net=2 d=2: readout: all=0.901173955192466 input=1.7021714598592559 prop=1.923296710343213 unit: all=0.22874756432886742 input=0.9191490102369257 prop=0.9458548704118639 t=4.1s
+step n=4 L=2 net=2 d=3 l=0->1: mean spread/sd median=0.722 max=0.731
+step n=4 L=2 net=2 d=3 l=1->2: mean spread/sd median=0.143 max=0.369
+prop n=4 L=2 net=2 d=3: readout: all=0.46807604451850005 input=1.5628362609210922 prop=1.753451700032348 unit: all=0.13773984501260983 input=0.8375411236570496 prop=0.8465245555720164 t=59.3s
+step n=4 L=3 net=0 d=2 l=0->1: mean spread/sd median=0.751 max=0.754
+step n=4 L=3 net=0 d=2 l=1->2: mean spread/sd median=0.242 max=0.376
+step n=4 L=3 net=0 d=2 l=2->3: mean spread/sd median=0.948 max=1.221
+prop n=4 L=3 net=0 d=2: readout: all=0.4718113978448222 input=1.0289524045438356 prop=1.2176285320420968 unit: all=0.4725401091806963 input=1.0423422207699826 prop=1.2185813778261514 t=7.7s
+step n=4 L=3 net=0 d=3 l=0->1: mean spread/sd median=0.729 max=0.734
+step n=4 L=3 net=0 d=3 l=1->2: mean spread/sd median=0.115 max=0.189
+step n=4 L=3 net=0 d=3 l=2->3: mean spread/sd median=0.507 max=0.735
+prop n=4 L=3 net=0 d=3: readout: all=0.2159307167670905 input=0.967800319462785 prop=1.0794715429693444 unit: all=0.21669129222542075 input=0.9757661849283586 prop=1.0815757374096548 t=47.3s
+step n=4 L=3 net=1 d=2 l=0->1: mean spread/sd median=0.755 max=0.766
+step n=4 L=3 net=1 d=2 l=1->2: mean spread/sd median=0.577 max=0.723
+step n=4 L=3 net=1 d=2 l=2->3: mean spread/sd median=0.403 max=0.575
+prop n=4 L=3 net=1 d=2: readout: all=0.15365754549425428 input=1.093997409796448 prop=1.2958078269355555 unit: all=0.15300753091694833 input=1.0906928264544395 prop=1.2907276866849078 t=7.8s
+step n=4 L=3 net=1 d=3 l=0->1: mean spread/sd median=0.733 max=0.736
+step n=4 L=3 net=1 d=3 l=1->2: mean spread/sd median=0.267 max=0.417
+step n=4 L=3 net=1 d=3 l=2->3: mean spread/sd median=0.152 max=0.179
+prop n=4 L=3 net=1 d=3: readout: all=0.05495187900965943 input=1.0457850551503092 prop=1.1595502301099663 unit: all=0.054508246582026555 input=1.045315748407424 prop=1.1557532983219463 t=42.1s
+step n=4 L=3 net=2 d=2 l=0->1: mean spread/sd median=0.747 max=0.749
+step n=4 L=3 net=2 d=2 l=1->2: mean spread/sd median=0.590 max=1.189
+step n=4 L=3 net=2 d=2 l=2->3: mean spread/sd median=0.176 max=0.447
+prop n=4 L=3 net=2 d=2: readout: all=0.3888094362594388 input=1.4918327568821332 prop=1.5198792048911554 unit: all=1.98613782855767e-16 input=1.4355340393748164 prop=1.4936423334240576 t=7.2s
+step n=4 L=3 net=2 d=3 l=0->1: mean spread/sd median=0.724 max=0.727
+step n=4 L=3 net=2 d=3 l=1->2: mean spread/sd median=0.266 max=0.690
+step n=4 L=3 net=2 d=3 l=2->3: mean spread/sd median=0.103 max=0.146
+prop n=4 L=3 net=2 d=3: readout: all=0.17627906898774662 input=1.3859467766964528 prop=1.4068917052228074 unit: all=1.073356330908616e-05 input=1.2345466015177806 prop=1.2788464291914903 t=44.7s
+step n=4 L=4 net=0 d=2 l=0->1: mean spread/sd median=0.751 max=0.772
+step n=4 L=4 net=0 d=2 l=1->2: mean spread/sd median=0.453 max=1.005
+step n=4 L=4 net=0 d=2 l=2->3: mean spread/sd median=0.000 max=0.000
+step n=4 L=4 net=0 d=2 l=3->4: mean spread/sd median=-0.000 max=0.000
+prop n=4 L=4 net=0 d=2: readout: all=-1.2061010019038993e-15 input=0.9819402562059392 prop=1.028504272043462 unit: all=2.8256985823311285e-16 input=0.9772894790767153 prop=1.0244766809612575 t=11.1s
+step n=4 L=4 net=0 d=3 l=0->1: mean spread/sd median=0.729 max=0.730
+step n=4 L=4 net=0 d=3 l=1->2: mean spread/sd median=0.289 max=0.632
+step n=4 L=4 net=0 d=3 l=2->3: mean spread/sd median=0.000 max=0.000
+step n=4 L=4 net=0 d=3 l=3->4: mean spread/sd median=0.000 max=0.000
+prop n=4 L=4 net=0 d=3: readout: all=3.908787271114065e-06 input=0.9314517008004111 prop=0.9501690893672938 unit: all=4.6970505774727774e-06 input=0.9273461675827855 prop=0.9468087021421459 t=73.5s
+step n=4 L=4 net=1 d=2 l=0->1: mean spread/sd median=0.751 max=0.754
+step n=4 L=4 net=1 d=2 l=1->2: mean spread/sd median=0.559 max=0.844
+step n=4 L=4 net=1 d=2 l=2->3: mean spread/sd median=0.000 max=0.000
+step n=4 L=4 net=1 d=2 l=3->4: mean spread/sd median=0.000 max=0.000
+prop n=4 L=4 net=1 d=2: readout: all=-4.870245761729564e-16 input=1.629515850105718 prop=1.774584027249293 unit: all=-5.036805258715398e-16 input=1.6295158501057196 prop=1.7745840874548142 t=6.6s
+step n=4 L=4 net=1 d=3 l=0->1: mean spread/sd median=0.726 max=0.727
+step n=4 L=4 net=1 d=3 l=1->2: mean spread/sd median=0.375 max=0.566
+step n=4 L=4 net=1 d=3 l=2->3: mean spread/sd median=0.000 max=0.000
+step n=4 L=4 net=1 d=3 l=3->4: mean spread/sd median=0.000 max=0.000
+prop n=4 L=4 net=1 d=3: readout: all=2.435122880864782e-16 input=1.4707002331961965 prop=1.5331948459649816 unit: all=6.715740344953864e-16 input=1.4707002331961894 prop=1.5331959157544288 t=43.9s
+step n=4 L=4 net=2 d=2 l=0->1: mean spread/sd median=0.748 max=0.752
+step n=4 L=4 net=2 d=2 l=1->2: mean spread/sd median=0.677 max=1.106
+step n=4 L=4 net=2 d=2 l=2->3: mean spread/sd median=0.109 max=0.338
+step n=4 L=4 net=2 d=2 l=3->4: mean spread/sd median=0.493 max=9.151
+prop n=4 L=4 net=2 d=2: readout: all=0.003992194651784453 input=1.1004129875344786 prop=1.326684399583901 unit: all=0.0005246387988875702 input=1.0770388174457337 prop=1.285669692576127 t=11.5s
+step n=4 L=4 net=2 d=3 l=0->1: mean spread/sd median=0.725 max=0.726
+step n=4 L=4 net=2 d=3 l=1->2: mean spread/sd median=0.400 max=0.912
+step n=4 L=4 net=2 d=3 l=2->3: mean spread/sd median=0.061 max=0.127
+step n=4 L=4 net=2 d=3 l=3->4: mean spread/sd median=0.288 max=5.198
+prop n=4 L=4 net=2 d=3: readout: all=0.002139853407092747 input=0.9816110706513342 prop=1.1280513559444363 unit: all=0.0002652722873079175 input=0.9662274302916901 prop=1.0983053528161255 t=75.3s
+step n=4 L=6 net=0 d=2 l=0->1: mean spread/sd median=0.744 max=0.752
+step n=4 L=6 net=0 d=2 l=1->2: mean spread/sd median=0.047 max=0.468
+step n=4 L=6 net=0 d=2 l=2->3: mean spread/sd median=0.054 max=0.886
+step n=4 L=6 net=0 d=2 l=3->4: mean spread/sd median=0.120 max=0.124
+step n=4 L=6 net=0 d=2 l=4->5: mean spread/sd median=0.791 max=0.814
+step n=4 L=6 net=0 d=2 l=5->6: mean spread/sd median=0.000 max=0.000
+prop n=4 L=6 net=0 d=2: readout: all=4.859943407090435e-16 input=1.438773900631125 prop=2.3044222684218614 unit: all=3.565989622972133e-16 input=1.432334589411194 prop=2.2873073775918744 t=16.1s
+step n=4 L=6 net=0 d=3 l=0->1: mean spread/sd median=0.720 max=0.727
+step n=4 L=6 net=0 d=3 l=1->2: mean spread/sd median=0.030 max=0.196
+step n=4 L=6 net=0 d=3 l=2->3: mean spread/sd median=0.038 max=0.501
+step n=4 L=6 net=0 d=3 l=3->4: mean spread/sd median=0.086 max=0.094
+step n=4 L=6 net=0 d=3 l=4->5: mean spread/sd median=0.460 max=0.490
+step n=4 L=6 net=0 d=3 l=5->6: mean spread/sd median=0.000 max=0.000
+prop n=4 L=6 net=0 d=3: readout: all=2.2301983668492154e-07 input=1.3191810776309307 prop=1.8419248150089105 unit: all=2.1874087548402108e-07 input=1.3135057537808945 prop=1.8282645396864574 t=79.1s
+step n=4 L=6 net=1 d=2 l=0->1: mean spread/sd median=0.751 max=0.764
+step n=4 L=6 net=1 d=2 l=1->2: mean spread/sd median=0.210 max=0.640
+step n=4 L=6 net=1 d=2 l=2->3: mean spread/sd median=0.279 max=0.485
+step n=4 L=6 net=1 d=2 l=3->4: mean spread/sd median=-0.000 max=0.901
+step n=4 L=6 net=1 d=2 l=4->5: mean spread/sd median=0.663 max=0.754
+step n=4 L=6 net=1 d=2 l=5->6: mean spread/sd median=0.000 max=0.000
+prop n=4 L=6 net=1 d=2: readout: all=-3.15998818982299e-16 input=1.9234652232804201 prop=3.265989561242347 unit: all=5.953431711594888e-16 input=1.5821402891300687 prop=2.3921078164555696 t=10.6s
+step n=4 L=6 net=1 d=3 l=0->1: mean spread/sd median=0.731 max=0.744
+step n=4 L=6 net=1 d=3 l=1->2: mean spread/sd median=0.107 max=0.264
+step n=4 L=6 net=1 d=3 l=2->3: mean spread/sd median=0.115 max=0.193
+step n=4 L=6 net=1 d=3 l=3->4: mean spread/sd median=0.000 max=0.509
+step n=4 L=6 net=1 d=3 l=4->5: mean spread/sd median=0.462 max=0.503
+step n=4 L=6 net=1 d=3 l=5->6: mean spread/sd median=0.000 max=0.000
+prop n=4 L=6 net=1 d=3: readout: all=-8.449050022421118e-12 input=1.765843336451972 prop=2.8942453242202513 unit: all=6.27391982420932e-11 input=1.5215194535025467 prop=2.023077371356346 t=104.2s
+step n=4 L=6 net=2 d=2 l=0->1: mean spread/sd median=0.748 max=0.753
+step n=4 L=6 net=2 d=2 l=1->2: mean spread/sd median=0.171 max=0.298
+step n=4 L=6 net=2 d=2 l=2->3: mean spread/sd median=0.037 max=0.116
+step n=4 L=6 net=2 d=2 l=3->4: mean spread/sd median=0.080 max=0.113
+step n=4 L=6 net=2 d=2 l=4->5: mean spread/sd median=0.403 max=0.582
+step n=4 L=6 net=2 d=2 l=5->6: mean spread/sd median=0.001 max=0.235
+prop n=4 L=6 net=2 d=2: readout: all=0.0002934034002566419 input=1.5084988746124894 prop=1.8015525887043664 unit: all=-2.9226537561483864e-16 input=1.4420290162229914 prop=1.7088928146708784 t=25.0s
+step n=4 L=6 net=2 d=3 l=0->1: mean spread/sd median=0.717 max=0.722
+step n=4 L=6 net=2 d=3 l=1->2: mean spread/sd median=0.120 max=0.181
+step n=4 L=6 net=2 d=3 l=2->3: mean spread/sd median=0.028 max=0.095
+step n=4 L=6 net=2 d=3 l=3->4: mean spread/sd median=0.056 max=0.090
+step n=4 L=6 net=2 d=3 l=4->5: mean spread/sd median=0.208 max=0.279
+step n=4 L=6 net=2 d=3 l=5->6: mean spread/sd median=0.001 max=0.140
+prop n=4 L=6 net=2 d=3: readout: all=0.0001326167082609955 input=1.355900087748927 prop=1.5240499532396043 unit: all=3.985369935043788e-07 input=1.3002140044632042 prop=1.4455993141409151 t=156.6s
+step n=6 L=2 net=0 d=2 l=0->1: mean spread/sd median=0.740 max=0.746
+step n=6 L=2 net=0 d=2 l=1->2: mean spread/sd median=0.671 max=0.821
+prop n=6 L=2 net=0 d=2: readout: all=1.2289705162925193 input=2.3577113315690257 prop=3.2638458696322767 unit: all=0.00013466093777372222 input=1.2329829498473603 prop=1.2330162970570373 t=9.5s
+step n=6 L=2 net=0 d=3 l=0->1: mean spread/sd median=0.705 max=0.718
+step n=6 L=2 net=0 d=3 l=1->2: mean spread/sd median=0.386 max=0.492
+prop n=6 L=2 net=0 d=3: readout: all=0.6781146402900784 input=2.030354183201272 prop=2.529036565278651 unit: all=0.00010220369803957365 input=1.1386887623357762 prop=1.138710904579382 t=282.4s
+step n=6 L=2 net=1 d=2 l=0->1: mean spread/sd median=0.743 max=0.749
+step n=6 L=2 net=1 d=2 l=1->2: mean spread/sd median=0.571 max=0.816
+prop n=6 L=2 net=1 d=2: readout: all=0.45645266515960403 input=1.1509974634708178 prop=1.3217846694649809 unit: all=0.4887713644084043 input=1.1008640871316422 prop=1.190563746517242 t=8.3s
+step n=6 L=2 net=1 d=3 l=0->1: mean spread/sd median=0.706 max=0.717
+step n=6 L=2 net=1 d=3 l=1->2: mean spread/sd median=0.273 max=0.509
+prop n=6 L=2 net=1 d=3: readout: all=0.25398238991991356 input=1.0011048798262001 prop=1.1173346618499675 unit: all=0.2432691782525917 input=0.9835487646313539 prop=1.041231470836663 t=264.6s
+step n=6 L=3 net=0 d=2 l=0->1: mean spread/sd median=0.745 max=0.757
+step n=6 L=3 net=0 d=2 l=1->2: mean spread/sd median=0.646 max=0.996
+step n=6 L=3 net=0 d=2 l=2->3: mean spread/sd median=0.387 max=0.785
+prop n=6 L=3 net=0 d=2: readout: all=0.25805485614393536 input=1.9490994920910687 prop=2.2887754615859377 unit: all=0.16420688349798682 input=1.3085470741983032 prop=1.5988681414900978 t=21.5s
+step n=6 L=3 net=0 d=3 l=0->1: mean spread/sd median=0.714 max=0.726
+step n=6 L=3 net=0 d=3 l=1->2: mean spread/sd median=0.347 max=0.519
+step n=6 L=3 net=0 d=3 l=2->3: mean spread/sd median=0.189 max=0.464
+prop n=6 L=3 net=0 d=3: readout: all=0.10849425700701687 input=1.6258570723286139 prop=1.832322477754681 unit: all=0.08290220734953402 input=1.1376606734154688 prop=1.3145157830282803 t=232.4s
+step n=6 L=3 net=1 d=2 l=0->1: mean spread/sd median=0.745 max=0.750
+step n=6 L=3 net=1 d=2 l=1->2: mean spread/sd median=0.461 max=1.364
+step n=6 L=3 net=1 d=2 l=2->3: mean spread/sd median=0.345 max=0.890
+prop n=6 L=3 net=1 d=2: readout: all=0.19865798938854998 input=1.5161214226095738 prop=1.8334796056054006 unit: all=0.0018156891762485614 input=1.4960943753854052 prop=1.717460169368466 t=16.1s
+step n=6 L=3 net=1 d=3 l=0->1: mean spread/sd median=0.712 max=0.719
+step n=6 L=3 net=1 d=3 l=1->2: mean spread/sd median=0.269 max=0.941
+step n=6 L=3 net=1 d=3 l=2->3: mean spread/sd median=0.241 max=0.620
+prop n=6 L=3 net=1 d=3: readout: all=0.09923414049769719 input=1.2511765775293107 prop=1.4406103461764916 unit: all=0.0009283661683281954 input=1.2701199457436156 prop=1.3924670720207535 t=226.5s
+step n=6 L=4 net=0 d=2 l=0->1: mean spread/sd median=0.740 max=0.760
+step n=6 L=4 net=0 d=2 l=1->2: mean spread/sd median=0.500 max=0.806
+step n=6 L=4 net=0 d=2 l=2->3: mean spread/sd median=0.752 max=0.814
+step n=6 L=4 net=0 d=2 l=3->4: mean spread/sd median=0.140 max=0.556
+prop n=6 L=4 net=0 d=2: readout: all=0.04319716353810596 input=1.6508215571192912 prop=2.072386777637497 unit: all=0.10664832294705448 input=1.5344571638442706 prop=1.9138781189993364 t=24.9s
+step n=6 L=4 net=0 d=3 l=0->1: mean spread/sd median=0.712 max=0.726
+step n=6 L=4 net=0 d=3 l=1->2: mean spread/sd median=0.264 max=0.551
+step n=6 L=4 net=0 d=3 l=2->3: mean spread/sd median=0.353 max=0.621
+step n=6 L=4 net=0 d=3 l=3->4: mean spread/sd median=0.080 max=0.353
+prop n=6 L=4 net=0 d=3: readout: all=0.019012171212333444 input=1.3738720790985917 prop=1.6215725332146194 unit: all=0.048759808975139665 input=1.290414163006558 prop=1.568960298542308 t=520.0s
+step n=6 L=4 net=1 d=2 l=0->1: mean spread/sd median=0.733 max=0.747
+step n=6 L=4 net=1 d=2 l=1->2: mean spread/sd median=0.504 max=2.803
+step n=6 L=4 net=1 d=2 l=2->3: mean spread/sd median=0.557 max=1.499
+step n=6 L=4 net=1 d=2 l=3->4: mean spread/sd median=0.000 max=0.237
+prop n=6 L=4 net=1 d=2: readout: all=0.016625747640476918 input=1.4901353144642346 prop=1.7996390428466873 unit: all=1.0461808542493705e-15 input=1.4434153057740384 prop=1.6280327564084567 t=39.0s
+step n=6 L=4 net=1 d=3 l=0->1: mean spread/sd median=0.703 max=0.712
+step n=6 L=4 net=1 d=3 l=1->2: mean spread/sd median=0.231 max=1.284
+step n=6 L=4 net=1 d=3 l=2->3: mean spread/sd median=0.424 max=1.070
+step n=6 L=4 net=1 d=3 l=3->4: mean spread/sd median=0.000 max=0.163
+prop n=6 L=4 net=1 d=3: readout: all=0.008094979899844196 input=1.2966985301694578 prop=1.50675748128158 unit: all=8.23572934512441e-05 input=1.250176799942325 prop=1.3794154790822821 t=408.2s

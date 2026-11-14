@@ -1,0 +1,5 @@
+sampled in 24s; classes {'zero': 85, 'on': 114, 'switching': 57} picked [5, 70, 174, 191, 208, 235, 103, 114, 143, 155, 213, 227, 75, 81, 116, 157, 200, 232]
+l=31 back= 0 | zero: box 0.000 0.000 0.000 0.000 slice 0.994 0.994 0.994 0.994 | on: box 0.000 0.000 0.000 0.000 slice 0.994 0.994 0.994 0.994 | switching: box 0.000 0.000 0.000 0.000 slice 0.987 0.987 0.987 0.988  (42s)
+l=30 back= 1 | zero: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | on: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | switching: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000  (42s)
+l=29 back= 2 | zero: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | on: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000 | switching: box 0.000 0.000 0.000 0.000 slice 0.000 0.000 0.000 0.000  (38s)
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step2a_n256_L32_s200.json total 145.8644700050354

@@ -1,0 +1,422 @@
+[    3.1s] n=256 L=32 seed=200 N=2^6: nMSE x N sobol_rb 0.382 sobol_plain 3.18 sobol_rb_polar 2.97 lattice_rb 1.04 lattice_baker_rb 0.333
+[    3.8s] n=256 L=32 seed=200 N=2^7: nMSE x N sobol_rb 0.293 sobol_plain 0.692 sobol_rb_polar 1.27 lattice_rb 2.13 lattice_baker_rb 0.764
+[    4.7s] n=256 L=32 seed=200 N=2^8: nMSE x N sobol_rb 0.307 sobol_plain 1.93 sobol_rb_polar 1.79 lattice_rb 1.85 lattice_baker_rb 0.389
+[    5.7s] n=256 L=32 seed=200 N=2^9: nMSE x N sobol_rb 0.778 sobol_plain 2.61 sobol_rb_polar 2.12 lattice_rb 0.401 lattice_baker_rb 1.7
+[    7.3s] n=256 L=32 seed=200 N=2^10: nMSE x N sobol_rb 0.695 sobol_plain 1.95 sobol_rb_polar 2.2 lattice_rb 1.3 lattice_baker_rb 0.699
+[    9.7s] n=256 L=32 seed=200 N=2^11: nMSE x N sobol_rb 1.5 sobol_plain 2.71 sobol_rb_polar 1.15 lattice_rb 0.969 lattice_baker_rb 1.15
+[   14.3s] n=256 L=32 seed=200 N=2^12: nMSE x N sobol_rb 0.134 sobol_plain 0.291 sobol_rb_polar 0.725 lattice_rb 0.519 lattice_baker_rb 0.79
+[   19.1s] n=256 L=32 seed=200 N=2^13: nMSE x N sobol_rb 0.155 sobol_plain 0.117 sobol_rb_polar 0.892 lattice_rb 0.259 lattice_baker_rb 1.87
+[   31.0s] n=256 L=32 seed=200 N=2^14: nMSE x N sobol_rb 0.267 sobol_plain 0.174 sobol_rb_polar 0.427 lattice_rb 0.455 lattice_baker_rb 0.828
+[   58.5s] n=256 L=32 seed=200 N=2^15: nMSE x N sobol_rb 0.539 sobol_plain 0.41 sobol_rb_polar 0.855 lattice_rb 0.314 lattice_baker_rb 2
+[  104.6s] n=256 L=32 seed=200 N=2^16: nMSE x N sobol_rb 0.545 sobol_plain 0.408 sobol_rb_polar 1.2 lattice_rb 0.513 lattice_baker_rb 0.299
+[  113.6s] n=256 L=32 seed=200 kwise k=2 q=257 N=66049: nMSE x N plain 0.729 rb 0.553
+[  124.3s] n=256 L=32 seed=200 kerdock fixed: nMSE x N 0.108; polar-aligned 97.2
+[  124.3s] n=256 L=32 seed=200 rates {'sobol_rb': 1.0718163901979028, 'sobol_plain': 1.4748594787281561, 'sobol_rb_polar': 1.189221030991133, 'lattice_rb': 1.2230603686562742, 'lattice_baker_rb': 0.9940008691760647} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n256_L32_s200.json
+[    1.4s] n=256 L=32 seed=201 N=2^6: nMSE x N sobol_rb 1.73 sobol_plain 4.55 sobol_rb_polar 1.55 lattice_rb 1.13 lattice_baker_rb 1.24
+[    2.1s] n=256 L=32 seed=201 N=2^7: nMSE x N sobol_rb 0.835 sobol_plain 2.51 sobol_rb_polar 1.89 lattice_rb 0.832 lattice_baker_rb 1.01
+[    2.7s] n=256 L=32 seed=201 N=2^8: nMSE x N sobol_rb 0.544 sobol_plain 1.12 sobol_rb_polar 0.834 lattice_rb 1.57 lattice_baker_rb 1.24
+[    3.7s] n=256 L=32 seed=201 N=2^9: nMSE x N sobol_rb 1.52 sobol_plain 2.91 sobol_rb_polar 0.697 lattice_rb 1.24 lattice_baker_rb 0.655
+[    5.0s] n=256 L=32 seed=201 N=2^10: nMSE x N sobol_rb 1.27 sobol_plain 2.12 sobol_rb_polar 0.463 lattice_rb 0.632 lattice_baker_rb 1.61
+[    7.0s] n=256 L=32 seed=201 N=2^11: nMSE x N sobol_rb 0.953 sobol_plain 1.43 sobol_rb_polar 0.567 lattice_rb 0.579 lattice_baker_rb 0.349
+[   12.3s] n=256 L=32 seed=201 N=2^12: nMSE x N sobol_rb 0.347 sobol_plain 0.39 sobol_rb_polar 0.669 lattice_rb 0.688 lattice_baker_rb 1.89
+[   17.4s] n=256 L=32 seed=201 N=2^13: nMSE x N sobol_rb 0.403 sobol_plain 0.42 sobol_rb_polar 0.67 lattice_rb 1.34 lattice_baker_rb 1.02
+[   28.5s] n=256 L=32 seed=201 N=2^14: nMSE x N sobol_rb 0.337 sobol_plain 0.369 sobol_rb_polar 0.335 lattice_rb 1 lattice_baker_rb 1.54
+[   55.9s] n=256 L=32 seed=201 N=2^15: nMSE x N sobol_rb 0.697 sobol_plain 0.681 sobol_rb_polar 0.379 lattice_rb 1.08 lattice_baker_rb 0.399
+[  113.5s] n=256 L=32 seed=201 N=2^16: nMSE x N sobol_rb 0.562 sobol_plain 0.567 sobol_rb_polar 0.306 lattice_rb 1.02 lattice_baker_rb 0.88
+[  121.9s] n=256 L=32 seed=201 kwise k=2 q=257 N=66049: nMSE x N plain 2.24 rb 2.6
+[  132.9s] n=256 L=32 seed=201 kerdock fixed: nMSE x N 0.681; polar-aligned 204
+[  132.9s] n=256 L=32 seed=201 rates {'sobol_rb': 1.1373814049372772, 'sobol_plain': 1.283827165846348, 'sobol_rb_polar': 1.1520376854775165, 'lattice_rb': 1.0092267982065903, 'lattice_baker_rb': 1.0447563369342843} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n256_L32_s201.json
+[    1.8s] n=256 L=32 seed=202 N=2^6: nMSE x N sobol_rb 0.356 sobol_plain 2.41 sobol_rb_polar 0.405 lattice_rb 0.548 lattice_baker_rb 0.494
+[    2.4s] n=256 L=32 seed=202 N=2^7: nMSE x N sobol_rb 0.702 sobol_plain 0.398 sobol_rb_polar 0.432 lattice_rb 0.398 lattice_baker_rb 0.739
+[    3.2s] n=256 L=32 seed=202 N=2^8: nMSE x N sobol_rb 0.756 sobol_plain 0.634 sobol_rb_polar 0.584 lattice_rb 0.585 lattice_baker_rb 0.565
+[    4.2s] n=256 L=32 seed=202 N=2^9: nMSE x N sobol_rb 0.197 sobol_plain 0.47 sobol_rb_polar 0.519 lattice_rb 2.04 lattice_baker_rb 2.36
+[    6.1s] n=256 L=32 seed=202 N=2^10: nMSE x N sobol_rb 0.398 sobol_plain 0.223 sobol_rb_polar 0.638 lattice_rb 1.32 lattice_baker_rb 1.83
+[    9.0s] n=256 L=32 seed=202 N=2^11: nMSE x N sobol_rb 0.594 sobol_plain 0.282 sobol_rb_polar 0.25 lattice_rb 0.547 lattice_baker_rb 2.25
+[   13.5s] n=256 L=32 seed=202 N=2^12: nMSE x N sobol_rb 0.45 sobol_plain 0.249 sobol_rb_polar 0.905 lattice_rb 0.268 lattice_baker_rb 0.306
+[   18.1s] n=256 L=32 seed=202 N=2^13: nMSE x N sobol_rb 0.375 sobol_plain 0.234 sobol_rb_polar 0.434 lattice_rb 0.584 lattice_baker_rb 4.14
+[   29.1s] n=256 L=32 seed=202 N=2^14: nMSE x N sobol_rb 0.21 sobol_plain 0.277 sobol_rb_polar 0.232 lattice_rb 0.534 lattice_baker_rb 0.516
+[   52.9s] n=256 L=32 seed=202 N=2^15: nMSE x N sobol_rb 0.345 sobol_plain 0.435 sobol_rb_polar 0.641 lattice_rb 0.482 lattice_baker_rb 0.32
+[  130.0s] n=256 L=32 seed=202 N=2^16: nMSE x N sobol_rb 0.18 sobol_plain 0.192 sobol_rb_polar 0.415 lattice_rb 0.593 lattice_baker_rb 2.13
+[  142.4s] n=256 L=32 seed=202 kwise k=2 q=257 N=66049: nMSE x N plain 2.62 rb 1.9
+[  156.8s] n=256 L=32 seed=202 kerdock fixed: nMSE x N 0.556; polar-aligned 53
+[  156.9s] n=256 L=32 seed=202 rates {'sobol_rb': 1.1391467534931226, 'sobol_plain': 1.114609401664136, 'sobol_rb_polar': 1.0529790615178927, 'lattice_rb': 1.1447107708876516, 'lattice_baker_rb': 1.0626703566030733} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n256_L32_s202.json
+[    2.3s] n=256 L=32 seed=203 N=2^6: nMSE x N sobol_rb 0.648 sobol_plain 0.62 sobol_rb_polar 0.596 lattice_rb 0.63 lattice_baker_rb 1.68
+[    3.1s] n=256 L=32 seed=203 N=2^7: nMSE x N sobol_rb 0.372 sobol_plain 0.925 sobol_rb_polar 0.602 lattice_rb 0.551 lattice_baker_rb 2.57
+[    4.1s] n=256 L=32 seed=203 N=2^8: nMSE x N sobol_rb 0.699 sobol_plain 0.552 sobol_rb_polar 0.396 lattice_rb 0.566 lattice_baker_rb 0.669
+[    5.5s] n=256 L=32 seed=203 N=2^9: nMSE x N sobol_rb 0.513 sobol_plain 0.566 sobol_rb_polar 0.499 lattice_rb 3.34 lattice_baker_rb 1.68
+[    7.1s] n=256 L=32 seed=203 N=2^10: nMSE x N sobol_rb 0.344 sobol_plain 0.591 sobol_rb_polar 0.787 lattice_rb 0.964 lattice_baker_rb 2.43
+[    9.8s] n=256 L=32 seed=203 N=2^11: nMSE x N sobol_rb 0.445 sobol_plain 0.701 sobol_rb_polar 0.226 lattice_rb 0.761 lattice_baker_rb 2.93
+[   15.0s] n=256 L=32 seed=203 N=2^12: nMSE x N sobol_rb 0.301 sobol_plain 0.407 sobol_rb_polar 0.33 lattice_rb 0.999 lattice_baker_rb 0.99
+[   20.4s] n=256 L=32 seed=203 N=2^13: nMSE x N sobol_rb 0.74 sobol_plain 0.525 sobol_rb_polar 0.496 lattice_rb 0.625 lattice_baker_rb 1.1
+[   32.1s] n=256 L=32 seed=203 N=2^14: nMSE x N sobol_rb 0.664 sobol_plain 0.557 sobol_rb_polar 0.329 lattice_rb 0.774 lattice_baker_rb 0.427
+[   55.6s] n=256 L=32 seed=203 N=2^15: nMSE x N sobol_rb 0.236 sobol_plain 0.252 sobol_rb_polar 0.519 lattice_rb 0.939 lattice_baker_rb 0.73
+[  101.9s] n=256 L=32 seed=203 N=2^16: nMSE x N sobol_rb 0.327 sobol_plain 0.323 sobol_rb_polar 0.23 lattice_rb 0.445 lattice_baker_rb 0.578
+[  110.3s] n=256 L=32 seed=203 kwise k=2 q=257 N=66049: nMSE x N plain 1.65 rb 1.78
+[  120.5s] n=256 L=32 seed=203 kerdock fixed: nMSE x N 0.414; polar-aligned 95.9
+[  120.5s] n=256 L=32 seed=203 rates {'sobol_rb': 1.0850582059914047, 'sobol_plain': 1.1197750441143821, 'sobol_rb_polar': 1.0724861775583667, 'lattice_rb': 1.1299734258891507, 'lattice_baker_rb': 1.1812333343613934} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n256_L32_s203.json
+[    1.7s] n=256 L=32 seed=204 N=2^6: nMSE x N sobol_rb 0.421 sobol_plain 1.03 sobol_rb_polar 1.51 lattice_rb 0.971 lattice_baker_rb 2.51
+[    2.2s] n=256 L=32 seed=204 N=2^7: nMSE x N sobol_rb 0.337 sobol_plain 1.4 sobol_rb_polar 1.19 lattice_rb 0.898 lattice_baker_rb 0.687
+[    3.1s] n=256 L=32 seed=204 N=2^8: nMSE x N sobol_rb 0.285 sobol_plain 0.949 sobol_rb_polar 0.432 lattice_rb 1.34 lattice_baker_rb 1.65
+[    4.2s] n=256 L=32 seed=204 N=2^9: nMSE x N sobol_rb 0.276 sobol_plain 0.727 sobol_rb_polar 0.415 lattice_rb 0.837 lattice_baker_rb 1.27
+[    5.8s] n=256 L=32 seed=204 N=2^10: nMSE x N sobol_rb 0.455 sobol_plain 0.652 sobol_rb_polar 0.446 lattice_rb 0.75 lattice_baker_rb 2.92
+[    8.4s] n=256 L=32 seed=204 N=2^11: nMSE x N sobol_rb 0.533 sobol_plain 0.906 sobol_rb_polar 0.558 lattice_rb 1.17 lattice_baker_rb 2.16
+[   13.8s] n=256 L=32 seed=204 N=2^12: nMSE x N sobol_rb 0.407 sobol_plain 0.476 sobol_rb_polar 0.424 lattice_rb 0.835 lattice_baker_rb 3.22
+[   17.7s] n=256 L=32 seed=204 N=2^13: nMSE x N sobol_rb 1.2 sobol_plain 1.56 sobol_rb_polar 0.318 lattice_rb 0.592 lattice_baker_rb 0.741
+[   27.9s] n=256 L=32 seed=204 N=2^14: nMSE x N sobol_rb 1.08 sobol_plain 1.3 sobol_rb_polar 0.455 lattice_rb 0.407 lattice_baker_rb 1.29
+[   48.1s] n=256 L=32 seed=204 N=2^15: nMSE x N sobol_rb 0.575 sobol_plain 0.62 sobol_rb_polar 0.494 lattice_rb 1.05 lattice_baker_rb 1.46
+[   94.7s] n=256 L=32 seed=204 N=2^16: nMSE x N sobol_rb 0.483 sobol_plain 0.515 sobol_rb_polar 0.374 lattice_rb 0.651 lattice_baker_rb 1.11
+[  103.7s] n=256 L=32 seed=204 kwise k=2 q=257 N=66049: nMSE x N plain 4.25 rb 3.96
+[  115.3s] n=256 L=32 seed=204 kerdock fixed: nMSE x N 0.795; polar-aligned 89.7
+[  115.3s] n=256 L=32 seed=204 rates {'sobol_rb': 0.8352382517616214, 'sobol_plain': 1.0240844158023303, 'sobol_rb_polar': 1.0140428749698525, 'lattice_rb': 1.0992734446105237, 'lattice_baker_rb': 1.0925737879474136} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n256_L32_s204.json
+[    0.8s] n=32 L=4 seed=300 N=2^6: nMSE x N sobol_rb 0.268 sobol_plain 0.334 sobol_rb_polar 0.389 lattice_rb 0.81 lattice_baker_rb 0.561
+[    1.0s] n=32 L=4 seed=300 N=2^7: nMSE x N sobol_rb 0.325 sobol_plain 0.421 sobol_rb_polar 0.299 lattice_rb 1.3 lattice_baker_rb 0.595
+[    1.2s] n=32 L=4 seed=300 N=2^8: nMSE x N sobol_rb 0.192 sobol_plain 0.227 sobol_rb_polar 0.355 lattice_rb 0.807 lattice_baker_rb 0.348
+[    1.3s] n=32 L=4 seed=300 N=2^9: nMSE x N sobol_rb 0.232 sobol_plain 0.331 sobol_rb_polar 0.358 lattice_rb 0.821 lattice_baker_rb 0.596
+[    1.5s] n=32 L=4 seed=300 N=2^10: nMSE x N sobol_rb 0.301 sobol_plain 0.394 sobol_rb_polar 0.185 lattice_rb 0.498 lattice_baker_rb 0.721
+[    1.6s] n=32 L=4 seed=300 N=2^11: nMSE x N sobol_rb 0.185 sobol_plain 0.193 sobol_rb_polar 0.206 lattice_rb 0.357 lattice_baker_rb 0.781
+[    2.1s] n=32 L=4 seed=300 N=2^12: nMSE x N sobol_rb 0.32 sobol_plain 0.276 sobol_rb_polar 0.195 lattice_rb 0.672 lattice_baker_rb 0.442
+[    2.3s] n=32 L=4 seed=300 N=2^13: nMSE x N sobol_rb 0.215 sobol_plain 0.19 sobol_rb_polar 0.193 lattice_rb 0.462 lattice_baker_rb 0.4
+[    2.7s] n=32 L=4 seed=300 N=2^14: nMSE x N sobol_rb 0.181 sobol_plain 0.163 sobol_rb_polar 0.182 lattice_rb 0.33 lattice_baker_rb 0.158
+[    3.5s] n=32 L=4 seed=300 N=2^15: nMSE x N sobol_rb 0.171 sobol_plain 0.164 sobol_rb_polar 0.098 lattice_rb 0.173 lattice_baker_rb 0.21
+[    5.4s] n=32 L=4 seed=300 N=2^16: nMSE x N sobol_rb 0.166 sobol_plain 0.16 sobol_rb_polar 0.0552 lattice_rb 0.178 lattice_baker_rb 0.32
+[    5.4s] n=32 L=4 seed=300 kwise k=2 q=37 N=1369: nMSE x N plain 0.239 rb 0.217
+[    5.5s] n=32 L=4 seed=300 kwise k=3 q=37 N=50653: nMSE x N plain 0.626 rb 0.408
+[    9.6s] n=32 L=4 seed=300 kwise k=4 q=37 N=1874161: nMSE x N plain 0.44 rb 0.482
+[    9.6s] n=32 L=4 seed=300 rates {'sobol_rb': 1.0571538527572564, 'sobol_plain': 1.1264210864593882, 'sobol_rb_polar': 1.2749464336403071, 'lattice_rb': 1.2709495639720305, 'lattice_baker_rb': 1.172518952985377} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s300.json
+[    0.8s] n=32 L=4 seed=301 N=2^6: nMSE x N sobol_rb 0.595 sobol_plain 0.573 sobol_rb_polar 0.512 lattice_rb 1.27 lattice_baker_rb 1.17
+[    0.8s] n=32 L=4 seed=301 N=2^7: nMSE x N sobol_rb 0.35 sobol_plain 0.235 sobol_rb_polar 0.223 lattice_rb 0.793 lattice_baker_rb 0.38
+[    0.9s] n=32 L=4 seed=301 N=2^8: nMSE x N sobol_rb 0.52 sobol_plain 0.438 sobol_rb_polar 0.208 lattice_rb 1.32 lattice_baker_rb 0.424
+[    1.0s] n=32 L=4 seed=301 N=2^9: nMSE x N sobol_rb 0.258 sobol_plain 0.27 sobol_rb_polar 0.415 lattice_rb 0.737 lattice_baker_rb 0.729
+[    1.1s] n=32 L=4 seed=301 N=2^10: nMSE x N sobol_rb 0.244 sobol_plain 0.289 sobol_rb_polar 0.18 lattice_rb 1.33 lattice_baker_rb 0.751
+[    1.3s] n=32 L=4 seed=301 N=2^11: nMSE x N sobol_rb 0.11 sobol_plain 0.113 sobol_rb_polar 0.145 lattice_rb 0.446 lattice_baker_rb 0.418
+[    1.7s] n=32 L=4 seed=301 N=2^12: nMSE x N sobol_rb 0.165 sobol_plain 0.16 sobol_rb_polar 0.203 lattice_rb 0.262 lattice_baker_rb 0.491
+[    1.8s] n=32 L=4 seed=301 N=2^13: nMSE x N sobol_rb 0.229 sobol_plain 0.2 sobol_rb_polar 0.185 lattice_rb 0.677 lattice_baker_rb 0.343
+[    2.2s] n=32 L=4 seed=301 N=2^14: nMSE x N sobol_rb 0.145 sobol_plain 0.141 sobol_rb_polar 0.146 lattice_rb 0.48 lattice_baker_rb 0.471
+[    3.2s] n=32 L=4 seed=301 N=2^15: nMSE x N sobol_rb 0.198 sobol_plain 0.224 sobol_rb_polar 0.177 lattice_rb 0.477 lattice_baker_rb 0.376
+[    5.7s] n=32 L=4 seed=301 N=2^16: nMSE x N sobol_rb 0.112 sobol_plain 0.113 sobol_rb_polar 0.0713 lattice_rb 0.361 lattice_baker_rb 0.219
+[    5.7s] n=32 L=4 seed=301 kwise k=2 q=37 N=1369: nMSE x N plain 0.285 rb 0.343
+[    5.7s] n=32 L=4 seed=301 kwise k=3 q=37 N=50653: nMSE x N plain 0.39 rb 0.471
+[    8.8s] n=32 L=4 seed=301 kwise k=4 q=37 N=1874161: nMSE x N plain 0.274 rb 0.286
+[    8.8s] n=32 L=4 seed=301 rates {'sobol_rb': 1.1742955431295417, 'sobol_plain': 1.1646162130242903, 'sobol_rb_polar': 1.168893370164952, 'lattice_rb': 1.1953036970551945, 'lattice_baker_rb': 1.138646871732525} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s301.json
+[    0.9s] n=32 L=4 seed=302 N=2^6: nMSE x N sobol_rb 0.744 sobol_plain 0.977 sobol_rb_polar 0.374 lattice_rb 0.957 lattice_baker_rb 0.858
+[    1.0s] n=32 L=4 seed=302 N=2^7: nMSE x N sobol_rb 0.282 sobol_plain 0.386 sobol_rb_polar 0.47 lattice_rb 2.11 lattice_baker_rb 0.334
+[    1.1s] n=32 L=4 seed=302 N=2^8: nMSE x N sobol_rb 0.23 sobol_plain 0.248 sobol_rb_polar 0.394 lattice_rb 0.787 lattice_baker_rb 0.204
+[    1.2s] n=32 L=4 seed=302 N=2^9: nMSE x N sobol_rb 0.307 sobol_plain 0.165 sobol_rb_polar 0.273 lattice_rb 0.585 lattice_baker_rb 0.179
+[    1.4s] n=32 L=4 seed=302 N=2^10: nMSE x N sobol_rb 0.327 sobol_plain 0.24 sobol_rb_polar 0.173 lattice_rb 0.722 lattice_baker_rb 0.287
+[    1.6s] n=32 L=4 seed=302 N=2^11: nMSE x N sobol_rb 0.292 sobol_plain 0.214 sobol_rb_polar 0.248 lattice_rb 0.558 lattice_baker_rb 0.537
+[    2.0s] n=32 L=4 seed=302 N=2^12: nMSE x N sobol_rb 0.197 sobol_plain 0.136 sobol_rb_polar 0.212 lattice_rb 0.134 lattice_baker_rb 0.368
+[    2.2s] n=32 L=4 seed=302 N=2^13: nMSE x N sobol_rb 0.17 sobol_plain 0.0959 sobol_rb_polar 0.211 lattice_rb 0.581 lattice_baker_rb 0.0812
+[    2.7s] n=32 L=4 seed=302 N=2^14: nMSE x N sobol_rb 0.165 sobol_plain 0.137 sobol_rb_polar 0.128 lattice_rb 0.371 lattice_baker_rb 0.289
+[    3.7s] n=32 L=4 seed=302 N=2^15: nMSE x N sobol_rb 0.0623 sobol_plain 0.0762 sobol_rb_polar 0.171 lattice_rb 0.082 lattice_baker_rb 0.229
+[    5.2s] n=32 L=4 seed=302 N=2^16: nMSE x N sobol_rb 0.048 sobol_plain 0.0511 sobol_rb_polar 0.115 lattice_rb 0.278 lattice_baker_rb 0.119
+[    5.2s] n=32 L=4 seed=302 kwise k=2 q=37 N=1369: nMSE x N plain 0.132 rb 0.205
+[    5.3s] n=32 L=4 seed=302 kwise k=3 q=37 N=50653: nMSE x N plain 0.484 rb 0.305
+[    9.4s] n=32 L=4 seed=302 kwise k=4 q=37 N=1874161: nMSE x N plain 0.0763 rb 0.136
+[    9.4s] n=32 L=4 seed=302 rates {'sobol_rb': 1.3115929004182239, 'sobol_plain': 1.2540532657337995, 'sobol_rb_polar': 1.170951993213061, 'lattice_rb': 1.272746615536726, 'lattice_baker_rb': 1.0798166435544856} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s302.json
+[    1.2s] n=32 L=4 seed=303 N=2^6: nMSE x N sobol_rb 0.388 sobol_plain 0.23 sobol_rb_polar 0.47 lattice_rb 1.42 lattice_baker_rb 0.858
+[    1.3s] n=32 L=4 seed=303 N=2^7: nMSE x N sobol_rb 0.267 sobol_plain 0.0991 sobol_rb_polar 0.286 lattice_rb 1.06 lattice_baker_rb 0.26
+[    1.4s] n=32 L=4 seed=303 N=2^8: nMSE x N sobol_rb 0.195 sobol_plain 0.192 sobol_rb_polar 0.165 lattice_rb 0.909 lattice_baker_rb 0.727
+[    1.5s] n=32 L=4 seed=303 N=2^9: nMSE x N sobol_rb 0.106 sobol_plain 0.124 sobol_rb_polar 0.107 lattice_rb 1.01 lattice_baker_rb 0.264
+[    1.6s] n=32 L=4 seed=303 N=2^10: nMSE x N sobol_rb 0.133 sobol_plain 0.16 sobol_rb_polar 0.156 lattice_rb 0.664 lattice_baker_rb 0.465
+[    1.8s] n=32 L=4 seed=303 N=2^11: nMSE x N sobol_rb 0.192 sobol_plain 0.171 sobol_rb_polar 0.154 lattice_rb 0.713 lattice_baker_rb 0.302
+[    2.3s] n=32 L=4 seed=303 N=2^12: nMSE x N sobol_rb 0.305 sobol_plain 0.29 sobol_rb_polar 0.128 lattice_rb 0.419 lattice_baker_rb 0.542
+[    2.5s] n=32 L=4 seed=303 N=2^13: nMSE x N sobol_rb 0.247 sobol_plain 0.213 sobol_rb_polar 0.197 lattice_rb 0.242 lattice_baker_rb 0.275
+[    3.0s] n=32 L=4 seed=303 N=2^14: nMSE x N sobol_rb 0.24 sobol_plain 0.235 sobol_rb_polar 0.117 lattice_rb 0.403 lattice_baker_rb 0.238
+[    3.6s] n=32 L=4 seed=303 N=2^15: nMSE x N sobol_rb 0.17 sobol_plain 0.173 sobol_rb_polar 0.179 lattice_rb 0.145 lattice_baker_rb 0.29
+[    5.5s] n=32 L=4 seed=303 N=2^16: nMSE x N sobol_rb 0.116 sobol_plain 0.101 sobol_rb_polar 0.13 lattice_rb 0.163 lattice_baker_rb 0.191
+[    5.5s] n=32 L=4 seed=303 kwise k=2 q=37 N=1369: nMSE x N plain 0.518 rb 0.557
+[    5.6s] n=32 L=4 seed=303 kwise k=3 q=37 N=50653: nMSE x N plain 0.627 rb 0.535
+[    9.7s] n=32 L=4 seed=303 kwise k=4 q=37 N=1874161: nMSE x N plain 0.351 rb 0.299
+[    9.7s] n=32 L=4 seed=303 rates {'sobol_rb': 0.9819101219331813, 'sobol_plain': 1.0136582282562396, 'sobol_rb_polar': 0.9936436709227593, 'lattice_rb': 1.3553938937300705, 'lattice_baker_rb': 1.156365543024103} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s303.json
+[    0.7s] n=32 L=4 seed=304 N=2^6: nMSE x N sobol_rb 0.37 sobol_plain 0.289 sobol_rb_polar 0.219 lattice_rb 0.849 lattice_baker_rb 0.842
+[    0.7s] n=32 L=4 seed=304 N=2^7: nMSE x N sobol_rb 0.213 sobol_plain 0.193 sobol_rb_polar 0.251 lattice_rb 0.602 lattice_baker_rb 0.575
+[    0.8s] n=32 L=4 seed=304 N=2^8: nMSE x N sobol_rb 0.232 sobol_plain 0.302 sobol_rb_polar 0.122 lattice_rb 0.636 lattice_baker_rb 0.301
+[    0.9s] n=32 L=4 seed=304 N=2^9: nMSE x N sobol_rb 0.331 sobol_plain 0.388 sobol_rb_polar 0.183 lattice_rb 0.816 lattice_baker_rb 0.489
+[    1.0s] n=32 L=4 seed=304 N=2^10: nMSE x N sobol_rb 0.456 sobol_plain 0.546 sobol_rb_polar 0.116 lattice_rb 1.25 lattice_baker_rb 0.67
+[    1.2s] n=32 L=4 seed=304 N=2^11: nMSE x N sobol_rb 0.356 sobol_plain 0.412 sobol_rb_polar 0.227 lattice_rb 0.31 lattice_baker_rb 0.56
+[    1.6s] n=32 L=4 seed=304 N=2^12: nMSE x N sobol_rb 0.337 sobol_plain 0.282 sobol_rb_polar 0.301 lattice_rb 0.205 lattice_baker_rb 0.547
+[    1.8s] n=32 L=4 seed=304 N=2^13: nMSE x N sobol_rb 0.394 sobol_plain 0.315 sobol_rb_polar 0.378 lattice_rb 0.57 lattice_baker_rb 0.405
+[    2.3s] n=32 L=4 seed=304 N=2^14: nMSE x N sobol_rb 0.28 sobol_plain 0.241 sobol_rb_polar 0.136 lattice_rb 0.347 lattice_baker_rb 0.289
+[    3.3s] n=32 L=4 seed=304 N=2^15: nMSE x N sobol_rb 0.184 sobol_plain 0.142 sobol_rb_polar 0.222 lattice_rb 0.257 lattice_baker_rb 0.278
+[    5.0s] n=32 L=4 seed=304 N=2^16: nMSE x N sobol_rb 0.0852 sobol_plain 0.0592 sobol_rb_polar 0.0818 lattice_rb 0.293 lattice_baker_rb 0.287
+[    5.0s] n=32 L=4 seed=304 kwise k=2 q=37 N=1369: nMSE x N plain 0.296 rb 0.349
+[    5.1s] n=32 L=4 seed=304 kwise k=3 q=37 N=50653: nMSE x N plain 0.835 rb 0.736
+[    8.6s] n=32 L=4 seed=304 kwise k=4 q=37 N=1874161: nMSE x N plain 0.271 rb 0.237
+[    8.6s] n=32 L=4 seed=304 rates {'sobol_rb': 1.1595354463097316, 'sobol_plain': 1.275327601119249, 'sobol_rb_polar': 1.004657337649118, 'lattice_rb': 1.2046323311357916, 'lattice_baker_rb': 1.093808015975402} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s304.json
+[    1.2s] n=32 L=4 seed=305 N=2^6: nMSE x N sobol_rb 0.463 sobol_plain 0.623 sobol_rb_polar 0.702 lattice_rb 1.19 lattice_baker_rb 2.64
+[    1.3s] n=32 L=4 seed=305 N=2^7: nMSE x N sobol_rb 0.216 sobol_plain 0.34 sobol_rb_polar 0.386 lattice_rb 1.13 lattice_baker_rb 0.411
+[    1.4s] n=32 L=4 seed=305 N=2^8: nMSE x N sobol_rb 0.168 sobol_plain 0.268 sobol_rb_polar 0.2 lattice_rb 1.24 lattice_baker_rb 0.438
+[    1.7s] n=32 L=4 seed=305 N=2^9: nMSE x N sobol_rb 0.077 sobol_plain 0.0862 sobol_rb_polar 0.232 lattice_rb 2.76 lattice_baker_rb 0.586
+[    1.9s] n=32 L=4 seed=305 N=2^10: nMSE x N sobol_rb 0.246 sobol_plain 0.225 sobol_rb_polar 0.178 lattice_rb 1.34 lattice_baker_rb 0.489
+[    2.2s] n=32 L=4 seed=305 N=2^11: nMSE x N sobol_rb 0.313 sobol_plain 0.279 sobol_rb_polar 0.181 lattice_rb 0.411 lattice_baker_rb 0.299
+[    2.7s] n=32 L=4 seed=305 N=2^12: nMSE x N sobol_rb 0.299 sobol_plain 0.237 sobol_rb_polar 0.127 lattice_rb 0.262 lattice_baker_rb 0.459
+[    2.9s] n=32 L=4 seed=305 N=2^13: nMSE x N sobol_rb 0.127 sobol_plain 0.13 sobol_rb_polar 0.171 lattice_rb 0.278 lattice_baker_rb 0.574
+[    3.3s] n=32 L=4 seed=305 N=2^14: nMSE x N sobol_rb 0.148 sobol_plain 0.155 sobol_rb_polar 0.0951 lattice_rb 0.371 lattice_baker_rb 0.381
+[    4.0s] n=32 L=4 seed=305 N=2^15: nMSE x N sobol_rb 0.131 sobol_plain 0.128 sobol_rb_polar 0.126 lattice_rb 0.268 lattice_baker_rb 0.224
+[    6.0s] n=32 L=4 seed=305 N=2^16: nMSE x N sobol_rb 0.107 sobol_plain 0.0971 sobol_rb_polar 0.0774 lattice_rb 0.153 lattice_baker_rb 0.215
+[    6.0s] n=32 L=4 seed=305 kwise k=2 q=37 N=1369: nMSE x N plain 0.179 rb 0.288
+[    6.1s] n=32 L=4 seed=305 kwise k=3 q=37 N=50653: nMSE x N plain 0.572 rb 0.413
+[    9.9s] n=32 L=4 seed=305 kwise k=4 q=37 N=1874161: nMSE x N plain 0.56 rb 0.547
+[   10.0s] n=32 L=4 seed=305 rates {'sobol_rb': 1.051591570664309, 'sobol_plain': 1.1054769847891373, 'sobol_rb_polar': 1.1671350009359407, 'lattice_rb': 1.4403368322904915, 'lattice_baker_rb': 1.134245746266684} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s305.json
+[    1.3s] n=32 L=4 seed=306 N=2^6: nMSE x N sobol_rb 0.207 sobol_plain 0.303 sobol_rb_polar 0.423 lattice_rb 0.953 lattice_baker_rb 0.225
+[    1.4s] n=32 L=4 seed=306 N=2^7: nMSE x N sobol_rb 0.182 sobol_plain 0.399 sobol_rb_polar 0.208 lattice_rb 0.503 lattice_baker_rb 0.276
+[    1.7s] n=32 L=4 seed=306 N=2^8: nMSE x N sobol_rb 0.144 sobol_plain 0.168 sobol_rb_polar 0.084 lattice_rb 0.224 lattice_baker_rb 0.37
+[    2.1s] n=32 L=4 seed=306 N=2^9: nMSE x N sobol_rb 0.171 sobol_plain 0.105 sobol_rb_polar 0.137 lattice_rb 0.618 lattice_baker_rb 0.234
+[    2.3s] n=32 L=4 seed=306 N=2^10: nMSE x N sobol_rb 0.143 sobol_plain 0.117 sobol_rb_polar 0.229 lattice_rb 0.7 lattice_baker_rb 0.178
+[    2.5s] n=32 L=4 seed=306 N=2^11: nMSE x N sobol_rb 0.295 sobol_plain 0.221 sobol_rb_polar 0.136 lattice_rb 0.259 lattice_baker_rb 0.307
+[    3.0s] n=32 L=4 seed=306 N=2^12: nMSE x N sobol_rb 0.265 sobol_plain 0.226 sobol_rb_polar 0.195 lattice_rb 0.253 lattice_baker_rb 0.183
+[    3.2s] n=32 L=4 seed=306 N=2^13: nMSE x N sobol_rb 0.291 sobol_plain 0.283 sobol_rb_polar 0.132 lattice_rb 0.42 lattice_baker_rb 0.228
+[    3.8s] n=32 L=4 seed=306 N=2^14: nMSE x N sobol_rb 0.167 sobol_plain 0.18 sobol_rb_polar 0.154 lattice_rb 0.164 lattice_baker_rb 0.356
+[    4.7s] n=32 L=4 seed=306 N=2^15: nMSE x N sobol_rb 0.22 sobol_plain 0.237 sobol_rb_polar 0.107 lattice_rb 0.226 lattice_baker_rb 0.13
+[    8.1s] n=32 L=4 seed=306 N=2^16: nMSE x N sobol_rb 0.115 sobol_plain 0.101 sobol_rb_polar 0.128 lattice_rb 0.158 lattice_baker_rb 0.0635
+[    8.1s] n=32 L=4 seed=306 kwise k=2 q=37 N=1369: nMSE x N plain 0.274 rb 0.326
+[    8.4s] n=32 L=4 seed=306 kwise k=3 q=37 N=50653: nMSE x N plain 0.42 rb 0.277
+[   12.6s] n=32 L=4 seed=306 kwise k=4 q=37 N=1874161: nMSE x N plain 0.154 rb 0.228
+[   12.6s] n=32 L=4 seed=306 rates {'sobol_rb': 0.996231979503308, 'sobol_plain': 0.9643283169466524, 'sobol_rb_polar': 0.9972428356135238, 'lattice_rb': 1.1642663944961624, 'lattice_baker_rb': 1.185780105164043} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s306.json
+[    1.1s] n=32 L=4 seed=307 N=2^6: nMSE x N sobol_rb 0.345 sobol_plain 0.643 sobol_rb_polar 1.56 lattice_rb 1.64 lattice_baker_rb 1.17
+[    1.2s] n=32 L=4 seed=307 N=2^7: nMSE x N sobol_rb 0.236 sobol_plain 0.583 sobol_rb_polar 0.649 lattice_rb 1.05 lattice_baker_rb 0.522
+[    1.3s] n=32 L=4 seed=307 N=2^8: nMSE x N sobol_rb 0.19 sobol_plain 0.307 sobol_rb_polar 0.487 lattice_rb 0.521 lattice_baker_rb 0.459
+[    1.5s] n=32 L=4 seed=307 N=2^9: nMSE x N sobol_rb 0.249 sobol_plain 0.252 sobol_rb_polar 0.221 lattice_rb 0.221 lattice_baker_rb 0.655
+[    1.6s] n=32 L=4 seed=307 N=2^10: nMSE x N sobol_rb 0.116 sobol_plain 0.211 sobol_rb_polar 0.194 lattice_rb 0.552 lattice_baker_rb 0.644
+[    1.8s] n=32 L=4 seed=307 N=2^11: nMSE x N sobol_rb 0.142 sobol_plain 0.174 sobol_rb_polar 0.132 lattice_rb 0.186 lattice_baker_rb 0.288
+[    2.1s] n=32 L=4 seed=307 N=2^12: nMSE x N sobol_rb 0.143 sobol_plain 0.117 sobol_rb_polar 0.107 lattice_rb 0.356 lattice_baker_rb 0.281
+[    2.3s] n=32 L=4 seed=307 N=2^13: nMSE x N sobol_rb 0.158 sobol_plain 0.158 sobol_rb_polar 0.144 lattice_rb 0.16 lattice_baker_rb 0.158
+[    2.8s] n=32 L=4 seed=307 N=2^14: nMSE x N sobol_rb 0.163 sobol_plain 0.131 sobol_rb_polar 0.216 lattice_rb 0.334 lattice_baker_rb 0.308
+[    3.9s] n=32 L=4 seed=307 N=2^15: nMSE x N sobol_rb 0.104 sobol_plain 0.0724 sobol_rb_polar 0.137 lattice_rb 0.356 lattice_baker_rb 0.0799
+[    6.2s] n=32 L=4 seed=307 N=2^16: nMSE x N sobol_rb 0.0732 sobol_plain 0.079 sobol_rb_polar 0.0803 lattice_rb 0.102 lattice_baker_rb 0.343
+[    6.2s] n=32 L=4 seed=307 kwise k=2 q=37 N=1369: nMSE x N plain 0.214 rb 0.144
+[    6.2s] n=32 L=4 seed=307 kwise k=3 q=37 N=50653: nMSE x N plain 0.339 rb 0.183
+[   10.0s] n=32 L=4 seed=307 kwise k=4 q=37 N=1874161: nMSE x N plain 0.354 rb 0.217
+[   10.0s] n=32 L=4 seed=307 rates {'sobol_rb': 1.1354757680837817, 'sobol_plain': 1.245759945509287, 'sobol_rb_polar': 1.2005661226690219, 'lattice_rb': 1.1501554826680063, 'lattice_baker_rb': 1.2295764393337751} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n32_L4_s307.json
+[    1.1s] n=64 L=8 seed=300 N=2^6: nMSE x N sobol_rb 0.445 sobol_plain 2.1 sobol_rb_polar 0.389 lattice_rb 0.489 lattice_baker_rb 0.635
+[    1.3s] n=64 L=8 seed=300 N=2^7: nMSE x N sobol_rb 0.314 sobol_plain 1.34 sobol_rb_polar 0.569 lattice_rb 1.43 lattice_baker_rb 0.494
+[    1.5s] n=64 L=8 seed=300 N=2^8: nMSE x N sobol_rb 0.261 sobol_plain 0.998 sobol_rb_polar 0.234 lattice_rb 0.627 lattice_baker_rb 0.431
+[    1.7s] n=64 L=8 seed=300 N=2^9: nMSE x N sobol_rb 0.409 sobol_plain 0.921 sobol_rb_polar 0.156 lattice_rb 0.811 lattice_baker_rb 1.13
+[    2.1s] n=64 L=8 seed=300 N=2^10: nMSE x N sobol_rb 0.378 sobol_plain 0.271 sobol_rb_polar 0.16 lattice_rb 1.24 lattice_baker_rb 0.438
+[    2.6s] n=64 L=8 seed=300 N=2^11: nMSE x N sobol_rb 0.181 sobol_plain 0.185 sobol_rb_polar 0.136 lattice_rb 0.399 lattice_baker_rb 0.277
+[    3.3s] n=64 L=8 seed=300 N=2^12: nMSE x N sobol_rb 0.0877 sobol_plain 0.115 sobol_rb_polar 0.156 lattice_rb 0.478 lattice_baker_rb 0.678
+[    3.8s] n=64 L=8 seed=300 N=2^13: nMSE x N sobol_rb 0.129 sobol_plain 0.106 sobol_rb_polar 0.166 lattice_rb 0.157 lattice_baker_rb 0.392
+[    4.8s] n=64 L=8 seed=300 N=2^14: nMSE x N sobol_rb 0.14 sobol_plain 0.124 sobol_rb_polar 0.459 lattice_rb 0.707 lattice_baker_rb 0.861
+[    7.6s] n=64 L=8 seed=300 N=2^15: nMSE x N sobol_rb 0.13 sobol_plain 0.114 sobol_rb_polar 0.424 lattice_rb 0.231 lattice_baker_rb 0.412
+[   12.6s] n=64 L=8 seed=300 N=2^16: nMSE x N sobol_rb 0.137 sobol_plain 0.127 sobol_rb_polar 0.342 lattice_rb 0.99 lattice_baker_rb 0.821
+[   12.6s] n=64 L=8 seed=300 kwise k=2 q=67 N=4489: nMSE x N plain 0.441 rb 0.573
+[   14.0s] n=64 L=8 seed=300 kwise k=3 q=67 N=300763: nMSE x N plain 1.23 rb 0.978
+[  126.1s] n=64 L=8 seed=300 kwise k=4 q=67 N=20151121: nMSE x N plain 4.59 rb 4.9
+[  126.1s] n=64 L=8 seed=300 rates {'sobol_rb': 1.2004684776048031, 'sobol_plain': 1.399599093436564, 'sobol_rb_polar': 0.8360896393106217, 'lattice_rb': 1.0961846942058378, 'lattice_baker_rb': 0.9697897788695538} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s300.json
+[    1.1s] n=64 L=8 seed=301 N=2^6: nMSE x N sobol_rb 0.508 sobol_plain 1 sobol_rb_polar 1.39 lattice_rb 3.3 lattice_baker_rb 1.15
+[    1.2s] n=64 L=8 seed=301 N=2^7: nMSE x N sobol_rb 0.287 sobol_plain 0.429 sobol_rb_polar 0.451 lattice_rb 0.701 lattice_baker_rb 0.946
+[    1.4s] n=64 L=8 seed=301 N=2^8: nMSE x N sobol_rb 0.299 sobol_plain 0.544 sobol_rb_polar 0.184 lattice_rb 0.717 lattice_baker_rb 0.953
+[    1.7s] n=64 L=8 seed=301 N=2^9: nMSE x N sobol_rb 0.479 sobol_plain 0.554 sobol_rb_polar 0.151 lattice_rb 1.3 lattice_baker_rb 0.4
+[    2.0s] n=64 L=8 seed=301 N=2^10: nMSE x N sobol_rb 0.391 sobol_plain 0.417 sobol_rb_polar 0.171 lattice_rb 0.841 lattice_baker_rb 0.464
+[    2.4s] n=64 L=8 seed=301 N=2^11: nMSE x N sobol_rb 0.232 sobol_plain 0.217 sobol_rb_polar 0.246 lattice_rb 0.572 lattice_baker_rb 0.755
+[    3.2s] n=64 L=8 seed=301 N=2^12: nMSE x N sobol_rb 0.264 sobol_plain 0.274 sobol_rb_polar 0.266 lattice_rb 0.76 lattice_baker_rb 0.302
+[    3.7s] n=64 L=8 seed=301 N=2^13: nMSE x N sobol_rb 0.165 sobol_plain 0.172 sobol_rb_polar 0.127 lattice_rb 0.327 lattice_baker_rb 0.849
+[    4.8s] n=64 L=8 seed=301 N=2^14: nMSE x N sobol_rb 0.508 sobol_plain 0.466 sobol_rb_polar 0.138 lattice_rb 0.602 lattice_baker_rb 0.465
+[    7.1s] n=64 L=8 seed=301 N=2^15: nMSE x N sobol_rb 0.269 sobol_plain 0.263 sobol_rb_polar 0.138 lattice_rb 0.759 lattice_baker_rb 0.643
+[   12.7s] n=64 L=8 seed=301 N=2^16: nMSE x N sobol_rb 0.341 sobol_plain 0.353 sobol_rb_polar 0.18 lattice_rb 0.623 lattice_baker_rb 0.587
+[   12.7s] n=64 L=8 seed=301 kwise k=2 q=67 N=4489: nMSE x N plain 1.36 rb 1.51
+[   14.1s] n=64 L=8 seed=301 kwise k=3 q=67 N=300763: nMSE x N plain 1.11 rb 1.75
+[  122.8s] n=64 L=8 seed=301 kwise k=4 q=67 N=20151121: nMSE x N plain 0.872 rb 0.844
+[  122.8s] n=64 L=8 seed=301 rates {'sobol_rb': 1.0245457004279186, 'sobol_plain': 1.095830312579976, 'sobol_rb_polar': 1.0350032771957582, 'lattice_rb': 1.081930782624671, 'lattice_baker_rb': 1.0095175146124789} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s301.json
+[    1.1s] n=64 L=8 seed=302 N=2^6: nMSE x N sobol_rb 0.819 sobol_plain 1.13 sobol_rb_polar 0.893 lattice_rb 1.09 lattice_baker_rb 1.77
+[    1.3s] n=64 L=8 seed=302 N=2^7: nMSE x N sobol_rb 0.161 sobol_plain 0.37 sobol_rb_polar 0.519 lattice_rb 2.1 lattice_baker_rb 1.77
+[    1.6s] n=64 L=8 seed=302 N=2^8: nMSE x N sobol_rb 0.433 sobol_plain 0.672 sobol_rb_polar 0.337 lattice_rb 1.29 lattice_baker_rb 0.452
+[    2.3s] n=64 L=8 seed=302 N=2^9: nMSE x N sobol_rb 0.251 sobol_plain 0.368 sobol_rb_polar 0.217 lattice_rb 2.97 lattice_baker_rb 0.428
+[    2.8s] n=64 L=8 seed=302 N=2^10: nMSE x N sobol_rb 0.279 sobol_plain 0.373 sobol_rb_polar 0.118 lattice_rb 2.07 lattice_baker_rb 0.543
+[    3.4s] n=64 L=8 seed=302 N=2^11: nMSE x N sobol_rb 0.357 sobol_plain 0.24 sobol_rb_polar 0.186 lattice_rb 0.796 lattice_baker_rb 0.212
+[    4.3s] n=64 L=8 seed=302 N=2^12: nMSE x N sobol_rb 0.267 sobol_plain 0.26 sobol_rb_polar 0.247 lattice_rb 0.401 lattice_baker_rb 0.313
+[    4.7s] n=64 L=8 seed=302 N=2^13: nMSE x N sobol_rb 0.259 sobol_plain 0.263 sobol_rb_polar 0.187 lattice_rb 0.783 lattice_baker_rb 0.794
+[    5.7s] n=64 L=8 seed=302 N=2^14: nMSE x N sobol_rb 0.204 sobol_plain 0.226 sobol_rb_polar 0.181 lattice_rb 0.395 lattice_baker_rb 0.375
+[    8.1s] n=64 L=8 seed=302 N=2^15: nMSE x N sobol_rb 0.304 sobol_plain 0.312 sobol_rb_polar 0.162 lattice_rb 0.27 lattice_baker_rb 0.32
+[   16.5s] n=64 L=8 seed=302 N=2^16: nMSE x N sobol_rb 0.184 sobol_plain 0.179 sobol_rb_polar 0.143 lattice_rb 0.712 lattice_baker_rb 0.277
+[   16.5s] n=64 L=8 seed=302 kwise k=2 q=67 N=4489: nMSE x N plain 0.495 rb 0.549
+[   18.0s] n=64 L=8 seed=302 kwise k=3 q=67 N=300763: nMSE x N plain 0.382 rb 0.326
+[  124.1s] n=64 L=8 seed=302 kwise k=4 q=67 N=20151121: nMSE x N plain 0.745 rb 0.654
+[  124.1s] n=64 L=8 seed=302 rates {'sobol_rb': 1.0912429527338312, 'sobol_plain': 1.1609354387277222, 'sobol_rb_polar': 1.0824646643222737, 'lattice_rb': 1.3104561424167842, 'lattice_baker_rb': 1.053939106697817} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s302.json
+[    1.2s] n=64 L=8 seed=303 N=2^6: nMSE x N sobol_rb 1.36 sobol_plain 0.569 sobol_rb_polar 1.09 lattice_rb 1.96 lattice_baker_rb 2.31
+[    1.4s] n=64 L=8 seed=303 N=2^7: nMSE x N sobol_rb 1.01 sobol_plain 0.382 sobol_rb_polar 0.584 lattice_rb 1.62 lattice_baker_rb 0.437
+[    1.6s] n=64 L=8 seed=303 N=2^8: nMSE x N sobol_rb 0.224 sobol_plain 0.229 sobol_rb_polar 0.59 lattice_rb 1.55 lattice_baker_rb 0.441
+[    2.0s] n=64 L=8 seed=303 N=2^9: nMSE x N sobol_rb 0.313 sobol_plain 0.37 sobol_rb_polar 0.49 lattice_rb 0.558 lattice_baker_rb 0.849
+[    2.5s] n=64 L=8 seed=303 N=2^10: nMSE x N sobol_rb 0.342 sobol_plain 0.41 sobol_rb_polar 0.288 lattice_rb 0.976 lattice_baker_rb 0.379
+[    3.1s] n=64 L=8 seed=303 N=2^11: nMSE x N sobol_rb 0.477 sobol_plain 0.516 sobol_rb_polar 0.188 lattice_rb 1.53 lattice_baker_rb 1.7
+[    3.8s] n=64 L=8 seed=303 N=2^12: nMSE x N sobol_rb 0.401 sobol_plain 0.423 sobol_rb_polar 0.179 lattice_rb 0.348 lattice_baker_rb 0.429
+[    4.2s] n=64 L=8 seed=303 N=2^13: nMSE x N sobol_rb 0.374 sobol_plain 0.365 sobol_rb_polar 0.15 lattice_rb 0.526 lattice_baker_rb 0.268
+[    5.0s] n=64 L=8 seed=303 N=2^14: nMSE x N sobol_rb 0.31 sobol_plain 0.321 sobol_rb_polar 0.282 lattice_rb 0.751 lattice_baker_rb 0.488
+[    7.7s] n=64 L=8 seed=303 N=2^15: nMSE x N sobol_rb 0.26 sobol_plain 0.292 sobol_rb_polar 0.275 lattice_rb 0.423 lattice_baker_rb 0.665
+[   14.8s] n=64 L=8 seed=303 N=2^16: nMSE x N sobol_rb 0.436 sobol_plain 0.438 sobol_rb_polar 0.192 lattice_rb 0.815 lattice_baker_rb 0.635
+[   14.8s] n=64 L=8 seed=303 kwise k=2 q=67 N=4489: nMSE x N plain 0.748 rb 0.781
+[   16.2s] n=64 L=8 seed=303 kwise k=3 q=67 N=300763: nMSE x N plain 1.3 rb 1.01
+[  126.3s] n=64 L=8 seed=303 kwise k=4 q=67 N=20151121: nMSE x N plain 1.9 rb 1.63
+[  126.3s] n=64 L=8 seed=303 rates {'sobol_rb': 0.9600934219595892, 'sobol_plain': 0.9747617249245838, 'sobol_rb_polar': 1.1556643182255006, 'lattice_rb': 1.1197937232967998, 'lattice_baker_rb': 1.0147958839895357} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s303.json
+[    1.5s] n=64 L=8 seed=304 N=2^6: nMSE x N sobol_rb 0.462 sobol_plain 1.08 sobol_rb_polar 0.686 lattice_rb 1.95 lattice_baker_rb 0.681
+[    1.7s] n=64 L=8 seed=304 N=2^7: nMSE x N sobol_rb 0.819 sobol_plain 1.55 sobol_rb_polar 0.493 lattice_rb 1.05 lattice_baker_rb 0.825
+[    1.8s] n=64 L=8 seed=304 N=2^8: nMSE x N sobol_rb 0.5 sobol_plain 0.806 sobol_rb_polar 0.312 lattice_rb 0.628 lattice_baker_rb 0.458
+[    2.0s] n=64 L=8 seed=304 N=2^9: nMSE x N sobol_rb 0.393 sobol_plain 0.483 sobol_rb_polar 0.252 lattice_rb 0.859 lattice_baker_rb 0.982
+[    2.3s] n=64 L=8 seed=304 N=2^10: nMSE x N sobol_rb 0.247 sobol_plain 0.296 sobol_rb_polar 0.254 lattice_rb 2.27 lattice_baker_rb 0.625
+[    2.9s] n=64 L=8 seed=304 N=2^11: nMSE x N sobol_rb 0.179 sobol_plain 0.227 sobol_rb_polar 0.291 lattice_rb 0.454 lattice_baker_rb 0.512
+[    3.7s] n=64 L=8 seed=304 N=2^12: nMSE x N sobol_rb 0.173 sobol_plain 0.148 sobol_rb_polar 0.262 lattice_rb 0.841 lattice_baker_rb 0.644
+[    4.1s] n=64 L=8 seed=304 N=2^13: nMSE x N sobol_rb 0.164 sobol_plain 0.182 sobol_rb_polar 0.374 lattice_rb 0.286 lattice_baker_rb 0.722
+[    5.6s] n=64 L=8 seed=304 N=2^14: nMSE x N sobol_rb 0.537 sobol_plain 0.545 sobol_rb_polar 0.407 lattice_rb 0.357 lattice_baker_rb 0.425
+[    8.4s] n=64 L=8 seed=304 N=2^15: nMSE x N sobol_rb 0.412 sobol_plain 0.4 sobol_rb_polar 0.27 lattice_rb 0.259 lattice_baker_rb 0.771
+[   13.9s] n=64 L=8 seed=304 N=2^16: nMSE x N sobol_rb 0.283 sobol_plain 0.273 sobol_rb_polar 0.182 lattice_rb 0.681 lattice_baker_rb 1.3
+[   13.9s] n=64 L=8 seed=304 kwise k=2 q=67 N=4489: nMSE x N plain 0.502 rb 0.404
+[   15.1s] n=64 L=8 seed=304 kwise k=3 q=67 N=300763: nMSE x N plain 0.453 rb 0.519
+[  119.3s] n=64 L=8 seed=304 kwise k=4 q=67 N=20151121: nMSE x N plain 1.39 rb 1.59
+[  119.3s] n=64 L=8 seed=304 rates {'sobol_rb': 1.015942631575044, 'sobol_plain': 1.093758804885528, 'sobol_rb_polar': 1.0179988338385102, 'lattice_rb': 1.1786789049923692, 'lattice_baker_rb': 0.927417514245418} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s304.json
+[    1.2s] n=64 L=8 seed=305 N=2^6: nMSE x N sobol_rb 0.983 sobol_plain 1.05 sobol_rb_polar 1.19 lattice_rb 2.37 lattice_baker_rb 1.26
+[    1.4s] n=64 L=8 seed=305 N=2^7: nMSE x N sobol_rb 0.299 sobol_plain 0.399 sobol_rb_polar 0.811 lattice_rb 1.38 lattice_baker_rb 0.766
+[    1.5s] n=64 L=8 seed=305 N=2^8: nMSE x N sobol_rb 0.188 sobol_plain 0.208 sobol_rb_polar 0.756 lattice_rb 0.395 lattice_baker_rb 0.275
+[    1.8s] n=64 L=8 seed=305 N=2^9: nMSE x N sobol_rb 0.241 sobol_plain 0.2 sobol_rb_polar 0.434 lattice_rb 0.499 lattice_baker_rb 0.411
+[    2.1s] n=64 L=8 seed=305 N=2^10: nMSE x N sobol_rb 0.309 sobol_plain 0.367 sobol_rb_polar 0.195 lattice_rb 0.338 lattice_baker_rb 0.62
+[    2.6s] n=64 L=8 seed=305 N=2^11: nMSE x N sobol_rb 0.454 sobol_plain 0.455 sobol_rb_polar 0.148 lattice_rb 0.515 lattice_baker_rb 1.15
+[    3.4s] n=64 L=8 seed=305 N=2^12: nMSE x N sobol_rb 0.541 sobol_plain 0.572 sobol_rb_polar 0.176 lattice_rb 0.506 lattice_baker_rb 0.529
+[    3.9s] n=64 L=8 seed=305 N=2^13: nMSE x N sobol_rb 0.356 sobol_plain 0.368 sobol_rb_polar 0.308 lattice_rb 0.53 lattice_baker_rb 0.527
+[    5.0s] n=64 L=8 seed=305 N=2^14: nMSE x N sobol_rb 0.222 sobol_plain 0.243 sobol_rb_polar 0.336 lattice_rb 0.514 lattice_baker_rb 1.21
+[    7.3s] n=64 L=8 seed=305 N=2^15: nMSE x N sobol_rb 0.183 sobol_plain 0.192 sobol_rb_polar 0.222 lattice_rb 0.917 lattice_baker_rb 0.999
+[   13.3s] n=64 L=8 seed=305 N=2^16: nMSE x N sobol_rb 0.194 sobol_plain 0.164 sobol_rb_polar 0.167 lattice_rb 0.925 lattice_baker_rb 0.788
+[   13.3s] n=64 L=8 seed=305 kwise k=2 q=67 N=4489: nMSE x N plain 2.35 rb 2.32
+[   14.7s] n=64 L=8 seed=305 kwise k=3 q=67 N=300763: nMSE x N plain 2.07 rb 1.37
+[  121.1s] n=64 L=8 seed=305 kwise k=4 q=67 N=20151121: nMSE x N plain 1.54 rb 1.69
+[  121.1s] n=64 L=8 seed=305 rates {'sobol_rb': 1.03851811808145, 'sobol_plain': 1.0511353739865787, 'sobol_rb_polar': 1.1496152287835046, 'lattice_rb': 0.8535512846352268, 'lattice_baker_rb': 0.8212331770681154} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s305.json
+[    1.0s] n=64 L=8 seed=306 N=2^6: nMSE x N sobol_rb 0.316 sobol_plain 0.623 sobol_rb_polar 0.68 lattice_rb 1.01 lattice_baker_rb 0.893
+[    1.1s] n=64 L=8 seed=306 N=2^7: nMSE x N sobol_rb 1 sobol_plain 1.3 sobol_rb_polar 0.382 lattice_rb 0.848 lattice_baker_rb 0.978
+[    1.2s] n=64 L=8 seed=306 N=2^8: nMSE x N sobol_rb 0.686 sobol_plain 0.904 sobol_rb_polar 0.769 lattice_rb 0.882 lattice_baker_rb 0.497
+[    1.5s] n=64 L=8 seed=306 N=2^9: nMSE x N sobol_rb 0.641 sobol_plain 0.945 sobol_rb_polar 0.508 lattice_rb 0.286 lattice_baker_rb 0.854
+[    1.8s] n=64 L=8 seed=306 N=2^10: nMSE x N sobol_rb 0.37 sobol_plain 0.515 sobol_rb_polar 0.339 lattice_rb 0.319 lattice_baker_rb 0.942
+[    2.2s] n=64 L=8 seed=306 N=2^11: nMSE x N sobol_rb 0.286 sobol_plain 0.35 sobol_rb_polar 0.302 lattice_rb 0.386 lattice_baker_rb 0.389
+[    2.9s] n=64 L=8 seed=306 N=2^12: nMSE x N sobol_rb 0.255 sobol_plain 0.255 sobol_rb_polar 0.173 lattice_rb 1.46 lattice_baker_rb 1.02
+[    3.3s] n=64 L=8 seed=306 N=2^13: nMSE x N sobol_rb 0.172 sobol_plain 0.161 sobol_rb_polar 0.414 lattice_rb 1.26 lattice_baker_rb 0.742
+[    4.4s] n=64 L=8 seed=306 N=2^14: nMSE x N sobol_rb 0.247 sobol_plain 0.243 sobol_rb_polar 0.405 lattice_rb 0.47 lattice_baker_rb 0.736
+[    6.6s] n=64 L=8 seed=306 N=2^15: nMSE x N sobol_rb 0.275 sobol_plain 0.287 sobol_rb_polar 0.304 lattice_rb 0.809 lattice_baker_rb 0.37
+[   13.8s] n=64 L=8 seed=306 N=2^16: nMSE x N sobol_rb 0.159 sobol_plain 0.157 sobol_rb_polar 0.558 lattice_rb 1.05 lattice_baker_rb 1.09
+[   13.8s] n=64 L=8 seed=306 kwise k=2 q=67 N=4489: nMSE x N plain 0.361 rb 0.32
+[   15.0s] n=64 L=8 seed=306 kwise k=3 q=67 N=300763: nMSE x N plain 0.485 rb 0.345
+[  109.7s] n=64 L=8 seed=306 kwise k=4 q=67 N=20151121: nMSE x N plain 2.29 rb 2.01
+[  109.7s] n=64 L=8 seed=306 rates {'sobol_rb': 1.2333341332202195, 'sobol_plain': 1.308797889660158, 'sobol_rb_polar': 1.0516290066648317, 'lattice_rb': 0.8613960895315466, 'lattice_baker_rb': 0.9814523256190598} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s306.json
+[    1.9s] n=64 L=8 seed=307 N=2^6: nMSE x N sobol_rb 0.54 sobol_plain 0.687 sobol_rb_polar 0.747 lattice_rb 2.4 lattice_baker_rb 1.82
+[    2.1s] n=64 L=8 seed=307 N=2^7: nMSE x N sobol_rb 0.55 sobol_plain 0.468 sobol_rb_polar 0.368 lattice_rb 2.22 lattice_baker_rb 1.5
+[    2.3s] n=64 L=8 seed=307 N=2^8: nMSE x N sobol_rb 0.579 sobol_plain 0.479 sobol_rb_polar 0.251 lattice_rb 0.88 lattice_baker_rb 0.583
+[    2.5s] n=64 L=8 seed=307 N=2^9: nMSE x N sobol_rb 0.35 sobol_plain 0.512 sobol_rb_polar 0.349 lattice_rb 0.819 lattice_baker_rb 0.887
+[    2.8s] n=64 L=8 seed=307 N=2^10: nMSE x N sobol_rb 0.32 sobol_plain 0.378 sobol_rb_polar 0.416 lattice_rb 0.936 lattice_baker_rb 0.798
+[    3.4s] n=64 L=8 seed=307 N=2^11: nMSE x N sobol_rb 0.292 sobol_plain 0.304 sobol_rb_polar 0.274 lattice_rb 1.07 lattice_baker_rb 0.484
+[    4.3s] n=64 L=8 seed=307 N=2^12: nMSE x N sobol_rb 0.519 sobol_plain 0.471 sobol_rb_polar 0.403 lattice_rb 0.538 lattice_baker_rb 0.334
+[    5.3s] n=64 L=8 seed=307 N=2^13: nMSE x N sobol_rb 0.378 sobol_plain 0.357 sobol_rb_polar 0.365 lattice_rb 1.02 lattice_baker_rb 0.486
+[    6.3s] n=64 L=8 seed=307 N=2^14: nMSE x N sobol_rb 0.285 sobol_plain 0.267 sobol_rb_polar 0.642 lattice_rb 0.714 lattice_baker_rb 0.448
+[    8.4s] n=64 L=8 seed=307 N=2^15: nMSE x N sobol_rb 0.375 sobol_plain 0.434 sobol_rb_polar 0.326 lattice_rb 0.491 lattice_baker_rb 0.542
+[   15.5s] n=64 L=8 seed=307 N=2^16: nMSE x N sobol_rb 0.6 sobol_plain 0.627 sobol_rb_polar 0.286 lattice_rb 1.21 lattice_baker_rb 0.725
+[   15.5s] n=64 L=8 seed=307 kwise k=2 q=67 N=4489: nMSE x N plain 0.681 rb 0.663
+[   16.7s] n=64 L=8 seed=307 kwise k=3 q=67 N=300763: nMSE x N plain 2.35 rb 1.87
+[  119.9s] n=64 L=8 seed=307 kwise k=4 q=67 N=20151121: nMSE x N plain 1.48 rb 1.67
+[  119.9s] n=64 L=8 seed=307 rates {'sobol_rb': 0.9909183115061196, 'sobol_plain': 0.9989408981427458, 'sobol_rb_polar': 0.9643276603906652, 'lattice_rb': 1.0205239363658227, 'lattice_baker_rb': 1.0422267875424653} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n64_L8_s307.json
+[    1.4s] n=128 L=16 seed=300 N=2^6: nMSE x N sobol_rb 0.446 sobol_plain 2.25 sobol_rb_polar 0.33 lattice_rb 0.632 lattice_baker_rb 1.73
+[    1.8s] n=128 L=16 seed=300 N=2^7: nMSE x N sobol_rb 0.269 sobol_plain 1.46 sobol_rb_polar 0.31 lattice_rb 1.19 lattice_baker_rb 1.43
+[    2.2s] n=128 L=16 seed=300 N=2^8: nMSE x N sobol_rb 0.386 sobol_plain 1.33 sobol_rb_polar 0.197 lattice_rb 1.22 lattice_baker_rb 1.08
+[    2.7s] n=128 L=16 seed=300 N=2^9: nMSE x N sobol_rb 0.224 sobol_plain 0.54 sobol_rb_polar 0.2 lattice_rb 0.917 lattice_baker_rb 1.03
+[    3.8s] n=128 L=16 seed=300 N=2^10: nMSE x N sobol_rb 0.153 sobol_plain 0.227 sobol_rb_polar 0.313 lattice_rb 1.66 lattice_baker_rb 1.13
+[    4.9s] n=128 L=16 seed=300 N=2^11: nMSE x N sobol_rb 0.216 sobol_plain 0.231 sobol_rb_polar 0.298 lattice_rb 0.321 lattice_baker_rb 1.71
+[    7.0s] n=128 L=16 seed=300 N=2^12: nMSE x N sobol_rb 0.595 sobol_plain 0.407 sobol_rb_polar 0.285 lattice_rb 0.487 lattice_baker_rb 0.588
+[    8.8s] n=128 L=16 seed=300 N=2^13: nMSE x N sobol_rb 0.429 sobol_plain 0.358 sobol_rb_polar 0.246 lattice_rb 0.911 lattice_baker_rb 0.892
+[   11.2s] n=128 L=16 seed=300 N=2^14: nMSE x N sobol_rb 0.322 sobol_plain 0.306 sobol_rb_polar 0.302 lattice_rb 3.09 lattice_baker_rb 1.2
+[   18.8s] n=128 L=16 seed=300 N=2^15: nMSE x N sobol_rb 0.727 sobol_plain 0.629 sobol_rb_polar 0.436 lattice_rb 1.11 lattice_baker_rb 0.419
+[   38.4s] n=128 L=16 seed=300 N=2^16: nMSE x N sobol_rb 0.276 sobol_plain 0.258 sobol_rb_polar 0.559 lattice_rb 1.59 lattice_baker_rb 0.535
+[   39.7s] n=128 L=16 seed=300 kwise k=2 q=131 N=17161: nMSE x N plain 2.5 rb 1.92
+[  119.4s] n=128 L=16 seed=300 kwise k=3 q=131 N=2248091: nMSE x N plain 1.05 rb 0.815
+[  119.4s] n=128 L=16 seed=300 rates {'sobol_rb': 0.8951207019182934, 'sobol_plain': 1.1216745246862827, 'sobol_rb_polar': 0.8496796888098709, 'lattice_rb': 0.9056194635732184, 'lattice_baker_rb': 1.1454461156798545} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s300.json
+[    1.7s] n=128 L=16 seed=301 N=2^6: nMSE x N sobol_rb 0.313 sobol_plain 0.93 sobol_rb_polar 0.691 lattice_rb 0.822 lattice_baker_rb 0.689
+[    2.1s] n=128 L=16 seed=301 N=2^7: nMSE x N sobol_rb 0.427 sobol_plain 1.03 sobol_rb_polar 0.395 lattice_rb 1.05 lattice_baker_rb 0.55
+[    2.5s] n=128 L=16 seed=301 N=2^8: nMSE x N sobol_rb 0.385 sobol_plain 0.586 sobol_rb_polar 0.48 lattice_rb 0.849 lattice_baker_rb 1.19
+[    3.0s] n=128 L=16 seed=301 N=2^9: nMSE x N sobol_rb 0.456 sobol_plain 0.299 sobol_rb_polar 0.388 lattice_rb 0.843 lattice_baker_rb 0.391
+[    3.9s] n=128 L=16 seed=301 N=2^10: nMSE x N sobol_rb 0.332 sobol_plain 0.41 sobol_rb_polar 0.434 lattice_rb 0.518 lattice_baker_rb 0.906
+[    4.9s] n=128 L=16 seed=301 N=2^11: nMSE x N sobol_rb 0.18 sobol_plain 0.263 sobol_rb_polar 0.669 lattice_rb 0.675 lattice_baker_rb 1.2
+[    7.0s] n=128 L=16 seed=301 N=2^12: nMSE x N sobol_rb 0.297 sobol_plain 0.345 sobol_rb_polar 0.489 lattice_rb 0.519 lattice_baker_rb 1.17
+[    8.2s] n=128 L=16 seed=301 N=2^13: nMSE x N sobol_rb 0.344 sobol_plain 0.39 sobol_rb_polar 0.59 lattice_rb 0.51 lattice_baker_rb 0.55
+[   10.7s] n=128 L=16 seed=301 N=2^14: nMSE x N sobol_rb 0.22 sobol_plain 0.229 sobol_rb_polar 0.305 lattice_rb 0.556 lattice_baker_rb 4.02
+[   18.8s] n=128 L=16 seed=301 N=2^15: nMSE x N sobol_rb 0.407 sobol_plain 0.403 sobol_rb_polar 0.268 lattice_rb 0.477 lattice_baker_rb 0.716
+[   38.0s] n=128 L=16 seed=301 N=2^16: nMSE x N sobol_rb 0.39 sobol_plain 0.417 sobol_rb_polar 0.264 lattice_rb 0.806 lattice_baker_rb 0.545
+[   38.9s] n=128 L=16 seed=301 kwise k=2 q=131 N=17161: nMSE x N plain 1.58 rb 1.76
+[  120.2s] n=128 L=16 seed=301 kwise k=3 q=131 N=2248091: nMSE x N plain 2.2 rb 1.54
+[  120.2s] n=128 L=16 seed=301 rates {'sobol_rb': 1.0109281179565444, 'sobol_plain': 1.0295551952075026, 'sobol_rb_polar': 1.104089649276282, 'lattice_rb': 1.0494068787830342, 'lattice_baker_rb': 0.9788633649228736} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s301.json
+[    1.5s] n=128 L=16 seed=302 N=2^6: nMSE x N sobol_rb 0.368 sobol_plain 1.07 sobol_rb_polar 1.68 lattice_rb 1.98 lattice_baker_rb 0.902
+[    1.9s] n=128 L=16 seed=302 N=2^7: nMSE x N sobol_rb 0.782 sobol_plain 0.453 sobol_rb_polar 2.8 lattice_rb 1.66 lattice_baker_rb 1.46
+[    2.2s] n=128 L=16 seed=302 N=2^8: nMSE x N sobol_rb 0.761 sobol_plain 0.537 sobol_rb_polar 2.84 lattice_rb 2.53 lattice_baker_rb 1.35
+[    2.7s] n=128 L=16 seed=302 N=2^9: nMSE x N sobol_rb 0.314 sobol_plain 0.402 sobol_rb_polar 1.69 lattice_rb 1.33 lattice_baker_rb 0.688
+[    3.2s] n=128 L=16 seed=302 N=2^10: nMSE x N sobol_rb 0.221 sobol_plain 0.456 sobol_rb_polar 1.69 lattice_rb 1.17 lattice_baker_rb 0.828
+[    4.4s] n=128 L=16 seed=302 N=2^11: nMSE x N sobol_rb 0.381 sobol_plain 0.369 sobol_rb_polar 0.957 lattice_rb 0.494 lattice_baker_rb 1.25
+[    6.0s] n=128 L=16 seed=302 N=2^12: nMSE x N sobol_rb 0.245 sobol_plain 0.246 sobol_rb_polar 0.303 lattice_rb 0.651 lattice_baker_rb 1.16
+[    7.9s] n=128 L=16 seed=302 N=2^13: nMSE x N sobol_rb 0.233 sobol_plain 0.224 sobol_rb_polar 0.344 lattice_rb 0.835 lattice_baker_rb 1.22
+[   10.4s] n=128 L=16 seed=302 N=2^14: nMSE x N sobol_rb 0.507 sobol_plain 0.491 sobol_rb_polar 0.396 lattice_rb 0.813 lattice_baker_rb 0.418
+[   17.8s] n=128 L=16 seed=302 N=2^15: nMSE x N sobol_rb 0.316 sobol_plain 0.306 sobol_rb_polar 0.837 lattice_rb 0.654 lattice_baker_rb 0.523
+[   36.8s] n=128 L=16 seed=302 N=2^16: nMSE x N sobol_rb 0.374 sobol_plain 0.377 sobol_rb_polar 0.278 lattice_rb 0.612 lattice_baker_rb 0.54
+[   37.6s] n=128 L=16 seed=302 kwise k=2 q=131 N=17161: nMSE x N plain 3.36 rb 3.33
+[  123.3s] n=128 L=16 seed=302 kwise k=3 q=131 N=2248091: nMSE x N plain 4.67 rb 3.11
+[  123.3s] n=128 L=16 seed=302 rates {'sobol_rb': 1.0397424782348306, 'sobol_plain': 1.0622296130522675, 'sobol_rb_polar': 1.3686739089091569, 'lattice_rb': 1.192903120839586, 'lattice_baker_rb': 1.1413190318476019} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s302.json
+[    1.2s] n=128 L=16 seed=303 N=2^6: nMSE x N sobol_rb 1.15 sobol_plain 0.447 sobol_rb_polar 0.447 lattice_rb 4.71 lattice_baker_rb 3.59
+[    1.6s] n=128 L=16 seed=303 N=2^7: nMSE x N sobol_rb 1.01 sobol_plain 0.508 sobol_rb_polar 0.282 lattice_rb 5.42 lattice_baker_rb 2.4
+[    2.1s] n=128 L=16 seed=303 N=2^8: nMSE x N sobol_rb 0.251 sobol_plain 0.623 sobol_rb_polar 0.772 lattice_rb 1.25 lattice_baker_rb 0.82
+[    2.7s] n=128 L=16 seed=303 N=2^9: nMSE x N sobol_rb 0.222 sobol_plain 0.415 sobol_rb_polar 1.09 lattice_rb 1.75 lattice_baker_rb 1.21
+[    3.9s] n=128 L=16 seed=303 N=2^10: nMSE x N sobol_rb 0.337 sobol_plain 0.455 sobol_rb_polar 1.09 lattice_rb 1.14 lattice_baker_rb 1.25
+[    5.2s] n=128 L=16 seed=303 N=2^11: nMSE x N sobol_rb 0.517 sobol_plain 0.554 sobol_rb_polar 0.381 lattice_rb 0.551 lattice_baker_rb 1.11
+[    7.1s] n=128 L=16 seed=303 N=2^12: nMSE x N sobol_rb 0.637 sobol_plain 0.691 sobol_rb_polar 0.377 lattice_rb 1.17 lattice_baker_rb 0.713
+[    8.9s] n=128 L=16 seed=303 N=2^13: nMSE x N sobol_rb 0.365 sobol_plain 0.333 sobol_rb_polar 0.347 lattice_rb 0.697 lattice_baker_rb 0.878
+[   11.9s] n=128 L=16 seed=303 N=2^14: nMSE x N sobol_rb 0.318 sobol_plain 0.315 sobol_rb_polar 0.467 lattice_rb 1.43 lattice_baker_rb 1.56
+[   22.7s] n=128 L=16 seed=303 N=2^15: nMSE x N sobol_rb 0.536 sobol_plain 0.557 sobol_rb_polar 0.304 lattice_rb 0.56 lattice_baker_rb 1.19
+[   43.4s] n=128 L=16 seed=303 N=2^16: nMSE x N sobol_rb 0.888 sobol_plain 0.988 sobol_rb_polar 0.363 lattice_rb 0.745 lattice_baker_rb 0.516
+[   44.1s] n=128 L=16 seed=303 kwise k=2 q=131 N=17161: nMSE x N plain 1.86 rb 1.94
+[  125.0s] n=128 L=16 seed=303 kwise k=3 q=131 N=2248091: nMSE x N plain 1.59 rb 1.66
+[  125.0s] n=128 L=16 seed=303 rates {'sobol_rb': 0.8261071262761953, 'sobol_plain': 0.964236103351596, 'sobol_rb_polar': 1.2073088584901335, 'lattice_rb': 1.1154695665337389, 'lattice_baker_rb': 1.040515312385747} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s303.json
+[    1.1s] n=128 L=16 seed=304 N=2^6: nMSE x N sobol_rb 0.539 sobol_plain 1.1 sobol_rb_polar 2.4 lattice_rb 0.764 lattice_baker_rb 0.598
+[    1.6s] n=128 L=16 seed=304 N=2^7: nMSE x N sobol_rb 0.606 sobol_plain 0.364 sobol_rb_polar 4.53 lattice_rb 0.815 lattice_baker_rb 1.58
+[    1.9s] n=128 L=16 seed=304 N=2^8: nMSE x N sobol_rb 0.375 sobol_plain 0.603 sobol_rb_polar 1.49 lattice_rb 1.19 lattice_baker_rb 0.597
+[    2.5s] n=128 L=16 seed=304 N=2^9: nMSE x N sobol_rb 0.434 sobol_plain 0.88 sobol_rb_polar 0.911 lattice_rb 1.37 lattice_baker_rb 0.672
+[    3.1s] n=128 L=16 seed=304 N=2^10: nMSE x N sobol_rb 0.431 sobol_plain 0.565 sobol_rb_polar 0.321 lattice_rb 1.08 lattice_baker_rb 0.466
+[    4.1s] n=128 L=16 seed=304 N=2^11: nMSE x N sobol_rb 0.558 sobol_plain 0.844 sobol_rb_polar 0.349 lattice_rb 0.357 lattice_baker_rb 0.661
+[    6.0s] n=128 L=16 seed=304 N=2^12: nMSE x N sobol_rb 0.659 sobol_plain 0.848 sobol_rb_polar 0.33 lattice_rb 1.18 lattice_baker_rb 1.39
+[    7.1s] n=128 L=16 seed=304 N=2^13: nMSE x N sobol_rb 0.502 sobol_plain 0.544 sobol_rb_polar 0.32 lattice_rb 0.75 lattice_baker_rb 1.11
+[    9.7s] n=128 L=16 seed=304 N=2^14: nMSE x N sobol_rb 0.517 sobol_plain 0.574 sobol_rb_polar 0.442 lattice_rb 0.945 lattice_baker_rb 0.702
+[   15.6s] n=128 L=16 seed=304 N=2^15: nMSE x N sobol_rb 0.565 sobol_plain 0.573 sobol_rb_polar 0.51 lattice_rb 1.05 lattice_baker_rb 0.761
+[   36.3s] n=128 L=16 seed=304 N=2^16: nMSE x N sobol_rb 0.586 sobol_plain 0.531 sobol_rb_polar 0.399 lattice_rb 0.415 lattice_baker_rb 2.01
+[   36.9s] n=128 L=16 seed=304 kwise k=2 q=131 N=17161: nMSE x N plain 1.68 rb 1.79
+[  122.6s] n=128 L=16 seed=304 kwise k=3 q=131 N=2248091: nMSE x N plain 1.7 rb 2.22
+[  122.6s] n=128 L=16 seed=304 rates {'sobol_rb': 0.9319189295907766, 'sobol_plain': 1.0529915323780206, 'sobol_rb_polar': 1.1551254623198186, 'lattice_rb': 1.1087206037975814, 'lattice_baker_rb': 0.8422503336512528} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s304.json
+[    1.2s] n=128 L=16 seed=305 N=2^6: nMSE x N sobol_rb 0.238 sobol_plain 0.63 sobol_rb_polar 2.51 lattice_rb 0.839 lattice_baker_rb 1.17
+[    1.4s] n=128 L=16 seed=305 N=2^7: nMSE x N sobol_rb 0.291 sobol_plain 0.903 sobol_rb_polar 2.27 lattice_rb 2.16 lattice_baker_rb 0.791
+[    1.8s] n=128 L=16 seed=305 N=2^8: nMSE x N sobol_rb 0.655 sobol_plain 0.297 sobol_rb_polar 3.89 lattice_rb 1.1 lattice_baker_rb 1.77
+[    2.3s] n=128 L=16 seed=305 N=2^9: nMSE x N sobol_rb 0.788 sobol_plain 0.334 sobol_rb_polar 0.855 lattice_rb 0.426 lattice_baker_rb 2.52
+[    3.2s] n=128 L=16 seed=305 N=2^10: nMSE x N sobol_rb 0.417 sobol_plain 0.143 sobol_rb_polar 0.931 lattice_rb 3.82 lattice_baker_rb 0.326
+[    4.1s] n=128 L=16 seed=305 N=2^11: nMSE x N sobol_rb 1.02 sobol_plain 0.653 sobol_rb_polar 2.25 lattice_rb 0.266 lattice_baker_rb 0.804
+[    6.2s] n=128 L=16 seed=305 N=2^12: nMSE x N sobol_rb 0.764 sobol_plain 0.529 sobol_rb_polar 2.2 lattice_rb 0.252 lattice_baker_rb 0.669
+[    7.5s] n=128 L=16 seed=305 N=2^13: nMSE x N sobol_rb 1.13 sobol_plain 0.906 sobol_rb_polar 1.21 lattice_rb 0.832 lattice_baker_rb 0.252
+[    9.8s] n=128 L=16 seed=305 N=2^14: nMSE x N sobol_rb 0.613 sobol_plain 0.511 sobol_rb_polar 0.554 lattice_rb 2.74 lattice_baker_rb 0.898
+[   18.4s] n=128 L=16 seed=305 N=2^15: nMSE x N sobol_rb 0.293 sobol_plain 0.282 sobol_rb_polar 0.194 lattice_rb 0.217 lattice_baker_rb 0.347
+[   48.9s] n=128 L=16 seed=305 N=2^16: nMSE x N sobol_rb 0.219 sobol_plain 0.224 sobol_rb_polar 0.179 lattice_rb 1.25 lattice_baker_rb 0.592
+[   49.9s] n=128 L=16 seed=305 kwise k=2 q=131 N=17161: nMSE x N plain 0.959 rb 0.87
+[  135.7s] n=128 L=16 seed=305 kwise k=3 q=131 N=2248091: nMSE x N plain 1.89 rb 1.05
+[  135.7s] n=128 L=16 seed=305 rates {'sobol_rb': 1.1560352773208147, 'sobol_plain': 0.9705394787598686, 'sobol_rb_polar': 1.4429408408323978, 'lattice_rb': 1.0249444776946928, 'lattice_baker_rb': 1.2276116731586526} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s305.json
+[    3.2s] n=128 L=16 seed=306 N=2^6: nMSE x N sobol_rb 0.31 sobol_plain 0.916 sobol_rb_polar 0.542 lattice_rb 4.17 lattice_baker_rb 2.04
+[    3.5s] n=128 L=16 seed=306 N=2^7: nMSE x N sobol_rb 0.336 sobol_plain 0.871 sobol_rb_polar 1.28 lattice_rb 2.54 lattice_baker_rb 1.82
+[    3.9s] n=128 L=16 seed=306 N=2^8: nMSE x N sobol_rb 0.223 sobol_plain 0.209 sobol_rb_polar 1.15 lattice_rb 0.636 lattice_baker_rb 0.938
+[    4.5s] n=128 L=16 seed=306 N=2^9: nMSE x N sobol_rb 0.365 sobol_plain 0.507 sobol_rb_polar 1.82 lattice_rb 0.907 lattice_baker_rb 0.927
+[    5.2s] n=128 L=16 seed=306 N=2^10: nMSE x N sobol_rb 0.268 sobol_plain 0.29 sobol_rb_polar 1.58 lattice_rb 0.493 lattice_baker_rb 1.04
+[    6.1s] n=128 L=16 seed=306 N=2^11: nMSE x N sobol_rb 0.336 sobol_plain 0.346 sobol_rb_polar 0.881 lattice_rb 0.85 lattice_baker_rb 0.396
+[    7.8s] n=128 L=16 seed=306 N=2^12: nMSE x N sobol_rb 0.357 sobol_plain 0.317 sobol_rb_polar 0.554 lattice_rb 0.217 lattice_baker_rb 0.652
+[    9.7s] n=128 L=16 seed=306 N=2^13: nMSE x N sobol_rb 1.14 sobol_plain 1.03 sobol_rb_polar 0.661 lattice_rb 1.03 lattice_baker_rb 0.784
+[   12.4s] n=128 L=16 seed=306 N=2^14: nMSE x N sobol_rb 0.563 sobol_plain 0.607 sobol_rb_polar 0.435 lattice_rb 0.767 lattice_baker_rb 0.467
+[   21.0s] n=128 L=16 seed=306 N=2^15: nMSE x N sobol_rb 0.227 sobol_plain 0.235 sobol_rb_polar 0.422 lattice_rb 0.489 lattice_baker_rb 0.982
+[   43.0s] n=128 L=16 seed=306 N=2^16: nMSE x N sobol_rb 0.177 sobol_plain 0.211 sobol_rb_polar 0.793 lattice_rb 0.709 lattice_baker_rb 0.367
+[   43.7s] n=128 L=16 seed=306 kwise k=2 q=131 N=17161: nMSE x N plain 1.1 rb 0.917
+[  133.8s] n=128 L=16 seed=306 kwise k=3 q=131 N=2248091: nMSE x N plain 1.55 rb 1.45
+[  133.8s] n=128 L=16 seed=306 rates {'sobol_rb': 0.9910112690017282, 'sobol_plain': 0.9926943136057514, 'sobol_rb_polar': 1.2102402474922722, 'lattice_rb': 1.008194073346363, 'lattice_baker_rb': 1.108458092607771} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s306.json
+[    1.5s] n=128 L=16 seed=307 N=2^6: nMSE x N sobol_rb 0.214 sobol_plain 1.35 sobol_rb_polar 1.47 lattice_rb 0.55 lattice_baker_rb 0.923
+[    1.8s] n=128 L=16 seed=307 N=2^7: nMSE x N sobol_rb 0.402 sobol_plain 0.624 sobol_rb_polar 0.275 lattice_rb 0.619 lattice_baker_rb 0.847
+[    2.2s] n=128 L=16 seed=307 N=2^8: nMSE x N sobol_rb 0.881 sobol_plain 0.39 sobol_rb_polar 0.188 lattice_rb 0.374 lattice_baker_rb 0.831
+[    2.7s] n=128 L=16 seed=307 N=2^9: nMSE x N sobol_rb 0.533 sobol_plain 0.225 sobol_rb_polar 0.244 lattice_rb 2.36 lattice_baker_rb 0.584
+[    3.6s] n=128 L=16 seed=307 N=2^10: nMSE x N sobol_rb 0.31 sobol_plain 0.163 sobol_rb_polar 0.229 lattice_rb 0.846 lattice_baker_rb 0.702
+[    5.1s] n=128 L=16 seed=307 N=2^11: nMSE x N sobol_rb 0.589 sobol_plain 0.422 sobol_rb_polar 0.177 lattice_rb 1.61 lattice_baker_rb 0.324
+[    7.3s] n=128 L=16 seed=307 N=2^12: nMSE x N sobol_rb 0.396 sobol_plain 0.279 sobol_rb_polar 0.179 lattice_rb 1.68 lattice_baker_rb 0.364
+[    9.2s] n=128 L=16 seed=307 N=2^13: nMSE x N sobol_rb 0.207 sobol_plain 0.194 sobol_rb_polar 0.455 lattice_rb 0.527 lattice_baker_rb 0.294
+[   11.9s] n=128 L=16 seed=307 N=2^14: nMSE x N sobol_rb 0.505 sobol_plain 0.432 sobol_rb_polar 0.335 lattice_rb 0.412 lattice_baker_rb 0.235
+[   23.2s] n=128 L=16 seed=307 N=2^15: nMSE x N sobol_rb 0.206 sobol_plain 0.202 sobol_rb_polar 0.635 lattice_rb 0.293 lattice_baker_rb 0.504
+[   43.9s] n=128 L=16 seed=307 N=2^16: nMSE x N sobol_rb 0.152 sobol_plain 0.16 sobol_rb_polar 0.75 lattice_rb 0.407 lattice_baker_rb 0.376
+[   44.6s] n=128 L=16 seed=307 kwise k=2 q=131 N=17161: nMSE x N plain 1.75 rb 2.03
+[  140.6s] n=128 L=16 seed=307 kwise k=3 q=131 N=2248091: nMSE x N plain 0.656 rb 1.26
+[  140.6s] n=128 L=16 seed=307 rates {'sobol_rb': 1.2392787532022975, 'sobol_plain': 1.065518536985343, 'sobol_rb_polar': 0.7570434418698817, 'lattice_rb': 1.2037013715396916, 'lattice_baker_rb': 1.1418470727947285} -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/det_n128_L16_s307.json

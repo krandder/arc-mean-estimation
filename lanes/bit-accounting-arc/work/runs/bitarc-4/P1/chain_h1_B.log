@@ -1,0 +1,8 @@
+done nd [203, 216, 217, 220, 221, 223] l=255 local h1 train 614s total 644s
+done nd [203, 216, 217, 220, 221, 223] l=0 local h1 train 935s total 1121s
+done nd [203, 216, 217, 220, 221, 223] l=64 local h1 train 950s total 1096s
+done nd [203, 216, 217, 220, 221, 223] l=16 local h1 train 938s total 1124s
+done nd [203, 216, 217, 220, 221, 223] l=128 local h1 train 796s total 871s
+done nd [203, 216, 217, 220, 221, 223] l=32 local h1 train 934s total 1107s
+done nd [203, 216, 217, 220, 221, 223] l=192 local h1 train 715s total 786s
+done nd [203, 216, 217, 220, 221, 223] l=8 local h1 train 1013s total 1204s

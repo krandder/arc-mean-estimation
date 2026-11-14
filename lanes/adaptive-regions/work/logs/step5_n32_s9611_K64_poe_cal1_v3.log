@@ -1,0 +1,24 @@
+[1s] advice: 300 populations x 256 paths
+  step 0: loss -1.7138e+01 [1254s]
+  step 12: loss 1.1064e+02 [1519s]
+  step 24: loss 7.2635e+01 [1748s]
+  step 36: loss 2.9856e+01 [1993s]
+  step 48: loss 5.4265e+01 [2201s]
+  step 60: loss 4.5707e+01 [2409s]
+  step 72: loss 1.7987e+01 [2652s]
+  step 84: loss 2.1221e+01 [2881s]
+  step 96: loss 2.3578e+01 [3087s]
+  step 99: loss 3.5795e+01 [3140s]
+(a) per-sample EM s=0.1: deductive 3.89e-01 at 4.79e+05 passes (MC there 4.91e-08); corrected N=1024 2.12e-04 (MC at equal cost 4.73e-08, RQMC N=1024 5.61e-07)
+(a) per-sample EM s=0.3: deductive 2.41e-01 at 4.79e+05 passes (MC there 4.05e-07); corrected N=1024 1.48e-04 (MC at equal cost 3.90e-07, RQMC N=1024 1.25e-05)
+(a) per-sample EM s=0.6: deductive 9.55e-02 at 7.45e+05 passes (MC there 8.25e-07); corrected N=1024 1.95e-03 (MC at equal cost 8.05e-07, RQMC N=1024 7.75e-05)
+(a) per-sample EM s=0.9: deductive 4.04e-02 at 7.99e+05 passes (MC there 1.17e-06); corrected N=1024 6.35e-03 (MC at equal cost 1.14e-06, RQMC N=1024 2.08e-04)
+(a) per-sample EM s=1.0: deductive 4.14e-02 at 7.45e+05 passes (MC there 1.31e-06); corrected N=1024 3.80e-03 (MC at equal cost 1.28e-06, RQMC N=1024 2.40e-04)
+(a) per-sample EM: interval coverage 68% 0.65, 95% 0.65
+(b) trained (A5) s=0.1: deductive 4.62e-01 at 4.79e+05 passes (MC there 4.91e-08); corrected N=1024 2.05e-05 (MC at equal cost 4.73e-08, RQMC N=1024 5.61e-07)
+(b) trained (A5) s=0.3: deductive 3.20e-01 at 4.79e+05 passes (MC there 4.05e-07); corrected N=1024 4.11e-04 (MC at equal cost 3.90e-07, RQMC N=1024 1.25e-05)
+(b) trained (A5) s=0.6: deductive 1.13e-01 at 7.45e+05 passes (MC there 8.54e-07); corrected N=1024 1.79e-03 (MC at equal cost 8.32e-07, RQMC N=1024 7.75e-05)
+(b) trained (A5) s=0.9: deductive 3.47e-02 at 7.99e+05 passes (MC there 1.17e-06); corrected N=1024 4.51e-03 (MC at equal cost 1.14e-06, RQMC N=1024 2.08e-04)
+(b) trained (A5) s=1.0: deductive 1.69e-02 at 7.45e+05 passes (MC there 1.31e-06); corrected N=1024 3.99e-03 (MC at equal cost 1.28e-06, RQMC N=1024 2.40e-04)
+(b) trained (A5): interval coverage 68% 0.59, 95% 0.65
+wrote runs/step5_n32_L4_s9611_K64_poe_cal1_v3.json total 3201s

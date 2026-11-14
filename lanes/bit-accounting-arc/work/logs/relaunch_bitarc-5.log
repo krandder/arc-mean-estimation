@@ -1,0 +1,7 @@
+prior: 74 runs, 44 refs
+06:50:27Z launching bitarc-5 (on-demand first, after preemptions)
+06:50:36Z on-demand failed rc=3, launching bitarc-5 spot
+06:50:45Z launcher for bitarc-5 exited
+prior: 91 runs, 98 refs
+07:15:41Z launching bitarc-5 (on-demand first, after preemptions)
+12:17:57Z launcher for bitarc-5 exited

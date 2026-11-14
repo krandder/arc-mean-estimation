@@ -1,0 +1,12 @@
+[3s] pilot 16384, truth 2^20, 6 held-out populations
+d=16 K=1: estimand nMSE 1.94e+00 | pop error (s=0.03/0.3) 6.294/5.672 = integration 0.000/0.000 vs approximation 6.295/5.689 | additivity 0.0e+00 | cost 32977 passes (6s)
+d=16 K=4: estimand nMSE 1.12e+00 | pop error (s=0.03/0.3) 1.670/1.247 = integration 0.000/0.001 vs approximation 1.671/1.293 | additivity 0.0e+00 | cost 33604 passes (14s)
+d=16 K=16: estimand nMSE 3.45e-01 | pop error (s=0.03/0.3) 1.059/0.684 = integration 0.000/0.003 vs approximation 1.059/0.716 | additivity 0.0e+00 | cost 36112 passes (16s)
+d=16 K=64: estimand nMSE 1.80e-01 | pop error (s=0.03/0.3) 0.620/0.405 = integration 0.000/0.007 vs approximation 0.618/0.371 | additivity 0.0e+00 | cost 46144 passes (42s)
+d=16 K=256: estimand nMSE 2.18e-01 | pop error (s=0.03/0.3) 0.400/0.173 = integration 0.004/0.009 vs approximation 0.399/0.139 | additivity 0.0e+00 | cost 86272 passes (79s)
+d=32 K=1: estimand nMSE 1.93e+00 | pop error (s=0.03/0.3) 5.146/4.858 = integration 0.000/0.000 vs approximation 5.144/4.875 | additivity 0.0e+00 | cost 33569 passes (20s)
+d=32 K=4: estimand nMSE 1.63e+00 | pop error (s=0.03/0.3) 3.117/3.262 = integration 0.000/0.002 vs approximation 3.116/3.071 | additivity 0.0e+00 | cost 35972 passes (21s)
+d=32 K=16: estimand nMSE 5.92e-01 | pop error (s=0.03/0.3) 1.080/0.763 = integration 0.001/0.016 vs approximation 1.032/0.787 | additivity 0.0e+00 | cost 45584 passes (40s)
+d=32 K=64: estimand nMSE 6.25e-01 | pop error (s=0.03/0.3) 2.336/0.885 = integration 0.001/0.075 vs approximation 2.369/0.670 | additivity 0.0e+00 | cost 84032 passes (25s)
+d=32 K=256: estimand nMSE 1.96e-01 | pop error (s=0.03/0.3) 0.237/0.201 = integration 0.000/0.005 vs approximation 0.236/0.156 | additivity 0.0e+00 | cost 237824 passes (66s)
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step4c_n32_L4_s9611.json total 333s

@@ -1,0 +1,43 @@
+[15s] 1110 cells among 1048576 advice paths
+  moments 200/1110 [80s, simplices 3108, fails 0]
+  moments 400/1110 [446s, simplices 9094, fails 0]
+  moments 600/1110 [632s, simplices 14606, fails 0]
+  moments 800/1110 [1017s, simplices 25340, fails 0]
+  moments 1000/1110 [1378s, simplices 39114, fails 0]
+  1 cells (advice mass 1.91e-06) used the sample moment (Genz budget)
+[1849s] moments done in 1834s; simplices 56687, triangulation failures 0
+  moment check: 37 of 1110 cells with |exact - sample| > 5 se
+[2056s] exact cells: err 1.39e-08 (truth noise 3.4e-12); MC(2^20) 9.54e-07, RQMC 5.59e-10
+{"seed": 9702, "n": 6, "L": 4, "cells": 1110, "moment_check_bad": 37, "advice_paths": 1048576, "err_exact": 1.3915294727825749e-08, "truth_noise": 3.38553570471451e-12, "mc_adv": 9.5367431640625e-07, "rqmc_adv": 5.594886756640797e-10, "leaves_to_mc": 429, "leaves_to_rqmc": null, "leaves_to_exact": 736, "final_leaves": 1110, "secs": 2056.064255952835}
+leaves      1: err 1.23e+00  within-leaf map dispersion 5.98e-01  units fixed 0.0 (max 0)
+leaves      2: err 3.53e-01  within-leaf map dispersion 3.21e-01  units fixed 1.0 (max 1)
+leaves      4: err 1.04e-01  within-leaf map dispersion 2.23e-01  units fixed 2.0 (max 2)
+leaves      8: err 8.47e-02  within-leaf map dispersion 1.61e-01  units fixed 3.0 (max 3)
+leaves     16: err 3.48e-02  within-leaf map dispersion 1.12e-01  units fixed 4.1 (max 5)
+leaves     32: err 1.13e-02  within-leaf map dispersion 6.71e-02  units fixed 5.3 (max 7)
+leaves     64: err 1.98e-03  within-leaf map dispersion 3.62e-02  units fixed 6.5 (max 9)
+leaves    128: err 1.57e-04  within-leaf map dispersion 1.56e-02  units fixed 7.5 (max 10)
+leaves    256: err 6.99e-06  within-leaf map dispersion 4.91e-03  units fixed 8.6 (max 11)
+leaves    384: err 1.73e-06  within-leaf map dispersion 1.97e-03  units fixed 9.1 (max 13)
+leaves    512: err 1.91e-07  within-leaf map dispersion 8.45e-04  units fixed 9.4 (max 13)
+leaves    640: err 7.08e-08  within-leaf map dispersion 3.37e-04  units fixed 9.6 (max 13)
+leaves    768: err 8.78e-09  within-leaf map dispersion 1.23e-04  units fixed 9.8 (max 13)
+leaves    896: err 9.84e-09  within-leaf map dispersion 3.62e-05  units fixed 9.9 (max 14)
+leaves   1024: err 1.36e-08  within-leaf map dispersion 4.45e-06  units fixed 10.0 (max 14)
+leaves   1110: err 1.39e-08  within-leaf map dispersion -1.21e-16  units fixed 10.0 (max 14)
+first splits (layer, unit, rank-one |dA|_F, node mass, node depth):
+  L1 u3  |dA| 2.365  mass 1.000  depth 0
+  L2 u4  |dA| 1.623  mass 0.501  depth 1
+  L1 u1  |dA| 1.153  mass 0.499  depth 1
+  L4 u3  |dA| 1.925  mass 0.234  depth 2
+  L2 u4  |dA| 1.398  mass 0.234  depth 2
+  L3 u5  |dA| 1.245  mass 0.267  depth 2
+  L4 u3  |dA| 1.013  mass 0.266  depth 2
+  L1 u1  |dA| 0.998  mass 0.201  depth 3
+  L1 u5  |dA| 0.974  mass 0.171  depth 3
+  L2 u4  |dA| 1.308  mass 0.204  depth 3
+  L1 u1  |dA| 0.780  mass 0.209  depth 3
+  L1 u2  |dA| 1.324  mass 0.063  depth 3
+  L4 u2  |dA| 2.012  mass 0.033  depth 3
+  L2 u0  |dA| 3.003  mass 0.058  depth 3
+  L2 u3  |dA| 1.203  mass 0.131  depth 4

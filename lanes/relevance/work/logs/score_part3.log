@@ -1,0 +1,10 @@
+Q1 (12, 14)
+Q2_arc (13, 14)
+Q3 (np.int64(11), 14)
+Q4 {'0.1': (14, 14), '0.01': (14, 14)}
+Q4_lower_bound_consistent True
+Q2_stat (5, 6)
+Q5 (5, 6)
+Q6_one_direction (1, 2)
+Q6_radius_not_enough (2, 2)
+Q7 {'128|1000': {'rate': 0.07069127616263675, 'v1': 0.0390625, 'astra': np.float64(0.05458815967825931)}}

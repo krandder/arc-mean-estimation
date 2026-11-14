@@ -1,0 +1,21 @@
+[PASS] weights: bb.W_layer == st.W_layer on 12 (seed, n, l)
+[PASS] relevance toy: exact I 1.4968, est 1.4951 (plug-in 1.4946); H 1.9997
+[PASS] kmeans: centre error 0.00003, distortion 0.0200 (0.02)
+[PASS] T 1-D K=8 sigma=0.3 M=64: exact 1.5822, MM 1.5937 +- 0.0020, plug-in 1.6220
+[PASS] T 1-D K=8 sigma=0.3 M=256: exact 1.5822, MM 1.5867 +- 0.0019, plug-in 1.5951
+[PASS] T 1-D K=8 sigma=0.3 M=1024: exact 1.5822, MM 1.5855 +- 0.0019, plug-in 1.5879
+[PASS] T 1-D K=16 sigma=0.1 M=64: exact 2.9177, MM 2.9279 +- 0.0015, plug-in 2.9477
+[PASS] T 1-D K=16 sigma=0.1 M=256: exact 2.9177, MM 2.9220 +- 0.0014, plug-in 2.9280
+[PASS] T 1-D K=16 sigma=0.1 M=1024: exact 2.9177, MM 2.9212 +- 0.0013, plug-in 2.9229
+[PASS] T 1-D K=32 sigma=0.25 M=64: exact 1.9808, MM 2.0201 +- 0.0032, plug-in 2.1138
+[PASS] T 1-D K=32 sigma=0.25 M=256: exact 1.9808, MM 1.9913 +- 0.0032, plug-in 2.0200
+[PASS] T 1-D K=32 sigma=0.25 M=1024: exact 1.9808, MM 1.9862 +- 0.0032, plug-in 1.9945
+[PASS] KL-kmeans vs DP, Kc=2: I(h;c) 1.6813; loss DP 0.99490, KL-kmeans best of 8 0.99490
+[PASS] KL-kmeans vs DP, Kc=4: I(h;c) 1.6813; loss DP 0.46376, KL-kmeans best of 8 0.46386
+[PASS] KL-kmeans vs DP, Kc=8: I(h;c) 1.6813; loss DP 0.15221, KL-kmeans best of 8 0.15224
+[PASS] 1-D predictor excess CE: excess CE 0.0003 bits (9s)
+[PASS] end-to-end Kc=2: T 1.7075 (exact 1.7080); DP optimum 0.6945; pipeline k-means 0.6914 (H 1.000); best code with H <= log2 Kc: 0.6914
+[PASS] end-to-end Kc=4: T 1.7075 (exact 1.7080); DP optimum 1.2397; pipeline k-means 1.2361 (H 1.971); best code with H <= log2 Kc: 1.2361
+[PASS] end-to-end Kc=8: T 1.7075 (exact 1.7080); DP optimum 1.5516; pipeline k-means 1.5496 (H 2.929); best code with H <= log2 Kc: 1.5561
+19/19 passed
+exit=0

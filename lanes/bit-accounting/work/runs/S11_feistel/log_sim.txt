@@ -1,0 +1,1 @@
+Q_n16_L16_s5000_mlp: rate [nan, nan] | nMSE by layer [[nan, nan], [nan, nan], [nan, nan], [nan, nan], [nan, nan]] | 761s

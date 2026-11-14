@@ -1,0 +1,4 @@
+5c4d541d995af411b2d5015ef28b80976e625cce807cf3eb59245dcb3aa0953c  future-aware.md
+report sha at review launch 14:39:55Z
+c461da6c0b2c919ea44d6ddba5a5eb6adc43a49c891b48e9cc9b0609aff5c8ef  future-aware.md
+report sha at review round 2 launch 15:01:52Z

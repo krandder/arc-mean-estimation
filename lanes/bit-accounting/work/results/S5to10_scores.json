@@ -1,0 +1,137 @@
+{
+ "S5.1": {
+  "cells": [
+   {
+    "k": 2,
+    "cls": "local",
+    "measured": null,
+    "expected": 2,
+    "hit": false
+   },
+   {
+    "k": 2,
+    "cls": "unres",
+    "measured": 2,
+    "expected": 2,
+    "hit": true
+   },
+   {
+    "k": 4,
+    "cls": "local",
+    "measured": null,
+    "expected": 4,
+    "hit": false
+   },
+   {
+    "k": 4,
+    "cls": "unres",
+    "measured": 6,
+    "expected": 4,
+    "hit": false
+   },
+   {
+    "k": 8,
+    "cls": "local",
+    "measured": null,
+    "expected": 8,
+    "hit": false
+   },
+   {
+    "k": 8,
+    "cls": "unres",
+    "measured": null,
+    "expected": 8,
+    "hit": false
+   }
+  ],
+  "hit": false
+ },
+ "S5.2": {
+  "frac": 0.9722222222222222,
+  "n": 144,
+  "hit": true
+ },
+ "S5.3": {
+  "frac": 0.925,
+  "n": 120,
+  "hit": true
+ },
+ "S5.4": {
+  "frac": 0.4,
+  "n": 5,
+  "hit": false
+ },
+ "S5.5": {
+  "frac": 0.9428571428571428,
+  "n": 70,
+  "hit": true
+ },
+ "S6.1": {
+  "frac": 0.875,
+  "n": 8,
+  "hit": true
+ },
+ "S6.2": {
+  "frac": 0.25,
+  "n": 8,
+  "hit": false
+ },
+ "S6.3": {
+  "frac": 0.75,
+  "n": 8,
+  "hit": true
+ },
+ "S7.1": {
+  "frac": null,
+  "n": 0,
+  "hit": false
+ },
+ "S7.2": {
+  "n": 0,
+  "hits": 0,
+  "hit": false
+ },
+ "S7.3": {
+  "frac": 0.0,
+  "n": 4,
+  "hit": false
+ },
+ "S7.4": {
+  "frac_refit": 0.8333333333333334,
+  "n_refit": 36,
+  "frac_plugin": 1.0,
+  "n_plugin": 42,
+  "hit": false
+ },
+ "S8.1": {
+  "frac": 0.0,
+  "n": 6,
+  "hit": false
+ },
+ "S8.2": {
+  "frac": null,
+  "n": 0,
+  "hit": false
+ },
+ "S9.1": {
+  "frac": 1.0,
+  "sanity": 1.0,
+  "n": 12,
+  "hit": true
+ },
+ "S9.2": {
+  "frac": 1.0,
+  "n": 12,
+  "hit": true
+ },
+ "S10.1": {
+  "frac": 0.25,
+  "n": 4,
+  "hit": false
+ },
+ "S10.2": {
+  "frac": 1.0,
+  "n": 4,
+  "hit": true
+ }
+}

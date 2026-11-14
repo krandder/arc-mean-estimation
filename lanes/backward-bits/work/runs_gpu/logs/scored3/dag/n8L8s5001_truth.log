@@ -1,0 +1,2 @@
+[    313s] l=0: I*(h;c_L) 4.219 | K: H 3.17 I_out 2.325 I_chain 2.118 | R: H 8.47 I_out 4.091 I_chain 4.018 | P: H 0.03 I_out 0.008 I_chain 0.001 | PR: H 5.35 I_out 3.635 I_chain 3.528 | direct rate_K H 3.17 I 2.325 rate_R H 8.47 I 4.091 rate_P H 0.04 I 0.033 rate_PR H 5.35 I 3.635 rate_truth H 4.09 I 2.998 relevance_rho H 8.47 I 4.091 | 310s
+[    313s] done

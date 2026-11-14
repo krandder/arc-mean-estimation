@@ -1,0 +1,590 @@
+[
+ {
+  "id": "n16L16s5000_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5000_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5000_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5000_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5001_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5001_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5001_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5001_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5002_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5002_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5002_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5002_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5000_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5000_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5000_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5000_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5001_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5001_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5001_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5001_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5002_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5002_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5002_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5002_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5000_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5000_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5000_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5000_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5001_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5001_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5001_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5001_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5002_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5002_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5002_chainK",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5002_chainPR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5000_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5000_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5000_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5000_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5001_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5001_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5001_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5001_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5002_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5002_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5002_chainR",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5002_chainP",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5000_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n16L16s5000_chainK",
+   "n16L16s5000_chainR",
+   "n16L16s5000_chainP",
+   "n16L16s5000_chainPR"
+  ]
+ },
+ {
+  "id": "n8L16s5000_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n8L16s5000_chainK",
+   "n8L16s5000_chainR",
+   "n8L16s5000_chainP",
+   "n8L16s5000_chainPR"
+  ]
+ },
+ {
+  "id": "n16L16s5001_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n16L16s5001_chainK",
+   "n16L16s5001_chainR",
+   "n16L16s5001_chainP",
+   "n16L16s5001_chainPR"
+  ]
+ },
+ {
+  "id": "n8L16s5001_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n8L16s5001_chainK",
+   "n8L16s5001_chainR",
+   "n8L16s5001_chainP",
+   "n8L16s5001_chainPR"
+  ]
+ },
+ {
+  "id": "n16L16s5002_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n16L16s5002_chainK",
+   "n16L16s5002_chainR",
+   "n16L16s5002_chainP",
+   "n16L16s5002_chainPR"
+  ]
+ },
+ {
+  "id": "n8L16s5002_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n8L16s5002_chainK",
+   "n8L16s5002_chainR",
+   "n8L16s5002_chainP",
+   "n8L16s5002_chainPR"
+  ]
+ },
+ {
+  "id": "n16L8s5000_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n16L8s5000_chainK",
+   "n16L8s5000_chainR",
+   "n16L8s5000_chainP",
+   "n16L8s5000_chainPR"
+  ]
+ },
+ {
+  "id": "n8L8s5000_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n8L8s5000_chainK",
+   "n8L8s5000_chainR",
+   "n8L8s5000_chainP",
+   "n8L8s5000_chainPR"
+  ]
+ },
+ {
+  "id": "n16L8s5001_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n16L8s5001_chainK",
+   "n16L8s5001_chainR",
+   "n16L8s5001_chainP",
+   "n16L8s5001_chainPR"
+  ]
+ },
+ {
+  "id": "n8L8s5001_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n8L8s5001_chainK",
+   "n8L8s5001_chainR",
+   "n8L8s5001_chainP",
+   "n8L8s5001_chainPR"
+  ]
+ },
+ {
+  "id": "n16L8s5002_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n16L8s5002_chainK",
+   "n16L8s5002_chainR",
+   "n16L8s5002_chainP",
+   "n16L8s5002_chainPR"
+  ]
+ },
+ {
+  "id": "n8L8s5002_truth",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_truth.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chains K,R,P,PR",
+  "deps": [
+   "n8L8s5002_chainK",
+   "n8L8s5002_chainR",
+   "n8L8s5002_chainP",
+   "n8L8s5002_chainPR"
+  ]
+ },
+ {
+  "id": "n16L16s5000_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,11,7,3,0",
+  "deps": [
+   "n16L16s5000_chainK"
+  ]
+ },
+ {
+  "id": "n8L16s5000_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,11,7,3,0",
+  "deps": [
+   "n8L16s5000_chainK"
+  ]
+ },
+ {
+  "id": "n16L16s5001_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,11,7,3,0",
+  "deps": [
+   "n16L16s5001_chainK"
+  ]
+ },
+ {
+  "id": "n8L16s5001_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,11,7,3,0",
+  "deps": [
+   "n8L16s5001_chainK"
+  ]
+ },
+ {
+  "id": "n16L16s5002_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,11,7,3,0",
+  "deps": [
+   "n16L16s5002_chainK"
+  ]
+ },
+ {
+  "id": "n8L16s5002_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,11,7,3,0",
+  "deps": [
+   "n8L16s5002_chainK"
+  ]
+ },
+ {
+  "id": "n16L8s5000_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,5,3,1,0",
+  "deps": [
+   "n16L8s5000_chainK"
+  ]
+ },
+ {
+  "id": "n8L8s5000_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,5,3,1,0",
+  "deps": [
+   "n8L8s5000_chainK"
+  ]
+ },
+ {
+  "id": "n16L8s5001_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,5,3,1,0",
+  "deps": [
+   "n16L8s5001_chainK"
+  ]
+ },
+ {
+  "id": "n8L8s5001_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,5,3,1,0",
+  "deps": [
+   "n8L8s5001_chainK"
+  ]
+ },
+ {
+  "id": "n16L8s5002_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,5,3,1,0",
+  "deps": [
+   "n16L8s5002_chainK"
+  ]
+ },
+ {
+  "id": "n8L8s5002_gauss",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,5,3,1,0",
+  "deps": [
+   "n8L8s5002_chainK"
+  ]
+ },
+ {
+  "id": "n16L16s5000_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --layers 14,11,7,3,0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5000_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --layers 14,11,7,3,0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5001_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --layers 14,11,7,3,0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5001_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --layers 14,11,7,3,0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5002_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --layers 14,11,7,3,0",
+  "deps": []
+ },
+ {
+  "id": "n8L16s5002_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --layers 14,11,7,3,0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5000_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --layers 6,5,3,1,0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5000_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --layers 6,5,3,1,0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5001_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --layers 6,5,3,1,0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5001_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --layers 6,5,3,1,0",
+  "deps": []
+ },
+ {
+  "id": "n16L8s5002_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --layers 6,5,3,1,0",
+  "deps": []
+ },
+ {
+  "id": "n8L8s5002_fwd",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/run_fwd.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --layers 6,5,3,1,0",
+  "deps": []
+ },
+ {
+  "id": "n16L16s5000_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,7,0",
+  "deps": [
+   "n16L16s5000_chainK"
+  ]
+ },
+ {
+  "id": "n8L16s5000_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,7,0",
+  "deps": [
+   "n8L16s5000_chainK"
+  ]
+ },
+ {
+  "id": "n16L16s5001_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,7,0",
+  "deps": [
+   "n16L16s5001_chainK"
+  ]
+ },
+ {
+  "id": "n8L16s5001_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,7,0",
+  "deps": [
+   "n8L16s5001_chainK"
+  ]
+ },
+ {
+  "id": "n16L16s5002_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,7,0",
+  "deps": [
+   "n16L16s5002_chainK"
+  ]
+ },
+ {
+  "id": "n8L16s5002_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 14,7,0",
+  "deps": [
+   "n8L16s5002_chainK"
+  ]
+ },
+ {
+  "id": "n16L8s5000_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,3,0",
+  "deps": [
+   "n16L8s5000_chainK"
+  ]
+ },
+ {
+  "id": "n8L8s5000_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,3,0",
+  "deps": [
+   "n8L8s5000_chainK"
+  ]
+ },
+ {
+  "id": "n16L8s5001_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,3,0",
+  "deps": [
+   "n16L8s5001_chainK"
+  ]
+ },
+ {
+  "id": "n8L8s5001_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,3,0",
+  "deps": [
+   "n8L8s5001_chainK"
+  ]
+ },
+ {
+  "id": "n16L8s5002_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,3,0",
+  "deps": [
+   "n16L8s5002_chainK"
+  ]
+ },
+ {
+  "id": "n8L8s5002_conv",
+  "cmd": "cd /root/soup && /root/venv/bin/python scripts/conv_check.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --layers 6,3,0",
+  "deps": [
+   "n8L8s5002_chainK"
+  ]
+ }
+]

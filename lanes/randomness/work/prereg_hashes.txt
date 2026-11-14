@@ -1,0 +1,16 @@
+aea61921db2e95befd5cb3a6721c56324bd8886f2f06fe91f2d45297e43b1872  PREREG.md
+dcb67d1971e74bc1be7ac6bc90a0f7b7e9d4bb300d25b4acafaaead50a95a06b  lib/rnd.py
+d99253c5edff6b9129e5f28d503d5e65fd327726462f0c59c3b71672d68b8113  scratch/structure.py
+dc98fccf28869d2b844fe2594d4aa9ab4fe1655fa33ce24637d8f366a3fae5ca  scratch/combo.py
+68e470aeddc961f33af3a287a76780ebdca41f9af0cb2ec037eb70b57e676d2f  scratch/noise.py
+669d435eb573eec0cd9e25f18ce7f27de7396bd30d6e8cc40831f912725aad36  scratch/detqmc.py
+b05f44f865bf990cccf3e52ada789792008159f80390b6d6ba0ad8a241f9ee52  scratch/score.py
+11e9069d122808fb805b59606649e1fed24ef93ae6b7d66aac4cf16a3c8f9679  tests/test_rnd.py
+hashed 2026-11-02T13:45:49Z (PREREG part 1, before any evaluation run)
+c43af18deb6c90eae69c607bf2c709ae317343c210d8fc7aa35b27d411dd6bc0  PREREG.md
+341ace3669936044b9aa44c39968a108113bd5d8e346799abf9313784f44dccd  scratch/rates.py
+8a4b7bb0f597934c3e0f5010e7afc3fe0b45aa5aa38ad7086540e42672ea009e  scratch/rate_fit.py
+hashed 2026-11-02T13:50:47Z (Amendment 1, before reading any evaluation result)
+75b3bca74b08c6c24629074f9a64df2421d4e9f181ce15d5838b66c76864571b  PREREG.md
+a070ad7a0372f552d73e213f8f8da7b18beca3b0584c7879d5d0d6ab01b6d04e  scratch/score_a2.py
+hashed 2026-11-02T15:00:43Z (Amendment 2, before any 512 x 64 run)

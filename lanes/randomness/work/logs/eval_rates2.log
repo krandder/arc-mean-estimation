@@ -1,0 +1,10 @@
+[    2.5s] seed=204 rqmc_std N=2^8: var*N/V=0.783 nmse*N=0.775
+[    3.3s] seed=204 rqmc_polar N=2^8: var*N/V=0.672 nmse*N=0.703
+[  407.2s] seed=204 rqmc_std N=2^18: var*N/V=0.716 nmse*N=0.787
+[ 1034.1s] seed=204 rqmc_polar N=2^18: var*N/V=0.723 nmse*N=0.750
+done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/rates_n256_L32_s204.json
+[    3.5s] seed=203 rqmc_std N=2^8: var*N/V=0.742 nmse*N=0.725
+[    6.1s] seed=203 rqmc_polar N=2^8: var*N/V=0.709 nmse*N=0.700
+[  592.6s] seed=203 rqmc_std N=2^18: var*N/V=0.337 nmse*N=0.362
+[ 1183.2s] seed=203 rqmc_polar N=2^18: var*N/V=0.487 nmse*N=0.459
+done -> /srv/agent-data/home/workspaces/mats/work/randomness/scratch/../runs/rates_n256_L32_s203.json

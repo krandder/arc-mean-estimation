@@ -1,0 +1,16 @@
+[    115s] l=14: T 4.796 (erased 0.200 of 4.995) | code K=64 H 4.990 I 4.620 deficit 0.175 | reuse H 4.990 I 4.620 | exCE 0.0856 | 114s
+[    235s] l=13: T 4.745 (erased 0.249 of 4.994) | code K=64 H 4.985 I 4.554 deficit 0.191 | reuse H 4.985 I 4.554 | exCE 0.0679 | 120s
+[    341s] l=12: T 4.666 (erased 0.308 of 4.974) | code K=64 H 4.943 I 4.463 deficit 0.204 | reuse H 4.943 I 4.463 | exCE 0.0430 | 106s
+[    462s] l=11: T 4.649 (erased 0.285 of 4.933) | code K=64 H 4.890 I 4.471 deficit 0.178 | reuse H 4.890 I 4.471 | exCE 0.1528 | 122s
+[    579s] l=10: T 4.758 (erased 0.136 of 4.894) | code K=64 H 4.889 I 4.615 deficit 0.143 | reuse H 4.889 I 4.615 | exCE 0.1756 | 117s
+[    712s] l=9: T 4.792 (erased 0.088 of 4.881) | code K=64 H 4.879 I 4.684 deficit 0.108 | reuse H 4.879 I 4.684 | exCE 0.4444 | 133s
+[    851s] l=8: T 4.836 (erased 0.052 of 4.888) | code K=64 H 4.887 I 4.764 deficit 0.072 | reuse H 4.887 I 4.764 | exCE 0.3764 | 138s
+[    980s] l=7: T 4.818 (erased 0.059 of 4.877) | code K=64 H 4.877 I 4.740 deficit 0.077 | reuse H 4.877 I 4.740 | exCE 0.4273 | 129s
+[   1129s] l=6: T 4.821 (erased 0.066 of 4.886) | code K=64 H 4.888 I 4.737 deficit 0.084 | reuse H 4.888 I 4.737 | exCE 0.5527 | 149s
+[   1256s] l=5: T 4.818 (erased 0.059 of 4.877) | code K=64 H 4.878 I 4.740 deficit 0.078 | reuse H 4.878 I 4.740 | exCE 0.4600 | 128s
+[   1403s] l=4: T 4.855 (erased 0.026 of 4.881) | code K=64 H 4.881 I 4.810 deficit 0.045 | reuse H 4.881 I 4.810 | exCE 0.5971 | 147s
+[   1522s] l=3: T 4.850 (erased 0.031 of 4.881) | code K=64 H 4.881 I 4.800 deficit 0.051 | reuse H 4.881 I 4.800 | exCE 0.6798 | 119s
+[   1657s] l=2: T 4.859 (erased 0.032 of 4.891) | code K=64 H 4.892 I 4.808 deficit 0.051 | reuse H 4.892 I 4.808 | exCE 0.8632 | 135s
+[   1806s] l=1: T 4.850 (erased 0.039 of 4.889) | code K=64 H 4.890 I 4.792 deficit 0.058 | reuse H 4.890 I 4.792 | exCE 1.1722 | 149s
+[   1960s] l=0: T 4.873 (erased 0.020 of 4.893) | code K=64 H 4.894 I 4.834 deficit 0.039 | reuse H 4.894 I 4.834 | exCE 1.7718 | 153s
+[   1960s] done

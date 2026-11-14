@@ -1,0 +1,4 @@
+2026-11-02T14:18:49Z start 2: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 9100 --sigma 0.01 --KL 64 --device cuda --out /root/runs/dev2 --chain PR --cert 1 --lookahead 0
+2026-11-02T14:18:49Z start 1: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 9100 --sigma 0.01 --KL 64 --device cuda --out /root/runs/dev2 --chain K --cert 1
+2026-11-02T14:18:49Z start 4: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 9100 --sigma 0.01 --KL 64 --device cuda --out /root/runs/dev2 --chain P --lookahead 0
+2026-11-02T14:18:49Z start 3: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 9100 --sigma 0.01 --KL 64 --device cuda --out /root/runs/dev2 --chain R --lookahead 0

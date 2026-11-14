@@ -1,0 +1,51 @@
+n=64 L=8 s=300 gauss: full-recursion nMSE 3.725e-03 (replicate noise var 1.6e-05) (8s)
+n=64 L=8 s=300 radgauss: full-recursion nMSE 2.168e-03 (replicate noise var 1.3e-05) (24s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s300.json 24s
+n=64 L=8 s=301 gauss: full-recursion nMSE 3.680e-03 (replicate noise var 9.4e-06) (11s)
+n=64 L=8 s=301 radgauss: full-recursion nMSE 2.135e-03 (replicate noise var 3.0e-05) (31s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s301.json 31s
+n=64 L=8 s=302 gauss: full-recursion nMSE 1.856e-03 (replicate noise var 1.0e-05) (10s)
+n=64 L=8 s=302 radgauss: full-recursion nMSE 1.732e-03 (replicate noise var 5.9e-05) (29s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s302.json 29s
+n=64 L=8 s=303 gauss: full-recursion nMSE 1.958e-03 (replicate noise var 1.7e-05) (9s)
+n=64 L=8 s=303 radgauss: full-recursion nMSE 1.614e-03 (replicate noise var 3.4e-05) (27s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s303.json 27s
+n=64 L=8 s=304 gauss: full-recursion nMSE 1.731e-03 (replicate noise var 4.3e-06) (9s)
+n=64 L=8 s=304 radgauss: full-recursion nMSE 4.128e-03 (replicate noise var 5.6e-05) (29s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s304.json 29s
+n=64 L=8 s=305 gauss: full-recursion nMSE 2.281e-03 (replicate noise var 2.1e-05) (11s)
+n=64 L=8 s=305 radgauss: full-recursion nMSE 1.938e-03 (replicate noise var 3.1e-05) (30s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s305.json 30s
+n=64 L=8 s=306 gauss: full-recursion nMSE 2.343e-03 (replicate noise var 1.1e-05) (9s)
+n=64 L=8 s=306 radgauss: full-recursion nMSE 9.009e-04 (replicate noise var 1.7e-05) (27s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s306.json 27s
+n=64 L=8 s=307 gauss: full-recursion nMSE 1.973e-03 (replicate noise var 9.4e-06) (9s)
+n=64 L=8 s=307 radgauss: full-recursion nMSE 1.526e-03 (replicate noise var 7.5e-06) (26s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n64_L8_s307.json 26s
+n=128 L=16 s=300 gauss: full-recursion nMSE 4.279e-03 (replicate noise var 7.4e-06) (40s)
+n=128 L=16 s=300 radgauss: full-recursion nMSE 7.740e-04 (replicate noise var 4.6e-05) (111s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s300.json 111s
+n=128 L=16 s=301 gauss: full-recursion nMSE 5.768e-04 (replicate noise var 1.5e-05) (46s)
+n=128 L=16 s=301 radgauss: full-recursion nMSE 1.742e-03 (replicate noise var 2.6e-04) (131s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s301.json 131s
+n=128 L=16 s=302 gauss: full-recursion nMSE 1.012e-03 (replicate noise var 2.2e-05) (38s)
+n=128 L=16 s=302 radgauss: full-recursion nMSE 1.784e-03 (replicate noise var 6.4e-04) (111s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s302.json 111s
+n=128 L=16 s=303 gauss: full-recursion nMSE 2.990e-03 (replicate noise var 1.5e-05) (39s)
+n=128 L=16 s=303 radgauss: full-recursion nMSE 1.004e-03 (replicate noise var 5.4e-05) (118s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s303.json 118s
+n=128 L=16 s=304 gauss: full-recursion nMSE 1.254e-03 (replicate noise var 7.8e-06) (33s)
+n=128 L=16 s=304 radgauss: full-recursion nMSE 1.084e-03 (replicate noise var 2.4e-04) (104s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s304.json 104s
+n=128 L=16 s=305 gauss: full-recursion nMSE 2.441e-03 (replicate noise var 8.6e-05) (35s)
+n=128 L=16 s=305 radgauss: full-recursion nMSE 5.144e-04 (replicate noise var 8.7e-06) (95s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s305.json 95s
+n=128 L=16 s=306 gauss: full-recursion nMSE 1.751e-03 (replicate noise var 8.6e-06) (42s)
+n=128 L=16 s=306 radgauss: full-recursion nMSE 6.409e-04 (replicate noise var 1.1e-05) (112s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s306.json 112s
+n=128 L=16 s=307 gauss: full-recursion nMSE 1.347e-03 (replicate noise var 3.9e-05) (35s)
+n=128 L=16 s=307 radgauss: full-recursion nMSE 9.143e-04 (replicate noise var 1.7e-04) (99s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n128_L16_s307.json 99s
+n=256 L=32 s=200 gauss: full-recursion nMSE 9.840e-04 (replicate noise var 1.7e-05) (299s)
+n=256 L=32 s=200 radgauss: full-recursion nMSE -1.915e-04 (replicate noise var 1.8e-03) (789s)
+done /srv/agent-data/home/workspaces/mats/work/arc-update/scratch/../runs/ipr_n256_L32_s200.json 789s

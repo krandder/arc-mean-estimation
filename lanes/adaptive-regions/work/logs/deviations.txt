@@ -1,0 +1,27 @@
+killed 64x8 oracle at d=64 K=4 (partial: d=16, d=32 complete; d=64 K=1) to free the slot for 32x4 work per main 17:50Z; 18:03:08Z
+19:13:57Z A4 relaunched for K=64,256,1024 with 600 steps, batch 2048 (K=16 run used 2000 steps, batch 4096)
+19:15:53Z A4 full-bump K>=64 run stopped (slow 3-operand einsum, 32 passes per bump closed form); switched to isotropic bumps (O(d) closed form), K=16..4096, 1500 steps
+19:27:37Z stopped the step4f isotropic sweep after K=16,64 (superseded by step4k: same model, 2^20 advice paths, stronger hold-out) to keep two heavy processes
+19:34Z killed step5 K=64 PID 4038029 (pre-review code); relaunched with astra fixes 7,8,9
+19:37Z killed step5 K=64 v2 PID 4153063; relaunched v3 with astra fix 10 (calibration sampling covariance). L4 copy patched on VM before worker start (scp).
+20:03Z L4 spot VM preempted 20:01Z during K=256 training (no results; ~0.5 h, <= $0.44); relaunching on-demand (GPU_PROVISIONING=STANDARD), timeout 4.5h, K caps 2h/2.33h
+20:05Z killed step4k PID 4018154 during K=4096 (big-K step cap gave K=1024 only 300 steps -> undertrained, leftover 1.02); relaunched K=1024,4096 with --equal_steps (1200 steps)
+20:05Z ended paused ladder chain PID 768930 (only 128x16 net 302 left; report uses 128x16 nets 300-301)
+20:38Z L4 run a5b: K=256 OOM in training deduce (all 256 parts x 256 draws with grad); killed K=1024 python (sklearn EM, 37 paths per component) by PID on VM; relaunching with torch EM, 1M advice paths, part subsampling in training
+20:50Z killed step4k bigK_eq (K=4096 at fixed 1200 steps, undertrained per main) PID 448272 and CPU step5 K=16 v3 (superseded by GPU 1M-path series); CPU slots for 4x4 nets
+20:53Z a5c on-demand create failed (STOCKOUT in 5 zones); retrying with wider zone list
+21:23Z a5d on-demand L4 stockout in 14 zones; GPU on hold. 4x4 A5 chain restarted after torch-EM Cholesky fix (degenerate components)
+21:48Z paused A4 4x4 step4m seed 9702 (PID 2374323, SIGSTOP) to run exact_hybrid 6x4
+21:49Z spot try 1 (a5s 21:34) ran but every K died in 13 s: CPU generator under cuda default device in init_em_torch randperm; fixed; retry loop restarted
+21:59Z stopped exact_hybrid 6x4 chain (PIDs 2463701/2463703; main: cone tree first); resumed A4 4x4 seed 9702 (PID 2374323)
+22:03Z paused A4 4x4 seed 9702 again (PID 2374323) to run the cone tree as the second heavy process
+22:19Z cone-tree chain restarted after cones.py fix (slivers: hull vertices + Genz for ill-conditioned orthants); wrong n=5 outputs trashed
+22:40Z cones.py Plackett: arcsine substitution (32-node quadrature was inaccurate for strongly correlated orthants); n=5 tree outputs trashed, chain restarted
+22:41Z spot try (a5s 21:49) preempted ~22:32 with no results ($0.63); retry loop now skips finished K, small K first, 3.0h timeout; partial sync every 5 min
+22:58Z paused A5 4x4 (PID 2777591, SIGSTOP) so two cone-tree processes can run (n=6 is slow)
+23:28Z GPU K=256 diverged (NaN, empty parts) at step ~296; added non-finite-step skip + grad clip; killed K=1024 on the VM (same code) so the retry loop reruns K=256/1024 with the fix
+02:28Z paused A5 4x4 chain python 374146 (main: pattern-map task replaces A4/A5; A4 seed 9703 left to finish)
+02:41Z pattern_chain fixed (entropy subset bug) + order-k chains; chain restarted
+03:50Z gauss_chain sweep; depth-sweep python 1667628 paused (STOP) during it
+03:51Z stopped depth pattern_chain sweep (chain 883061, python 1667628; n=4 L=2..12 done) - superseded by depth_saturation.py
+05:01Z ended paused A5 4x4 chain (2206224) and its stopped python (374146): superseded by the pattern-map task

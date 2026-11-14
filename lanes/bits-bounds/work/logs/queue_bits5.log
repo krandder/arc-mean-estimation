@@ -1,0 +1,25 @@
+start bits5 n=512 L=64 s=101 23:17:25Z
+start bits5 n=512 L=64 s=100 23:17:25Z
+end bits5 n=512 L=64 s=101 exit=0 23:19:22Z
+start bits5 n=384 L=96 s=100 23:19:22Z
+end bits5 n=512 L=64 s=100 exit=0 23:19:28Z
+start bits5 n=384 L=96 s=101 23:19:28Z
+end bits5 n=384 L=96 s=100 exit=0 23:20:56Z
+start bits5 n=192 L=192 s=100 23:20:56Z
+end bits5 n=384 L=96 s=101 exit=0 23:21:01Z
+start bits5 n=192 L=192 s=101 23:21:01Z
+end bits5 n=192 L=192 s=100 exit=0 23:21:50Z
+start bits5 n=192 L=192 s=102 23:21:50Z
+end bits5 n=192 L=192 s=101 exit=0 23:21:55Z
+start bits5 n=192 L=192 s=103 23:21:55Z
+end bits5 n=192 L=192 s=102 exit=0 23:22:45Z
+start bits5 n=128 L=256 s=100 23:22:45Z
+end bits5 n=192 L=192 s=103 exit=0 23:22:55Z
+start bits5 n=128 L=256 s=101 23:22:55Z
+end bits5 n=128 L=256 s=100 exit=0 23:23:17Z
+start bits5 n=128 L=256 s=102 23:23:17Z
+end bits5 n=128 L=256 s=101 exit=0 23:23:25Z
+start bits5 n=128 L=256 s=103 23:23:25Z
+end bits5 n=128 L=256 s=102 exit=0 23:23:41Z
+end bits5 n=128 L=256 s=103 exit=0 23:23:48Z
+bits5 queue done 23:23:48Z

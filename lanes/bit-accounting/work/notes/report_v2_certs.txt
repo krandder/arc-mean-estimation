@@ -1,0 +1,31 @@
+What the checks show, in words:
+- Restarts, 2x steps, refitted priors: the curves are reproducible; the 2x-steps model is within tolerance of the
+  base model at almost every point but is often the best code, so the reported counts (R*) are a few tenths of a bit
+  below the single registered model r0 there (both are in section 2 and results/P1_table.md). Fresh, richer priors
+  fitted on held-out codes give a lower rate at 7 of 2156 points (up to 10%), so the learned priors are tight almost
+  everywhere but not everywhere.
+- Linear reference: wherever a learned curve reaches an error level, it needs at most the linear reference's bits.
+  At the input layer the anchored local code coincides with it and the explorer codes need fewer bits; from L/4 on
+  every nonlinear local code needs clearly fewer.
+- 2x width, local: a local encoder of width 2n (outside the class; its decoder and prior are doubled too) needs
+  fewer bits at L/4 to L/2. The amendment's width-n encoder with the wide decoder and prior is no better than the
+  base model (median -0.02 bit), so the encoder's own width causes it: there the count depends on the class.
+- One model for all prices against single-price models: the variable-rate model is within 3% of the separately
+  trained single-price models at most spot checks but not all (worse by up to 27%); training it twice as long closes
+  part of the gap. The requirement is not met everywhere. The reported counts take the lower envelope of the
+  variable-rate curves and the single-price points (the registered fallback); the table's "source" column says
+  where a single-price point ('fixed') or a combination of curves ('pooled') sets the count.
+- Restarts all start from the same analytic anchor, whose local ReLU gates sit outside the data cloud (the encoder
+  starts affine), so restart agreement alone does not show that the nonlinear part of the local class was explored.
+  The amendment's explorer restarts start with the gates inside the cloud (the net's own next-layer gates) and keep
+  3-100% of them (median 69%) active on the data; they find codes with clearly fewer bits at the early layers (summary point 5),
+  so the anchored curves were not the best in the class there, and the explorer curves themselves are best-found,
+  not certified optimal (their own restarts differ by up to 14% at the input layer, median 2%).
+- Interpolation: counts use time-sharing between achieved points (conservative). The registered log-linear
+  interpolation over the same candidates is in results/P1_scores.json (R_loglinear).
+- Uncertainty: the only measured one is the spread between restarts (summary point 6). Neither the selection of the
+  minimum over about ten curves on the same held-out samples nor the sampling noise of the crossings is corrected.
+  The rates are one-draw estimates of an information upper bound, not confidence bounds.
+- The unrestricted-equals-output comparison is empirical, not a theorem here: decoding at layer l can only produce
+  outputs reachable from layer l (FORMAL 4.1), and the trained decoder may not find the preimage, so a gap need not
+  mean undertraining of the encoder.

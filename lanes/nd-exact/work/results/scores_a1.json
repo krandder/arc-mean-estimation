@@ -1,0 +1,98 @@
+{
+ "nets": {
+  "203": {
+   "T1b_best_ratio": 0.022208854022821196,
+   "T1b_pass": false,
+   "T2b_best_ratio": 0.0037565472531116573,
+   "T2b_pass": false,
+   "T3b_bits_per_halving": 7.495796726729108,
+   "T3b_pass": true,
+   "T5_best_ratio": 0.5887196470492992,
+   "T5_pass": false,
+   "T6_best_ratio": 4.331805140495044,
+   "T6_pass": true
+  },
+  "216": {
+   "T1b_best_ratio": 0.0442555427527413,
+   "T1b_pass": false,
+   "T2b_best_ratio": 0.003044964060627433,
+   "T2b_pass": false,
+   "T3b_bits_per_halving": 4.0362706572476545,
+   "T3b_pass": true,
+   "T5_best_ratio": 0.21313382484157478,
+   "T5_pass": false,
+   "T6_best_ratio": 3.5582920891497936,
+   "T6_pass": true
+  },
+  "217": {
+   "T1b_best_ratio": 0.02854300875724131,
+   "T1b_pass": false,
+   "T2b_best_ratio": 0.005371949594083198,
+   "T2b_pass": false,
+   "T3b_bits_per_halving": 5.368702011548876,
+   "T3b_pass": true,
+   "T5_best_ratio": 0.7453034215095523,
+   "T5_pass": false,
+   "T6_best_ratio": 2.7534906979335214,
+   "T6_pass": false
+  },
+  "220": {
+   "T1b_best_ratio": 0.03626821753674245,
+   "T1b_pass": false,
+   "T2b_best_ratio": 0.009277703063641448,
+   "T2b_pass": false,
+   "T3b_bits_per_halving": 3.084006467730394,
+   "T3b_pass": true,
+   "T5_best_ratio": 1.005408534592692,
+   "T5_pass": false,
+   "T6_best_ratio": 13.665483541147399,
+   "T6_pass": true
+  },
+  "221": {
+   "T1b_best_ratio": 0.01314577026467005,
+   "T1b_pass": false,
+   "T2b_best_ratio": 0.002539193123350603,
+   "T2b_pass": false,
+   "T3b_bits_per_halving": 3.7926662280447916,
+   "T3b_pass": true,
+   "T5_best_ratio": 0.5455431639696028,
+   "T5_pass": false,
+   "T6_best_ratio": 3.045185897562241,
+   "T6_pass": true
+  },
+  "223": {
+   "T1b_best_ratio": 0.009455426487273,
+   "T1b_pass": false,
+   "T2b_best_ratio": 0.0010987524910724272,
+   "T2b_pass": false,
+   "T3b_bits_per_halving": 3.580171016067947,
+   "T3b_pass": true,
+   "T5_best_ratio": 1.34613966655503,
+   "T5_pass": false,
+   "T6_best_ratio": 8.775497684041152,
+   "T6_pass": true
+  }
+ },
+ "verdicts": {
+  "T1b": {
+   "nets": 0,
+   "holds": false
+  },
+  "T2b": {
+   "nets": 0,
+   "holds": false
+  },
+  "T3b": {
+   "nets": 6,
+   "holds": true
+  },
+  "T5": {
+   "nets": 0,
+   "holds": false
+  },
+  "T6": {
+   "nets": 5,
+   "holds": true
+  }
+ }
+}

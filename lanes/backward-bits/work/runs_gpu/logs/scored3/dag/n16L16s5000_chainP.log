@@ -1,0 +1,16 @@
+[      1s] l=14: resumed
+[      1s] l=13: resumed
+[      1s] l=12: resumed
+[      1s] l=11: resumed
+[      1s] l=10: resumed
+[      1s] l=9: resumed
+[     79s] l=8: T 0.002 (erased 5.738 of 5.740) | code K=4 H 0.023 I 0.001 deficit 0.001 | reuse H 0.031 I 0.001 | exCE 0.0007 | 78s
+[    109s] l=7: T 0.001 (erased 5.739 of 5.740) | code K=4 H 0.020 I 0.000 deficit 0.000 | reuse H 0.020 I 0.000 | exCE 0.0002 | 29s
+[    156s] l=6: T 0.000 (erased 5.739 of 5.740) | code K=4 H 0.016 I 0.000 deficit 0.000 | reuse H 0.016 I 0.000 | exCE 0.0001 | 47s
+[    207s] l=5: T 0.000 (erased 5.739 of 5.740) | code K=4 H 0.014 I 0.000 deficit 0.000 | reuse H 0.014 I 0.000 | exCE 0.0001 | 51s
+[    246s] l=4: T 0.000 (erased 5.740 of 5.740) | code K=4 H 0.013 I 0.000 deficit 0.000 | reuse H 0.013 I 0.000 | exCE 0.0001 | 39s
+[    311s] l=3: T 0.000 (erased 5.740 of 5.740) | code K=4 H 0.011 I 0.000 deficit 0.000 | reuse H 0.011 I 0.000 | exCE 0.0001 | 65s
+[    365s] l=2: T 0.000 (erased 5.740 of 5.740) | code K=4 H 0.012 I 0.000 deficit 0.000 | reuse H 0.012 I 0.000 | exCE 0.0001 | 54s
+[    419s] l=1: T 0.000 (erased 5.740 of 5.740) | code K=4 H 0.013 I 0.000 deficit 0.000 | reuse H 0.013 I 0.000 | exCE 0.0001 | 54s
+[    462s] l=0: T 0.000 (erased 5.740 of 5.740) | code K=4 H 0.012 I 0.000 deficit 0.000 | reuse H 0.012 I 0.000 | exCE 0.0001 | 43s
+[    462s] done

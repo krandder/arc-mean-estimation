@@ -1,0 +1,42 @@
+b2a09f47f0a5f2d669aae3195dfb53968cae2d75a089c2cec688acb7c6c78c4e  PREREG.md
+e767e3cb105dce6cc5ea3b6526bb7ca5c9ae69d5508815196c1743cf17390381  scratch/run_eval.py
+373e507dfcc0910014a7755f0b427c0551cf21b6baaf1324cd37b2800e9d06e7  lib/bb.py
+5ea94c819c83a1ebc5603dbba2dbf993eeb4e8884ea42fe4ec834cb3cb1edd6a  lib/chain3.py
+44c35d444be8d5c0942529710cc7b1717747dbe9e1ec0da164f4ab5a13574c3d  lib/meanfield.py
+553c4b65ef39b4892ef7bbbaed48671968b58a63dddda79eea10cdba7abd45bf  tests/test_bb.py
+hashed 21:32:15Z, before any evaluation run (seeds 100-107 not yet run)
+0b093e720d7246518a70fbac5ac9c761f88fcc8abd29519ad2f5331ce273acd2  PREREG.md
+rehashed 21:32:27Z after fixing only the header time (21:50Z typo -> 21:25-21:32Z); still no evaluation run
+156c9f43d3dd59f22f85af92959d437e610265e9e76693e7a9d7911f0836f234  scratch/score_prereg.py
+scorer hashed 21:34:30Z, before reading any evaluation output
+03a02e74e74b76b277484666496d5a30b64b79e41bcf942391f9565dc32f383a  PREREG.md
+140e2d297972fbf4c9d4a21d60202d818fac98299065ec050a3654516a4b28b9  scratch/run_ml.py
+0bc07420a13c9aa0825aaad304bb11eab343ff4233ec6748c43193a03fa7c7ed  scratch/score_ml.py
+Amendment 1 hashed 21:45:37Z, before any F1 evaluation run
+4961125485deea3f5552e19aeae47dad86ba32e4a153b479d971a5a75464a158  PREREG.md
+b059cf403b0770666dc64a6024adf90a949fcf1c19ebb049bb8c9790c9640403  scratch/run_gain.py
+660c570d1237ede12a6253145f58dcc7f3a0d0bdbabaf987f52a727e7fcc8389  scratch/score_gain.py
+Amendment 2 hashed 22:04:13Z, before any run of run_gain.py
+cde0c070f824ab25bcd202573f6a5624d67bdf3a0b7813e8680a2a02d0fe91e1  PREREG.md
+rehashed 22:04:20Z after fixing only Amendment 2's header time (22:05Z -> 22:02-22:04Z); no run yet
+c8cfd626a162a9074601a97157830f1289c2a40248aeca103de153e1a21f6fa2  PREREG.md
+fe051d53ac5edbe4ae2e39de4d4d6b88fc9f68110acbd4322ad850b1a363eb20  lib/closure.py
+f71d0c593dcdb1cea6a6158df9fddfbe8f3f331eccc6cf1293629788c1e97892  tests/test_closure.py
+23b2fd6f9162602219dadb0fb942b447d2a709875592503cc9f16e51cfacd502  scratch/run_closure.py
+63f339f74d65dddfc4617f8277de6972f787d9064ceb28f8367c53ec20440bea  scratch/score_closure.py
+Amendment 3 hashed 22:20:53Z, before any evaluation run of run_closure.py
+9ce9ede0821af36123e6f334e984beb6693675c2200066ad93023d4dcf14a96b  PREREG.md
+rehashed 22:20:57Z after fixing only Amendment 3's header time (22:20-22:25Z -> 22:18-22:20Z); no run yet
+e79b684f582cd65ebe13f88d1ae317759b231d0318a098ec4b95baddfa576282  PREREG.md
+Amendment 4 hashed 22:29:12Z, before any run of the Amendment 4 configurations
+88ec2995cb5aa0ba6fecde24d0f87ed349fe3d9ba4975137c706e1b3737cdedb  PREREG.md
+rehashed 22:29:18Z after fixing only Amendment 4's header time; no Amendment 4 run yet
+73955074ca3776a06a65414fe19343e2b00cfaf669b741157d83722df637dba5  PREREG.md
+c4f55c6d49accd60bcbdcd00022f98885408f18464a11ef9447260993e74d425  scratch/run_bits5.py
+5705b51ccecf534baca9ce60d7a779c3abbd1bd9e3d3e36e115d96ba678c84ef  scratch/score_bits5.py
+e767e3cb105dce6cc5ea3b6526bb7ca5c9ae69d5508815196c1743cf17390381  scratch/run_eval.py
+00b6b078f800d3825ffa2b0a5ab66603e9a24c5e0feff9ecf63e413b3594c5ab  lib/bb.py
+a3580f88efd42bf40ffcc06878a0461f7e48e86735a94859b153f18f4831c8d2  scratch/jobs_bits5.txt
+Amendment 5 hashed 23:17:13Z, before any evaluation run of run_bits5.py (runs5/ empty; lib/bb.py includes the post-review k-means fix)
+afb667a862fe68088c8523c1d0d2eefbc3c5aad5b14a615699e695ab957efac0  PREREG.md
+rehashed 23:17:20Z after fixing only Amendment 5's header time (23:15-23:24Z -> 23:12-23:17Z); no Amendment 5 run yet

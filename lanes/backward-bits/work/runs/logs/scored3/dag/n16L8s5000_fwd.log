@@ -1,0 +1,19 @@
+l=6 K=2: H 0.947 I_out 0.553 (I* 4.274) crn 0.5449 (mean dec 0.5823) avg 0.5311
+l=6 K=4: H 1.880 I_out 1.055 (I* 4.274) crn 0.3983 (mean dec 0.4255) avg 0.3868
+l=6 K=8: H 2.533 I_out 1.416 (I* 4.274) crn 0.3442 (mean dec 0.3604) avg 0.3338
+l=6 K=16: H 3.316 I_out 1.755 (I* 4.274) crn 0.3117 (mean dec 0.3094) avg 0.3016
+l=6 K=32: H 4.124 I_out 2.071 (I* 4.274) crn 0.2533 (mean dec 0.2514) avg 0.2449
+l=6 K=64: H 4.676 I_out 2.383 (I* 4.274) crn 0.2546 (mean dec 0.2189) avg 0.2467
+l=3 K=2: H 0.840 I_out 0.435 (I* 2.247) crn 0.4693 (mean dec 0.4818) avg 0.4075
+l=3 K=4: H 1.446 I_out 0.742 (I* 2.247) crn 0.3356 (mean dec 0.3458) avg 0.2782
+l=3 K=8: H 2.137 I_out 0.991 (I* 2.247) crn 0.2747 (mean dec 0.2861) avg 0.2231
+l=3 K=16: H 3.291 I_out 1.193 (I* 2.247) crn 0.2583 (mean dec 0.2580) avg 0.2122
+l=3 K=32: H 3.977 I_out 1.390 (I* 2.247) crn 0.2047 (mean dec 0.2049) avg 0.1660
+l=3 K=64: H 4.476 I_out 1.518 (I* 2.247) crn 0.1643 (mean dec 0.1732) avg 0.1288
+l=0 K=2: H 0.348 I_out 0.195 (I* 1.403) crn 0.5837 (mean dec 1.1607) avg 0.4271
+l=0 K=4: H 0.238 I_out 0.145 (I* 1.403) crn 0.6285 (mean dec 1.2853) avg 0.4708
+l=0 K=8: H 0.000 I_out 0.000 (I* 1.403) crn 0.8043 (mean dec 1.6380) avg 0.6498
+l=0 K=16: H 0.000 I_out 0.000 (I* 1.403) crn 0.7978 (mean dec 1.6380) avg 0.6480
+l=0 K=32: H 0.014 I_out 0.008 (I* 1.403) crn 1.0607 (mean dec 1.6128) avg 0.7729
+l=0 K=64: H 0.068 I_out 0.040 (I* 1.403) crn 0.8933 (mean dec 1.5338) avg 0.6498
+done 391.4389293193817

@@ -1,0 +1,162 @@
+# sha256 of registered files (UTC time of hashing)
+## Part P1 2026-11-02T04:30:06Z
+4b5cda324a24194029937bb5e83661bf615e0d898a3aa6ca1e96520b1c82813b  PREREG.md
+8bd6c1f92c15ce558ba9a500210e824c5c7a80bf20cb4c36b71415d76d932871  gpu_src/lib/vrlib.py
+7f20fe23337207d45068675b75fd7ccfcff06c5ad435698871d811d2379053cb  gpu_src/scripts/run_vr.py
+cd62d52ed6fb67e74ec446ac9323c9bf4f86389432174ce531d5e051fc6693bb  gpu_src/scripts/ref_curve.py
+005b869ab8c60dc89af2ba6e315ba62befa5710c9cf565406138eff08c934880  gpu_src/queue/10_eval.sh
+fb9baf22290ee2400d3f64c1aa7e5962afb3e3c85dae2e4a989d099606232440  lib/vra.py
+8d9389fb2eaefc7fd904f95cee525ca909f30c170f8ac495fc2cb336c2e21e7a  scratch/score_P1.py
+4cfc7e72b3996f94c927763719cbaec373c94f730cf1389363922012072bc3eb  notes/QUESTIONS.md
+8e055269a2bf96ae99b6fc9ee69e88f9af90661c18db1e2f6f4280901757247e  notes/DESIGN.md
+## Amendment A1 2026-11-02T04:43:59Z
+cc5a69491b1a59b676ce56b4d5a423846e58eae647d7f7f01bc0d1946bfc0952  PREREG.md
+da593b97ccea7f7479d47d32fcaf0dd80302860124aa80e7c1e8639db929f7e3  gpu_src/lib/vrlib.py
+f681f127570d7a9c812bc22b9d470d89ee43b1e8baad353b86ffe92407fd3084  gpu_src/queue/11_eval.sh
+acfb711edb9786ea7c7d8e90762ab11e4c37960b745f91e04cd2adc9b5239b2e  gpu_src/queue/12b_vm1_early.sh
+f8794e2a59b822b06fef617609a5130e4ddcb6a1de8d05e53f0471c2bd05e5b8  gpu_src/queue/13_vmB_milestone.sh
+067379661a7eadd12b6e50b75b41f163b7d7108d7059af46e307dc6704738849  notes/DEVIATIONS.md
+## Amendment A1 time corrected in the text (04:47Z -> 04:44Z) 2026-11-02T04:44:10Z
+79d5c82b11a01a4083daa2a944981a7aec40d764389b9d1c5fc63621ee106ee3  PREREG.md
+b888fbaf755d05502d442657546cbdf69ab318d548cb0dc04722b8e178ee4b76  notes/DEVIATIONS.md
+## Amendment A2 2026-11-02T04:50:41Z
+e1cedfb2bbef8ad58c77ca68b68c70d1b0e65ed4088677ba363fb39e62874fb7  PREREG.md
+20637e7907eba771199822cdf4928a89aec125d5f63bf5dea79d04d9edfba447  gpu_src/lib/vrlib.py
+49596a6d2cdfdab47872b8f7ae84f5f07360a7b8907f0092f7d126be00ee9733  gpu_src/queue/21_eval.sh
+acfb711edb9786ea7c7d8e90762ab11e4c37960b745f91e04cd2adc9b5239b2e  gpu_src/queue/22_vm1_early.sh
+f8794e2a59b822b06fef617609a5130e4ddcb6a1de8d05e53f0471c2bd05e5b8  gpu_src/queue/23_vmB_milestone.sh
+187456ae937f533d0051afaccddfb450851e4c42b757c167b9fe0ac91bfe935f  notes/DEVIATIONS.md
+## Amendment A2 time corrected in the text (04:58Z -> 04:50Z) 2026-11-02T04:50:58Z
+0359cd292d999fe626d649de5e530c46ac6f9979949b7d6b7ab334a69cb70ea0  PREREG.md
+d0b154dcf997f86c8350618fae9824d5724cc45b5d4f58a9d416befa1faa9ded  notes/DEVIATIONS.md
+## Amendment A3 2026-11-02T05:01:11Z
+9a16c86b737704ccef8ddabf6670a8c3ee306d3aa3df96ed9c330989deb96303  PREREG.md
+999a35f8abfe272fc1ea9a5dab3e212c05b7446dd52cd0e06c792ea7b866e58f  gpu_src/lib/vrlib.py
+3061c2e5dac148aa6d5e6b459d0f0b0f049a6c84174658925e104d146ec5d660  gpu_src/scripts/run_vr.py
+9450d8cc97abf998aa2826dd94775793b1607fd36a6776a13e0be4df9dd25e68  gpu_src/queue/24_h1.sh
+a04b9b302c8be923d4a8aefb1dfe03655723b9931919dd67dcfd96c6be1031bd  notes/DEVIATIONS.md
+## Amendment A3 time corrected in the text (~05:10Z -> 05:01Z) 2026-11-02T05:01:25Z
+fffc17791a1caa884c1aa32635a62e64c4a45bbc679b4314ac2b0ad7b73a6c2d  PREREG.md
+b192dcde8aa0c16e5cd3cc179e7e35a7eedb8e2c4820e88c65d55418fa83d7cf  notes/DEVIATIONS.md
+## Amendment A4 2026-11-02T05:20:15Z
+fe7a5274ca6ac045f42b850d850ce92dfcb6fe1eec5ea18f335748f1cd1c9c72  PREREG.md
+93ab22f44e27bc4f0690e7e58ceaa5ad1dddfd5743204941735e613318526f8f  gpu_src/lib/vrlib.py
+cd62d52ed6fb67e74ec446ac9323c9bf4f86389432174ce531d5e051fc6693bb  gpu_src/scripts/ref_curve.py
+83e93bd07f61f8b2294eae6f92d98a40e1f44fc593f620817d623e1fa264fcfc  gpu_src/queue/31_eval.sh
+b23f1d8f6e7976310b76b7ff54ae46d635149af215e9564cdeed25177ac47e02  gpu_src/queue/33_vmB_milestone.sh
+05119863d44d64e5b8979632a5337c5c23c26cfde63abb73a9c990a57d1ce7fa  gpu_src/queue/34_h1.sh
+b201bf91b1bdb8ded4e37104999c57b7978ed3da752c2628bfc23591271dba53  notes/DEVIATIONS.md
+## Scorer v2 (Amendment A4 scoring rules) 2026-11-02T05:24:05Z, before any scoring
+4fe4ff13f1b5215e09faec3247f4f0537527f93a33adb43eabc9abe1a79ae86f  scratch/score_P1_v2.py
+8727a1d8ffae9cee4b9dc70a442f0b6ac8bf937307f57ebb3efbc8dae7800362  lib/vra.py
+## Amendment A5 2026-11-02T05:27:50Z
+d71f4ab653d3ffb690627acc3fa15b8732f18415badf0ffda0698e61d0f71948  PREREG.md
+009e4693e48367f62b07e0e15d34bc2870ae5bd61a8dd8f4776362ed788deeeb  gpu_src/lib/vrlib.py
+c31c03d5a7959284b728e8586b9557eef48731b12f2e97a1f6bf90c9dd581fed  gpu_src/scripts/ref_curve.py
+0b4a105ccc9c77164eccd17f56d295a4dd09713ed2a717076620b6191975804b  gpu_src/queue/35_rerun_a5.sh
+21b4eedd7bd55df83cc08fcb4a9435faab0bdb666d5001857bbf366281485768  notes/DEVIATIONS.md
+## Amendment A5 time corrected in the text (05:31Z -> 05:28Z) 2026-11-02T05:28:30Z
+4ec64f85d3b535790607f51df5aaa7b99698de390a2b63b57df16016cb202636  PREREG.md
+2f73e581e95085c763fab557ca600044cf266d9baf6a4f8b1b47c47199f025e0  notes/DEVIATIONS.md
+## Replacement-VM queue 2026-11-02T05:30:14Z (31_eval.sh without the one-time superseded-move step)
+b077c225d803f0298149b9e3cb016277f67315b7d5ddfd1a67598d1c11fdf6d7  gpu_src/queue/41_eval.sh
+## Amendment A6 2026-11-02T05:31:10Z
+2fd5de1c74fbfcc8d9daf5280f8ef643cb0d4b51e0407e603086011dbe643462  PREREG.md
+b01a1163b8175ddcd7893140c562e64b359b644e1f9385c0bac6b5aec82c4a1a  gpu_src/queue/36_toyref.sh
+## Amendment A7 2026-11-02T06:36:55Z
+09166f05d446cf4783a2ab16d670ce10c9b5ee04587147480402acd5083e0fd6  PREREG.md
+933e20a0113191300519aa5aa7b2252ff9bcb76a5495d530fb85efa98f9ab399  gpu_src/queue/38_h1_more.sh
+5024aae0d745760e8d8344ef648f22ce03395a46f48d0f4955a444e3661c22a0  gpu_src/scripts/refine_posthoc.py
+a4c1946e4becbdce00cd0488e285b5392b22b8559ee52b78555fe0bae173283b  gpu_src/queue/37_refine_posthoc.sh
+## Amendment A7 time corrected in the text (06:40Z -> 06:36Z) 2026-11-02T06:37:37Z
+c2099c7b5c52acbe0dfe0891bac18517a9e4aaa4139dafce9206367b7a8bc298  PREREG.md
+## Queue files: hostname patterns extended to bitarc-7..10 (process only) 2026-11-02T07:27:06Z
+fbbe36d371a11737ca66b1eef136d120c3b3ae88ab420e8421ebc56b2b1fca70  gpu_src/queue/33_vmB_milestone.sh
+4a7c8f05ad09fd7ac23bba0fcb11780eef3e44e7d73be9909ddfcc8a0a955f95  gpu_src/queue/34_h1.sh
+49c8da2040c8b981f3b2e3695b29080f1cc31615aec8952a83797a47acab9177  gpu_src/queue/35_rerun_a5.sh
+6b040c59f8a892d5e48bb8c248a41e6cd9900fcdf06815ee26f4c4205f0e8365  gpu_src/queue/36_toyref.sh
+58c818ae6609bbb58dc57bc1460f31812c285e56006bc44939f60c27b88eed0f  gpu_src/queue/37_refine_posthoc.sh
+d4b2d401860a2566d65c7bdff23bb23435db6babbe3b46bc26f3aa8eab722816  gpu_src/queue/38_h1_more.sh
+3ab739bd0bd09d4ff2dec8706e79e891226fbe085506c1ffa3c1cde1cd755637  gpu_src/queue/41_eval.sh
+## Amendment A8 2026-11-02T08:39:35Z
+332c3bf2663d72fcd0ff93acd8974416768175ac2183a24871739d60470ce129  PREREG.md
+8dcd221b303fd3590ccffc53d98c54ef0e0add412e11553c9f6ac4d78d5dd5fe  gpu_src/queue/51_A.sh
+38938e3be328bea7be47b68a19753ec4545120e55b98b0f974ff0d85a6193db0  gpu_src/queue/51_B.sh
+93cbbcb8d58b2f1c9830db4b3391b622eda6e807eb0cfdb175ab7202e067237a  notes/DEVIATIONS.md
+## Amendment A8 time corrected in the text (08:45Z -> 08:39Z) 2026-11-02T08:39:58Z
+41fd91b37977be2c79f98208fb4ec1ab04ff0309cbfd532bb7bc795ab346d393  PREREG.md
+325554b1a5d599e578e91ece2500fd4672113853618df09b9714cf4f61c77a5b  notes/DEVIATIONS.md
+## A8 addendum 2026-11-02T08:40:40Z (process)
+ac25653be85c882193996c08d81a5864a48f18d5ed50eed59393e422ffaf56f6  gpu_src/queue/52_B_arc_l0_unres.sh
+## Amendment A9 2026-11-02T09:17:50Z
+35e032b0f0a23588359843e1d7964246d8eb93d2f191ffbd4f162fee21bf7589  PREREG.md
+5d1ff5c8afed05363ff17b1d1a655db8d731da603164b3643d0f0d5839e3b259  gpu_src/queue/53_A_steps4.sh
+## Amendment A9 time corrected in the text (09:21Z -> 09:17Z) 2026-11-02T09:18:09Z
+61f448e2333f7f935bdebed68cd741713fe2ff5338b28bf94789186f25849ab7  PREREG.md
+## Amendment A10 2026-11-02T09:29:09Z
+9be851cf22c24edc655f3d94b00c9339ee81e871d8560faefb8ce18ffb31177e  PREREG.md
+4c773a78dc898996a34b59c246d4058c44a3aac0e30ed2dcc2f5d76703eb8499  gpu_src/queue/57_B.sh
+## Amendment A11 2026-11-02T09:39:03Z
+726f530fb4e089e15f8086db30370dc1f42565b777f7626b4dcb1cf964496725  PREREG.md
+c31aa2ace59f27cfab3c18d833300b0085542baea3c74311775b4993b6fc0a21  gpu_src/queue/58_B_l31_conv.sh
+## Amendment A12 2026-11-02T09:50:47Z
+a05d234baee91b541cdf89f7cef07843ea42c67764c1f8e1817bbafdab5296be  PREREG.md
+ced0f7bf9e0c306f0239e46f7e09fa818e92e2cacea2b5010c68a94741b6e25b  gpu_src/queue/59_B_fixlam_low.sh
+## Amendment A13 2026-11-02T09:55:24Z
+8884104139782b6494d3139269f2c3693a54165f62de23b5de314652fac69a91  PREREG.md
+375a428363df898558afc382fe5184e2faba3980120d7d4a2a9897b1b85694e6  gpu_src/queue/62_A_lr.sh
+## Amendment A14 2026-11-02T10:16:26Z
+d189aefad0a8724b73cb79689f646da0d9ee605f25b4efc0bbdea4af836f41d0  PREREG.md
+5cc4ac709bed1e3a3d8970b86492af657c3e6e0cf91ffdf4e5f02aef8965feac  gpu_src/queue/61_A.sh
+## A14 queue for bitarc-5 2026-11-02T10:16:46Z
+b7f1efa6565b6156169fdcd123ab9fc8f95df17ab77c28c0c06912ca70c459c3  gpu_src/queue/63_A_steps4.sh
+## Amendment A15 2026-11-02T10:26:46Z
+150cf1c6c7b7dc7cdb8626a03641f3d184cf5fd8b88ab66902ab9c3c27c80d0f  PREREG.md
+15be75a4b4853fcfbe705b36796377c8f029cdc0f60e46f4c860b114799c6e25  gpu_src/queue/64_A_rnd.sh
+## Amendment A16 2026-11-02T10:55:22Z
+0f7e28b58a516074443da067a1746b1b5bc5c4e3beb6cdb1a4573affc690f4b0  PREREG.md
+4d9ab01f0ab80ec124cba9f2808ec8d34e72726b70b84f3004078980148c63d5  gpu_src/queue/65_A_conv8.sh
+## Amendment A17 2026-11-02T11:34:51Z
+cb9912499a30969462023d32b6b8cf5f0c0ee52e8c2828bd4967d1d617766d96  PREREG.md
+f297aece58b75db61ef71a54b623dea58798a361d09217b1226ca2a1e6df23d3  gpu_src/queue/66_A_rnd2.sh
+## Amendment A18 2026-11-02T11:40:04Z
+c85c2c8dfad918676508e01f88d5e34d11508b5b68933d55d1e594e350992f30  PREREG.md
+b2c4479e1d4f34e03bb00c2fdde4fa9d0482291e9a79391ce839c931ee907424  gpu_src/queue/67_B_conv.sh
+47747ca5574b192a5be6d8b562bfecbe3e7d6e6c1777f49b245af1130df0a7bc  gpu_src/queue/68_A_conv.sh
+39253a2c942b782f3cb519a84132e33d3d4ffc8dda9654e169b6fd5a9b175191  gpu_src/queue/69_A_rest.sh
+## A18 round-1 runs moved earlier to bitarc-5 2026-11-02T11:41:00Z
+8937504c124e32e9cf62af98093cd63cfee481d28fa8fa0966589315d3e1a3e6  gpu_src/queue/70_A_now.sh
+## Amendment A19 2026-11-02T12:25:27Z
+c6e8ae5ecc6e20c01270327c0244664dbde8593f5ea08bcbde782dd623f47f6d  PREREG.md
+ed520a6b0c84a19e19baca05d83dde2b62190970c83aa0a4a422bd98bc3d55d6  gpu_src/queue/71_A_bwd.sh
+c1fcec07d373205a2bc05d1c6123c7d8b8760fd620462932faa575f8e336d1e5  gpu_src/scripts/run_vr.py
+01febd95420cba73d68b93d798e3fe6b177601d8d145aaf10fe74710d4158cec  scratch/consistency.py
+## A19 queue: source copied from gpu_src/prior/pt 2026-11-02T12:25:49Z
+9ef11e8f941ca9256d3906878a26f05bd15696a411a0b62af1fdd6ee6dff171e  gpu_src/queue/71_A_bwd.sh
+923c43dad01d8c01e909ba565a11d457b6e22fdcb3d72acd0b101747a16486f1  gpu_src/prior/pt/VR_arc_l31_local_cap2steps4_r0_s4000.pt
+## A18 round 2 (rule registered in A18) 2026-11-02T12:36:23Z
+f2a8a9a692a5d39c2ae9c781cef295d32ba779071994e18b909eaca9e74d5a41  gpu_src/queue/74_A_round2.sh
+## A18 round 2b 2026-11-02T12:53:37Z
+04ee11cfe0ffd1bdc523977abdbabfd7e7fa01408fd84160df1b376b479babd7  gpu_src/queue/75_A_round2b.sh
+## 74_A_round2.sh comment edited (no change to its run) 2026-11-02T12:54:01Z
+6aba3fd2a330b550f537d5b0167e47b0cb211b41dabc81e2594ce8ae5447336c  gpu_src/queue/74_A_round2.sh
+## Amendment A20 2026-11-02T13:16:08Z
+273b9ea91136ac550fa6236e32c0be7d93b73d1e13433b7daf7b823f03c40b9c  PREREG.md
+## A20 analysis code 2026-11-02T13:19:36Z
+2720dd8c3ce8696b42ee58de69f4d79a49b856bb9b1a92d791102083a8e897cc  lib/vra.py
+07fd8609f660f03ca5a4576a511118bd8efdacbffb9fe8f58630cf0449a44cc5  lib/vrb.py
+c88f47f75d40483339a808cc281eee1e422398ca9e6799e3f27f40b3251fe350  scratch/score_P1_v3.py
+## A20 matched partners 2026-11-02T13:20:59Z
+18186747c76b01750740086319f9b151ac07828b9552a108c67756c90af307b5  gpu_src/queue/76_B_partners.sh
+f6a7282624eb3595bb6bf1cd9325f49cb7179053069e0f8795cd535e501435c2  gpu_src/queue/76_A_partners.sh
+f0b8cd3dc049d917359bfc709cbcd4a2ce30f8c2f07846e5c924ade0a85f8e63  scratch/conv_subset.py
+## Amendment A21 2026-11-02T13:32:35Z
+b430696925f3eda91248c5fcfcf5f14202e65c6bbff04d5295126f845c99104f  PREREG.md
+afbb44b4829472a7d3b686cd1ea409e30d5ad2f16d159d12aa7d147c801bf713  gpu_src/queue/77_A_bwd1.sh
+## A20 matched partners, second set 2026-11-02T13:57:21Z
+cc8581439138325d232acb7543cfd6b3049b61a17f96b1cea59e01cb45b06d24  gpu_src/queue/78_A_partners2.sh
+## jobs of 77_A/78_A moved to VM B 2026-11-02T14:03:32Z
+1b35c62a2be31274a627b262385e2950030b6e9825c5fa3cdffb526526055af7  gpu_src/queue/79_B_moved.sh
+## Amendment A22 2026-11-02T14:46:17Z
+23186d459b6c48fd1ce1ca0e44f4feb2ee677d5a6d362297402b3aa4fa2c9d0b  PREREG.md
+5eb2f74ce8bcf1530d3605d4bd171ff1818f8e7745fc28c1ce074f2944de72c0  gpu_src/queue/80_A_round2_relaunch.sh

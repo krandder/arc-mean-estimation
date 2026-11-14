@@ -1,0 +1,2 @@
+[    187s] l=14: T 5.334 (erased 0.017 of 5.351) | code K=64 H 5.352 I 5.299 deficit 0.035 | reuse H 5.352 I 5.299 | exCE 0.1536 | 186s
+[    376s] l=13: T 5.324 (erased 0.020 of 5.343) | code K=62 H 5.343 I 5.121 deficit 0.203 | reuse H 5.344 I 5.285 | exCE 0.1225 | 190s

@@ -1,0 +1,8 @@
+b5679dc94efd57564bae7ca1b7394e5fc95d27fd13ce17ec0e9c2625c85e6db9  /home/agent/workspaces/mats/work/future-aware/coprover/STATEMENT_r1.md
+2b8572c330cb939305393071fcbe4770c78952b85b43019e032ed164a782b7f7  /home/agent/workspaces/mats/work/future-aware/coprover/prompt_r1.md
+hashed 10:36:36Z before launch
+f39905ce4e6d7f926bea61a63f97883035e77112256864532b16418806d67f85  /home/agent/workspaces/mats/work/future-aware/coprover/prompt_r2.md
+44f6d811f0fc689961be69632b860af40dd0c0315eb71c8eb22301c46d8e5051  /home/agent/workspaces/mats/work/future-aware/coprover/STATEMENT_r2.md
+r2 statement hashed 11:28:32Z
+11781fbccb2b59e94610cd3af133cbb243b463a4b6cede1f404c82317a18d731  coprover/prompt_r3.md
+r3 prompt hashed 13:00:34Z

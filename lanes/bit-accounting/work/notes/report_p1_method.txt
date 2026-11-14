@@ -1,0 +1,26 @@
+## 1. What phase 1 measures (method, plain)
+
+For one layer l of a fixed random net, a code describes the layer's state h_l with a few real numbers z, each received
+through unit Gaussian noise; the encoder chooses how loud each number is (fixed noise with chosen power is the same
+thing as fixed power with chosen noise: only the signal-to-noise ratio matters). The decoder turns z back into a
+state at layer l, and the real rest of the net turns that into an output. The cost of a code is its information in
+bits (log2 q(z | h) - log2 p(z), averaged; p a learned prior), the accuracy is the output's error on fresh inputs,
+nMSE = E|a_hat - a|^2 / tr Var(a). The bits-vs-accuracy curve of the layer is the fewest bits that reach each error.
+
+One model per layer and encoder class traces the whole curve: the bit price lambda is an input to the encoder, the
+decoder and the prior. Training starts from a near-perfect identity code (each coordinate of the whitened state sent
+at signal-to-noise 256, about 4 bits per coordinate, decoded by the inverse) and raises the price gradually, so the
+code sheds the least useful directions first. Each price counts equally in the loss.
+
+Encoder classes: unrestricted (any network that also sees the exact output; it can take the shortcut) and local (one
+ReLU layer as wide as the net, then affine: it can compute the next layer but not the rest of the net).
+
+How we know a curve is as good as reasonably possible (certificates, every curve):
+- three independent restarts; a model trained twice as long; a model twice as wide (prior twice as rich);
+- the rate re-measured with fresh, richer priors fitted on held-out codes (is the learned prior loose?);
+- an output-space regressor E[a | z] trained on held-out codes (is the decoder optimal for its codes?);
+- three separately trained single-price models (is one model for all prices worse than one model per price?);
+- the analytic linear reference: send the directions of the cloud-averaged, future-weighted Jacobian spectrum with
+  reverse-water-filled power, decode by linear MMSE, run the real net; a learned code must match or beat it;
+- known answers: the output's own curve against its Gaussian bound; every unrestricted curve against the output's;
+  a linear net, where the curve is known exactly (Gaussian reverse water-filling) for both classes.

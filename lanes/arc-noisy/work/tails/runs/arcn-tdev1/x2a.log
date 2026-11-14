@@ -1,0 +1,14 @@
+GPU 0: NVIDIA L4 (UUID: GPU-886108e1-c73f-c174-cc2b-1306e9ec9559)
+0.001 3s
+0.003 5s
+0.01 8s
+done
+0.001 6s
+0.003 11s
+0.01 16s
+done
+0.001 22s
+0.003 45s
+0.01 68s
+done
+JOB-EXIT 0

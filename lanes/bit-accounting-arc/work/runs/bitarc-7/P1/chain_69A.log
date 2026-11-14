@@ -1,0 +1,2 @@
+done arc [4000, 4001, 4002, 4003] l=4 local base train 3835s total 5242s
+done nd [203] l=0 local fixlam train 4505s total 5483s

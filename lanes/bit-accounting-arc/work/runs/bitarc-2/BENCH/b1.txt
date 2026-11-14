@@ -1,0 +1,1 @@
+done arc [9100] l=0 local benchM12 train 61s total 67s

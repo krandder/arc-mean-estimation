@@ -1,0 +1,9 @@
+P_relu_n16_L16_s5000_l13_local {'0.01': {'r2_Tlin': 0.997, 'r2_Tmlp': 0.999, 'r2_path': 0.981, 'agree_Tmlp_path': 0.98, 'tracked_frac': 1.0, 'rot_cos2': 0.243}}
+P_relu_n16_L16_s5000_l5_local {'0.01': {'r2_Tlin': 0.987, 'r2_Tmlp': 0.999, 'r2_path': 0.978, 'agree_Tmlp_path': 0.976, 'tracked_frac': 1.0, 'rot_cos2': 0.526}}
+P_relu_n16_L16_s5000_l9_local {'0.01': {'r2_Tlin': 0.993, 'r2_Tmlp': 0.998, 'r2_path': 0.976, 'agree_Tmlp_path': 0.974, 'tracked_frac': 1.0, 'rot_cos2': 0.44}}
+P_relu_n16_L16_s5001_l13_local {'0.01': {'r2_Tlin': 0.998, 'r2_Tmlp': 0.998, 'r2_path': 0.985, 'agree_Tmlp_path': 0.983, 'tracked_frac': 1.0, 'rot_cos2': 0.322}}
+P_relu_n16_L16_s5002_l13_local {'0.01': {'r2_Tlin': 0.999, 'r2_Tmlp': 0.998, 'r2_path': 0.986, 'agree_Tmlp_path': 0.985, 'tracked_frac': 1.0, 'rot_cos2': 0.146}}
+P_relu_n16_L16_s5002_l5_local {'0.01': {'r2_Tlin': 0.98, 'r2_Tmlp': 0.999, 'r2_path': 0.97, 'agree_Tmlp_path': 0.967, 'tracked_frac': 1.0, 'rot_cos2': 0.513}}
+P_relu_n16_L16_s5002_l9_local {'0.01': {'r2_Tlin': 0.994, 'r2_Tmlp': 0.999, 'r2_path': 0.977, 'agree_Tmlp_path': 0.977, 'tracked_frac': 1.0, 'rot_cos2': 0.075}}
+P_tanh4_n16_L16_s5000_l13_local {'0.01': {'r2_Tlin': 0.963, 'r2_Tmlp': 0.998, 'r2_path': 0.962, 'agree_Tmlp_path': 0.952, 'tracked_frac': 1.0, 'rot_cos2': 0.766}}
+ALL DONE

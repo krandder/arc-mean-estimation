@@ -1,0 +1,23 @@
+d4fa7ec033a57a5596bbb9959c85db7ff229993511360bd42d5db0b21ff2395e  PREREG.md
+75fce6b2e3dec1b697119edeb9a50a6ff0698d65ee8af70ddf6bd1e0bf1bc8ae  lib/fa.py
+f47f5b30ef825eb0d85a3f7a2c4aec9e6dcbf267ca65c0b8535cfdd572a1b411  lib/fa_kprop.py
+a7a0283746bcf9eb9ee2eb9a506b770c1aaf2e5613a539afac1f2d47b0c7b22b  scratch/run_cut.py
+e15162b8453359e2e3a20749d9b4cef480ea6e47e6110643feb59dc21f0dfa4a  scratch/run_rec.py
+b0f395532f7e2803d960f695ee7a39dfdd08d29f6b10b656bcde8ffe06075e5b  scratch/run_k3p.py
+02c5e526fc9f9b29972c7667d5cef90bc0743f5935d0dff699b8faf546976039  scratch/run_hyb.py
+dd794917a4bb9398a7f1f34095414e4930c02ef83488b9e6094be02fa2bfb7c0  scratch/score_part1.py
+9fed3cceb1a02feeaf147d633e8c2a94651f3318e624d9b40f28eb9db1c617e5  scratch/eval_A.sh
+d8ab1ddced790c25a869b71ee71a792ca8b0066844433ad4efcc869ac660f8ff  scratch/eval_B.sh
+548844065596714f88d709e6daeecfe1336b94ac636316c3d3b65f38bcc10da4  scratch/eval_C.sh
+b14e8af72d6163960d08c08c9b5a039355137de1f4633424511f26993473617b  /home/agent/workspaces/mats/work/arc-update/lib/au.py
+fe051d53ac5edbe4ae2e39de4d4d6b88fc9f68110acbd4322ad850b1a363eb20  /home/agent/workspaces/mats/work/bits-bounds/lib/closure.py
+Part 1 hashed 11:21:08Z, before any evaluation-net run of this lane (nets 200-204, 300-307)
+55cf0124cba2eb06205de04bdcd9dbe59365b1f9c7358ac33d7ab82833b12777  scratch/score_corrections.py
+7703f42eeab9816cfeb6049cae77c6c41e9a16cf8719b1c507f02642b794c960  scratch/tables_part1.py
+score_corrections.py (P7 NaN-exclusion rule of deviations item 3) and tables_part1.py (descriptive) hashed 11:46:17Z, before any final scoring
+5aea60024f032081e4643dce9075eecc3092b75ba5613d44fb2171010cb5d431  PREREG.md
+aff796df668202c7d3bdf6edadcf65db986ac640cd25a14b69f95acd9a8c260f  lib/fa2.py
+5ba7d58245c373efff39e7c20ec4989c8d94a84bda1d164fa56361e3ab45bcd0  scratch/run_w512.py
+d011402ea320413db08942e46085d89ed4b53082a8b10b5ee837d68dbdb27f6a  scratch/score_amend1.py
+b432a8ff08d40264cdccbcb5f568644b76bbb38c857b6050cf3dc0f70a2620c8  scratch/eval_W.sh
+Amendment 1 (P10-P13, n = 512) hashed 12:17:16Z, before any run at n = 512

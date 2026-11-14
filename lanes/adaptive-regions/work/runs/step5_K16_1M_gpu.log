@@ -1,0 +1,28 @@
+[9s] advice: 2000 populations x 512 paths
+  EM layer 0 done [15s]
+  EM layer 1 done [20s]
+  EM layer 2 done [25s]
+  EM layer 3 done [30s]
+  step 0: loss -1.1442e+01 [34s]
+  step 37: loss 1.8871e+00 [42s]
+  step 74: loss -9.6042e+00 [51s]
+  step 111: loss -9.6144e+00 [59s]
+  step 148: loss -7.5215e+00 [66s]
+  step 185: loss -7.2887e+00 [74s]
+  step 222: loss -6.1461e+00 [82s]
+  step 259: loss -5.1594e+00 [90s]
+  step 296: loss -6.5016e+00 [98s]
+  step 299: loss -1.6319e+00 [99s]
+(a) per-sample EM s=0.1: deductive 4.28e-01 at 9.32e+04 passes (MC there 2.63e-07); corrected N=1024 2.31e-05 (MC at equal cost 2.49e-07, RQMC N=1024 5.84e-07)
+(a) per-sample EM s=0.3: deductive 2.97e-01 at 1.06e+05 passes (MC there 2.01e-06); corrected N=1024 2.65e-04 (MC at equal cost 1.91e-06, RQMC N=1024 1.30e-05)
+(a) per-sample EM s=0.6: deductive 9.30e-02 at 1.06e+05 passes (MC there 4.58e-06); corrected N=1024 9.00e-04 (MC at equal cost 4.40e-06, RQMC N=1024 8.06e-05)
+(a) per-sample EM s=0.9: deductive 2.66e-02 at 1.2e+05 passes (MC there 7.29e-06); corrected N=1024 4.09e-03 (MC at equal cost 7.00e-06, RQMC N=1024 2.17e-04)
+(a) per-sample EM s=1.0: deductive 2.00e-02 at 1.33e+05 passes (MC there 7.65e-06); corrected N=1024 7.54e-03 (MC at equal cost 7.37e-06, RQMC N=1024 2.50e-04)
+(a) per-sample EM: interval coverage 68% 0.65, 95% 0.76
+(b) trained (A5) s=0.1: deductive 7.48e-01 at 9.32e+04 passes (MC there 2.63e-07); corrected N=1024 6.49e-05 (MC at equal cost 2.49e-07, RQMC N=1024 5.84e-07)
+(b) trained (A5) s=0.3: deductive 4.62e-01 at 1.06e+05 passes (MC there 2.01e-06); corrected N=1024 8.99e-04 (MC at equal cost 1.91e-06, RQMC N=1024 1.30e-05)
+(b) trained (A5) s=0.6: deductive 1.67e-01 at 1.2e+05 passes (MC there 4.96e-06); corrected N=1024 9.67e-03 (MC at equal cost 4.76e-06, RQMC N=1024 8.06e-05)
+(b) trained (A5) s=0.9: deductive 4.19e-02 at 1.2e+05 passes (MC there 7.29e-06); corrected N=1024 3.05e-03 (MC at equal cost 7.00e-06, RQMC N=1024 2.17e-04)
+(b) trained (A5) s=1.0: deductive 1.29e-02 at 1.2e+05 passes (MC there 8.50e-06); corrected N=1024 4.68e-03 (MC at equal cost 8.15e-06, RQMC N=1024 2.50e-04)
+(b) trained (A5): interval coverage 68% 0.71, 95% 0.71
+wrote /root/runs/step5_n32_L4_s9611_K16_poe_cal1_1M_gpu.json total 111s

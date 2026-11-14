@@ -1,0 +1,56 @@
+truth claim:B:64:16:0 2^24 184s
+done truth claim:B:64:16:0 24 10:57:07Z
+rqmc claim:B:64:16:0 m=8 1s
+rqmc claim:B:64:16:0 m=10 1s
+rqmc claim:B:64:16:0 m=12 2s
+rqmc claim:B:64:16:0 m=14 3s
+done rqmc claim:B:64:16:0 8,10,12,14 8 10:57:13Z
+lv claim:B:64:16:0 LVTV2: V_L 0.3664 flops 3.964e+07 passes 302 3.8s flags {'feas': 4, 'root': 9, 'cap': 6}
+lv claim:B:64:16:0 LVT: V_L 0.1358 flops 3.890e+07 passes 297 0.8s flags {}
+lv claim:B:64:16:0 LVTV2f1: V_L 0.2402 flops 3.965e+07 passes 302 1.2s flags {'feas': 2, 'root': 5, 'cap': 10}
+lv claim:B:64:16:0 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.6s flags {}
+done lv claim:B:64:16:0 10:57:22Z
+truth claim:B:64:16:1 2^24 127s
+done truth claim:B:64:16:1 24 10:59:31Z
+rqmc claim:B:64:16:1 m=8 1s
+rqmc claim:B:64:16:1 m=10 2s
+rqmc claim:B:64:16:1 m=12 2s
+rqmc claim:B:64:16:1 m=14 3s
+done rqmc claim:B:64:16:1 8,10,12,14 8 10:59:36Z
+lv claim:B:64:16:1 LVTV2: V_L 0.3260 flops 3.964e+07 passes 302 1.7s flags {'root': 7, 'feas': 1, 'cap': 8}
+lv claim:B:64:16:1 LVT: V_L 0.1240 flops 3.890e+07 passes 297 0.2s flags {}
+lv claim:B:64:16:1 LVTV2f1: V_L 0.2180 flops 3.965e+07 passes 302 0.5s flags {'root': 4, 'cap': 11}
+lv claim:B:64:16:1 LVT0: V_L 0.0000 flops 3.878e+07 passes 296 0.5s flags {}
+done lv claim:B:64:16:1 10:59:42Z
+truth au:699:128:32 2^23 257s
+done truth au:699:128:32 23 11:04:01Z
+lv au:699:128:32 LVTV2: V_L 0.1845 flops 4.570e+08 passes 436 9.1s flags {'cap': 19, 'root': 12, 'feas': 2}
+lv au:699:128:32 LVT: V_L 0.0465 flops 4.513e+08 passes 430 3.9s flags {}
+lv au:699:128:32 LVTV2f1: V_L 0.1252 flops 4.570e+08 passes 436 4.2s flags {'cap': 24, 'root': 7}
+lv au:699:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 7.8s flags {}
+done lv au:699:128:32 11:04:29Z
+rqmc au:699:128:32 m=8 4s
+rqmc au:699:128:32 m=10 7s
+rqmc au:699:128:32 m=12 9s
+rqmc au:699:128:32 m=14 14s
+done rqmc au:699:128:32 8,10,12,14 8 11:04:46Z
+arc au:699:128:32 k2: flops 2.111e+08 passes 201 4.1s
+arc au:699:128:32 k2a: flops 2.731e+08 passes 260 4.7s
+done arc au:699:128:32 k2,k2a 11:04:57Z
+sl3 au:699:128:32: flops 3.978e+10 passes 37938 12.3s
+done sl3 au:699:128:32 11:05:12Z
+truth au:699:256:64 2^22 929s
+done truth au:699:256:64 22 11:20:43Z
+lv au:699:256:64 LVTV2: V_L 0.1196 flops 5.827e+09 passes 695 5.8s flags {'cap': 43, 'root': 20}
+lv au:699:256:64 LVT: V_L 0.0000 flops 5.781e+09 passes 689 2.8s flags {}
+lv au:699:256:64 LVTV2f1: V_L 0.0871 flops 5.827e+09 passes 695 4.7s flags {'cap': 48, 'root': 15}
+lv au:699:256:64 LVT0: V_L 0.0000 flops 5.773e+09 passes 688 3.0s flags {}
+done lv au:699:256:64 11:21:02Z
+rqmc au:699:256:64 m=8 1s
+rqmc au:699:256:64 m=10 2s
+rqmc au:699:256:64 m=12 4s
+rqmc au:699:256:64 m=14 11s
+done rqmc au:699:256:64 8,10,12,14 8 11:21:15Z
+arc au:699:256:64 k2: flops 3.298e+09 passes 393 2.6s
+arc au:699:256:64 k2a: flops 3.792e+09 passes 452 7.2s
+done arc au:699:256:64 k2,k2a 11:21:27Z

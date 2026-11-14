@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Replica Gram chain</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --rule: #dadce0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1c1e; --fg: #e8e8ea; --muted: #a0a3a8; --rule: #3c3f44; } }
+  html { background: var(--bg); }
+  body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         font-size: 17px; line-height: 1.55; max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.5rem; line-height: 1.3; margin: 0 0 0.5rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; padding-top: 0.6rem; border-top: 1px solid var(--rule); }
+  .meta { color: var(--muted); font-size: 0.95rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin: 0.35rem 0; }
+  code { font-size: 0.9em; }
+  .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.2rem 0; }
+</style>
+</head>
+<body>
+<h1>The replica Gram chain: what it is, what it computes, what it cannot</h1>
+<p class="meta">1 November 2026. For Kelvin. Lane gram-chain (bead pool-qxszj1.23). Model S: \(h_l = \mathrm{relu}(W_l h_{l-1}) + \xi_l\), \(W_l\) iid \(N(0, 2/n)\), \(\sigma = 1\) (\(\sigma\) is a pure scale). Labels: PROVEN, NUMERICAL (exploratory exact-chain runs; error bars come in the lane report), HEURISTIC (mean field). Version 2, after a gpt-6-astra check (section 7). Source: <code>outbox/gram-chain-explainer-2026-11-01.md</code>.</p>
+
+<h2>1. The object</h2>
+<p>Take \(R\) replicas of one net: they share every weight matrix and differ only in their noise (or, at \(\sigma = 0\), in their input). \(S_{ab}\) is the correlation of replicas \(a\) and \(b\)'s noise at a layer (1 = same vector, 0 = independent). The replica Gram matrix is \(G_l[a,b] = h_l^{(a)}\cdot h_l^{(b)}/n\); \(Q_a = G_{aa}\) (squared radius per unit), \(\rho_{ab} = G_{ab}/\sqrt{G_{aa}G_{bb}}\), \(\delta_{ab} = 1-\rho_{ab}\) (one minus the cosine), \(\ell_{ab} = \log|h^{(a)}| - \log|h^{(b)}|\).</p>
+
+<h2>2. Why it is an exact Markov chain (PROVEN; numerics lane P-G1)</h2>
+<p>Condition on the past. The rows \(w_i\) of \(W_l\) are iid \(N(0, (2/n) I)\) and independent of it, so the pre-activations across replicas, \(z_i = (w_i\cdot h^{(a)})_a\), are iid over units with law \(N(0, 2G_{l-1})\); the noise vectors are iid over units with covariance \(S\). Hence</p>
+\[ G_l = \frac1n\sum_{i=1}^{n} v_i v_i^{\top},\qquad v_i = \mathrm{relu}(z_i)+\xi_i,\qquad z_i\sim N(0,\, 2G_{l-1}),\qquad \xi_i\sim N(0, S), \]
+<p>a sum of \(n\) iid rank-one matrices whose law depends on the past only through \(G_{l-1}\). The weights are integrated out exactly, layer by layer, at any \(n\). Cost \(O(nR^2 + R^3)\) per layer, against \(O(n^2R)\) for the net. The conditional mean is the kernel map plus the noise,</p>
+\[ \mathbb E\big[G_l[a,b]\,\big|\,G_{l-1}\big] = \sqrt{G_{aa}G_{bb}}\;\kappa(\rho_{ab}) + S_{ab},\qquad \kappa(\rho) = \frac{\sqrt{1-\rho^2} + (\pi - \arccos\rho)\,\rho}{\pi}, \]
+<p>and the conditional covariance is \(1/n\) times the four-point source: the chain's \(1/n\) expansion over a fixed number of layers is the Roberts–Yaida kernel + vertex recursion with a noise term (not uniform in depth). Every rotation-invariant function of the replicas' path (radii, overlaps; after integrating one more layer, e.g. the expected number of gates where \(a\) and \(b\) disagree, \(n\arccos(\rho_{ab})/\pi\)) has the same law under the chain as under the net with random weights. The same argument makes the joint Gram of states and tangent vectors \(Ju\) an exact chain (PROVEN).</p>
+
+<h2>3. What has a stationary law</h2>
+<p>One input has one in Model S (correcting how this is often put). The radius is \(Q = (\chi^2_n/n)\,r\) with \(r\) an exact perpetuity (numerics lane); its median is \(0.5770780\,n\) to leading order and \(P(Q > x)\sim C_n/x\), \(C_n = 1/\mathbb E[A\log A] = 2n/5 + 13/75 + O(1/n)\). What it lacks is a mean: \(\mathbb E[Q_l\mid Q_{l-1}] = Q_{l-1}+1\) exactly, so the stationary mean is infinite and the kernel recursion (an equation for \(\mathbb E Q\)) and its vertex correction have no fixed point (PROVEN). At \(\sigma = 0\) the only stationary law is \(Q = 0\): an all-off layer (probability \(2^{-n}\) per layer) kills the state for good.</p>
+<p>Replicas add bounded or slowly varying coordinates, the angles and the log-radius ratios. They do not form a Markov chain by themselves (their transition depends on \(Q\)), so their stationary law is a mixture over the radius. The mean-field closure (normalise the conditional-mean Gram entries; equal radii \(Q\), noise correlation \(c\)) is \(\rho' = (Q\,\kappa(\rho) + c)/(Q+1)\): a layer's unshared noise opens the angle by \((1-c)/(Q+1)\), and the kernel closes a finite angle,</p>
+\[ 1-\kappa(1-\delta) = \delta - c_k\,\delta^{3/2} - \frac{\delta^{5/2}}{15\sqrt2\,\pi} + \dots,\qquad c_k = \frac{2\sqrt2}{3\pi}. \]
+<p>Its fixed point, for \(c &lt; 1\) and \(Q \to \infty\), is</p>
+\[ \delta^*(Q) = \varepsilon\Big[1 - \Big(\frac{2}{3(1-c)} + \frac1{30}\Big)\varepsilon + O(\varepsilon^2)\Big],\qquad \varepsilon = \Big(\frac{1-c}{c_k\,Q}\Big)^{2/3} = 2.231\,\Big(\frac{1-c}{Q}\Big)^{2/3} \]
+<p>(exact expansion of the closure, checked numerically; within 0.3% of its fixed point at \(Q \ge 148\), \(c = 0\)). Independent noise: \(2.231\,Q^{-2/3}\), i.e. \(3.22\,n^{-2/3}\) at the median radius. Antithetic noise (\(c = -1\)): \(2^{2/3}\) times that, to leading order. Shared noise every layer: replicas merge (from distinct states too, almost surely; stationary lane).</p>
+
+<h2>4. The stationary law for 2 and 3 replicas</h2>
+<p>Two replicas, independent noise: three coordinates on three time scales (mean field, HEURISTIC).</p>
+<ul>
+  <li>\(Q\): each replica's marginal is the one-input law; it evolves on the scale of \(n\) layers.</li>
+  <li>\(\delta\): fast, relaxing in about \(1.49\,Q^{1/3}\) layers (8 at \(n = 256\)) toward \(\delta^*(Q)\). Exploratory exact-chain runs (1,000–4,000 chains, \(6n\) layers): median of \(\delta/\delta^*(Q)\) is 1.04, 0.99, 1.00 at \(n = 16, 64, 256\); SD 0.76, 0.47, 0.28, i.e. about \(1.85\,n^{-1/3}\). The numerics lane's mean ratio falls from 1.12 (\(n = 8\)) to 1.00 (\(n = 1024\)).</li>
+  <li>\(\ell\): slow (restored at rate about \(1/(Q+1)\) per layer), of size \(n^{-1/3}\): SD \(1.5\text{–}1.8\,n^{-1/3}\) at \(n = 16\text{–}256\), and it does not shrink at large \(Q\) (\(\mathbb E[\ell^2]\,n^{2/3}\) rises from 1.6 to 5.3 as \(Q/n\) goes from below 0.3 to above 10, \(n = 64\)).</li>
+</ul>
+<p>So, given the radius, the angle is pinned near \(\delta^*(Q)\sim Q^{-2/3}\) with relative fluctuations of order \(n^{-1/3}\), and the two radii differ by order \(n^{-1/3}\).</p>
+<p>Three replicas, independent noise: three draws from one net's cloud, so three angles near \(\delta^*(Q)\) that differ by about \(\sqrt{2/\mathrm{PR}}\) relative (PR the cloud's participation ratio; Gaussian-cloud HEURISTIC): mean (max − min)/mean is 0.75, 0.56, 0.39 at \(n = 16, 64, 256\) in the chain, against 0.70, 0.50, 0.34 predicted. With a \(1/k\) cloud spectrum \(\mathrm{PR}\sim(\log n)^2\), so the triangle becomes equilateral only logarithmically.</p>
+<p>Mixed sharing: replicas 1 and 2 share all noise except layer \(j\); replica 3 is independent. Then \(\mathbb E|u_1-u_2|^2/\mathbb E|u_1-u_3|^2\) (\(u = h/|h|\)) is layer \(j\)'s total effect on the direction relative to its variance. In mean field one layer's noise opens \(1/(Q+1)\), and with shared noise \(\delta' = \frac{Q}{Q+1}\big(1-\kappa(1-\delta)\big)\): algebraic decay \(\delta_t\sim \delta_0\big/\big(1+\tfrac{c_k}{2}\sqrt{\delta_0}\,t\big)^2\) at intermediate times, exponential at rate \(1/(Q+1)\) later; summed over layers, the single-layer effects give \(2.99\,Q^{1/6}\) times the variance (the numerics lane's interaction-order mechanism).</p>
+
+<h2>5. What the chain computes exactly</h2>
+<p>The weight average \(\mathbb E_W X(W)\) of any fixed-weight quantity \(X(W) = \mathbb E_{\text{noise}}[\varphi(\text{Gram path of } R \text{ replicas})]\), for a fixed sharing pattern and any integrable \(\varphi\) (polynomials are not required). Examples:</p>
+<ul>
+  <li>Variance and Sobol quantities of a scale-free observable \(f\) (direction \(u\), \(\log|h|\), the output direction): \(\mathbb E_W\mathrm{Var}(f\mid W)\) from 2 independent replicas; the total effect of a block \(B\) of layers from replicas sharing all noise except \(B\); the closed effect \(\mathbb E\langle f, f^{(\text{share }B)}\rangle - \mathbb E\langle f, f^{(\text{share none})}\rangle\); the mean interaction order \(\sum_B \mathbb E T_B/\mathbb E\,\mathrm{Var}\) for a partition into blocks; \(\mathrm{tr}\,\mathrm{Cov}^2\) from 4 replicas, so participation ratios as ratios of annealed moments.</li>
+  <li>Across-net scatter: a quantity built from \(r\) replicas needs \(2r\) for its across-net second moment (4 for a variance or a total effect), so \(\mathrm{Var}_W\) of it, and whether it self-averages, are chain quantities.</li>
+  <li>Noise-stability curves: with noise correlation \(t\) (Hermite degrees) or Bernoulli sharing with probability \(t\) (ANOVA orders), \(C(t) = 1-\mathbb E|f-f_t|^2/\mathbb E|f-f_0|^2\). Only \(\mathbb E S_{ab}\) enters the mean-field recursion, so for both the closure ([A], input-bits round 1) predicts \(1-(1-t)^{2/3}\): 0.175, 0.370, 0.603 at \(t = 0.25, 0.5, 0.75\), first coefficient \(2/3\). The input-bits lane measured, for scalar-coordinate sharing of the output, 0.16–0.18, 0.36–0.38 and 0.60–0.64 at \(n = 8\text{–}128\), flat in width (a HEURISTIC match, not noted before; the exact chain separates the two kinds of sharing).</li>
+  <li>Gate statistics: next-layer disagreements and births in closed form given \(G\); cascades by propagation.</li>
+  <li>At \(\sigma = 0\) with replicas = inputs: the exact multi-input Gram recursion (the amplitude/direction split; the \(3n/l\) decay of differing gates is its mean-field asymptotic).</li>
+  <li>Tangents: \(\mathbb E_W|Ju|^2 = |u|^2\) exactly at every depth (PROVEN; criticality), while at large width the typical value decays like \(\exp(-2.5\,t/n)\) before an all-off layer kills it: annealed linear-response means are carried by rare nets.</li>
+</ul>
+<p>Integrability matters: \(\mathbb E Q\) is infinite and the radius ratio does not shrink at large \(Q\), so \(\mathbb E_W\,\mathrm{tr}\,\mathrm{Cov}(h\mid W)\) for the raw state is infinite (\(n = 64\): the top 1% of chains by radius carry 82% of the sample mean, 94% of it radial). Annealed statements need scale-free observables. For conditionally iid replicas, all finite Gram-array laws together fix the across-net law of the fixed-weight noise law up to rotation (Gram–de Finetti, Dovbysh–Sudakov).</p>
+
+<h2>6. What it cannot compute</h2>
+<ul>
+  <li>Per-net ratios (a fixed-weight Sobol index \(T_B(W)/V(W)\), a per-net participation ratio, a median over the noise) are not weight averages of a fixed number of replicas. Growing numbers of replicas approach them; moments alone need not. The chain gives the means of numerator and denominator and their joint moments, and ratios of annealed means weight large-radius nets. Conditioning on a replica's radius does not keep replicas iid given the weights, so it is at most an approximation (to be tested).</li>
+  <li>Which directions. The future's response to a perturbation of layer \(l\) depends on the perturbation only through its norm and its overlaps with the replicas (\(W_{l+1}\) is rotation invariant on its input side given the past). So the chain can say how much of a layer-\(l\) difference survives and how many directions carry it (spectral moments such as \(\mathrm{tr}\,C^2\)), never which; that needs the specific weights (a backward pass). This is the kstar-frames lane's Proposition 2 seen from the future. (Output coordinates are not rotation invariant: \(\mathbb E[h'\mid h]\) is along the all-ones vector.)</li>
+  <li>It averages over the weights: it describes typical and average nets, not a fixed net's mean.</li>
+</ul>
+
+<h2>7. Check</h2>
+<p>gpt-6-astra (high effort, 20:51–20:56Z; <code>work/gram-chain/coprover/explainer_check_answer.md</code>) reproduced every number and judged v1 to need major revision (27 findings, 13 errors: overreach on stationary constants, replica observables, ANOVA and symmetry). All are applied here. The main ones: the \(\sigma = 0\) law, closure labels, ratios of expected discrepancies, Hermite vs ANOVA sharing (a layer-block tail claim withdrawn), \(2r\) replicas for across-net moments, the direction claim limited to layer-\(l\) perturbations, and integrability (confirmed: infinite raw cloud trace).</p>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "\\[", right: "\\]", display: true },
+        { left: "\\(", right: "\\)", display: false }
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+tail cone: delta 0.001953125, setup mv 3349
+2^12 mv: nMSE 3.584e-01 cells 26 open 21 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (0s)
+2^13 mv: nMSE 2.211e-01 cells 80 open 48 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (0s)
+2^14 mv: nMSE 1.517e-01 cells 186 open 101 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (0s)
+2^15 mv: nMSE 6.325e-02 cells 400 open 208 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (0s)
+2^16 mv: nMSE 4.667e-02 cells 828 open 422 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (0s)
+2^17 mv: nMSE 3.198e-02 cells 1684 open 850 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (0s)
+2^18 mv: nMSE 1.731e-02 cells 3400 open 1708 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (1s)
+2^19 mv: nMSE 1.398e-02 cells 6840 open 3428 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (1s)
+2^20 mv: nMSE 8.665e-03 cells 13726 open 6871 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (2s)
+2^21 mv: nMSE 7.771e-03 cells 27524 open 13770 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (4s)
+2^22 mv: nMSE 6.612e-03 cells 55178 open 27597 cert 0 Pcert 0.0000 open share 1.000e+00 tailmiss 0 (8s)

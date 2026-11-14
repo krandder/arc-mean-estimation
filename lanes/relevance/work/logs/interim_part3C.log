@@ -1,0 +1,20 @@
+4006 l= 0 Gamma 1.540/1.365 D_A/D 0.97 s1_A 0.238/0.233
+4006 l= 4 Gamma 1.532/1.287 D_A/D 1.00 s1_A 0.492/0.468
+4006 l= 8 Gamma 1.525/1.363 D_A/D 1.03 s1_A 0.627/0.583
+4006 l=16 Gamma 1.130/1.098 D_A/D 0.94 s1_A 0.798/0.737
+4006 l=24 Gamma 1.167/1.112 D_A/D 1.14 s1_A 0.912/0.930
+4006 l=28 Gamma 1.213/1.191 D_A/D 1.15 s1_A 0.966/0.954
+4006 l=31 Gamma 1.155/1.139 D_A/D 1.15 s1_A 0.966/0.974
+4007 l= 0 Gamma 0.649/0.654 D_A/D 0.79 s1_A 0.238/0.306
+4007 l= 4 Gamma 0.692/0.693 D_A/D 0.84 s1_A 0.482/0.594
+4007 l= 8 Gamma 0.750/0.776 D_A/D 0.78 s1_A 0.633/0.740
+4007 l=16 Gamma 0.915/0.873 D_A/D 0.89 s1_A 0.813/0.876
+4007 l=24 Gamma 0.899/0.861 D_A/D 0.88 s1_A 0.927/0.950
+4007 l=28 Gamma 0.950/0.882 D_A/D 0.96 s1_A 0.984/0.957
+4007 l=31 Gamma 1.003/1.020 D_A/D 0.97 s1_A 1.010/0.977
+missing /home/agent/workspaces/mats/work/relevance/runs/eval_arc_n256_L32_seed4008.json
+missing /home/agent/workspaces/mats/work/relevance/runs/eval_arc_n256_L32_seed4009.json
+C1 (14, 14)
+C2 (12, 14)
+C1_early (6, 6)
+gamma_relerr_median_max (0.03926253717678918, 0.19062736294086813)

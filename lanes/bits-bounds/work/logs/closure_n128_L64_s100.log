@@ -1,0 +1,1 @@
+{"n": 128, "L": 64, "seed": 100, "Nmc_each": 32768, "V": 18.408790745218937, "closure_sqerr_unbiased": 0.006955229674031604, "nMSE_closure": 0.00037782110570396866, "mc_halves_sqdiff_over_V": 7.508749798521536e-05, "cost_passes_matmul": 256, "cost_passes_impl": 2261.0, "closure_seconds": 2.5615293979644775, "seconds": 12.242841958999634}

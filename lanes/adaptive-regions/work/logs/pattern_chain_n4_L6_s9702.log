@@ -1,0 +1,8 @@
+[13s] map done: cells 238, product of layer counts 72576
+[63s] empirical: chain vs cells 2.38e+00, chain err 2.38e+00, cells (= MC) err 2.09e-08
+order-k chains (states, chain vs cells): [(1, 45, '2.38e+00'), (2, 122, '9.64e-02'), (3, 261, '5.59e-02'), (4, 461, '5.41e-02'), (5, 683, '5.41e-02'), (6, 869, '5.41e-02')]
+{"seed": 9702, "n": 4, "cells": 238, "prod_layer_patterns": 72576, "chain_states": 45, "chain_transitions": 106, "mc": 9.5367431640625e-07, "rqmc": 1.4062140683504997e-08, "truth_noise": 4.0127548609617533e-10, "irrelevant_units": 4, "secs": 160.2750437259674}
+layers [(16, 15, 16), (9, 8, 9), (7, 7, 7), (6, 6, 6), (4, 3, 4), (3, 3, 3)]
+transitions [(55, 144, 0.899, 0.899, 16, 7), (25, 63, 0.598, 0.356, 55, 5), (13, 42, 0.532, 0.228, 122, 5), (9, 24, 0.061, 0.026, 200, 3), (4, 12, 0.0, 0.0, 238, 3)]
+bits needed per unit (layer 2..L) [2, 3, 4, 4, 4, 4, 3, 3, 2, 2, 2, 6, 0, 0, 3, 1, 1, 2, 2, 2] from prev layer [2, 3, 4, 4, 2, 1, 2, 3, 2, 0, 2, 2, 0, 0, 1, 1, 1, 1, 1, 1]
+total correlation per layer [0.573, 0.404, 0.833, 0.79, 0.366, 0.759] max pair MI [0.269, 0.223, 0.343, 0.511, 0.366, 0.372]

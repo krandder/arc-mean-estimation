@@ -1,0 +1,20 @@
+[28s] map done: cells 212, product of layer counts 2359296
+/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/pattern_chain.py:116: RuntimeWarning: invalid value encountered in scalar divide
+  VF = float(F.var(0).sum()); truth_noise = float(reps.var(0, ddof=1).sum() / 4 / VF)
+/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/pattern_chain.py:120: RuntimeWarning: invalid value encountered in scalar divide
+  rq.append(float(((forward(ndtri(np.clip(eng.random(N), 1e-15, 1 - 1e-15)))[0][-1].mean(0) - m0) ** 2).sum() / VF))
+/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/pattern_chain.py:167: RuntimeWarning: invalid value encountered in scalar divide
+  res['empirical'] = dict(chain_vs_cells=float(((est_chain_e - est_cells_e) ** 2).sum() / VF), chain_err=nm(est_chain_e),
+/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/pattern_chain.py:121: RuntimeWarning: invalid value encountered in scalar divide
+  nm = lambda e: float(((e - m0) ** 2).sum() / VF)
+[147s] empirical: chain vs cells nan, chain err nan, cells (= MC) err nan
+/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/pattern_chain.py:193: RuntimeWarning: invalid value encountered in scalar divide
+  res['orders'].append(dict(order=k, states=ns, chain_vs_cells=float(((e_k - est_cells_e) ** 2).sum() / VF), err=nm(e_k)))
+order-k chains (states, chain vs cells): [(1, 61, 'nan'), (2, 160, 'nan'), (3, 318, 'nan'), (4, 514, 'nan'), (5, 722, 'nan'), (6, 932, 'nan'), (7, 1142, 'nan'), (8, 1351, 'nan'), (9, 1558, 'nan'), (10, 1758, 'nan'), (11, 1948, 'nan'), (12, 2095, 'nan')]
+/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/pattern_chain.py:277: RuntimeWarning: invalid value encountered in scalar divide
+  e = min(((d_on - Fs) ** 2).sum(), ((d_off - Fs) ** 2).sum()) / VF
+{"seed": 9703, "n": 4, "cells": 212, "prod_layer_patterns": 2359296, "chain_states": 61, "chain_transitions": 144, "mc": 9.5367431640625e-07, "rqmc": NaN, "truth_noise": NaN, "irrelevant_units": 0, "secs": 487.6412081718445}
+layers [(16, 14, 15), (12, 10, 12), (8, 8, 8), (8, 6, 7), (4, 3, 4), (3, 3, 3), (2, 2, 2), (2, 2, 2), (2, 2, 2), (2, 2, 2), (1, 1, 1), (1, 1, 1)]
+transitions [(64, 192, 0.844, 0.844, 16, 7), (35, 96, 0.66, 0.467, 64, 7), (17, 64, 0.167, 0.127, 134, 5), (11, 32, 0.023, 0.02, 189, 3), (5, 12, 0.0, 0.0, 208, 3), (3, 6, 0.0, 0.0, 212, 2), (2, 4, 0.0, 0.0, 212, 2), (2, 4, 0.0, 0.0, 212, 2), (2, 4, 0.0, 0.0, 212, 2), (2, 2, 0.0, 0.0, 212, 1), (1, 1, 0.0, 0.0, 212, 1)]
+bits needed per unit (layer 2..L) [] from prev layer []
+total correlation per layer [0.415, 1.229, 0.348, 2.275, 0.048, 0.986, 0.943, 0.0, 1.885, 0.943, 0.0, 0.0] max pair MI [0.094, 0.353, 0.148, 0.856, 0.043, 0.943, 0.943, 0.0, 0.943, 0.943, 0.0, 0.0]

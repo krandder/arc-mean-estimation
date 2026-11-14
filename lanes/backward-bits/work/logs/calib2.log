@@ -1,0 +1,4 @@
+8x8_s0.01_K16: nMSE 0.0554 H(c_L) 3.325 | first step erased 0.429 T 2.912 | I(h0;cL) 2.650 I(h4;cL) 2.683 I(h5;cL) 2.763 I(h6;cL) 2.913 (9s)
+8x8_s0.01_K64: nMSE 0.0216 H(c_L) 5.468 | first step erased 1.348 T 4.122 | I(h0;cL) 3.376 I(h4;cL) 3.485 I(h5;cL) 3.700 I(h6;cL) 4.122 (21s)
+8x8_s0.02_K16: nMSE 0.0850 H(c_L) 3.361 | first step erased 0.867 T 2.472 | I(h0;cL) 2.004 I(h4;cL) 2.121 I(h5;cL) 2.243 I(h6;cL) 2.472 (9s)
+8x8_s0.02_K64: nMSE 0.0396 H(c_L) 5.570 | first step erased 2.175 T 3.383 | I(h0;cL) 2.383 I(h4;cL) 2.581 I(h5;cL) 2.825 I(h6;cL) 3.384 (32s)

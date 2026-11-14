@@ -1,0 +1,84 @@
+1. **What was measured (your 02:55Z request).** For each layer of the small random nets (16x4, 32x8, 16x16, 32x32;
+   three seeds; layers 0, L/4, L/2, 3L/4, L-1 and the output) and two controls, the fewest bits a code of that layer
+   needs so that decoding it and running the real rest of the net gives the output within a given error: the whole
+   bits-versus-accuracy curve. The registered method is one model per layer that takes the bit price as an input;
+   the reported count R* is the best of several codes of the class (that model's restarts, a 2x-steps version,
+   explorer restarts, and single-price models where they are better), and the single registered model r0 is given
+   next to it. The code is real
+   numbers sent through fixed unit noise with encoder-chosen power (the same thing as fixed power with chosen noise:
+   only the signal-to-noise ratio matters); bits = information under a learned prior. Each model starts as the linear
+   reference code (your identity anchor in its water-filled form: at a high budget every direction the output
+   depends on is sent at SNR 256, an almost perfect reconstruction) and the price rises during training.
+2. **An encoder that can compute anything usually needs about the output's own bits at every layer.** Across layers
+   and nets the median gap between the unrestricted curve and the output's own curve of the same net is {UDEV1} bit at
+   10% error and {UDEV2} bit at 1% ({NUDEV} layer-net pairs). There are {UEXC} bits. In these cases the trained
+   decoders did not find precise enough preimages; the theory (FORMAL 4.1) only bounds reachability, so these
+   gaps are observations, not proofs that the shortcut fails. The bits are small: {U16_1} for 10% and {U16_2} for 1% on
+   16x16 (output {O16_1} / {O16_2}).
+3. **A local encoder (one ReLU layer as wide as the net) needs more bits the closer the layer is to the input:
+   a little more at L/2, clearly more at L/4, and very many more at the input** (best-found curves; on all 12 ReLU
+   nets the count does not rise with depth, P1.3). Bits for 10% / 1% error (median over seeds; the single registered
+   model r0 is in section 2): {LOCAL_LINES}
+4. **Slopes (bits per halving of the output error, 10% -> 1%).** At the input layer at least n/2 bits per halving
+   ({SL0_16} for n = 16, {SL0_32} for n = 32): essentially every input direction has to be refined. At the output {SLO} bits (two
+   to three directions). In between the slope falls fast with depth ({SL4} at L/4 for 16x16).
+5. **The anchored local codes were not the best in the class at early layers; codes whose ReLU gates start inside
+   the data cloud need fewer bits.** The registered runs start every local encoder from the linear reference code, with
+   its gates outside the data cloud (affine), and they end close to the linear reference at the input layer
+   ({LIN0}). Local encoders started from the net's own next-layer gates (amendment P1-A, 'explorer') need fewer bits:
+   median saving at 10% / 1% error, by layer: {EXPL}. Widening only the decoder and prior gave little typical
+   improvement (width-n encoder with the wide decoder minus the base model: {WDEC}), which supports, but does not
+   prove, that the gains of the 2x-wide local encoder come from the encoder's own width. The counts in this report
+   include the explorer codes; better explorations of the class could lower the early-layer counts further.
+6. **How sure we are: these are best-found curves, not certified optima, and the one-model requirement is not met
+   everywhere.** The certificates below test the anchored models; the explorer codes that set many early-layer counts
+   got only their own restarts.
+   On every curve: three restarts, a model trained twice as long, a model twice as wide, refitted priors, an
+   output-space centroid, the linear reference, and three separately trained single-price models (section 3).
+   Restarts agree on {C1} points (but they all start from the same anchor; see point 5). A model trained twice as long is within tolerance of the base model on {C2}
+   points. The single registered model r0 sits above the reported counts by a median of {R0GAP} bits (input, L/4,
+   L/2, later local layers; mostly because the explorer and 2x-steps codes are better). The 2x-wide unrestricted model is within tolerance on {C3}.
+   Refitted priors are no better (within 5%) on {C4} points (the largest exception is {C4MAX} lower). The learned code
+   is within 0.3 bit or 5% of the linear reference or below it on {C7} of the points where it reaches the error level;
+   {C7EXC}. Known answers: the output codes are
+   within 0.3 bit of the Gaussian bound or below it ({KA1}); unrestricted matches output on {KA2} points; the
+   linear net gives the Gaussian answer within {LINMAX} bit at every layer for both classes ({KA3}). Limits:
+   (a) A local encoder twice as wide (outside the class; decoder and prior also doubled) needs fewer bits on
+   {C3L_FAIL} of points, mostly at L/4 to L/2; the amendment suggests it is the encoder's width (point 5), so there the
+   count depends on the width-n restriction.
+   (b) One model for all prices is within 3% of the separately trained single-price models on {C6R0} spot checks
+   ({C6LONG} for the 2x-steps model). Your requirement is therefore not met everywhere. The reported counts take the
+   lower envelope of both, as registered; section 2 shows the single model too.
+   (c) {NCOV} (target, cell) points are not covered: the learned curves stop before the target within the trained
+   price range (breakdown in section 3).
+   (d) Uncertainty: the spread between restarts (median {SPREAD} bit) is the only measured one. The selection over
+   about ten curves per cell is not corrected for.
+   The independent review (gpt-6-astra) asked for three more checks: encoders whose ReLU gates start inside the data
+   cloud (point 5), an output-space residual correction around r0's reconstruction ({CEN2}; a fitted correction
+   improved r0 little, which is consistent with, not proof of, a near-optimal decoder), and the encoder's width
+   separated from the decoder's (point 5). {CERT2} The explorer initial fit used evaluation samples in {NOMARK} of
+   these cells (pilot samples afterwards).
+7. **Controls.** In the chaotic tanh net the local count grows steeply toward the input ({TANH_LOCAL} bits for 10%
+   error at l = 15, 12, 8, 4, 0; output {TANH_OUT}). The trained unrestricted codes follow the output's curve only down
+   to an error that grows toward the input; below it they need about the local bits (the decoders did not find
+   precise preimages in the chaotic map; figs/P1_curves_tanh4_16x16.png). In the Boolean Feistel circuit, layers 12-15 need about the 16 bits of the state
+   itself ({FEI}), and at l <= 8 none of the trained real-valued codes reached 10% error within the price range. In
+   the linear net every layer, in both classes, needs the Gaussian answer to within {LINMAX} bit ({LIN}). One seed
+   per control.
+8. **Phase 2** (sections 3.1-3.5; Kelvin's near-identity hypothesis P2.0, the unscrambling loss, more
+   exploration; reviewed by gpt-6-astra, round 3).
+   - Per layer, a linear code costs 1.25-1.7 times the best code's bits. A learned mixture of linear pieces (gates
+     inside the data cloud) needs 0.6-0.8 times the linear code's bits.
+   - Across one layer, the anchored codes' means are fitted by an affine map to R^2 0.98-1.00 from L/4 on on ReLU
+     (an empirical fit, not a certificate; with rank-truncated fits this now includes the late 32x32 codes). On the
+     ReLU nets the codes as received (with the channel noise) predict the next layer's gates no better than the
+     constant base rate; on the chaotic net they predict them well above it.
+   - The registered near-identity predictions H2-H4 missed: the chaotic control's one-step maps look as simple as
+     ReLU's.
+   - Forcing the next code to be an affine function of this one (corrected penalty, rerun U-c) costs ReLU 0.03 / 0.19
+     / 0.38 / 0.42 bits and chaotic tanh 0.18 / 0.40 / 1.08 / 2.25 bits at mu = 0.1 / 0.3 / 1 / 3 (median over pairs).
+     The cost is extra rate; the pair's distortion barely moves. From L/4 on at mu >= 1, the tanh pair costs more than
+     every ReLU pair at each layer position (one tanh seed). As a fraction of its larger code it does not (U2 missed).
+   - In the noisy nets, maps fitted at one layer transfer poorly to deeper layers (H5 missed).
+   - Training twice as long still lowers the input-layer local counts by 4-9% (B1 missed), so those counts are upper
+     bounds.

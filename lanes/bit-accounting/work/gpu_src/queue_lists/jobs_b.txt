@@ -1,0 +1,15 @@
+relu_16x4_s5000_l0 --configs 16x4 --seeds 5000 --layers 0 --netkind relu
+relu_16x4_s5000_l1 --configs 16x4 --seeds 5000 --layers 1 --netkind relu
+relu_16x4_s5000_l2 --configs 16x4 --seeds 5000 --layers 2 --netkind relu
+relu_16x4_s5000_l3 --configs 16x4 --seeds 5000 --layers 3 --netkind relu
+relu_16x4_s5000_out --configs 16x4 --seeds 5000 --layers 4 --netkind relu
+relu_16x4_s5001_l0 --configs 16x4 --seeds 5001 --layers 0 --netkind relu
+relu_16x4_s5001_l1 --configs 16x4 --seeds 5001 --layers 1 --netkind relu
+relu_16x4_s5001_l2 --configs 16x4 --seeds 5001 --layers 2 --netkind relu
+relu_16x4_s5001_l3 --configs 16x4 --seeds 5001 --layers 3 --netkind relu
+relu_16x4_s5001_out --configs 16x4 --seeds 5001 --layers 4 --netkind relu
+relu_16x4_s5002_l0 --configs 16x4 --seeds 5002 --layers 0 --netkind relu
+relu_16x4_s5002_l1 --configs 16x4 --seeds 5002 --layers 1 --netkind relu
+relu_16x4_s5002_l2 --configs 16x4 --seeds 5002 --layers 2 --netkind relu
+relu_16x4_s5002_l3 --configs 16x4 --seeds 5002 --layers 3 --netkind relu
+relu_16x4_s5002_out --configs 16x4 --seeds 5002 --layers 4 --netkind relu

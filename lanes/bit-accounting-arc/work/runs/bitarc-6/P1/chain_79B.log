@@ -1,0 +1,4 @@
+done arc [4000] l=16 local bwd1 train 516s total 610s
+done arc [4000] l=0 local bwd1 train 558s total 669s
+done arc [4000] l=31 unres cap2steps2 train 1219s total 1250s
+done arc [4000] l=16 unres cap2steps2 train 1263s total 1287s

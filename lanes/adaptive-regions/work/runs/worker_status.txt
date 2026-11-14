@@ -1,0 +1,4 @@
+K=256 start 23:42:42Z cap 3600s
+K=256 exit 0 23:51:19Z
+K=1024 start 23:51:19Z cap 6600s
+K=1024 exit 0 00:36:42Z

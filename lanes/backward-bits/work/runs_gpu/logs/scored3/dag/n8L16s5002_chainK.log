@@ -1,0 +1,16 @@
+[    276s] l=14: T 4.788 (erased 0.200 of 4.988) | code K=59 H 4.730 I 4.379 deficit 0.409 | reuse H 4.981 I 4.613 | exCE 0.0888 | 275s
+[    555s] l=13: T 4.567 (erased 0.142 of 4.709) | code K=48 H 4.585 I 4.242 deficit 0.325 | reuse H 4.710 I 4.419 | exCE 0.0508 | 280s
+[    815s] l=12: T 4.462 (erased 0.135 of 4.597) | code K=41 H 4.473 I 4.155 deficit 0.307 | reuse H 4.597 I 4.326 | exCE 0.0209 | 260s
+[   1106s] l=11: T 4.298 (erased 0.173 of 4.471) | code K=30 H 4.256 I 3.883 deficit 0.415 | reuse H 4.469 I 4.153 | exCE 0.0867 | 291s
+[   1379s] l=10: T 4.182 (erased 0.075 of 4.257) | code K=29 H 4.195 I 3.961 deficit 0.221 | reuse H 4.257 I 4.090 | exCE 0.0802 | 273s
+[   1704s] l=9: T 4.129 (erased 0.067 of 4.196) | code K=26 H 4.075 I 3.692 deficit 0.437 | reuse H 4.197 I 4.036 | exCE 0.2408 | 324s
+[   1966s] l=8: T 4.026 (erased 0.055 of 4.082) | code K=25 H 4.003 I 3.718 deficit 0.308 | reuse H 4.082 I 3.946 | exCE 0.1392 | 263s
+[   2215s] l=7: T 3.971 (erased 0.043 of 4.014) | code K=25 H 3.981 I 3.674 deficit 0.297 | reuse H 4.015 I 3.904 | exCE 0.1464 | 249s
+[   2445s] l=6: T 3.936 (erased 0.038 of 3.974) | code K=26 H 3.934 I 3.613 deficit 0.323 | reuse H 3.975 I 3.874 | exCE 0.1886 | 229s
+[   2684s] l=5: T 3.902 (erased 0.029 of 3.931) | code K=26 H 3.923 I 3.677 deficit 0.225 | reuse H 3.931 I 3.849 | exCE 0.1211 | 240s
+[   2907s] l=4: T 3.904 (erased 0.021 of 3.925) | code K=27 H 3.918 I 3.662 deficit 0.241 | reuse H 3.926 I 3.861 | exCE 0.1511 | 223s
+[   3124s] l=3: T 3.895 (erased 0.019 of 3.914) | code K=27 H 3.914 I 3.857 deficit 0.038 | reuse H 3.914 I 3.857 | exCE 0.2059 | 216s
+[   3339s] l=2: T 3.919 (erased 0.008 of 3.927) | code K=27 H 3.927 I 3.902 deficit 0.018 | reuse H 3.927 I 3.902 | exCE 0.3069 | 215s
+[   3566s] l=1: T 3.910 (erased 0.010 of 3.920) | code K=27 H 3.920 I 3.888 deficit 0.022 | reuse H 3.920 I 3.888 | exCE 0.4992 | 227s
+[   3790s] l=0: T 3.904 (erased 0.008 of 3.912) | code K=27 H 3.912 I 3.886 deficit 0.018 | reuse H 3.912 I 3.886 | exCE 0.8679 | 224s
+[   3790s] done

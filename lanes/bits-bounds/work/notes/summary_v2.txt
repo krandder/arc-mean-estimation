@@ -1,0 +1,89 @@
+## Summary for Kelvin
+
+**Short answer.** There is now a theory of the bits that matter at layer l, with a past half (how many directions the
+cloud of states still has) and a future half (the scale below which later layers act linearly on it). It is proven in
+its laws and identities, it gives lower bounds for restricted classes (forward-only cell methods, point queries to an
+unknown table) and conditional ones for methods that touch the future at points, and it explains where your hash
+picture is right: at ARC's instance and wherever the variance is made, the future is rough on a high-dimensional cloud.
+It does not prove that nothing beats the best multilevel sampler. The open class is methods that average analytically,
+and the first test of the cleanest such method (an exact Gaussian closure) turned up a lead (item 10).
+
+1. **Model** (PROVEN placements [C+A]). Estimators that sweep the layers with p passes and M bits of state, paying for
+   all work. ARC-style cumulant propagation (with a stated reconstruction), Gaussian closures with gate splits,
+   branch-and-bound and the multilevel shared-trajectory sampler (one pass) all fit.
+2. **Information bounds cannot see your bits** (PROVEN [C+A]). Any information lower bound on an unrestricted state is
+   at most the weights' description length, n^2 L log(1/eps) bits, and the information a layer-l state carries about
+   the output is the same at every layer. A count of input bits can only bound a restricted class, or time.
+3. **The past's half: about n/l directions** (MEASURED on 64 nets; the fit is POST HOC). The angular cloud at layer l
+   has covariance participation ratio PR = 1.04 (n/l) + 1.38 (R^2 = 0.96, 256 (net, layer) points, nine
+   configurations), and angular size about 3 pi/(l + 6) for l << n (smaller in the deep half at finite width). The n/l
+   term is the rank-conditioned Lyapunov count: these are your "Lyapunov covariances". They do not single out
+   directions for the future: given the past, the future's frame is uniformly random relative to the cloud's axes
+   [R, A].
+4. **The future's half: a linearity scale of about 2.45/L' radians** (PROVEN: exact for one layer at every width; mean
+   field for L' layers in closed form [C, A]). Freezing the future's gates at a reference state c leaves residual
+   (2|h|^2/pi)(phi - sin phi cos phi) ~ (4/(3 pi)) |h|^2 phi^3 for one layer (phi = angle between h and c) and
+   (4 L'/(3 pi)) phi^3 for L' layers when L' phi is small; freezing beats merging radially while
+   L' phi < 3 pi (2^{1/3} - 1) = 2.45. Beyond that scale the future has merged the directions and states differ through
+   gains, a rough field with variance about (6 pi/n) x angle [A, proven in a limit; measured within 2-3x on nets]. The
+   residual comes only from the future gates on which the two trajectories disagree (exact identity).
+5. **Their ratio decides the regime.** rho_l = cloud size / linearity scale ~ 3.8 L'/l. Below 1 (the last ~20% of the
+   layers) the future is smooth on the cloud and a few cells resolve it; above 1 it is rough. HEURISTIC bit count for
+   cell methods: d_l log2(rho_l) + (d_l/2H) log2(1/eps^2), with d_l the cloud's dimension and H = 3/2 (smooth) or 1/2
+   (rough).
+6. **Bounds tied to it.**
+   - Forward-only cell methods need log2 M >= (d/3) log2(E R^2/D) + O(1) cells, while cells aligned with the actual
+     future's regions are exact; averaged over futures the separation is unbounded at high precision (PROVEN in the
+     class, under angular-source hypotheses [C, corrected by A]).
+   - Merges with M references and exact cell statistics have, averaged over the future, at most the error of a
+     stratified sampler with one draw per cell (PROVEN upper bound [C]); measured, their per-net bias is about D(M)/M
+     in the rough regime (median ratio 0.82 over 453 cells).
+   - For linear point rules (all merges) the future-averaged error is exactly a kernel discrepancy under the
+     finite-width kernel, whose cubic singularity is proven; the resulting rate, error^2 >= c M^{-1-3/d}, is a
+     CONJECTURE until a kernel-quadrature theorem is applied with checked hypotheses. For adaptive point methods the
+     rate M^{-1-2H/d} holds under a Gaussian surrogate of the future, which real finite-width nets are not.
+   - Point queries to a table of 2^N values with an unknown common bias need Theta(min(2^N, eps^{-2})) queries
+     (PROVEN [A]).
+7. **Where the bits are, measured** (our k-means construction, four cuts per net). At ARC's 256 x 32 the cloud has
+   13-33 effective directions at the measured cuts, and 256 cells do not bring the merge residual to eps^2 = 0.1 at
+   l = 8, 16, 24. At L = n the middle layer needs more than 8, more than 8, 6.1 and 0.8 bits at eps^2 = 0.01 for
+   n = 32, 64, 128, 256: those bits fall with width, because the residual left after one merge at layer l is about
+   (3-9)/l of the variance at any width. The variance is made in the first few dozen layers, where the cloud has ~n/l
+   directions and the remaining future is long and rough.
+8. **Samplers built on the bits** (MEASURED, registered; ideal propagation-only comparisons). The one-reference
+   multilevel sampler's gain over MC grows with width at L = n (1.21, 1.41, 1.58, 2.43 at n = 32-256), is 2.2-3.9 at
+   L = 4n and 0.99 at 256 x 32. Several reference trajectories add 1.4-1.55x at L = 4n, nothing measurable at L = n
+   for n >= 128, and lose at 256 x 32.
+9. **Your hash argument.** What survives: beyond the future's linearity scale, the future is rough on a cloud with
+   ~n/l directions; for point methods with exact cell statistics, merges behave in measured size like stratified
+   sampling, and under the Gaussian surrogate no point method beats sampling by more than M^{2H/d}; ARC's 256 x 32 sits
+   in that regime at every cut we measured. What fails: the count is not exp(k*) (it is d_l ~ n/l and rho_l; k* does
+   not enter); the final layers are the easiest, not the hardest (at most 1.7 bits at 7L/8 for L >= n at
+   eps^2 = 0.01); a random hash with a known ensemble mean is easy to average (a gain of at least 4(K-1)/K over MC at
+   every budget, from the ensemble prior alone, PROVEN [C+A]); and plain sampling is beaten by the multilevel sampler.
+10. **The open step, and a lead.** Methods that average analytically (Gaussian closures, cumulant propagation)
+    integrate kinks without resolving them and evade every bound above. First test (Amendment 3, registered): the exact
+    single-Gaussian recursion, at its matrix-product cost of 2n passes, gains 2.3, 0.6, 0.8, 0.9 over MC at L = n/2
+    (n = 16-128) but 0.4, 0.3, 0.6, 3.3 at L = n, where its error falls like n^{-2} over this range. If that continued,
+    an averaging method would beat sampling by a factor growing with width at depth proportional to width, which is
+    exactly the open C0* question. CLOSURE-RESULT-PLACEHOLDER
+11. **If you want one parameter.** For point methods it is the exponent gamma_l at which the merge residual falls with
+    the number of reference cells at layer l (2H/d under the surrogate). Measured for our construction (POST HOC; not
+    a bound on the best exponent): 0.01-0.14 at ARC's 256 x 32; 0.10-0.18 at L/4 and 0.31-0.41 at L/2 of L = n nets;
+    0.5-0.7 in their last quarter; 1.0-1.5 at L = 4n beyond L/2. The adopted linear-feature count N prices
+    representation (forward-only: the cloud's ~n/l directions; two-sided: N), but by itself gives no lower bound for
+    the mean (a linear future has a large N and an exact mean) [A].
+
+Pre-registered scorecard (section 8): of 11 main predictions 3 hit and 8 missed (P8 counts as a hit under its
+registered wording; the hashed scorer used a stricter reading); five misses are narrow, one comes from the comparison
+target (P2), and one was a wrong expectation: I expected the bits at the middle layer of L = n nets to stay above 8 as
+width grows, and they fall (P11). Amendments: the one-reference multilevel bands hit, two predictions missed narrowly,
+the rough-gain law is within the band at every width, and the closure test missed at L = n in the direction that
+matters.
+
+Corrections made today: from the co-prover's audit, my finite-width "enhancement" of the cubic law was a normalisation
+artifact, the forward-only/two-sided separation holds averaged over futures (not for a fixed net), and the hash
+proposition's gain is about 4x, not at least 4x; from the fresh review, "references are samples" is an upper bound
+(not a lower bound), the point-method rate is conjectural without the surrogate, the closure cost figure describes one
+implementation, the "best" merge is not forward-only, and several claims were narrowed to the tested constructions.
+

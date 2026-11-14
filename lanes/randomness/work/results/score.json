@@ -1,0 +1,322 @@
+[
+ {
+  "id": "PS1",
+  "prediction": "median odd share in [0.45, 0.70], every net in [0.40, 0.75] (256 x 32)",
+  "measured": [
+   0.585,
+   0.556,
+   0.572,
+   0.563,
+   0.531
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PS2",
+  "prediction": "median share of degrees <= 2 in [0.30, 0.65] (256 x 32)",
+  "measured": [
+   0.619,
+   0.467,
+   0.472,
+   0.436,
+   0.263
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PS3",
+  "prediction": "median even >= 6 share in [0.08, 0.30] (256 x 32)",
+  "measured": [
+   0.113,
+   0.169,
+   0.161,
+   0.186,
+   0.212
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PB1",
+  "prediction": "Kerdock (Haar) gain over MC: median in [2.0, 5.0], >= 1.5 on 5 of 5",
+  "measured": [
+   4.69,
+   3.04,
+   3.24,
+   2.74,
+   2.4
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PB2",
+  "prediction": "no Haar-randomised design gains more than 6 over MC (256 x 32)",
+  "measured": 4.69,
+  "result": "HOLDS"
+ },
+ {
+  "id": "PW1",
+  "prediction": "polar RQMC beats standard RQMC at 2^14 on >= 4 of 5 nets, median ratio >= 1.2 (256 x 32)",
+  "measured": [
+   1.37,
+   1.15,
+   1.76,
+   1.31,
+   0.82
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PW3",
+  "prediction": "polar-aligned Kerdock (signed permutations) biased: nMSE x m >= 5 on >= 4 of 5",
+  "measured": [
+   94.6,
+   195.1,
+   54.2,
+   94.1,
+   93.2
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PW4",
+  "prediction": "multilevel two-level best gain over RB-MC <= 1.1 on 5 of 5 (256 x 32)",
+  "measured": [
+   1.0,
+   0.986,
+   1.03,
+   0.988,
+   0.961
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PS4",
+  "prediction": "simplex gain and E_1 share fall from n = 32 to 256 (medians)",
+  "measured": {
+   "simplex_gain": {
+    "32": 4.49,
+    "64": 2.82,
+    "128": 2.1,
+    "256": 1.93
+   },
+   "E1": {
+    "32": 0.466,
+    "64": 0.38,
+    "128": 0.288,
+    "256": 0.319
+   }
+  },
+  "result": "HOLDS"
+ },
+ {
+  "id": "PW2",
+  "prediction": "polar/standard RQMC ratio at 2^14, median per width in [0.8, 1.3] for n = 32, 64, 128",
+  "measured": {
+   "32": 1.26,
+   "64": 0.99,
+   "128": 1.17
+  },
+  "result": "HOLDS"
+ },
+ {
+  "id": "PC1",
+  "prediction": "rqmc_polar gain >= 2.0 on >= 4 of 5 and >= 1.2 x rqmc_std on >= 4 of 5 (N = 2^16)",
+  "measured": {
+   "polar": [
+    2.64,
+    1.83,
+    2.22,
+    2.47,
+    1.87
+   ],
+   "std": [
+    2.77,
+    1.97,
+    2.13,
+    2.15,
+    1.95
+   ]
+  },
+  "result": "FAILS"
+ },
+ {
+  "id": "PC2",
+  "prediction": "Kerdock gain >= 1.8 on >= 4 of 5 (66,048 points, vs truth)",
+  "measured": [
+   3.93,
+   3.15,
+   2.79,
+   2.89,
+   2.2
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PC3",
+  "prediction": "best structured sampler gains in [2, 8] over MC on every net (none reaches 10x)",
+  "measured": [
+   3.93,
+   3.15,
+   2.79,
+   2.89,
+   2.2
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PC4",
+  "prediction": "pairwise-independent MC: median nMSE x N / (V_rb/V) in [0.6, 1.5]",
+  "measured": [
+   0.63,
+   0.67,
+   0.65,
+   2.57,
+   1.08
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PC5",
+  "prediction": "zero-bit polar Sobol: median nMSE x N <= 1",
+  "measured": [
+   1.2,
+   0.31,
+   0.41,
+   0.23,
+   0.37
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PN1",
+  "prediction": "layer-1 GSA (pooled delta = 1e-6..1e-4) within +-10% of n/sqrt(2 pi), every net, all widths",
+  "measured": [
+   0.94,
+   1.071,
+   29
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PN2",
+  "prediction": "per-layer GSA (l >= 2) in [0.5, 1.3] x n/sqrt(2 pi), every layer, every 256 net",
+  "measured": [
+   0.329,
+   1.313
+  ],
+  "result": "FAILS"
+ },
+ {
+  "id": "PN3",
+  "prediction": "total partition GSA in [0.6, 1.2] x n L / sqrt(2 pi) (256 x 32)",
+  "measured": [
+   0.767,
+   0.853,
+   1.034,
+   1.006,
+   1.071
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PN4",
+  "prediction": "NS_out(1e-5)/1e-5 in [0.4, 1.5] x n/V on every 256 net",
+  "measured": [
+   0.873,
+   2.089,
+   0.861,
+   0.435,
+   0.551
+  ],
+  "result": "FAILS"
+ },
+ {
+  "id": "PN5",
+  "prediction": "P(gate pattern changes) at delta = 1e-6 >= 0.8 on every 256 net",
+  "measured": [
+   0.928,
+   0.944,
+   0.968,
+   0.964,
+   0.976
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PN6",
+  "prediction": "validity: design tail tau_2 >= the T6 lower bound from NS_sph (tolerance 0.05), every net",
+  "measured": [
+   [
+    0.381,
+    0.185,
+    true
+   ],
+   [
+    0.533,
+    0.329,
+    true
+   ],
+   [
+    0.528,
+    0.287,
+    true
+   ],
+   [
+    0.564,
+    0.258,
+    true
+   ],
+   [
+    0.737,
+    0.441,
+    true
+   ]
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PQ1",
+  "prediction": "centred Sobol (rb) fitted rate p over N = 2^8..2^16: median in [0.6, 1.4] (256 x 32)",
+  "measured": [
+   1.07,
+   1.14,
+   1.14,
+   1.09,
+   0.84
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PQ4",
+  "prediction": "Korobov lattice (rb) median nMSE x N at 2^14 >= 0.5 (256 x 32)",
+  "measured": [
+   0.46,
+   1.0,
+   0.53,
+   0.77,
+   0.41
+  ],
+  "result": "HOLDS"
+ },
+ {
+  "id": "PQ2",
+  "prediction": "centred Sobol (rb) median nMSE x N at 2^14 higher at n = 256 than at n = 32",
+  "measured": {
+   "32": 0.166,
+   "64": 0.266,
+   "128": 0.506,
+   "256": 0.337
+  },
+  "result": "HOLDS"
+ },
+ {
+  "id": "PQ3",
+  "prediction": "k-wise designs, every resolved (net, k): nMSE x N in [0.05, 5]",
+  "measured": {
+   "count": 114,
+   "min": 0.132,
+   "max": 4.896
+  },
+  "result": "HOLDS"
+ }
+]

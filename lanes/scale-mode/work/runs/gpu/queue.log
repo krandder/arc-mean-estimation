@@ -1,0 +1,244 @@
+start lv au:699:128:32 11:45:24Z
+/root/soup/lib/ext/mlp_cumulant_propagation/src/mlp_kprop/cumulants.py:195: SyntaxWarning: invalid escape sequence '\g'
+  """
+lv au:699:128:32 LVTV2: V_L 0.1845 flops 4.570e+08 passes 436 2.3s
+lv au:699:128:32 LVT: V_L 0.0465 flops 4.513e+08 passes 430 0.6s
+lv au:699:128:32 LVTV2f1: V_L 0.1252 flops 4.570e+08 passes 436 0.9s
+lv au:699:128:32 LVT0: V_L 0.0000 flops 4.503e+08 passes 429 0.6s
+done lv au:699:128:32 11:45:31Z
+start arc au:699:128:32 k2,k2a 11:45:31Z
+arc au:699:128:32 k2: flops 2.111e+08 passes 201 2.2s
+arc au:699:128:32 k2a: flops 2.731e+08 passes 260 3.9s
+done arc au:699:128:32 k2,k2a 11:45:40Z
+start truth au:699:128:32 22 11:45:40Z
+truth au:699:128:32 2^22 2s checksum -3.4004806275e+02
+done truth au:699:128:32 22 11:45:45Z
+start truth au:640:1024:256 20 11:45:45Z
+truth au:640:1024:256 2^20 107s checksum -1.9646238380e+05
+done truth au:640:1024:256 20 11:47:35Z
+start lv au:640:1024:256 11:47:35Z
+lv au:640:1024:256 LVTV2: V_L 0.0284 flops 1.199e+12 passes 2233 15.9s
+lv au:640:1024:256 LVT: V_L 0.0000 flops 1.196e+12 passes 2227 11.9s
+lv au:640:1024:256 LVTV2f1: V_L 0.0214 flops 1.199e+12 passes 2233 15.3s
+lv au:640:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:640:1024:256 11:48:41Z
+start arc au:640:1024:256 k2,k2a 11:48:41Z
+arc au:640:1024:256 k2: flops 8.295e+11 passes 1545 10.4s
+arc au:640:1024:256 k2a: flops 8.609e+11 passes 1604 32.2s
+done arc au:640:1024:256 k2,k2a 11:49:44Z
+start rqmc au:640:1024:256 8,10,12,14 8 11:49:44Z
+rqmc au:640:1024:256 m=8 10s
+rqmc au:640:1024:256 m=10 11s
+rqmc au:640:1024:256 m=12 14s
+rqmc au:640:1024:256 m=14 24s
+done rqmc au:640:1024:256 8,10,12,14 8 11:50:10Z
+start truth au:641:1024:256 20 11:50:10Z
+truth au:641:1024:256 2^20 108s checksum 1.9634634694e+05
+done truth au:641:1024:256 20 11:52:01Z
+start lv au:641:1024:256 11:52:01Z
+lv au:641:1024:256 LVTV2: V_L 0.0245 flops 1.199e+12 passes 2233 16.0s
+lv au:641:1024:256 LVT: V_L 0.0000 flops 1.196e+12 passes 2227 12.0s
+lv au:641:1024:256 LVTV2f1: V_L 0.0185 flops 1.199e+12 passes 2233 15.4s
+lv au:641:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:641:1024:256 11:53:07Z
+start arc au:641:1024:256 k2,k2a 11:53:07Z
+arc au:641:1024:256 k2: flops 8.295e+11 passes 1545 10.5s
+arc au:641:1024:256 k2a: flops 8.609e+11 passes 1604 32.3s
+done arc au:641:1024:256 k2,k2a 11:54:10Z
+start rqmc au:641:1024:256 8,10,12,14 8 11:54:10Z
+rqmc au:641:1024:256 m=8 10s
+rqmc au:641:1024:256 m=10 11s
+rqmc au:641:1024:256 m=12 14s
+rqmc au:641:1024:256 m=14 24s
+done rqmc au:641:1024:256 8,10,12,14 8 11:54:37Z
+start truth au:642:1024:256 20 11:54:37Z
+truth au:642:1024:256 2^20 108s checksum -1.9683750228e+03
+done truth au:642:1024:256 20 11:56:27Z
+start lv au:642:1024:256 11:56:27Z
+lv au:642:1024:256 LVTV2: V_L 0.0214 flops 1.199e+12 passes 2233 15.9s
+lv au:642:1024:256 LVT: V_L 0.0006 flops 1.196e+12 passes 2227 11.9s
+lv au:642:1024:256 LVTV2f1: V_L 0.0164 flops 1.199e+12 passes 2233 15.3s
+lv au:642:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:642:1024:256 11:57:33Z
+start arc au:642:1024:256 k2,k2a 11:57:33Z
+arc au:642:1024:256 k2: flops 8.295e+11 passes 1545 10.5s
+arc au:642:1024:256 k2a: flops 8.609e+11 passes 1604 32.0s
+done arc au:642:1024:256 k2,k2a 11:58:36Z
+start rqmc au:642:1024:256 8,10,12,14 8 11:58:36Z
+rqmc au:642:1024:256 m=8 10s
+rqmc au:642:1024:256 m=10 11s
+rqmc au:642:1024:256 m=12 14s
+rqmc au:642:1024:256 m=14 24s
+done rqmc au:642:1024:256 8,10,12,14 8 11:59:02Z
+start truth au:643:1024:256 20 11:59:02Z
+truth au:643:1024:256 2^20 108s checksum 5.3124076000e+04
+done truth au:643:1024:256 20 12:00:53Z
+start lv au:643:1024:256 12:00:53Z
+lv au:643:1024:256 LVTV2: V_L 0.0271 flops 1.199e+12 passes 2233 15.9s
+lv au:643:1024:256 LVT: V_L 0.0000 flops 1.196e+12 passes 2227 11.9s
+lv au:643:1024:256 LVTV2f1: V_L 0.0204 flops 1.199e+12 passes 2233 15.3s
+lv au:643:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:643:1024:256 12:01:59Z
+start arc au:643:1024:256 k2,k2a 12:01:59Z
+arc au:643:1024:256 k2: flops 8.295e+11 passes 1545 10.5s
+arc au:643:1024:256 k2a: flops 8.609e+11 passes 1604 32.2s
+done arc au:643:1024:256 k2,k2a 12:03:02Z
+start rqmc au:643:1024:256 8,10,12,14 8 12:03:02Z
+rqmc au:643:1024:256 m=8 10s
+rqmc au:643:1024:256 m=10 11s
+rqmc au:643:1024:256 m=12 14s
+rqmc au:643:1024:256 m=14 24s
+done rqmc au:643:1024:256 8,10,12,14 8 12:03:28Z
+start truth au:644:1024:256 20 12:03:28Z
+truth au:644:1024:256 2^20 108s checksum 7.3646334215e+04
+done truth au:644:1024:256 20 12:05:18Z
+start lv au:644:1024:256 12:05:18Z
+lv au:644:1024:256 LVTV2: V_L 0.0242 flops 1.199e+12 passes 2233 15.9s
+lv au:644:1024:256 LVT: V_L 0.0007 flops 1.196e+12 passes 2227 11.9s
+lv au:644:1024:256 LVTV2f1: V_L 0.0183 flops 1.199e+12 passes 2233 15.3s
+lv au:644:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:644:1024:256 12:06:25Z
+start arc au:644:1024:256 k2,k2a 12:06:25Z
+arc au:644:1024:256 k2: flops 8.295e+11 passes 1545 10.5s
+arc au:644:1024:256 k2a: flops 8.609e+11 passes 1604 32.0s
+done arc au:644:1024:256 k2,k2a 12:07:27Z
+start rqmc au:644:1024:256 8,10,12,14 8 12:07:27Z
+rqmc au:644:1024:256 m=8 10s
+rqmc au:644:1024:256 m=10 11s
+rqmc au:644:1024:256 m=12 15s
+rqmc au:644:1024:256 m=14 24s
+done rqmc au:644:1024:256 8,10,12,14 8 12:07:54Z
+start truth au:645:1024:256 20 12:07:54Z
+truth au:645:1024:256 2^20 109s checksum 9.5528811428e+04
+done truth au:645:1024:256 20 12:09:45Z
+start lv au:645:1024:256 12:09:45Z
+lv au:645:1024:256 LVTV2: V_L 0.0293 flops 1.199e+12 passes 2233 16.0s
+lv au:645:1024:256 LVT: V_L 0.0005 flops 1.196e+12 passes 2227 11.9s
+lv au:645:1024:256 LVTV2f1: V_L 0.0225 flops 1.199e+12 passes 2233 15.3s
+lv au:645:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:645:1024:256 12:10:52Z
+start arc au:645:1024:256 k2,k2a 12:10:52Z
+arc au:645:1024:256 k2: flops 8.295e+11 passes 1545 10.6s
+arc au:645:1024:256 k2a: flops 8.609e+11 passes 1604 32.8s
+done arc au:645:1024:256 k2,k2a 12:11:55Z
+start rqmc au:645:1024:256 8,10,12,14 8 12:11:55Z
+rqmc au:645:1024:256 m=8 10s
+rqmc au:645:1024:256 m=10 11s
+rqmc au:645:1024:256 m=12 14s
+rqmc au:645:1024:256 m=14 24s
+done rqmc au:645:1024:256 8,10,12,14 8 12:12:22Z
+start truth au:646:1024:256 20 12:12:22Z
+truth au:646:1024:256 2^20 108s checksum 1.6867483471e+05
+done truth au:646:1024:256 20 12:14:12Z
+start lv au:646:1024:256 12:14:12Z
+lv au:646:1024:256 LVTV2: V_L 0.0241 flops 1.199e+12 passes 2233 16.0s
+lv au:646:1024:256 LVT: V_L 0.0006 flops 1.196e+12 passes 2227 11.9s
+lv au:646:1024:256 LVTV2f1: V_L 0.0180 flops 1.199e+12 passes 2233 15.3s
+lv au:646:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.9s
+done lv au:646:1024:256 12:15:19Z
+start arc au:646:1024:256 k2,k2a 12:15:19Z
+arc au:646:1024:256 k2: flops 8.295e+11 passes 1545 10.5s
+arc au:646:1024:256 k2a: flops 8.609e+11 passes 1604 32.1s
+done arc au:646:1024:256 k2,k2a 12:16:22Z
+start rqmc au:646:1024:256 8,10,12,14 8 12:16:22Z
+rqmc au:646:1024:256 m=8 10s
+rqmc au:646:1024:256 m=10 11s
+rqmc au:646:1024:256 m=12 14s
+rqmc au:646:1024:256 m=14 24s
+done rqmc au:646:1024:256 8,10,12,14 8 12:16:48Z
+start truth au:647:1024:256 20 12:16:48Z
+truth au:647:1024:256 2^20 108s checksum 3.8573254808e+04
+done truth au:647:1024:256 20 12:18:38Z
+start lv au:647:1024:256 12:18:38Z
+lv au:647:1024:256 LVTV2: V_L 0.0260 flops 1.199e+12 passes 2233 15.9s
+lv au:647:1024:256 LVT: V_L 0.0009 flops 1.196e+12 passes 2227 11.9s
+lv au:647:1024:256 LVTV2f1: V_L 0.0200 flops 1.199e+12 passes 2233 15.4s
+lv au:647:1024:256 LVT0: V_L 0.0000 flops 1.195e+12 passes 2226 11.8s
+done lv au:647:1024:256 12:19:45Z
+start arc au:647:1024:256 k2,k2a 12:19:45Z
+arc au:647:1024:256 k2: flops 8.295e+11 passes 1545 10.5s
+arc au:647:1024:256 k2a: flops 8.609e+11 passes 1604 32.6s
+done arc au:647:1024:256 k2,k2a 12:20:48Z
+start rqmc au:647:1024:256 8,10,12,14 8 12:20:48Z
+rqmc au:647:1024:256 m=8 10s
+rqmc au:647:1024:256 m=10 11s
+rqmc au:647:1024:256 m=12 14s
+rqmc au:647:1024:256 m=14 24s
+done rqmc au:647:1024:256 8,10,12,14 8 12:21:14Z
+start truth au:634:512:128 20 12:21:14Z
+truth au:634:512:128 2^20 21s checksum 3.6607852945e+03
+done truth au:634:512:128 20 12:21:37Z
+start lv au:634:512:128 12:21:37Z
+lv au:634:512:128 LVTV2: V_L 0.0568 flops 8.107e+10 passes 1208 4.8s
+lv au:634:512:128 LVT: V_L 0.0000 flops 8.070e+10 passes 1202 2.5s
+lv au:634:512:128 LVTV2f1: V_L 0.0433 flops 8.107e+10 passes 1208 3.7s
+lv au:634:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 2.4s
+done lv au:634:512:128 12:21:55Z
+start arc au:634:512:128 k2,k2a 12:21:55Z
+arc au:634:512:128 k2: flops 5.215e+10 passes 777 4.8s
+arc au:634:512:128 k2a: flops 5.609e+10 passes 836 15.0s
+done arc au:634:512:128 k2,k2a 12:22:20Z
+start rqmc au:634:512:128 8,10,12,13 8 12:22:20Z
+rqmc au:634:512:128 m=8 3s
+rqmc au:634:512:128 m=10 3s
+rqmc au:634:512:128 m=12 4s
+rqmc au:634:512:128 m=13 6s
+done rqmc au:634:512:128 8,10,12,13 8 12:22:28Z
+start truth au:635:512:128 20 12:22:28Z
+truth au:635:512:128 2^20 21s checksum -1.5403316512e+04
+done truth au:635:512:128 20 12:22:51Z
+start lv au:635:512:128 12:22:51Z
+lv au:635:512:128 LVTV2: V_L 0.0465 flops 8.107e+10 passes 1208 4.7s
+lv au:635:512:128 LVT: V_L 0.0024 flops 8.071e+10 passes 1203 2.5s
+lv au:635:512:128 LVTV2f1: V_L 0.0349 flops 8.107e+10 passes 1208 3.7s
+lv au:635:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 2.4s
+done lv au:635:512:128 12:23:09Z
+start arc au:635:512:128 k2,k2a 12:23:09Z
+arc au:635:512:128 k2: flops 5.215e+10 passes 777 4.7s
+arc au:635:512:128 k2a: flops 5.609e+10 passes 836 14.6s
+done arc au:635:512:128 k2,k2a 12:23:33Z
+start rqmc au:635:512:128 8,10,12,13 8 12:23:33Z
+rqmc au:635:512:128 m=8 3s
+rqmc au:635:512:128 m=10 3s
+rqmc au:635:512:128 m=12 4s
+rqmc au:635:512:128 m=13 6s
+done rqmc au:635:512:128 8,10,12,13 8 12:23:41Z
+start truth au:636:512:128 20 12:23:41Z
+truth au:636:512:128 2^20 21s checksum -1.7933305960e+04
+done truth au:636:512:128 20 12:24:04Z
+start lv au:636:512:128 12:24:04Z
+lv au:636:512:128 LVTV2: V_L 0.0433 flops 8.107e+10 passes 1208 4.8s
+lv au:636:512:128 LVT: V_L 0.0027 flops 8.071e+10 passes 1203 2.5s
+lv au:636:512:128 LVTV2f1: V_L 0.0328 flops 8.107e+10 passes 1208 3.8s
+lv au:636:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 2.5s
+done lv au:636:512:128 12:24:22Z
+start arc au:636:512:128 k2,k2a 12:24:22Z
+arc au:636:512:128 k2: flops 5.215e+10 passes 777 4.8s
+arc au:636:512:128 k2a: flops 5.609e+10 passes 836 14.9s
+done arc au:636:512:128 k2,k2a 12:24:47Z
+start rqmc au:636:512:128 8,10,12,13 8 12:24:47Z
+rqmc au:636:512:128 m=8 3s
+rqmc au:636:512:128 m=10 3s
+rqmc au:636:512:128 m=12 4s
+rqmc au:636:512:128 m=13 6s
+done rqmc au:636:512:128 8,10,12,13 8 12:24:55Z
+start truth au:637:512:128 20 12:24:55Z
+truth au:637:512:128 2^20 21s checksum 1.6756496430e+04
+done truth au:637:512:128 20 12:25:18Z
+start lv au:637:512:128 12:25:18Z
+lv au:637:512:128 LVTV2: V_L 0.0546 flops 8.107e+10 passes 1208 4.8s
+lv au:637:512:128 LVT: V_L 0.0028 flops 8.071e+10 passes 1203 2.5s
+lv au:637:512:128 LVTV2f1: V_L 0.0420 flops 8.107e+10 passes 1208 3.8s
+lv au:637:512:128 LVT0: V_L 0.0000 flops 8.064e+10 passes 1202 2.4s
+done lv au:637:512:128 12:25:36Z
+start arc au:637:512:128 k2,k2a 12:25:36Z
+arc au:637:512:128 k2: flops 5.215e+10 passes 777 4.7s
+arc au:637:512:128 k2a: flops 5.609e+10 passes 836 14.8s
+done arc au:637:512:128 k2,k2a 12:26:01Z
+start rqmc au:637:512:128 8,10,12,13 8 12:26:01Z
+rqmc au:637:512:128 m=8 3s
+rqmc au:637:512:128 m=10 3s
+rqmc au:637:512:128 m=12 4s
+rqmc au:637:512:128 m=13 6s
+done rqmc au:637:512:128 8,10,12,13 8 12:26:09Z
+queue end 12:26:09Z

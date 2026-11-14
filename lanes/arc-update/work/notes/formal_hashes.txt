@@ -1,0 +1,21 @@
+023b7e92e85331676140c01e1ac5e9b8904164d8cbc8c90710a27da6b0dc8bb3  FORMAL.md
+023b7e92e85331676140c01e1ac5e9b8904164d8cbc8c90710a27da6b0dc8bb3  coprover/FORMAL_v1_as_written.md
+FORMAL v1 frozen 04:54:10Z (before reading any co-prover output)
+910255eee5f437a630542970261f748a360cdabf034aa3fae0655e2d978fb12e  FORMAL.md
+910255eee5f437a630542970261f748a360cdabf034aa3fae0655e2d978fb12e  coprover/FORMAL_v1_as_written.md
+header time corrected (typed ahead of the clock) and rehashed 04:54:16Z; no co-prover output read
+19c49a0176c7ea3202cade83f230f5d1f5200dbc2897324b18d0ae9a61c0cb94  FORMAL.md
+FORMAL v2 + E10 (astra r3 applied) 06:46:34Z
+2e2a1c79acd62905cf0b73a8cbb4fb18e89833b45961de6f3f22ea1d45057ac0  FORMAL.md
+FORMAL + E11 (finite-width b_0) 07:04:24Z
+8073df5ed5f03b0ac86f37b1421c7d7c37ebca2664d17f707805339eccece4a7  FORMAL.md
+FORMAL + E12 (astra r4 + GPT-6 review corrections) 09:57:11Z
+1e05352a78b18d8fb6177beb5da8977038d50ce2eff00e9afa562efd1758a000  arc-update.md
+arc-update.md final for this run 10:13:24Z
+8274c8372f08db2555d778cf98b7263c19c4fa707f9d3b8499620275fa8de596  FORMAL.md
+FORMAL + E13 (adjudication corrections) 10:28:57Z
+f60ee607b61b41a60ae109f21f03898c7c65828ae7febb33581c6757802d0991  FORMAL.md
+FORMAL E13 header time corrected (typed ahead of the clock) 10:29:52Z
+7b2cdfb635376b17747ae9f6b488037e7becc00c84e28ecaecb57679c61adaad  arc-update.md
+7b2cdfb635376b17747ae9f6b488037e7becc00c84e28ecaecb57679c61adaad  /home/agent/workspaces/mats/outbox/arc-update-2026-11-02.md
+arc-update.md revised after adjudication + astra check, copied to outbox 10:34:08Z

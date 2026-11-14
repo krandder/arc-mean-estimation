@@ -1,0 +1,3 @@
+ok test_weights_match_nd
+ok test_patterns_and_forward_agree
+ok test_hash_distinguishes

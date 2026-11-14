@@ -1,0 +1,30 @@
+09:52:49 slot 1 start relu_16x4_s5000_l0
+09:53:04 slot 2 start relu_16x4_s5000_l1
+09:53:19 slot 3 start relu_16x4_s5000_l2
+09:53:34 slot 4 start relu_16x4_s5000_l3
+09:53:49 slot 5 start relu_16x4_s5000_out
+09:54:04 slot 6 start relu_16x4_s5001_l0
+10:27:40 slot 1 end relu_16x4_s5000_l0 rc=0
+10:27:40 slot 1 start relu_16x4_s5001_l1
+10:30:40 slot 5 end relu_16x4_s5000_out rc=0
+10:30:40 slot 5 start relu_16x4_s5001_l2
+10:54:08 slot 2 end relu_16x4_s5000_l1 rc=0
+10:54:08 slot 2 start relu_16x4_s5001_l3
+10:55:09 slot 3 end relu_16x4_s5000_l2 rc=0
+10:55:09 slot 3 start relu_16x4_s5001_out
+10:55:26 slot 4 end relu_16x4_s5000_l3 rc=0
+10:55:26 slot 4 start relu_16x4_s5002_l0
+10:56:17 slot 6 end relu_16x4_s5001_l0 rc=0
+10:56:17 slot 6 start relu_16x4_s5002_l1
+11:29:46 slot 1 end relu_16x4_s5001_l1 rc=0
+11:29:46 slot 1 start relu_16x4_s5002_l2
+11:32:02 slot 5 end relu_16x4_s5001_l2 rc=0
+11:32:02 slot 5 start relu_16x4_s5002_l3
+11:32:46 slot 3 end relu_16x4_s5001_out rc=0
+11:32:46 slot 3 start relu_16x4_s5002_out
+11:56:07 slot 2 end relu_16x4_s5001_l3 rc=0
+11:57:39 slot 4 end relu_16x4_s5002_l0 rc=0
+11:58:08 slot 6 end relu_16x4_s5002_l1 rc=0
+12:05:14 slot 3 end relu_16x4_s5002_out rc=0
+12:13:16 slot 1 end relu_16x4_s5002_l2 rc=0
+12:13:33 slot 5 end relu_16x4_s5002_l3 rc=0

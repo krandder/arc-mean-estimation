@@ -1,0 +1,20 @@
+arc p2:12 k2: flops 5.184e+10 passes 1545 9.9s
+arc p2:12 k2a: flops 5.377e+10 passes 1603 14.0s
+done arc p2:12 k2,k2a 10:45:09Z
+lv p2:12 LVTV2: V_L 0.0235 flops 7.254e+10 passes 2162 30.4s flags {'root': 15}
+lv p2:12 LVT: V_L 0.0134 flops 7.236e+10 passes 2157 17.3s flags {}
+lv p2:12 LVTV2f1: V_L 0.0239 flops 7.254e+10 passes 2162 18.7s flags {'root': 15}
+lv p2:12 LVT0: V_L 0.0000 flops 7.233e+10 passes 2156 16.9s flags {}
+done lv p2:12 10:46:39Z
+cov p2:12: flops 6.875e+10 passes 2049 2.8s
+done cov p2:12 10:46:47Z
+rqmc p2:12 m=8 3s
+rqmc p2:12 m=10 4s
+rqmc p2:12 m=12 12s
+rqmc p2:12 m=14 52s
+rqmc p2:12 m=16 231s
+done rqmc p2:12 8,10,12,14,16 8 10:50:41Z
+arc p2:12 k3f: flops 3.254e+12 passes 96968 72.7s
+done arc p2:12 k3f 10:51:57Z
+sl3 p2:12: flops 7.130e+12 passes 212483 182.2s
+done sl3 p2:12 10:55:03Z

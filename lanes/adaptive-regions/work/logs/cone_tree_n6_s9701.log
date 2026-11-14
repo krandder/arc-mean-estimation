@@ -1,0 +1,60 @@
+[6s] 2524 cells among 1048576 advice paths
+  moments 200/2524 [89s, simplices 2575, fails 0]
+  moments 400/2524 [249s, simplices 6512, fails 0]
+  moments 600/2524 [546s, simplices 13970, fails 0]
+  moments 800/2524 [752s, simplices 20527, fails 0]
+  moments 1000/2524 [1475s, simplices 42484, fails 0]
+  moments 1200/2524 [1750s, simplices 51140, fails 0]
+  moments 1400/2524 [1953s, simplices 59164, fails 0]
+  moments 1600/2524 [2467s, simplices 76293, fails 0]
+  moments 1800/2524 [2729s, simplices 85969, fails 0]
+  moments 2000/2524 [3739s, simplices 113880, fails 0]
+  moments 2200/2524 [4489s, simplices 135092, fails 0]
+  moments 2400/2524 [5918s, simplices 174458, fails 0]
+[8853s] moments done in 8847s; simplices 244104, triangulation failures 0
+  moment check: 161 of 2524 cells with |exact - sample| > 5 se
+[9045s] exact cells: err 1.49e-07 (truth noise 1.1e-11); MC(2^20) 9.54e-07, RQMC 4.08e-09
+{"seed": 9701, "n": 6, "L": 4, "cells": 2524, "moment_check_bad": 161, "advice_paths": 1048576, "err_exact": 1.489937197881256e-07, "truth_noise": 1.0870361145594932e-11, "mc_adv": 9.5367431640625e-07, "rqmc_adv": 4.080491308441091e-09, "leaves_to_mc": 858, "leaves_to_rqmc": null, "leaves_to_exact": 1408, "final_leaves": 2481, "secs": 9045.153980255127}
+leaves      1: err 1.19e+00  within-leaf map dispersion 7.71e-01  units fixed 0.0 (max 0)
+leaves      2: err 4.06e-01  within-leaf map dispersion 5.57e-01  units fixed 1.0 (max 1)
+leaves      4: err 1.36e-01  within-leaf map dispersion 4.20e-01  units fixed 2.0 (max 2)
+leaves      8: err 4.91e-02  within-leaf map dispersion 2.50e-01  units fixed 3.1 (max 4)
+leaves     16: err 1.29e-02  within-leaf map dispersion 1.49e-01  units fixed 4.2 (max 5)
+leaves     32: err 6.72e-03  within-leaf map dispersion 8.41e-02  units fixed 5.2 (max 7)
+leaves     64: err 2.13e-03  within-leaf map dispersion 4.40e-02  units fixed 6.4 (max 9)
+leaves    128: err 4.07e-04  within-leaf map dispersion 1.82e-02  units fixed 7.6 (max 11)
+leaves    256: err 5.84e-05  within-leaf map dispersion 6.75e-03  units fixed 8.8 (max 13)
+leaves    384: err 1.33e-05  within-leaf map dispersion 3.40e-03  units fixed 9.5 (max 15)
+leaves    512: err 4.59e-06  within-leaf map dispersion 1.95e-03  units fixed 9.8 (max 15)
+leaves    640: err 1.89e-06  within-leaf map dispersion 1.21e-03  units fixed 10.0 (max 15)
+leaves    768: err 1.43e-06  within-leaf map dispersion 7.78e-04  units fixed 10.2 (max 16)
+leaves    896: err 8.20e-07  within-leaf map dispersion 5.29e-04  units fixed 10.3 (max 16)
+leaves   1024: err 7.37e-07  within-leaf map dispersion 3.62e-04  units fixed 10.4 (max 16)
+leaves   1152: err 4.70e-07  within-leaf map dispersion 2.48e-04  units fixed 10.5 (max 16)
+leaves   1280: err 3.72e-07  within-leaf map dispersion 1.70e-04  units fixed 10.6 (max 16)
+leaves   1408: err 2.90e-07  within-leaf map dispersion 1.08e-04  units fixed 10.7 (max 17)
+leaves   1536: err 2.15e-07  within-leaf map dispersion 7.15e-05  units fixed 10.8 (max 17)
+leaves   1664: err 1.91e-07  within-leaf map dispersion 4.57e-05  units fixed 10.9 (max 17)
+leaves   1792: err 1.76e-07  within-leaf map dispersion 2.79e-05  units fixed 10.9 (max 17)
+leaves   1920: err 1.64e-07  within-leaf map dispersion 1.61e-05  units fixed 10.9 (max 17)
+leaves   2048: err 1.57e-07  within-leaf map dispersion 8.03e-06  units fixed 10.9 (max 17)
+leaves   2176: err 1.52e-07  within-leaf map dispersion 3.30e-06  units fixed 11.0 (max 17)
+leaves   2304: err 1.51e-07  within-leaf map dispersion 7.90e-07  units fixed 11.0 (max 17)
+leaves   2432: err 1.49e-07  within-leaf map dispersion 4.30e-08  units fixed 11.0 (max 17)
+leaves   2481: err 1.49e-07  within-leaf map dispersion -1.02e-16  units fixed 11.0 (max 17)
+first splits (layer, unit, rank-one |dA|_F, node mass, node depth):
+  L1 u2  |dA| 2.348  mass 1.000  depth 0
+  L3 u2  |dA| 3.177  mass 0.499  depth 1
+  L1 u3  |dA| 1.710  mass 0.501  depth 1
+  L1 u3  |dA| 1.629  mass 0.440  depth 2
+  L3 u2  |dA| 1.788  mass 0.294  depth 2
+  L1 u5  |dA| 3.541  mass 0.142  depth 3
+  L1 u1  |dA| 1.668  mass 0.255  depth 3
+  L2 u0  |dA| 3.397  mass 0.059  depth 2
+  L4 u0  |dA| 1.689  mass 0.185  depth 3
+  L3 u0  |dA| 2.001  mass 0.194  depth 4
+  L4 u4  |dA| 1.461  mass 0.206  depth 2
+  L4 u4  |dA| 2.534  mass 0.045  depth 3
+  L2 u4  |dA| 1.890  mass 0.072  depth 4
+  L1 u1  |dA| 1.289  mass 0.152  depth 3
+  L3 u0  |dA| 2.053  mass 0.136  depth 4

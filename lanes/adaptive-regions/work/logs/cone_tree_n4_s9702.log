@@ -1,0 +1,30 @@
+[1s] 200 cells among 1048576 advice paths
+  moments 200/200 [6s, simplices 1181, fails 0]
+[7s] moments done in 6s; simplices 1181, triangulation failures 0
+[108s] exact cells: err 5.86e-15 (truth noise 3.4e-14); MC(2^20) 9.54e-07, RQMC 1.34e-11
+{"seed": 9702, "n": 4, "L": 4, "cells": 200, "advice_paths": 1048576, "err_exact": 5.861016251094098e-15, "truth_noise": 3.4118107676980257e-14, "mc_adv": 9.5367431640625e-07, "rqmc_adv": 1.3375122024881305e-11, "leaves_to_mc": 37, "leaves_to_rqmc": 175, "leaves_to_exact": 200, "final_leaves": 200, "secs": 107.76598787307739}
+leaves      1: err 5.05e-01  within-leaf map dispersion 4.91e-01  units fixed 0.0 (max 0)
+leaves      2: err 7.84e-03  within-leaf map dispersion 6.41e-02  units fixed 1.0 (max 1)
+leaves      4: err 4.84e-04  within-leaf map dispersion 3.85e-02  units fixed 2.0 (max 2)
+leaves      8: err 6.91e-05  within-leaf map dispersion 2.35e-02  units fixed 3.2 (max 5)
+leaves     16: err 6.85e-05  within-leaf map dispersion 1.13e-02  units fixed 3.9 (max 6)
+leaves     32: err 1.68e-05  within-leaf map dispersion 3.12e-03  units fixed 5.3 (max 8)
+leaves     64: err 8.90e-07  within-leaf map dispersion 6.03e-04  units fixed 6.1 (max 9)
+leaves    128: err 1.72e-08  within-leaf map dispersion 2.88e-05  units fixed 7.1 (max 11)
+leaves    200: err 5.86e-15  within-leaf map dispersion -6.11e-18  units fixed 7.2 (max 12)
+first splits (layer, unit, rank-one |dA|_F, node mass, node depth):
+  L1 u3  |dA| 3.890  mass 1.000  depth 0
+  L2 u1  |dA| 1.616  mass 0.500  depth 1
+  L3 u0  |dA| 1.315  mass 0.500  depth 1
+  L1 u0  |dA| 0.886  mass 0.430  depth 2
+  L2 u1  |dA| 1.038  mass 0.362  depth 3
+  L2 u3  |dA| 3.141  mass 0.070  depth 2
+  L2 u0  |dA| 0.733  mass 0.330  depth 4
+  L4 u0  |dA| 1.694  mass 0.067  depth 3
+  L3 u3  |dA| 1.425  mass 0.057  depth 4
+  L1 u1  |dA| 1.190  mass 0.052  depth 2
+  L1 u0  |dA| 0.491  mass 0.448  depth 2
+  L4 u2  |dA| 2.095  mass 0.010  depth 4
+  L3 u1  |dA| 3.645  mass 0.004  depth 5
+  L4 u3  |dA| 0.850  mass 0.059  depth 5
+  L1 u1  |dA| 1.132  mass 0.032  depth 4

@@ -1,0 +1,5 @@
+13:50:54Z Amendment 1 header says 'written ~14:15Z'; the hash time 13:50:47Z is authoritative (my header estimate was wrong). Seen before hashing: only the first E1 lines of net 200 (svd-frame RQMC gains 2.07, 2.72, 3.22), as the amendment states.
+15:00:16Z stopped the descriptive k = 3 detqmc run at 256 x 32 (net 200; PID 3195709, not registered as a prediction) to free the second CPU slot for Amendment 2 (the 512 x 64 test of astra's round-2 prediction).
+15:13:00Z started queue C2 (same frozen rates.py, nets 204 then 203) in the free second slot to halve E5's wall time; queue C will be stopped by PID once C2 has covered 203-204.
+15:25:06Z stopped the queue C shell (PID 2251288) so it does not repeat nets 203-204, which queue C2 covers; its running rates.py on net 202 continues to completion.
+15:52:41Z Amendment 2 header says 'written ~15:05Z'; its hash time 15:00:43Z is authoritative (header estimate wrong again). Queue D (512 x 64) started 15:00:43Z, after the hash.

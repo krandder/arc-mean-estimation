@@ -1,0 +1,61 @@
+rqmc n=32 L=4 seed=9500 m=8: mean nMSE 1.246e-03 (MC 3.906e-03) gain 3.13 (1s)
+rqmc n=32 L=4 seed=9500 m=10: mean nMSE 1.644e-04 (MC 9.766e-04) gain 5.94 (1s)
+rqmc n=32 L=4 seed=9500 m=12: mean nMSE 3.999e-05 (MC 2.441e-04) gain 6.11 (1s)
+rqmc n=32 L=4 seed=9500 m=14: mean nMSE 1.005e-05 (MC 6.104e-05) gain 6.07 (1s)
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/arc-update/scratch/run_rqmc.py", line 31, in <module>
+    json.dump(res, open(out, 'w'))
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+rqmc n=64 L=8 seed=9500 m=8: mean nMSE 1.870e-03 (MC 3.906e-03) gain 2.09 (1s)
+rqmc n=64 L=8 seed=9500 m=10: mean nMSE 3.913e-04 (MC 9.766e-04) gain 2.50 (1s)
+rqmc n=64 L=8 seed=9500 m=12: mean nMSE 8.214e-05 (MC 2.441e-04) gain 2.97 (1s)
+rqmc n=64 L=8 seed=9500 m=14: mean nMSE 2.119e-05 (MC 6.104e-05) gain 2.88 (1s)
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/arc-update/scratch/run_rqmc.py", line 31, in <module>
+    json.dump(res, open(out, 'w'))
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+rqmc n=128 L=16 seed=9500 m=8: mean nMSE 2.067e-03 (MC 3.906e-03) gain 1.89 (1s)
+rqmc n=128 L=16 seed=9500 m=10: mean nMSE 8.248e-04 (MC 9.766e-04) gain 1.18 (1s)
+rqmc n=128 L=16 seed=9500 m=12: mean nMSE 1.431e-04 (MC 2.441e-04) gain 1.71 (1s)
+rqmc n=128 L=16 seed=9500 m=14: mean nMSE 3.246e-05 (MC 6.104e-05) gain 1.88 (3s)
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/arc-update/scratch/run_rqmc.py", line 31, in <module>
+    json.dump(res, open(out, 'w'))
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+rqmc n=256 L=32 seed=100 m=8: mean nMSE 2.097e-03 (MC 3.906e-03) gain 1.86 (1s)
+rqmc n=256 L=32 seed=100 m=10: mean nMSE 4.599e-04 (MC 9.766e-04) gain 2.12 (1s)
+rqmc n=256 L=32 seed=100 m=12: mean nMSE 1.133e-04 (MC 2.441e-04) gain 2.16 (2s)
+rqmc n=256 L=32 seed=100 m=14: mean nMSE 3.693e-05 (MC 6.104e-05) gain 1.65 (6s)

@@ -1,0 +1,12 @@
+E1 l=32 done 27s
+E1 l=64 done 47s
+E1 l=96 done 56s
+E1 l=112 done 62s
+E2 l=32 done 70s
+E2 l=64 done 79s
+E2 l=96 done 83s
+E2 l=112 done 86s
+E3 r=16 done 93s
+E3 r=32 done 99s
+E3 r=64 done 104s
+done 104s

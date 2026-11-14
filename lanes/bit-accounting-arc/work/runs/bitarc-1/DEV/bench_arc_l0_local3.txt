@@ -1,0 +1,1 @@
+done arc [9100] l=0 local bench3 train 47s total 51s

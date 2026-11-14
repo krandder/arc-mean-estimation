@@ -1,0 +1,23 @@
+creating soup-gpu-adaptreg-a5b-11022004-1102200414-21806 (g2-standard-8 + nvidia-l4, STANDARD) in us-west1-c ...
+NAME                                             ZONE        MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP    EXTERNAL_IP     STATUS
+soup-gpu-adaptreg-a5b-11022004-1102200414-21806  us-west1-c  g2-standard-8               10.138.15.200  34.168.198.246  RUNNING
+waiting for soup-gpu-adaptreg-a5b-11022004-1102200414-21806 (34.168.198.246) startup script (up to 25 min) ...
+gpu=NVIDIA L4, 580.178.04
+startup=minimal
+READY: soup-gpu-adaptreg-a5b-11022004-1102200414-21806 us-west1-c 34.168.198.246
+rsync /home/agent/workspaces/mats/work/adaptive-regions -> soup-gpu-adaptreg-a5b-11022004-1102200414-21806:/root/soup
+W: http://packages.cloud.google.com/apt/dists/apt-transport-artifact-registry-stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: https://us-apt.pkg.dev/projects/gce-ai-infra/dists/gpudirect-gib-apt/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Terminated
+rsync soup-gpu-adaptreg-a5b-11022004-1102200414-21806:/root/runs -> /home/agent/workspaces/mats/work/adaptive-regions/runs
+Deleted [https://www.googleapis.com/compute/v1/projects/mnx-kas-dev/zones/us-west1-c/instances/soup-gpu-adaptreg-a5b-11022004-1102200414-21806].

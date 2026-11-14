@@ -1,0 +1,11 @@
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+  P_relu_n32_L8_s5002_l4_local G1 960s
+  P_relu_n32_L8_s5002_l4_local G2 222s
+  P_relu_n32_L8_s5002_l4_local G3 263s
+P_relu_n32_L8_s5002_l4_local: 1686s | RG(0.1)=10.30 RG(0.01)=43.51 | r0: R(0.1)=10.22 R(0.01)=36.96 | r1: R(0.1)=10.24 R(0.01)=36.98 | r2: R(0.1)=10.20 R(0.01)=36.97 | wide: R(0.1)=8.56 R(0.01)=31.50 | long: R(0.1)=10.07 R(0.01)=36.39 | linref: R(0.1)=13.21 R(0.01)=44.06 | linref_linearised: R(0.1)=16.15 R(0.01)=46.07 | r0_refit: R(0.1)=10.19 R(0.01)=36.93
+  P_relu_n32_L8_s5002_l4_unres G1 1465s
+  P_relu_n32_L8_s5002_l4_unres G2 360s
+  P_relu_n32_L8_s5002_l4_unres G3 317s
+P_relu_n32_L8_s5002_l4_unres: 2615s | RG(0.1)=10.30 RG(0.01)=43.51 | r0: R(0.1)=7.30 R(0.01)=25.58 | r1: R(0.1)=7.29 R(0.01)=25.44 | r2: R(0.1)=7.28 R(0.01)=25.55 | wide: R(0.1)=7.14 R(0.01)=24.19 | long: R(0.1)=7.15 R(0.01)=24.30 | linref: R(0.1)=13.21 R(0.01)=44.06 | linref_linearised: R(0.1)=16.15 R(0.01)=46.07 | r0_refit: R(0.1)=7.24 R(0.01)=25.51
+ALL DONE 4302s

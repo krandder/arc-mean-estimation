@@ -1,0 +1,3 @@
+done arc [4000] l=8 local rndmid train 491s total 634s
+done arc [4000] l=0 local rndmid train 524s total 679s
+done arc [4000] l=0 local rndhi train 541s total 684s

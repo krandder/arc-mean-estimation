@@ -1,0 +1,13 @@
+[15s] advice: 131072 paths + 400 populations; 25 held-out populations
+K=16 s=0.1: model-only 2.93e-01 at 8.83 passes (MC there 2.74e-03; RQMC at N=16 1.37e-04) | CV at N=1024: 1.54e-05 (MC at equal cost 4.25e-06, RQMC with N=1024 5.92e-07)
+K=16 s=0.3: model-only 1.69e-01 at 8.83 passes (MC there 2.25e-02; RQMC at N=16 2.74e-03) | CV at N=1024: 8.05e-05 (MC at equal cost 3.50e-05, RQMC with N=1024 1.18e-05)
+K=16 s=0.6: model-only 4.07e-02 at 8.83 passes (MC there 6.51e-02; RQMC at N=16 1.39e-02) | CV at N=1024: 1.80e-04 (MC at equal cost 1.01e-04, RQMC with N=1024 7.06e-05)
+K=16 s=0.9: model-only 2.70e-03 at 8.83 passes (MC there 1.05e-01; RQMC at N=16 3.16e-02) | CV at N=1024: 3.01e-04 (MC at equal cost 1.63e-04, RQMC with N=1024 1.97e-04)
+K=16 s=1.0: model-only 4.21e-04 at 8.83 passes (MC there 1.13e-01; RQMC at N=16 3.83e-02) | CV at N=1024: 2.56e-04 (MC at equal cost 1.76e-04, RQMC with N=1024 2.45e-04)
+K=16: leftover 0.306, params 34864, memorisation check {'model_vs_trainmean': 0.00040885328045232736, 'trainmean_vs_truth': 1.2434972360980489e-05}, (43s)
+K=64 s=0.1: model-only 2.50e-01 at 34.6 passes (MC there 6.99e-04; RQMC at N=16 1.37e-04) | CV at N=1024: 1.25e-05 (MC at equal cost 1.28e-06, RQMC with N=1024 5.92e-07)
+K=64 s=0.3: model-only 1.34e-01 at 34.6 passes (MC there 5.75e-03; RQMC at N=16 2.74e-03) | CV at N=1024: 8.32e-05 (MC at equal cost 1.05e-05, RQMC with N=1024 1.18e-05)
+K=64 s=0.6: model-only 2.12e-02 at 34.6 passes (MC there 1.66e-02; RQMC at N=16 1.39e-02) | CV at N=1024: 2.03e-04 (MC at equal cost 3.04e-05, RQMC with N=1024 7.06e-05)
+K=64 s=0.9: model-only 1.98e-03 at 34.6 passes (MC there 2.68e-02; RQMC at N=16 3.16e-02) | CV at N=1024: 2.49e-04 (MC at equal cost 4.91e-05, RQMC with N=1024 1.97e-04)
+K=64 s=1.0: model-only 1.81e-04 at 34.6 passes (MC there 2.90e-02; RQMC at N=16 3.83e-02) | CV at N=1024: 3.96e-04 (MC at equal cost 5.30e-05, RQMC with N=1024 2.45e-04)
+K=64: leftover 0.272, params 136288, memorisation check {'model_vs_trainmean': 0.00014708133607434036, 'trainmean_vs_truth': 1.2434972360980489e-05}, (324s)

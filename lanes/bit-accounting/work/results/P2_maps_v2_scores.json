@@ -1,0 +1,16 @@
+{
+ "H2": {
+  "relu": "36/36",
+  "tanh4_below_0_5": "0/8",
+  "hit": false
+ },
+ "H3": {
+  "relu": "26/36",
+  "hit": false
+ },
+ "H4": {
+  "relu_median": 0.312600502906835,
+  "tanh4_median": 0.8229517365829835,
+  "hit": false
+ }
+}

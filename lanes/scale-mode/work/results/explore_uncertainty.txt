@@ -1,0 +1,33 @@
+1. median G_RQ(LVTV2) with a bootstrap over nets and RQMC scrambles (95%), and RQMC replicate rel. SE near the cost
+  E2_n32    median G_RQ 1.85 [1.09, 2.57]; RQMC replicate rel. SE near the cost: 7%-27% (median 11%)
+  E2_n64    median G_RQ 2.05 [1.65, 2.70]; RQMC replicate rel. SE near the cost: 7%-23% (median 13%)
+  E2_n128   median G_RQ 2.36 [1.66, 2.85]; RQMC replicate rel. SE near the cost: 12%-46% (median 16%)
+  E1        median G_RQ 2.47 [2.01, 4.66]; RQMC replicate rel. SE near the cost: 13%-41% (median 26%)
+  E3_n64    median G_RQ 0.79 [0.58, 0.99]; RQMC replicate rel. SE near the cost: 18%-44% (median 24%)
+  E3_n128   median G_RQ 0.73 [0.51, 1.13]; RQMC replicate rel. SE near the cost: 18%-35% (median 23%)
+  E3_n256   median G_RQ 1.16 [0.83, 1.45]; RQMC replicate rel. SE near the cost: 23%-45% (median 35%)
+  E3_n512   median G_RQ 0.43 [0.26, 1.95]; RQMC replicate rel. SE near the cost: 22%-45% (median 34%)
+  E3_n1024  median G_RQ 1.96 [1.09, 7.41]; RQMC replicate rel. SE near the cost: 30%-70% (median 39%)
+2. leave-one-width-out slopes of log median G_RQ(LVTV2) on log n, L = n/4
+  all five widths: +0.19; without 64: +0.29; without 128: +0.17; without 256: +0.19; without 512: +0.37; without 1024: -0.20
+3. truth-half sensitivity on E3 (median LVTV2 nMSE): cross-half / against half A / against half B
+  E3_n64    1.98e-03 / 1.97e-03 / 1.97e-03; per-net max |A - B| / cross: 4%
+  E3_n128   1.84e-03 / 1.84e-03 / 1.85e-03; per-net max |A - B| / cross: 8%
+  E3_n256   6.82e-04 / 6.65e-04 / 7.02e-04; per-net max |A - B| / cross: 13%
+  E3_n512   1.02e-03 / 9.33e-04 / 1.02e-03; per-net max |A - B| / cross: 26%
+  E3_n1024  1.09e-04 / 1.12e-04 / 9.72e-05; per-net max |A - B| / cross: 52%
+4. C1 at 512 x 128: the claim's statistic (MC at mean cost / mean nMSE), bootstrap over nets
+  point 0.89, 95% [0.57, 1.63]
+5. E4: full-budget RQMC raw MSE vs ARC k2a raw MSE per MLP, replicate bootstrap of the ratio k2a / RQMC
+  p2_00: k2a/RQMC(2^16) 1.62 [1.48, 1.79]
+  p2_01: k2a/RQMC(2^16) 1.35 [1.26, 1.44]
+  p2_02: k2a/RQMC(2^16) 1.21 [1.16, 1.27]
+  p2_03: k2a/RQMC(2^16) 1.39 [1.29, 1.50]
+  p2_04: k2a/RQMC(2^16) 1.86 [1.77, 1.98]
+  p2_05: k2a/RQMC(2^16) 1.91 [1.75, 2.09]
+  p2_06: k2a/RQMC(2^16) 1.68 [1.53, 1.83] (RQMC extrapolated from 2^14)
+  p2_07: k2a/RQMC(2^16) 1.06 [0.98, 1.14] (RQMC extrapolated from 2^14)
+  p2_08: k2a/RQMC(2^16) 1.32 [1.24, 1.41] (RQMC extrapolated from 2^14)
+  p2_09: k2a/RQMC(2^16) 1.41 [1.25, 1.58] (RQMC extrapolated from 2^14)
+  p2_10: k2a/RQMC(2^16) 1.43 [1.28, 1.59] (RQMC extrapolated from 2^14)
+  p2_11: k2a/RQMC(2^16) 1.25 [1.17, 1.36] (RQMC extrapolated from 2^14)

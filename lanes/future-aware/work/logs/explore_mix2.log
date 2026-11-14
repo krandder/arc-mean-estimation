@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/future-aware/scratch/run_mix.py", line 73, in <module>
+    a, _ = gm.sample(CH)
+           ^^^^^^^^^^^^^
+  File "/home/agent/.venvs/aggext/lib/python3.12/site-packages/sklearn/mixture/_base.py", line 460, in sample
+    rng = check_random_state(self.random_state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/agent/.venvs/aggext/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1480, in check_random_state
+    return np.random.RandomState(seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/mtrand.pyx", line 186, in numpy.random.mtrand.RandomState.__init__
+  File "numpy/random/_mt19937.pyx", line 168, in numpy.random._mt19937.MT19937._legacy_seeding
+  File "numpy/random/_mt19937.pyx", line 182, in numpy.random._mt19937.MT19937._legacy_seeding
+ValueError: Seed must be between 0 and 2**32 - 1
+n=64 s=300 l=1 k=16: true=7.45e-06 gauss=4.89e-04 cond=3.45e-05 gmm1=6.34e-04 gmm4=3.10e-04 gmm16=1.87e-04 gmm64=1.34e-04 (154s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n64_L8_s300_xm2.json
+n=128 s=300 l=1 k=32: true=-5.45e-06 gauss=3.01e-04 cond=6.68e-05 gmm1=3.67e-04 gmm4=2.11e-04 gmm16=1.38e-04 gmm64=2.27e-04 (301s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n128_L16_s300_xm2.json
+n=256 s=200 l=1 k=64: true=2.34e-06 gauss=2.21e-04 cond=1.49e-05 gmm1=2.15e-04 gmm4=1.10e-04 gmm16=1.47e-04 gmm64=1.70e-04 (1481s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n256_L32_s200_xm2.json
+n=64 s=9500 l=1 k=16: true=-4.18e-06 gauss=5.01e-04 cond=6.20e-05 gmm1=6.16e-04 gmm2=2.43e-04 gmm4=2.95e-04 gmm8=2.36e-04 gmm16=1.20e-04 gmm32=1.20e-04 (22s)
+n=64 s=9500 l=2 k=16: true=-2.06e-06 gauss=7.07e-04 cond=7.26e-05 gmm1=7.11e-04 gmm2=4.31e-04 gmm4=2.81e-04 gmm8=1.60e-04 gmm16=1.33e-04 gmm32=1.60e-04 (46s)
+n=64 s=9500 l=4 k=16: true=-1.88e-06 gauss=4.89e-04 cond=3.20e-05 gmm1=5.09e-04 gmm2=1.83e-04 gmm4=1.28e-04 gmm8=1.28e-04 gmm16=7.80e-05 gmm32=6.06e-05 (71s)
+done /srv/agent-data/home/workspaces/mats/work/future-aware/scratch/../runs/mix_n64_L8_s9500_dev2.json

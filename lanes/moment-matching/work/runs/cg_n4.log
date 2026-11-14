@@ -1,0 +1,71 @@
+n=4 d=2 M=15 linear_net0: gap/sd in [0.0000, 0.0000] rounds=1,1 t=0.2+0.2s
+n=4 d=2 M=15 parity: gap/sd in [4.7587, 4.9547] rounds=5,1 t=1.0+0.2s
+n=4 d=2 M=15 relu_L1_net0: gap/sd in [1.0607, 1.0888] rounds=3,6 t=0.8+1.0s
+n=4 d=2 M=15 relu_L2_net0: gap/sd in [1.9383, 1.9587] rounds=4,3 t=0.8+0.5s
+n=4 d=2 M=15 relu_L4_net0: gap/sd in [1.0223, 1.0594] rounds=3,5 t=0.4+1.1s
+n=4 d=2 M=15 relu_L8_net0: gap/sd in [0.9504, 0.9905] rounds=2,4 t=0.3+0.6s
+n=4 d=2 M=15 relu_L1_net1: gap/sd in [1.0703, 1.1189] rounds=3,5 t=0.5+0.8s
+n=4 d=2 M=15 relu_L2_net1: gap/sd in [1.2957, 1.3477] rounds=5,3 t=0.8+0.5s
+n=4 d=2 M=15 relu_L4_net1: gap/sd in [1.7483, 1.7802] rounds=3,5 t=0.5+0.8s
+n=4 d=2 M=15 relu_L8_net1: gap/sd in [2.1727, 2.2473] rounds=1,3 t=0.1+0.5s
+n=4 d=2 M=15 relu_L1_net2: gap/sd in [1.7194, 1.7825] rounds=4,4 t=0.6+0.6s
+n=4 d=2 M=15 relu_L2_net2: gap/sd in [1.7872, 1.8315] rounds=2,6 t=0.3+0.9s
+n=4 d=2 M=15 relu_L4_net2: gap/sd in [1.1794, 1.2181] rounds=6,5 t=0.8+0.7s
+n=4 d=2 M=15 relu_L8_net2: gap/sd in [1.1258, 1.1446] rounds=3,1 t=0.4+0.1s
+n=4 d=3 M=35 linear_net0: gap/sd in [-0.0000, 0.0000] rounds=1,1 t=0.2+0.2s
+n=4 d=3 M=35 parity: gap/sd in [4.7954, 4.8707] rounds=60,1 t=11.2+0.2s
+n=4 d=3 M=35 relu_L1_net0: gap/sd in [1.0681, 1.0847] rounds=12,10 t=2.5+2.0s
+n=4 d=3 M=35 relu_L2_net0: gap/sd in [1.7854, 1.8484] rounds=6,7 t=1.3+1.5s
+n=4 d=3 M=35 relu_L4_net0: gap/sd in [1.0172, 1.0522] rounds=9,8 t=2.2+1.9s
+n=4 d=3 M=35 relu_L8_net0: gap/sd in [0.9290, 0.9647] rounds=9,8 t=1.8+1.5s
+n=4 d=3 M=35 relu_L1_net1: gap/sd in [1.1029, 1.1448] rounds=7,9 t=1.6+1.6s
+n=4 d=3 M=35 relu_L2_net1: gap/sd in [1.2699, 1.3011] rounds=10,9 t=2.4+2.5s
+n=4 d=3 M=35 relu_L4_net1: gap/sd in [1.6519, 1.7176] rounds=9,10 t=1.5+1.5s
+n=4 d=3 M=35 relu_L8_net1: gap/sd in [2.1413, 2.1674] rounds=1,13 t=0.1+2.2s
+n=4 d=3 M=35 relu_L1_net2: gap/sd in [1.7286, 1.7609] rounds=9,13 t=1.7+2.5s
+n=4 d=3 M=35 relu_L2_net2: gap/sd in [1.6961, 1.7212] rounds=6,12 t=1.1+1.9s
+n=4 d=3 M=35 relu_L4_net2: gap/sd in [1.0907, 1.1200] rounds=7,11 t=1.2+1.8s
+n=4 d=3 M=35 relu_L8_net2: gap/sd in [1.0692, 1.1006] rounds=6,5 t=1.0+0.8s
+n=4 d=4 M=70 linear_net0: gap/sd in [0.0000, 0.0000] rounds=1,1 t=0.5+0.5s
+n=4 d=4 M=70 parity: gap/sd in [3.7133, 3.8770] rounds=13,3 t=4.1+0.8s
+n=4 d=4 M=70 relu_L1_net0: gap/sd in [0.5873, 0.5970] rounds=16,19 t=5.1+5.9s
+n=4 d=4 M=70 relu_L2_net0: gap/sd in [1.3375, 1.3574] rounds=18,14 t=5.2+4.0s
+n=4 d=4 M=70 relu_L4_net0: gap/sd in [0.4427, 0.4623] rounds=12,7 t=3.9+2.2s
+n=4 d=4 M=70 relu_L8_net0: gap/sd in [0.4424, 0.4624] rounds=13,8 t=3.8+2.2s
+n=4 d=4 M=70 relu_L1_net1: gap/sd in [0.5431, 0.5607] rounds=18,12 t=5.4+3.3s
+n=4 d=4 M=70 relu_L2_net1: gap/sd in [0.6988, 0.7192] rounds=13,16 t=3.4+5.1s
+n=4 d=4 M=70 relu_L4_net1: gap/sd in [1.0310, 1.0673] rounds=12,13 t=3.6+3.8s
+n=4 d=4 M=70 relu_L8_net1: gap/sd in [1.5663, 1.6118] rounds=1,13 t=0.2+3.6s
+n=4 d=4 M=70 relu_L1_net2: gap/sd in [0.9456, 0.9760] rounds=17,13 t=5.9+5.0s
+n=4 d=4 M=70 relu_L2_net2: gap/sd in [1.2992, 1.3330] rounds=15,20 t=4.8+5.7s
+n=4 d=4 M=70 relu_L4_net2: gap/sd in [0.6253, 0.6411] rounds=18,14 t=5.7+4.2s
+n=4 d=4 M=70 relu_L8_net2: gap/sd in [0.7383, 0.7572] rounds=12,18 t=3.7+5.9s
+n=4 d=5 M=126 linear_net0: gap/sd in [0.0000, 0.0000] rounds=1,1 t=1.3+1.2s
+n=4 d=5 M=126 parity: gap/sd in [3.7268, 3.7577] rounds=87,7 t=49.8+4.1s
+n=4 d=5 M=126 relu_L1_net0: gap/sd in [0.5892, 0.6105] rounds=96,92 t=83.7+87.8s
+n=4 d=5 M=126 relu_L2_net0: gap/sd in [1.2718, 1.3065] rounds=52,35 t=35.8+23.6s
+n=4 d=5 M=126 relu_L4_net0: gap/sd in [0.4353, 0.4504] rounds=49,60 t=35.3+30.6s
+n=4 d=5 relu_L8_net0: status Optimal Unknown
+n=4 d=5 M=126 relu_L1_net1: gap/sd in [0.5448, 0.5908] rounds=100,68 t=65.6+45.6s
+n=4 d=5 M=126 relu_L2_net1: gap/sd in [0.6601, 0.6698] rounds=40,46 t=24.8+29.5s
+n=4 d=5 M=126 relu_L4_net1: gap/sd in [0.9773, 1.0089] rounds=51,51 t=31.3+27.5s
+n=4 d=5 M=126 relu_L8_net1: gap/sd in [1.4906, 1.5226] rounds=1,35 t=0.7+23.4s
+n=4 d=5 M=126 relu_L1_net2: gap/sd in [0.9476, 1.0508] rounds=100,66 t=68.6+39.4s
+n=4 d=5 M=126 relu_L2_net2: gap/sd in [1.2364, 1.2663] rounds=57,52 t=40.5+38.4s
+n=4 d=5 M=126 relu_L4_net2: gap/sd in [0.5799, 0.6021] rounds=48,50 t=29.5+31.5s
+n=4 d=5 M=126 relu_L8_net2: gap/sd in [0.6980, 0.7248] rounds=37,30 t=20.6+18.8s
+n=4 d=6 M=210 linear_net0: gap/sd in [-0.0000, 0.0000] rounds=1,1 t=4.4+4.3s
+n=4 d=6 parity: status Optimal Unknown
+n=4 d=6 M=210 relu_L1_net0: gap/sd in [0.4426, 0.4564] rounds=78,77 t=156.1+107.9s
+n=4 d=6 M=210 relu_L2_net0: gap/sd in [0.9879, 1.0100] rounds=51,46 t=81.6+67.5s
+n=4 d=6 M=210 relu_L4_net0: gap/sd in [0.3294, 0.3561] rounds=34,100 t=69.3+185.6s
+n=4 d=6 relu_L8_net0: status Unknown Unknown
+n=4 d=6 relu_L1_net1: status Optimal Unknown
+n=4 d=6 M=210 relu_L2_net1: gap/sd in [0.5014, 0.5155] rounds=64,54 t=133.0+106.5s
+n=4 d=6 relu_L4_net1: status Optimal Unknown
+n=4 d=6 relu_L8_net1: status Unknown Unknown
+n=4 d=6 relu_L1_net2: status Unknown Optimal
+n=4 d=6 M=210 relu_L2_net2: gap/sd in [0.9206, 0.9534] rounds=53,61 t=104.6+109.9s
+n=4 d=6 M=210 relu_L4_net2: gap/sd in [0.4466, 0.4686] rounds=44,99 t=104.2+179.7s
+n=4 d=6 M=210 relu_L8_net2: gap/sd in [0.5244, 0.5388] rounds=49,37 t=95.5+77.2s
+n=4 d=7 M=330 linear_net0: gap/sd in [0.0000, 0.0000] rounds=1,1 t=16.2+14.4s

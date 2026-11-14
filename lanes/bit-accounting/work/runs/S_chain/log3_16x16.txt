@@ -1,0 +1,21 @@
+C_n16_L16_s5000_local b=4: own 0.352 0.307 0.341 0.833 0.807 | chain 0.352 0.523 0.519 0.997 0.997 | W1 learned 0.20 0.27 0.45 0.59 | ptf1 maj 1.000 1.000 0.999 0.999 | 2233s total 2236s
+C_n16_L16_s5000_local b=8: own 0.3 0.223 0.174 0.146 0.326 | chain 0.3 0.388 0.394 0.393 0.551 | W1 learned 0.14 0.43 0.48 0.25 | ptf1 maj 0.986 0.996 0.994 0.997 | 2233s total 2236s
+C_n16_L16_s5000_local b=12: own 0.235 0.12 0.0693 0.0845 0.0866 | chain 0.235 0.269 0.267 0.29 0.296 | W1 learned 0.22 0.44 0.44 0.29 | ptf1 maj 0.971 0.982 0.985 0.989 | 2233s total 2236s
+C_n16_L16_s5000_local b=16: own 0.219 0.0951 0.0709 0.0636 0.0778 | chain 0.219 0.242 0.247 0.249 0.272 | W1 learned 0.17 0.40 0.38 0.34 | ptf1 maj 0.961 0.979 0.978 0.985 | 2233s total 2236s
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_chain.py", line 323, in <module>
+    rch = net.run(ch.decode(i, chat), l)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/run_chain.py", line 85, in decode
+    return fr['m'] + self.dec[i](c) @ fr['S12']
+                     ^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/smallnets.py", line 89, in forward
+    x = torch.baddbmm(self.bs[i], x, self.Ws[i])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 18.50 MiB is free. Process 3386 has 1.07 GiB memory in use. Process 3398 has 1.39 GiB memory in use. Process 3394 has 2.24 GiB memory in use. Process 3387 has 1.41 GiB memory in use. Process 3389 has 4.51 GiB memory in use. Including non-PyTorch memory, this process has 1.61 GiB memory in use. Process 3393 has 1.90 GiB memory in use. Process 3384 has 1.01 GiB memory in use. Process 3399 has 1.98 GiB memory in use. Process 3385 has 1.15 GiB memory in use. Process 4095 has 1.29 GiB memory in use. Process 4859 has 2.40 GiB memory in use. Of the allocated memory 1.29 GiB is allocated by PyTorch, and 86.41 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

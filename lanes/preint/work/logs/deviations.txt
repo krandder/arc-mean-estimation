@@ -1,0 +1,20 @@
+PREREG.md header says 'written 14:15-14:30Z'; the hash time is 14:03:47Z (the header's time estimate was wrong; content unchanged).
+queue_C.sh (pid 2546209) killed about 14:40Z: its wait loop 'pgrep -f scratch/queue_A.sh' matched the launching shell's command line, so it never started; replaced by queue_C2.sh (same jobs, no wait).
+queue_D.sh restarted (pid killed by PID) to add 256x32 s202 to the v2 degree reruns (v1 estimate of deg2 at 256x32 had SD ~0.3: uncentred moments).
+Post hoc (not in PREREG Part 1), labelled so in the report: (1) matched-N comparison of PI and point rules
+(scratch/posthoc_matched.py, results/posthoc_matched.json), added after the first S3 fits showed that P3b/P3c compare
+exponents fitted over different N windows (PI's window sits at small N because a line costs 40-750 passes); (2) per-net
+angular degree energies (scratch/degrees.py v1, then v2 with centred moments after v1 gave an implausible negative
+degree-2 energy at 256 x 32); (3) finite-L/n non-Gaussianity (scratch/nongauss.py), requested by main; (4) u = top right
+singular vector of the cloud-averaged Jacobian (est.jacobian_direction), dev nets only; (5) the NNGP-proxy numbers of
+F7(g) were registered (P6) before the co-prover showed the proxy is unreliable at L = alpha n (FORMAL E2(d)); P6 is
+scored as registered and reported as a consistency check only.
+MLMC fits (P8): the 256-direction allocation pilot is charged inside each budget, so at the smallest budgets it dominates
+the cost and steepens the fitted exponent; scored as registered.
+PREREG Amendment 1 (hashed, prereg_hashes.txt): 256x32 nets 202-204 PI budgets 2^1..2^5 lines, run in parallel (queue_E.sh); queue_B.sh shell killed by PID after net 201 started; net 201 keeps the registered budget.
+PREREG Amendment 2 (hashed): net 201 PI_as_w ends at 2^6 (process killed by PID after it is written), net 201 PI_rand_w 2^1..2^5 + MLMC in runs/s3_arc_n256_L32_s201_b.json; queue E shell killed by PID after net 202 started; nets 203 (queue G) and 204 (queue F) in parallel.
+Review finding 13 (post hoc check 15:50Z): frozen/curves.py imports ../lib (the live library). lib/line.py and lib/nets.py are byte-identical to frozen/; lib/est.py differs from frozen/est.py only by the post-hoc 'jac' direction option (jacobian_direction and one elif branch), never taken by scored runs (u_mode rand or as). External dependency used by MLMC runs: d182fc3f9a21be19 unrestricted/lib/mlmc.py (unchanged since Oct 31: 2026-10-31 14:21).
+Cost ledger (review finding 5): the registered nominal model charges 2 Student-t cdfs + 1 power per final vertex; lib/line.py evaluates 4 cdfs + 2 powers per finite piece and does not charge ray arithmetic or the crossing sort; the MLMC import charges prefix passes only. Sensitivity in results/cost_sensitivity.json (scratch/cost_sensitivity.py).
+Post hoc follow-up for the failed P3b (PREREG Part 1: 'run larger N at n = 128'): PI_as_w at 2^9..2^10 lines, 128 x 16 nets 302 and 304 (queue_H.sh; runs/posthoc_largeN_*); S3 MLMC runs included budgets 2^6-2^7 beyond the registered 2^8..2^14 (scorer now filters to the registered range; extra rows are post hoc).
+Post-hoc follow-up (queue_H) stopped by PID at 17:19Z after 128x16 net 302 reached 2^9 lines (the 2^10 budget would have taken ~35 min at load ~40, and net 304 ~50 min more); net 304 not run. runs/posthoc_largeN_n128_L16_s302.json holds the 2^9 row.
+Correction (review round 2): the S3 MLMC runs were launched with --pmin 6 (budgets 2^6..2^14) although PREREG registered 2^8..2^14; P8 and the validity counts were first scored over all rows (7 of 19) and are now scored over the registered rows only (11 of 19; scratch/score.py registered_rows). The earlier line saying P8 was 'scored as registered' was wrong in this respect.

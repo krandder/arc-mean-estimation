@@ -1,0 +1,12 @@
+relu_16x16_s5000_l0 --configs 16x16 --seeds 5000 --layers 0 --netkind relu
+relu_16x16_s5000_l4 --configs 16x16 --seeds 5000 --layers 4 --netkind relu
+relu_16x16_s5000_l8 --configs 16x16 --seeds 5000 --layers 8 --netkind relu
+relu_16x16_s5000_l12 --configs 16x16 --seeds 5000 --layers 12 --netkind relu
+relu_16x16_s5000_l15 --configs 16x16 --seeds 5000 --layers 15 --netkind relu
+relu_16x16_s5000_out --configs 16x16 --seeds 5000 --layers 16 --netkind relu
+relu_32x32_s5000_l0 --configs 32x32 --seeds 5000 --layers 0 --netkind relu
+relu_32x32_s5000_l8 --configs 32x32 --seeds 5000 --layers 8 --netkind relu
+relu_32x32_s5000_l16 --configs 32x32 --seeds 5000 --layers 16 --netkind relu
+relu_32x32_s5000_l24 --configs 32x32 --seeds 5000 --layers 24 --netkind relu
+relu_32x32_s5000_l31 --configs 32x32 --seeds 5000 --layers 31 --netkind relu
+relu_32x32_s5000_out --configs 32x32 --seeds 5000 --layers 32 --netkind relu

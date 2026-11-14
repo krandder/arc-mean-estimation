@@ -1,0 +1,23 @@
+[5s] advice: 300 populations x 256 paths
+  step 0: loss -4.8670e+00 [369s]
+  step 25: loss -4.9634e+00 [729s]
+  step 50: loss 1.8464e+00 [880s]
+  step 75: loss -1.7296e-01 [965s]
+  step 100: loss -2.4225e+00 [1050s]
+  step 125: loss 8.6466e+00 [1199s]
+  step 150: loss -2.1361e-01 [1302s]
+  step 175: loss 1.9639e-01 [1414s]
+  step 199: loss 6.7633e+00 [1494s]
+(a) per-sample EM s=0.1: deductive 6.61e-01 at 3.99e+04 passes (MC there 5.07e-07); corrected N=1024 3.61e-05 (MC at equal cost 4.62e-07, RQMC N=1024 5.61e-07)
+(a) per-sample EM s=0.3: deductive 4.14e-01 at 3.99e+04 passes (MC there 3.90e-06); corrected N=1024 2.96e-04 (MC at equal cost 3.56e-06, RQMC N=1024 1.25e-05)
+(a) per-sample EM s=0.6: deductive 1.34e-01 at 5.32e+04 passes (MC there 1.07e-05); corrected N=1024 7.88e-04 (MC at equal cost 9.78e-06, RQMC N=1024 7.75e-05)
+(a) per-sample EM s=0.9: deductive 2.74e-02 at 5.32e+04 passes (MC there 1.70e-05); corrected N=1024 4.88e-03 (MC at equal cost 1.55e-05, RQMC N=1024 2.08e-04)
+(a) per-sample EM s=1.0: deductive 1.13e-02 at 5.32e+04 passes (MC there 1.84e-05); corrected N=1024 5.24e-03 (MC at equal cost 1.68e-05, RQMC N=1024 2.40e-04)
+(a) per-sample EM: interval coverage 68% 0.71, 95% 0.82
+(b) trained (A5) s=0.1: deductive 5.77e-01 at 3.99e+04 passes (MC there 5.26e-07); corrected N=1024 3.90e-05 (MC at equal cost 4.71e-07, RQMC N=1024 5.61e-07)
+(b) trained (A5) s=0.3: deductive 3.81e-01 at 5.32e+04 passes (MC there 3.64e-06); corrected N=1024 3.71e-04 (MC at equal cost 3.32e-06, RQMC N=1024 1.25e-05)
+(b) trained (A5) s=0.6: deductive 1.20e-01 at 5.32e+04 passes (MC there 1.07e-05); corrected N=1024 1.46e-03 (MC at equal cost 9.78e-06, RQMC N=1024 7.75e-05)
+(b) trained (A5) s=0.9: deductive 1.66e-02 at 5.32e+04 passes (MC there 1.70e-05); corrected N=1024 7.53e-03 (MC at equal cost 1.55e-05, RQMC N=1024 2.08e-04)
+(b) trained (A5) s=1.0: deductive 1.61e-03 at 5.32e+04 passes (MC there 1.84e-05); corrected N=1024 3.62e-03 (MC at equal cost 1.68e-05, RQMC N=1024 2.40e-04)
+(b) trained (A5): interval coverage 68% 0.65, 95% 0.76
+wrote /srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../runs/step5_n32_L4_s9611_K16_d32_poe.json total 1507s

@@ -1,0 +1,3 @@
+sampled 65536 in 83s; output PCs r=32 capture 0.9886 of tr Var
+l=31 back= 0 (PCA64 0.996) K=1: cov 0.990 nMSE 0.0133 pred 0.0133 cal 1.01 | K=4: cov 0.989 nMSE 0.0134 pred 0.0133 cal 1.01 | K=16: cov 0.990 nMSE 0.0133 pred 0.0131 cal 1.01 | K=64: cov 0.988 nMSE 0.0132 pred 0.0127 cal 1.04 | K=256: cov 0.978 nMSE 0.0140 pred 0.0117 cal 1.15  (157s)
+l=30 back= 1 (PCA64 0.995) K=1: cov 0.989 nMSE 0.0160 pred 0.0159 cal 1.01 | K=4: cov 0.989 nMSE 0.0160 pred 0.0159 cal 1.01 | K=16: cov 0.990 nMSE 0.0155 pred 0.0151 cal 1.02 | K=64: cov 0.987 nMSE 0.0151 pred 0.0141 cal 1.06 | K=256: cov 0.978 nMSE 0.0160 pred 0.0124 cal 1.24  (150s)

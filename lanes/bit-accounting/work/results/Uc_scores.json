@@ -1,0 +1,18 @@
+{
+ "U1": {
+  "count": "7/18",
+  "hit": false
+ },
+ "U2": {
+  "count": "0/4",
+  "hit": false
+ },
+ "U3": {
+  "count": "28/28",
+  "hit": true
+ },
+ "U4": {
+  "count": "12/12",
+  "hit": true
+ }
+}

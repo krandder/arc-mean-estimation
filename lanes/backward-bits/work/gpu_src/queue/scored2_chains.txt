@@ -1,0 +1,48 @@
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain K --cert 1
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain PR --cert 1 --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain R --lookahead 0
+cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored2 --chain P --lookahead 0

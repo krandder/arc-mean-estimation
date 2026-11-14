@@ -1,0 +1,63 @@
+{
+ "per_net": {
+  "500": {
+   "le2": 0.40477944606688276,
+   "odd": 0.5417206477820129,
+   "g_simplex": 1.7148146026743423,
+   "g_cross": 1.877745149186505,
+   "V": 11.660523450765172,
+   "slope": 50.94111875083166
+  },
+  "501": {
+   "le2": 0.43287043536753966,
+   "odd": 0.5399260201498427,
+   "g_simplex": 1.8152364689208935,
+   "g_cross": 2.21082403211333,
+   "V": 9.929993355153842,
+   "slope": 49.79242685614477
+  },
+  "502": {
+   "le2": 0.2750396310176618,
+   "odd": 0.5594896105481372,
+   "g_simplex": 1.4256260988584575,
+   "g_cross": 2.1111820190139965,
+   "V": 10.13440051632315,
+   "slope": 52.52082747587311
+  }
+ },
+ "rows": [
+  {
+   "id": "PA5",
+   "prediction": "512 x 64: median degree <= 2 share in [0.45, 0.60]",
+   "measured": 0.405,
+   "result": "FAILS"
+  },
+  {
+   "id": "PA6",
+   "prediction": "512 x 64: median odd share in [0.55, 0.59]",
+   "measured": 0.542,
+   "result": "FAILS"
+  },
+  {
+   "id": "PA7",
+   "prediction": "512 x 64: median simplex gain in [1.8, 2.6] and cross-polytope gain in [2.0, 2.8]",
+   "measured": [
+    1.71,
+    2.11
+   ],
+   "result": "FAILS"
+  },
+  {
+   "id": "PA8",
+   "prediction": "512 x 64: n / (mean V over the nets) in [35, 45]",
+   "measured": 48.4,
+   "result": "FAILS"
+  },
+  {
+   "id": "PA8-desc",
+   "prediction": "median per-net output NS slope (descriptive)",
+   "measured": 50.9,
+   "result": "descriptive"
+  }
+ ]
+}

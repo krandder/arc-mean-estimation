@@ -1,0 +1,18 @@
+PG_complete_nets [4000, 4001, 4002, 4003]
+PG1a (4, 4)
+PG1b (4, 4)
+PG2 (0.375, 24)
+PG2_zero_G_cells 10
+PG3 (0.5625, 16)
+PS1a_0.1_seen (0.8125, 16)
+PS1b_0.1_seen (0.0, 16)
+PS1a_0.1_prospective (0.9230769230769231, 13)
+PS1b_0.1_prospective (0.38461538461538464, 13)
+PS1a_0.01_seen (0.0, 8)
+PS1b_0.01_seen (0.0, 8)
+PS1a_0.01_prospective (0.14285714285714285, 7)
+PS1b_0.01_prospective (0.0, 7)
+p2_sync_n16_L256_seed300.json {'n': 16, 'le_0p05_after_4n': True, 'rate': 0.030542372332521304, 'pred': 0.125, 'rate_ok': False}
+p2_sync_n16_L256_seed301.json {'n': 16, 'le_0p05_after_4n': True, 'rate': None, 'pred': 0.125, 'rate_ok': None}
+p2_sync_n32_L512_seed300.json {'n': 32, 'le_0p05_after_4n': True, 'rate': 0.018039431401322623, 'pred': 0.0625, 'rate_ok': False}
+p2_sync_n32_L512_seed301.json {'n': 32, 'le_0p05_after_4n': True, 'rate': None, 'pred': 0.0625, 'rate_ok': None}

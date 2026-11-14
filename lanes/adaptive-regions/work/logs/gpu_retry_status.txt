@@ -1,0 +1,10 @@
+try 1 ran (adaptreg-a5s-11022134) ended 21:40Z
+try 1 ran (adaptreg-a5s-11022149) ended 22:32Z
+try 1 rc=3 Ks [ 16:1200 64:1800 256:3600 1024:6600] 22:42Z
+budget refuse, stopping
+try 1 rc=0 Ks [ 16:1200 64:1800 256:3600 1024:6600] 23:29Z
+try 2 rc=3 Ks [ 256:3600 1024:6600] 23:34Z
+budget refuse, stopping
+try 1 rc=0 Ks [ 256:3600 1024:6600] 00:38Z
+try 2 rc=3 Ks [ 1024:6600] 00:44Z
+budget refuse, stopping

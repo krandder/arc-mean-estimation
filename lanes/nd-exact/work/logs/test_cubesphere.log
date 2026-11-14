@@ -1,0 +1,10 @@
+ok test_faces_sum
+ok test_subcell_vs_mc
+depth1 rel err at 250/1000/4000 cells [np.float64(0.18087720344751032), np.float64(0.15639143965490324), np.float64(0.09908770920055418)] certified mass 0.0
+ok test_depth1_converges
+certified cells found 137
+ok test_certified_cells_are_linear
+worst relative moment error {32: np.float64(3.1521194734003484e-09), 64: 3.173202253206236e-13}
+ok test_quadrature_order
+cs2 certified cells checked 5
+ok test_cs2_certified_cells_exact_full_depth

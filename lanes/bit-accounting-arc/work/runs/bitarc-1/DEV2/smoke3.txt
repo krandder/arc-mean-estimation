@@ -1,0 +1,19 @@
+/root/soup/scripts/../lib/vrlib.py:825: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  rec = dict(t=float(tv), rate=float(Rt[m].mean()), rate_se=float(Rt[m].std() / math.sqrt(P)),
+[W1102 04:14:30.965673550 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 9568256, total: 23659151360).
+[W1102 04:14:30.965769122 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 9568256, total: 23659151360).
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_vr.py", line 108, in <module>
+    ev = vr.evaluate(model, bnet, fr, l, t_grid, args.P_eval, seeds, refine_every=args.refine_every, P_ref=args.P_ref)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/vrlib.py", line 839, in evaluate
+    rec.update(refit_rates(Z[m], g[m], RK[m], tc=tc))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/vrlib.py", line 714, in refit_rates
+    mu, var, lw = fit_mixture(wA.float(), J=J, var_floor=1e-6)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/vrlib.py", line 672, in fit_mixture
+    var = ((r * (zz - mu) ** 2).sum(0) / nk).clamp(min=var_floor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 9.12 MiB is free. Including non-PyTorch memory, this process has 22.02 GiB memory in use. Of the allocated memory 21.76 GiB is allocated by PyTorch, and 19.64 MiB is reserved by PyTorch but unallocated. expandable_segments is enabled. If instead the process is running out of virtual address space (VSZ), expandable segments may be over-reserving VA (each segment reserves ~9/8 of device memory, times the number of streams); reduce it via PYTORCH_CUDA_ALLOC_CONF expandable_segments_reserve / expandable_segments_reserve_by_class.

@@ -1,0 +1,58 @@
+Part 1 hashed 05:29:26Z, before any evaluation-net run (eval seeds 200-204, 300-307)
+8236ed0bb2fc9daaca774f1484c5253e940f86b0037bbdc4e95da01c9c3d2173  PREREG.md
+b9733cf0d4b7e826129c9120bacc692162ac3da971627d7f8e028700cd0e058a  lib/au.py
+b3e5ecd522d3169703b7266eb94c701bcc7fda0093732dec5f1c283a4c94e119  scratch/truth.py
+c88f54cf738be7f870d731345c895361cc47b8c567b4e495364902206b1219ae  scratch/run_lad.py
+41005a9bc7eecdfd69b801927a980a33e3ea14ac7206fc24a3cbaaf1d768dee3  scratch/run_attr.py
+280b8f6b2d6a1361bbd570f1fddd2445939d5c0fbe68fc45da55216176d3f5c8  scratch/run_rank.py
+c349808d671c223d96e66784a9f74cecf732deebe2e5f94d76ac28bcad49b6ec  scratch/run_rqmc.py
+b6289d90c36688831968fb059de3126c729f6fc8effe7dda9de9848b4dca68d8  scratch/score_lad.py
+7f077d956452614433f55cf2b01ee9483d9f35d7a445d5d7b7dbe486daa37a43  scratch/score_attr.py
+1ed9c508abd7c37bf167479416aca456536f2d8f53889955c32ce30bb623d93d  scratch/eval_queue_X.sh
+f5535710a240ac12614ac0a8749ca690eb7d224177cfc85c2c5f938a7af1e2a2  scratch/eval_queue_Y.sh
+bdef6bb3eabe7b72ab13b1faf3856629ce4584d9bc4118eabb5b0f89069eef5a  scratch/eval_queue_X.sh
+51b41492a9c17942b0c06761dc2413fc9d5748ef02c9cde2c2e88c165b7a8a94  scratch/eval_queue_Y.sh
+queue scripts rehashed after thread-env fix 05:30:31Z (no evaluation output existed)
+Amendment 1 hashed 05:31:45Z, before queue Y (ladder eval) started
+a7b3a263fd9e4956985274ffb159a824f3d7fd759f366a8b5bc821eb8a51bd7b  PREREG.md
+Amendment 1 header time corrected (typed ahead of the clock) and rehashed 05:31:54Z; still before queue Y
+8eb83081f151b93ac75980145af89d856737f46d9d7fa39501e28281ddcb7af6  PREREG.md
+b14e8af72d6163960d08c08c9b5a039355137de1f4633424511f26993473617b  lib/au.py
+dd070e5445de537074421f349f6403b7a21afa51537fa8762f68b3e5ab8b9c2d  tests/test_tiled.py
+au.py tiled version hashed 05:36:46Z (deviation logged)
+60ec6fc889c2cb724efa9c56aa40560ce9cd6263f04a76f22930f7baa95b26e1  scratch/score_prereg.py
+score_prereg.py hashed 05:55:23Z (P1-P5, P10-P12 logic; n = 32 ladder results had been looked at, nothing else scored)
+fa5500278e1d794884f4a9c2286e19575d1bd4a8c0e82e10b633b504f3208ac3  scratch/eval_queue_X2.sh
+queue X2 (replan) hashed 06:11:32Z
+Amendment 2 hashed 06:17:21Z, before any attribution run on nets 201-204
+b8a574b2cb1040dc40dd74b5f31c2d26431b19c6835b7320f2b733c6b0aefb49  PREREG.md
+Amendment 2 header time corrected (typed ahead of the clock) and rehashed 06:17:26Z; still before any attribution run on 201-204
+8693cd6421358aa31d2077e123ec709f903a68d7643b4ef737fc74a338364c8f  PREREG.md
+0ee3030e9553fdcc6bc0ccd93cb437e5373c257a1f94636af8d3984ca82d1763  scratch/score_amend2.py
+score_amend2.py hashed 06:17:39Z (before attribution on 201-204)
+Amendment 3 hashed 06:20:00Z (before any n = 128 ladder result was read; nets 201-204 not run)
+a397b1916f53bc1bf3b3f33ab23132591161b5a958cb09c7d197239f80d4fdfe  PREREG.md
+66c712adf55fe7a0cb688bc0a5787d57fb5438505585ad4e366a69ec4e472dd8  scratch/score_amend3.py
+score_amend3.py hashed 06:20:11Z
+e85125074690a08ab02a5adc5e8bf6c3e16f3641666f97fd1cdd425c4d52b69c  PREREG.md
+Amendment 4 (predictions P15-P18) hashed 06:50:38Z, before any oracle run at n = 32-128 or on nets 201-204; run_width.py not yet written
+79063183cd32b27942f8d5f0fff55806cb5300b26b9eb17fde70d8e1335a8763  scratch/run_width.py
+471ff69bdc7f34350a650a57e1bb9b3c1bd221be37228f36a428d8a864002818  scratch/eval_queue_W.sh
+224fccef7efe789b4d36ae6c365ab72ea7d4c3082b3c2df6c9195b0c34b32ba0  scratch/score_amend4.py
+Amendment 4 code (run_width.py, eval_queue_W.sh, score_amend4.py) hashed 06:53:37Z after a dev test on net 9500 (n = 32, 64; small sizes); no eval run of run_width yet
+298b2eefccaa760415083cc274b5200728ae0548a65bf9fcb144ac3938724ab4  PREREG.md
+Amendment 5 (predictions P19-P23) hashed 07:07:03Z, before any run_ipr.py run
+9c4e5c07a13287247724d2a7421b01ce6add470c2b2390712a47b3ffbbc24a61  PREREG.md
+Amendment 5 header time corrected (typed ahead of the clock) and rehashed 07:07:11Z; still before any run_ipr.py run
+9502f802930770c0aaaa4b52d601cbdd22effb43fd0e2611a435e8cbf8110814  scratch/run_ipr.py
+ba131f2d279915a1f7796684da8397543d31cba3e8c5124eed006c2f474f621e  scratch/score_amend5.py
+fedbcb4b6fa04c6bf94e14ac2629a0c892dd7613cde1f766827cb249b43f326f  scratch/eval_queue_V.sh
+Amendment 5 code (run_ipr.py, score_amend5.py, eval_queue_V.sh) hashed 07:08:40Z after a dev test on net 9500 at n = 64 (gauss 1.59e-3, radgauss 8.4e-4; output in runs_dev/); no eval run yet
+a1c3903390067fb02883343bb564c99af071f39d88fa6cce9cc494c94e0acddb  PREREG.md
+Amendment 6 (predictions P24-P28) hashed 08:25:28Z, before any run_ipr2.py run
+0c7f07b2f337946cdbd7bedb2529c082793930665117b32b6b78b5f156af2991  PREREG.md
+Amendment 6 header time corrected (typed ahead of the clock, 08:28Z for 08:25Z) and rehashed 08:25:38Z; still before any run_ipr2.py run
+5e7797f36afe6cef13ef302a16ef71152098233d680e7027ab22174d19f1040a  scratch/run_ipr2.py
+203edfac9d5644a815ce517cd7ebab1f0a9ac6b63f50c871d237be778982481f  scratch/score_amend6.py
+e406b063768deda1dc6b61559c20d7068e3c3d3dd1eb1685986912da6eeb46fd  scratch/eval_queue_V2.sh
+Amendment 6 code (run_ipr2.py, score_amend6.py, eval_queue_V2.sh) hashed 08:28:18Z after dev tests on net 9500 at n = 64 and 128 (radial noise var 4.6e-6 and 1.5e-5; outputs in runs_dev/); no eval run yet

@@ -1,0 +1,25 @@
+B3a start 21:53:12Z
+stat n 64 seed 1002 s 0 done in 3s
+stat n 64 seed 1002 s 1 done in 11s
+stat n 64 seed 1002 s 3 done in 17s
+stat n 64 seed 1002 s 7 done in 29s
+stat n 64 seed 1002 s 15 done in 41s
+stat n 64 seed 1002 s 31 done in 107s
+stat n 64 seed 1002 s 63 done in 191s
+stat n 64 seed 1002 s 127 done in 320s
+stat n 64 seed 1003 s 0 done in 2s
+stat n 64 seed 1003 s 1 done in 5s
+stat n 64 seed 1003 s 3 done in 8s
+stat n 64 seed 1003 s 7 done in 20s
+stat n 64 seed 1003 s 15 done in 37s
+stat n 64 seed 1003 s 31 done in 94s
+stat n 64 seed 1003 s 63 done in 156s
+stat n 64 seed 1003 s 127 done in 248s
+stat n 128 seed 1000 s 0 done in 12s
+stat n 128 seed 1000 s 1 done in 18s
+stat n 128 seed 1000 s 3 done in 26s
+stat n 128 seed 1000 s 7 done in 72s
+stat n 128 seed 1000 s 15 done in 141s
+stat n 128 seed 1000 s 31 done in 293s
+stat n 128 seed 1000 s 63 done in 662s
+stat n 128 seed 1000 s 127 done in 1827s

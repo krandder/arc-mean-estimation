@@ -1,0 +1,68 @@
+2026-11-02T14:18:49Z start 1: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:18:49Z start 2: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:18:49Z start 4: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:18:49Z start 3: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:18:49Z start 6: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:18:49Z start 5: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:19:33Z end 4 rc=0
+2026-11-02T14:19:33Z start 7: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5001 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:19:35Z end 5 rc=0
+2026-11-02T14:19:35Z start 8: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5001 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:19:36Z end 6 rc=0
+2026-11-02T14:19:36Z start 9: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:19:36Z end 1 rc=0
+2026-11-02T14:19:36Z start 10: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:19:38Z end 3 rc=0
+2026-11-02T14:19:38Z start 11: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 8 --seed 5002 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:19:39Z end 2 rc=0
+2026-11-02T14:19:39Z start 12: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 8 --seed 5002 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored --chain K --outcode_only 1
+2026-11-02T14:20:01Z end 8 rc=0
+2026-11-02T14:20:03Z end 7 rc=0
+2026-11-02T14:20:09Z end 9 rc=0
+2026-11-02T14:20:10Z end 10 rc=0
+2026-11-02T14:20:10Z end 12 rc=0
+2026-11-02T14:20:11Z end 11 rc=0
+2026-11-02T14:20:11Z start 1: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:20:11Z start 2: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:20:11Z start 4: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:20:11Z start 5: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:20:11Z start 7: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:20:11Z start 3: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:20:11Z start 6: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:20:19Z end 3 rc=0
+2026-11-02T14:20:19Z start 8: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:20:25Z end 8 rc=0
+2026-11-02T14:20:25Z start 9: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:20:32Z end 9 rc=0
+2026-11-02T14:20:32Z start 10: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:20:38Z end 10 rc=0
+2026-11-02T14:20:38Z start 11: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:20:44Z end 11 rc=0
+2026-11-02T14:20:44Z start 12: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5002 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:20:50Z end 12 rc=0
+2026-11-02T14:20:50Z start 13: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain R --lookahead 0
+2026-11-02T14:20:55Z end 13 rc=0
+2026-11-02T14:20:55Z start 14: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain P --lookahead 0
+2026-11-02T14:21:01Z end 14 rc=0
+2026-11-02T14:21:01Z start 15: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain R --lookahead 0
+2026-11-02T14:21:07Z end 15 rc=0
+2026-11-02T14:21:07Z start 16: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain P --lookahead 0
+2026-11-02T14:21:13Z end 16 rc=0
+2026-11-02T14:21:13Z start 17: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain R --lookahead 0
+2026-11-02T14:21:19Z end 17 rc=0
+2026-11-02T14:21:19Z start 18: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain P --lookahead 0
+2026-11-02T14:21:25Z end 18 rc=0
+2026-11-02T14:21:25Z start 19: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain R --lookahead 0
+2026-11-02T14:21:30Z end 19 rc=0
+2026-11-02T14:21:30Z start 20: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain P --lookahead 0
+2026-11-02T14:21:36Z end 20 rc=0
+2026-11-02T14:21:36Z start 21: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5002 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain R --lookahead 0
+relaunch 21 2026-11-02T14:22:35Z
+2026-11-02T14:22:35Z start 1: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:22:35Z start 3: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:22:35Z start 2: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:22:35Z start 4: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:22:35Z start 5: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1
+2026-11-02T14:22:35Z start 6: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 16 --L 16 --seed 5001 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored --chain PR --cert 1 --lookahead 0
+2026-11-02T14:49:40Z end 5 rc=0
+2026-11-02T14:49:40Z start 7: cd /root/soup && /root/venv/bin/python scripts/run_chain.py --n 8 --L 16 --seed 5001 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored --chain K --cert 1

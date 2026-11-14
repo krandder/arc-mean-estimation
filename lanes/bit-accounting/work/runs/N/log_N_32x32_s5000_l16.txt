@@ -1,0 +1,4 @@
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+N_n32_L32_s5000_l16_local_sig1 471s {'r0': (2.263492063997125, 39.80409966868363), 'r1': (2.2231332813733378, 39.84220554675873), 'r2': (2.2792382785006233, 40.20092960720281)}
+ALL DONE

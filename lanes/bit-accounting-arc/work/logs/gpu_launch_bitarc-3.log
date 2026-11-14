@@ -1,0 +1,105 @@
+creating soup-gpu-bitarc-3-1102063312-4406 (g2-standard-8 + nvidia-l4, SPOT) in us-west1-c ...
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+---
+code: ZONE_RESOURCE_POOL_EXHAUSTED_WITH_DETAILS
+errorDetails:
+- help:
+    links:
+    - description: Troubleshooting documentation
+      url: https://cloud.google.com/compute/docs/resource-error
+- localizedMessage:
+    locale: en-US
+    message: A g2-standard-8 VM instance with 1 nvidia-l4 accelerator(s) is currently
+      unavailable in the us-west1-c zone. Consider trying your request in another
+      zone which has capacity to accommodate your request. Alternatively, you can
+      try your request again with a different VM hardware configuration or at a later
+      time. For more information, see the troubleshooting documentation.
+- errorInfo:
+    domain: compute.googleapis.com
+    metadatas:
+      attachment: nvidia-l4:1
+      vmType: g2-standard-8
+      zone: us-west1-c
+      zonesAvailable: ''
+    reason: stockout
+message: The zone 'projects/mnx-kas-dev/zones/us-west1-c' does not have enough resources
+  available to fulfill the request.  '(resource type:compute)'.
+
+creating soup-gpu-bitarc-3-1102063312-4406 (g2-standard-8 + nvidia-l4, SPOT) in us-west1-a ...
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+---
+code: ZONE_RESOURCE_POOL_EXHAUSTED_WITH_DETAILS
+errorDetails:
+- help:
+    links:
+    - description: Troubleshooting documentation
+      url: https://cloud.google.com/compute/docs/resource-error
+- localizedMessage:
+    locale: en-US
+    message: A g2-standard-8 VM instance with 1 nvidia-l4 accelerator(s) is currently
+      unavailable in the us-west1-a zone. Consider trying your request in another
+      zone which has capacity to accommodate your request. Alternatively, you can
+      try your request again with a different VM hardware configuration or at a later
+      time. For more information, see the troubleshooting documentation.
+- errorInfo:
+    domain: compute.googleapis.com
+    metadatas:
+      attachment: nvidia-l4:1
+      vmType: g2-standard-8
+      zone: us-west1-a
+      zonesAvailable: ''
+    reason: stockout
+message: The zone 'projects/mnx-kas-dev/zones/us-west1-a' does not have enough resources
+  available to fulfill the request.  '(resource type:compute)'.
+
+creating soup-gpu-bitarc-3-1102063312-4406 (g2-standard-8 + nvidia-l4, SPOT) in us-west1-b ...
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+---
+code: ZONE_RESOURCE_POOL_EXHAUSTED_WITH_DETAILS
+errorDetails:
+- help:
+    links:
+    - description: Troubleshooting documentation
+      url: https://cloud.google.com/compute/docs/resource-error
+- localizedMessage:
+    locale: en-US
+    message: A g2-standard-8 VM instance with 1 nvidia-l4 accelerator(s) is currently
+      unavailable in the us-west1-b zone. Consider trying your request in another
+      zone which has capacity to accommodate your request. Alternatively, you can
+      try your request again with a different VM hardware configuration or at a later
+      time. For more information, see the troubleshooting documentation.
+- errorInfo:
+    domain: compute.googleapis.com
+    metadatas:
+      attachment: nvidia-l4:1
+      vmType: g2-standard-8
+      zone: us-west1-b
+      zonesAvailable: ''
+    reason: stockout
+message: The zone 'projects/mnx-kas-dev/zones/us-west1-b' does not have enough resources
+  available to fulfill the request.  '(resource type:compute)'.
+
+creating soup-gpu-bitarc-3-1102063312-4406 (g2-standard-8 + nvidia-l4, SPOT) in us-central1-a ...
+NAME                               ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP    EXTERNAL_IP    STATUS
+soup-gpu-bitarc-3-1102063312-4406  us-central1-a  g2-standard-8  true         10.128.15.197  34.60.135.203  RUNNING
+waiting for soup-gpu-bitarc-3-1102063312-4406 (34.60.135.203) startup script (up to 25 min) ...
+gpu=NVIDIA L4, 580.178.04
+startup=minimal
+READY: soup-gpu-bitarc-3-1102063312-4406 us-central1-a 34.60.135.203
+rsync /home/agent/workspaces/mats/work/bit-accounting-arc -> soup-gpu-bitarc-3-1102063312-4406:/root/soup
+W: http://packages.cloud.google.com/apt/dists/apt-transport-artifact-registry-stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: https://us-apt.pkg.dev/projects/gce-ai-infra/dists/gpudirect-gib-apt/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Connection to 34.60.135.203 closed by remote host.
+rsync soup-gpu-bitarc-3-1102063312-4406:/root/runs -> /home/agent/workspaces/mats/work/bit-accounting-arc/runs
+rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+rsync error: unexplained error (code 255) at io.c(232) [Receiver=3.2.7]

@@ -1,0 +1,110 @@
+{
+ "64: k2 simple": {
+  "reg": 1.598979200847245,
+  "local": 2.169631583534363,
+  "bound": 1.339457352045626,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 105.6015625,
+  "max_extrapolation_factor": 2.424206554708885
+ },
+ "64: D1 mean-field n/4 as implemented": {
+  "reg": 0.12092721768572937,
+  "local": 0.12092721768572937,
+  "bound": 0.12092721768572937,
+  "extrapolated_nets": 0,
+  "nets": 8,
+  "median_cost": 5033.1712646484375,
+  "max_extrapolation_factor": 0.3072003945708275
+ },
+ "64: D1 PCA n/8 at C_ded": {
+  "reg": 3.0507410576524405,
+  "local": 3.6302987061132024,
+  "bound": 2.6000014951649266,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 115.1015625,
+  "max_extrapolation_factor": 2.2241227177085454
+ },
+ "64: B2 future n/2 particles": {
+  "reg": 0.004045354971604308,
+  "local": 0.007366996646483255,
+  "bound": 0.040712469253858824,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 1659440.0,
+  "max_extrapolation_factor": 101.2841796875
+ },
+ "128: k2 simple": {
+  "reg": 2.0086145119421666,
+  "local": 2.0814355563402063,
+  "bound": 1.9143339219475612,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 201.30078125,
+  "max_extrapolation_factor": 1.2717287951409777
+ },
+ "128: D1 mean-field n/4 as implemented": {
+  "reg": 0.0562876520714012,
+  "local": 0.054342440535927655,
+  "bound": 0.061022950809033846,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 19256.62094116211,
+  "max_extrapolation_factor": 1.1753308679908514
+ },
+ "128: D1 PCA n/8 at C_ded": {
+  "reg": 5.166447761529566,
+  "local": 5.27853785609602,
+  "bound": 5.027152941342678,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 223.30078125,
+  "max_extrapolation_factor": 1.146435756144494
+ },
+ "128: B2 future n/2 particles": {
+  "reg": 0.012011985520607607,
+  "local": 0.0069264448607581665,
+  "bound": 0.12990074722084366,
+  "extrapolated_nets": 8,
+  "nets": 8,
+  "median_cost": 1916080.0,
+  "max_extrapolation_factor": 116.9482421875
+ },
+ "256: k2 simple": {
+  "reg": 1.3997082237296066,
+  "local": 1.3997082237296066,
+  "bound": 1.3997082237296066,
+  "extrapolated_nets": 0,
+  "nets": 5,
+  "median_cost": 393.150390625,
+  "max_extrapolation_factor": 0.6511503132250004
+ },
+ "256: D1 mean-field n/4 as implemented": {
+  "reg": 0.03624031877238122,
+  "local": 0.03500996445894584,
+  "bound": 0.03885978163887425,
+  "extrapolated_nets": 5,
+  "nets": 5,
+  "median_cost": 75352.31929779053,
+  "max_extrapolation_factor": 1.1497851455351338
+ },
+ "256: D1 PCA n/8 at C_ded": {
+  "reg": 3.497980500165547,
+  "local": 3.497980500165547,
+  "bound": 3.497980500165547,
+  "extrapolated_nets": 0,
+  "nets": 5,
+  "median_cost": 449.150390625,
+  "max_extrapolation_factor": 0.5699649946731025
+ },
+ "256: B2 future n/2 particles": {
+  "reg": 0.022307837744502946,
+  "local": 0.024049971757854942,
+  "bound": 0.14120895088229665,
+  "extrapolated_nets": 5,
+  "nets": 5,
+  "median_cost": 2625968.0,
+  "max_extrapolation_factor": 40.069091796875
+ }
+}

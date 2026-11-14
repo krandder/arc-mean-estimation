@@ -1,0 +1,35 @@
+[4s] advice: 2000 populations x 512 paths
+  EM layer 0 done [583s]
+  EM layer 1 done [1151s]
+  EM layer 2 done [1481s]
+  EM layer 3 done [1811s]
+  val at 0: 8.6087e-04
+  step 20: val 1.8485e-03 best 8.6087e-04 lr 3.0e-03 [1959s]
+  step 40: val 4.5105e-03 best 8.6087e-04 lr 3.0e-03 [2107s]
+  step 60: val 2.4863e-03 best 8.6087e-04 lr 9.0e-04 [2283s]
+  step 80: val 1.3367e-03 best 8.6087e-04 lr 9.0e-04 [2384s]
+  step 100: val 1.1123e-03 best 8.6087e-04 lr 9.0e-04 [2478s]
+  step 120: val 3.0644e-03 best 8.6087e-04 lr 2.7e-04 [2581s]
+  step 140: val 2.8509e-03 best 8.6087e-04 lr 2.7e-04 [2686s]
+  step 160: val 2.3195e-03 best 8.6087e-04 lr 2.7e-04 [2796s]
+  step 180: val 1.2791e-03 best 8.6087e-04 lr 8.1e-05 [2900s]
+  step 200: val 1.1826e-03 best 8.6087e-04 lr 8.1e-05 [3005s]
+  step 220: val 1.2874e-03 best 8.6087e-04 lr 8.1e-05 [3111s]
+[14049s] headline baselines (1024000 advice paths): MC 1.01e-06, RQMC (N=524288) 1.04e-08, IS-of-advice 4.13e-06
+  held-out calibration scale c = 0.0112 (fitted on 24 calibration populations)
+  doubling check (240 more steps): headline 132.2%, held-out median 391.8%
+(a) per-sample EM s=0.1: deductive 8.43e-05 at 7.55e+06 passes (MC there 1.33e-09); corrected N=1024 1.67e-05 (MC at equal cost 1.32e-09, RQMC N=1024 1.14e-08)
+(a) per-sample EM s=0.3: deductive 2.02e-04 at 1.47e+07 passes (MC there 6.28e-09); corrected N=1024 7.74e-05 (MC at equal cost 6.25e-09, RQMC N=1024 2.93e-07)
+(a) per-sample EM s=0.6: deductive 1.95e-04 at 2.96e+07 passes (MC there 1.19e-08); corrected N=1024 6.42e-04 (MC at equal cost 1.19e-08, RQMC N=1024 1.95e-06)
+(a) per-sample EM s=0.9: deductive 1.70e-04 at 3.87e+07 passes (MC there 1.95e-08); corrected N=1024 1.93e-03 (MC at equal cost 1.95e-08, RQMC N=1024 8.22e-06)
+(a) per-sample EM s=1.0: deductive 7.33e-05 at 4.21e+07 passes (MC there 2.47e-08); corrected N=1024 1.15e-02 (MC at equal cost 2.46e-08, RQMC N=1024 6.77e-06)
+(a) per-sample EM: interval coverage 68% 0.82, 95% 0.88; with held-out scale c=0.0112: 68% 0.24, 95% 0.29
+(a) per-sample EM HEADLINE N(0,I): model 7.33e-05 vs MC 1.01e-06, RQMC 1.04e-08, IS-of-advice 4.13e-06 (same 1024000 advice paths)
+(b) trained (A5) s=0.1: deductive 8.43e-05 at 7.55e+06 passes (MC there 1.33e-09); corrected N=1024 1.67e-05 (MC at equal cost 1.32e-09, RQMC N=1024 1.14e-08)
+(b) trained (A5) s=0.3: deductive 2.02e-04 at 1.47e+07 passes (MC there 6.28e-09); corrected N=1024 7.74e-05 (MC at equal cost 6.25e-09, RQMC N=1024 2.93e-07)
+(b) trained (A5) s=0.6: deductive 1.95e-04 at 2.96e+07 passes (MC there 1.19e-08); corrected N=1024 6.42e-04 (MC at equal cost 1.19e-08, RQMC N=1024 1.95e-06)
+(b) trained (A5) s=0.9: deductive 1.70e-04 at 3.87e+07 passes (MC there 1.95e-08); corrected N=1024 1.93e-03 (MC at equal cost 1.95e-08, RQMC N=1024 8.22e-06)
+(b) trained (A5) s=1.0: deductive 7.33e-05 at 4.21e+07 passes (MC there 2.47e-08); corrected N=1024 1.15e-02 (MC at equal cost 2.46e-08, RQMC N=1024 6.77e-06)
+(b) trained (A5): interval coverage 68% 0.82, 95% 0.88; with held-out scale c=0.0112: 68% 0.24, 95% 0.29
+(b) trained (A5) HEADLINE N(0,I): model 7.33e-05 vs MC 1.01e-06, RQMC 1.04e-08, IS-of-advice 4.13e-06 (same 1024000 advice paths)
+wrote runs/step5m_n4_L4_s9701_K256.json total 14815s

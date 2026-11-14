@@ -1,0 +1,2 @@
+done arc [4000] l=32 out steps4 train 2087s total 2135s
+done arc [4000] l=24 local steps4 train 1733s total 1786s

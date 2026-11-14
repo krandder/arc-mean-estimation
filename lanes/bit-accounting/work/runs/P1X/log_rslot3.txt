@@ -1,0 +1,24 @@
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n32_L8_s5002_l4_local 1421s x0: R(0.1)=8.91 R(0.01)=31.97 | x1: R(0.1)=8.91 R(0.01)=32.11 | x2: R(0.1)=8.95 R(0.01)=32.15 | wdec: R(0.1)=10.09 R(0.01)=36.40 | linref_heldout_power: R(0.1)=13.16 R(0.01)=43.98 | centroid2 [(0.3471, 0.3392), (0.0895, 0.0863), (0.0137, 0.0135)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n32_L32_s5002_l16_local 1467s x0: R(0.1)=1.63 R(0.01)=4.34 | x1: R(0.1)=1.63 R(0.01)=4.36 | x2: R(0.1)=1.63 R(0.01)=4.37 | wdec: R(0.1)=1.66 R(0.01)=5.08 | linref_heldout_power: R(0.1)=1.85 R(0.01)=7.51 | centroid2 [(0.0829, 0.0825), (0.02, 0.0196), (0.0035, 0.0035)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n32_L32_s5001_l0_local 1488s x0: R(0.1)=37.41 R(0.01)=112.46 | x1: R(0.1)=38.09 R(0.01)=- | x2: R(0.1)=38.28 R(0.01)=116.54 | wdec: R(0.1)=51.92 R(0.01)=111.76 | linref_heldout_power: R(0.1)=53.10 R(0.01)=111.07 | centroid2 [(0.5763, 0.5674), (0.3392, 0.3216), (0.0215, 0.0227)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n16_L4_s5002_l3_local 1367s x0: R(0.1)=7.54 R(0.01)=20.50 | x1: R(0.1)=7.57 R(0.01)=20.53 | x2: R(0.1)=7.57 R(0.01)=20.55 | wdec: R(0.1)=7.71 R(0.01)=20.84 | linref_heldout_power: R(0.1)=9.90 R(0.01)=27.47 | centroid2 [(0.3359, 0.3354), (0.0547, 0.0539), (0.0068, 0.0067)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n16_L4_s5001_l2_local 1357s x0: R(0.1)=7.96 R(0.01)=24.58 | x1: R(0.1)=7.91 R(0.01)=24.43 | x2: R(0.1)=7.94 R(0.01)=24.36 | wdec: R(0.1)=10.59 R(0.01)=28.34 | linref_heldout_power: R(0.1)=15.30 R(0.01)=38.41 | centroid2 [(0.426, 0.4176), (0.0707, 0.0683), (0.0086, 0.0084)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE
+/root/venv/lib/python3.12/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+P_relu_n16_L4_s5000_l0_local 1367s x0: R(0.1)=8.94 R(0.01)=31.40 | x1: R(0.1)=8.92 R(0.01)=31.25 | x2: R(0.1)=8.93 R(0.01)=31.52 | wdec: R(0.1)=16.89 R(0.01)=43.81 | linref_heldout_power: R(0.1)=17.65 R(0.01)=43.91 | centroid2 [(0.4254, 0.4175), (0.1205, 0.1167), (0.0112, 0.0114)] | gates r0 {'0.1': 0.0, '0.01': 0.0, '0.001': 0.0}
+ALL DONE

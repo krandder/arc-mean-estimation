@@ -1,0 +1,2 @@
+step n=8 L=1 net=0 d=2 l=0->1: mean spread/sd median=0.731 max=0.760
+prop n=8 L=1 net=0 d=2: readout: all=1.070673889626926 input=1.070673889626926 prop=1.070673889626926 unit: all=0.7383977276565298 input=0.7383977276565298 prop=0.7383977276565298 t=3.1s

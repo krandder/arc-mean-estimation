@@ -1,0 +1,3 @@
+arc seeds [9100] l=31 cls=local variant=initchkref M=1 K=256 W=1024 params/model=6559744 dev=cuda
+step 0 0.7s R [641.564, 463.055, 290.555, 156.167, 85.549, 55.014, 42.934, 39.936] D [0.0001595, 0.0006466, 0.003366, 0.01369, 0.04813, 0.1564, 0.3451, 0.7001]
+done arc [9100] l=31 local initchkref train 21s total 25s

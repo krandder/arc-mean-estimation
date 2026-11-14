@@ -1,0 +1,4 @@
+cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 16 --seed 5000 --sigma 0.1 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0 --powers 0.03,0.06,0.12,0.25,0.5,1,2,4 --tag _p
+cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 16 --seed 5000 --sigma 0.0003 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 14,7,0 --powers 0.03,0.06,0.12,0.25,0.5,1,2,4 --tag _p
+cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 16 --L 8 --seed 5000 --sigma 0.2 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0 --powers 0.03,0.06,0.12,0.25,0.5,1,2,4 --tag _p
+cd /root/soup && /root/venv/bin/python scripts/run_gauss.py --n 8 --L 8 --seed 5000 --sigma 0.01 --KL 64 --device cuda --out /root/runs/scored3 --chain K --layers 6,3,0 --powers 0.03,0.06,0.12,0.25,0.5,1,2,4 --tag _p

@@ -1,0 +1,87 @@
+[    2.0s] n=256 L=32 seed=100 V=8.947 V_rb/V=0.9611 even/rb=0.436 odd/rb=0.568 |mu|^2/V=17.33
+[    7.1s] n=256 L=32 seed=100 multilevel best r=1 gain_vs_rb=0.980 resid_share=0.916
+[    8.2s] n=256 L=32 seed=100 onb: m=256 R=64 m*risk/V=0.7942 (+-0.0838) gain_vs_mc=1.259
+[    9.4s] n=256 L=32 seed=100 simplex: m=257 R=64 m*risk/V=0.4997 (+-0.0297) gain_vs_mc=2.001
+[   11.4s] n=256 L=32 seed=100 cross: m=512 R=64 m*risk/V=0.4686 (+-0.0294) gain_vs_mc=2.134
+[   69.3s] n=256 L=32 seed=100 kerdock: m=66048 R=12 m*risk/V=0.3835 (+-0.0707)
+[   69.3s] n=256 L=32 seed=100 mub: m=33024 R=12 m*risk/V=0.7833 (+-0.2281)
+[   70.9s] n=256 L=32 seed=100 rqmc_rb_std_m10: m*risk/V=0.5503 (+-0.0571) gain_vs_mc=1.817
+[   73.9s] n=256 L=32 seed=100 rqmc_rb_std_m12: m*risk/V=0.5771 (+-0.0887) gain_vs_mc=1.733
+[   91.6s] n=256 L=32 seed=100 rqmc_rb_std_m14: m*risk/V=0.6443 (+-0.0709) gain_vs_mc=1.552
+[   93.0s] n=256 L=32 seed=100 rqmc_rb_polar_m10: m*risk/V=0.8467 (+-0.1282) gain_vs_mc=1.181
+[   97.4s] n=256 L=32 seed=100 rqmc_rb_polar_m12: m*risk/V=0.4221 (+-0.0573) gain_vs_mc=2.369
+[  120.8s] n=256 L=32 seed=100 rqmc_rb_polar_m14: m*risk/V=0.3714 (+-0.0369) gain_vs_mc=2.693
+[  122.1s] n=256 L=32 seed=100 rqmc_rb_svd_m10: m*risk/V=0.5114 (+-0.0830) gain_vs_mc=1.956
+[  127.1s] n=256 L=32 seed=100 rqmc_rb_svd_m12: m*risk/V=0.4994 (+-0.0548) gain_vs_mc=2.002
+[  149.3s] n=256 L=32 seed=100 rqmc_rb_svd_m14: m*risk/V=0.5967 (+-0.0810) gain_vs_mc=1.676
+[  149.5s] n=256 L=32 seed=100 sobol_det m=2^10: nmse*m=1.0678 (polar 0.4136)
+[  150.0s] n=256 L=32 seed=100 sobol_det m=2^12: nmse*m=0.3997 (polar 0.2160)
+[  152.3s] n=256 L=32 seed=100 sobol_det m=2^14: nmse*m=0.6268 (polar 0.3901)
+[  164.4s] n=256 L=32 seed=100 sobol_det m=2^16: nmse*m=1.0577 (polar 0.8539)
+[  164.4s] n=256 L=32 seed=100 done passes=2113600 -> runs/dev_struct_n256_L32_s100.json
+[    3.9s] n=256 L=32 seed=101 V=26.58 V_rb/V=0.9420 even/rb=0.444 odd/rb=0.561 |mu|^2/V=22.97
+[    6.6s] n=256 L=32 seed=101 multilevel best r=1 gain_vs_rb=0.985 resid_share=0.902
+[    7.7s] n=256 L=32 seed=101 onb: m=256 R=64 m*risk/V=0.5595 (+-0.0530) gain_vs_mc=1.787
+[    8.8s] n=256 L=32 seed=101 simplex: m=257 R=64 m*risk/V=0.3956 (+-0.0390) gain_vs_mc=2.528
+[   10.7s] n=256 L=32 seed=101 cross: m=512 R=64 m*risk/V=0.4127 (+-0.0405) gain_vs_mc=2.423
+[   62.3s] n=256 L=32 seed=101 kerdock: m=66048 R=12 m*risk/V=0.2498 (+-0.0535)
+[   62.3s] n=256 L=32 seed=101 mub: m=33024 R=12 m*risk/V=0.4081 (+-0.0863)
+[   64.3s] n=256 L=32 seed=101 rqmc_rb_std_m10: m*risk/V=0.4622 (+-0.0812) gain_vs_mc=2.164
+[   68.5s] n=256 L=32 seed=101 rqmc_rb_std_m12: m*risk/V=0.4183 (+-0.0635) gain_vs_mc=2.390
+[   88.7s] n=256 L=32 seed=101 rqmc_rb_std_m14: m*risk/V=0.6288 (+-0.1307) gain_vs_mc=1.590
+[   90.0s] n=256 L=32 seed=101 rqmc_rb_polar_m10: m*risk/V=0.5036 (+-0.1032) gain_vs_mc=1.986
+[   94.0s] n=256 L=32 seed=101 rqmc_rb_polar_m12: m*risk/V=0.4609 (+-0.0943) gain_vs_mc=2.170
+[  113.9s] n=256 L=32 seed=101 rqmc_rb_polar_m14: m*risk/V=0.3243 (+-0.0590) gain_vs_mc=3.084
+[  115.1s] n=256 L=32 seed=101 rqmc_rb_svd_m10: m*risk/V=0.6177 (+-0.1276) gain_vs_mc=1.619
+[  119.3s] n=256 L=32 seed=101 rqmc_rb_svd_m12: m*risk/V=0.5673 (+-0.0944) gain_vs_mc=1.763
+[  142.0s] n=256 L=32 seed=101 rqmc_rb_svd_m14: m*risk/V=0.5768 (+-0.1235) gain_vs_mc=1.734
+[  142.1s] n=256 L=32 seed=101 sobol_det m=2^10: nmse*m=0.1816 (polar 2.3325)
+[  142.6s] n=256 L=32 seed=101 sobol_det m=2^12: nmse*m=0.5866 (polar 0.9708)
+[  144.8s] n=256 L=32 seed=101 sobol_det m=2^14: nmse*m=0.1920 (polar 0.3888)
+[  158.8s] n=256 L=32 seed=101 sobol_det m=2^16: nmse*m=0.2264 (polar 0.4695)
+[  158.8s] n=256 L=32 seed=101 done passes=2113600 -> runs/dev_struct_n256_L32_s101.json
+[    0.1s] n=32 L=4 seed=9500 V=10.26 V_rb/V=0.9559 even/rb=0.365 odd/rb=0.632 |mu|^2/V=2.13
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/randomness/scratch/structure.py", line 88, in <module>
+    Gr = mn * (suffix[rr] * norms[rr])[:, None] * qL[None, :]
+               ~~~~~~^^^^
+IndexError: index 8 is out of bounds for axis 0 with size 5
+[    0.2s] n=64 L=8 seed=9500 V=8.633 V_rb/V=0.9517 even/rb=0.391 odd/rb=0.615 |mu|^2/V=4.66
+[    0.4s] n=64 L=8 seed=9500 multilevel best r=1 gain_vs_rb=0.816 resid_share=0.893
+[    0.5s] n=64 L=8 seed=9500 onb: m=64 R=64 m*risk/V=0.7352 (+-0.0743) gain_vs_mc=1.360
+[    0.5s] n=64 L=8 seed=9500 simplex: m=65 R=64 m*risk/V=0.3512 (+-0.0234) gain_vs_mc=2.848
+[    0.6s] n=64 L=8 seed=9500 cross: m=128 R=64 m*risk/V=0.2689 (+-0.0182) gain_vs_mc=3.718
+[    1.4s] n=64 L=8 seed=9500 rqmc_rb_std_m10: m*risk/V=0.3419 (+-0.0462) gain_vs_mc=2.925
+[    1.6s] n=64 L=8 seed=9500 rqmc_rb_std_m12: m*risk/V=0.3190 (+-0.0445) gain_vs_mc=3.135
+[    2.9s] n=64 L=8 seed=9500 rqmc_rb_std_m14: m*risk/V=0.2414 (+-0.0314) gain_vs_mc=4.143
+[    3.0s] n=64 L=8 seed=9500 rqmc_rb_polar_m10: m*risk/V=0.3231 (+-0.0478) gain_vs_mc=3.095
+[    3.3s] n=64 L=8 seed=9500 rqmc_rb_polar_m12: m*risk/V=0.2874 (+-0.0382) gain_vs_mc=3.479
+[    4.5s] n=64 L=8 seed=9500 rqmc_rb_polar_m14: m*risk/V=0.2494 (+-0.0277) gain_vs_mc=4.010
+[    4.6s] n=64 L=8 seed=9500 rqmc_rb_svd_m10: m*risk/V=0.3306 (+-0.0520) gain_vs_mc=3.025
+[    4.9s] n=64 L=8 seed=9500 rqmc_rb_svd_m12: m*risk/V=0.2461 (+-0.0247) gain_vs_mc=4.063
+[    6.4s] n=64 L=8 seed=9500 rqmc_rb_svd_m14: m*risk/V=0.3211 (+-0.0527) gain_vs_mc=3.115
+[    6.4s] n=64 L=8 seed=9500 sobol_det m=2^10: nmse*m=0.2149 (polar 0.2066)
+[    6.4s] n=64 L=8 seed=9500 sobol_det m=2^12: nmse*m=0.3919 (polar 0.3149)
+[    6.6s] n=64 L=8 seed=9500 sobol_det m=2^14: nmse*m=0.4721 (polar 0.3250)
+[    7.5s] n=64 L=8 seed=9500 sobol_det m=2^16: nmse*m=0.2979 (polar 0.6049)
+[    7.5s] n=64 L=8 seed=9500 done passes=1271872 -> runs/dev_struct_n64_L8_s9500.json
+[    0.6s] n=128 L=16 seed=9500 V=8.561 V_rb/V=0.9749 even/rb=0.450 odd/rb=0.548 |mu|^2/V=4.84
+[    1.9s] n=128 L=16 seed=9500 multilevel best r=1 gain_vs_rb=0.946 resid_share=0.961
+[    2.1s] n=128 L=16 seed=9500 onb: m=128 R=64 m*risk/V=0.7937 (+-0.0457) gain_vs_mc=1.260
+[    2.3s] n=128 L=16 seed=9500 simplex: m=129 R=64 m*risk/V=0.5182 (+-0.0284) gain_vs_mc=1.930
+[    2.5s] n=128 L=16 seed=9500 cross: m=256 R=64 m*risk/V=0.5334 (+-0.0272) gain_vs_mc=1.875
+[    3.6s] n=128 L=16 seed=9500 rqmc_rb_std_m10: m*risk/V=0.4482 (+-0.0438) gain_vs_mc=2.231
+[    4.3s] n=128 L=16 seed=9500 rqmc_rb_std_m12: m*risk/V=0.4750 (+-0.0483) gain_vs_mc=2.105
+[    9.4s] n=128 L=16 seed=9500 rqmc_rb_std_m14: m*risk/V=0.5361 (+-0.0457) gain_vs_mc=1.865
+[    9.7s] n=128 L=16 seed=9500 rqmc_rb_polar_m10: m*risk/V=0.5497 (+-0.0510) gain_vs_mc=1.819
+[   10.6s] n=128 L=16 seed=9500 rqmc_rb_polar_m12: m*risk/V=0.4275 (+-0.0450) gain_vs_mc=2.339
+[   16.0s] n=128 L=16 seed=9500 rqmc_rb_polar_m14: m*risk/V=0.5120 (+-0.0599) gain_vs_mc=1.953
+[   16.4s] n=128 L=16 seed=9500 rqmc_rb_svd_m10: m*risk/V=0.5618 (+-0.0456) gain_vs_mc=1.780
+[   17.5s] n=128 L=16 seed=9500 rqmc_rb_svd_m12: m*risk/V=0.5523 (+-0.0476) gain_vs_mc=1.810
+[   22.2s] n=128 L=16 seed=9500 rqmc_rb_svd_m14: m*risk/V=0.4944 (+-0.0653) gain_vs_mc=2.023
+[   22.2s] n=128 L=16 seed=9500 sobol_det m=2^10: nmse*m=1.2921 (polar 0.5608)
+[   22.3s] n=128 L=16 seed=9500 sobol_det m=2^12: nmse*m=0.5729 (polar 0.5228)
+[   23.2s] n=128 L=16 seed=9500 sobol_det m=2^14: nmse*m=0.9314 (polar 0.5241)
+[   26.9s] n=128 L=16 seed=9500 sobol_det m=2^16: nmse*m=0.4489 (polar 0.6015)
+[   26.9s] n=128 L=16 seed=9500 done passes=1288256 -> runs/dev_struct_n128_L16_s9500.json
+dev_queue_1 done 13:26:17Z

@@ -1,0 +1,3 @@
+217 M 2^12: UNB 3.60e-05 +- 9.6e-06 (cost 1.22e+06) | no cells 2.14e-05 +- 5.9e-06 (cost 1.76e+05) | mean log(no-cell/UNB) -0.81
+217 M 2^14: UNB 8.73e-06 +- 2.3e-06 (cost 1.75e+06) | no cells 3.72e-06 +- 8.8e-07 (cost 7.00e+05) | mean log(no-cell/UNB) -0.87
+217 M 2^16: UNB 1.67e-06 +- 3.3e-07 (cost 3.86e+06) | no cells 7.99e-07 +- 2.3e-07 (cost 2.79e+06) | mean log(no-cell/UNB) -1.94

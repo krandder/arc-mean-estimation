@@ -1,0 +1,16 @@
+[    354s] l=14: T 3.797 (erased 1.716 of 5.513) | code K=16 H 3.782 I 2.687 deficit 1.110 | reuse H 5.382 I 3.299 | exCE 0.0127 | 353s
+[    614s] l=13: T 2.937 (erased 0.841 of 3.778) | code K=13 H 2.944 I 2.179 deficit 0.758 | reuse H 3.729 I 2.516 | exCE 0.0157 | 260s
+[    843s] l=12: T 2.477 (erased 0.461 of 2.938) | code K=8 H 2.498 I 1.837 deficit 0.640 | reuse H 2.911 I 2.168 | exCE 0.0064 | 229s
+[   1072s] l=11: T 2.154 (erased 0.351 of 2.506) | code K=5 H 2.125 I 1.646 deficit 0.508 | reuse H 2.497 I 1.903 | exCE 0.0254 | 229s
+[   1263s] l=10: T 1.959 (erased 0.161 of 2.120) | code K=4 H 1.853 I 1.595 deficit 0.364 | reuse H 2.117 I 1.806 | exCE 0.0199 | 191s
+[   1471s] l=9: T 1.792 (erased 0.064 of 1.856) | code K=3 H 1.467 I 1.351 deficit 0.441 | reuse H 1.855 I 1.707 | exCE 0.0170 | 207s
+[   1675s] l=8: T 1.425 (erased 0.041 of 1.466) | code K=2 H 0.988 I 0.894 deficit 0.531 | reuse H 1.465 I 1.364 | exCE 0.0220 | 204s
+[   1788s] l=7: T 0.976 (erased 0.011 of 0.986) | code K=2 H 0.986 I 0.954 deficit 0.022 | reuse H 0.986 I 0.954 | exCE 0.0084 | 113s
+[   1942s] l=6: T 0.981 (erased 0.005 of 0.987) | code K=2 H 0.987 I 0.969 deficit 0.012 | reuse H 0.987 I 0.969 | exCE 0.0568 | 154s
+[   2097s] l=5: T 0.982 (erased 0.005 of 0.987) | code K=2 H 0.987 I 0.971 deficit 0.011 | reuse H 0.987 I 0.971 | exCE 0.0654 | 155s
+[   2258s] l=4: T 0.983 (erased 0.004 of 0.987) | code K=2 H 0.987 I 0.974 deficit 0.009 | reuse H 0.987 I 0.974 | exCE 0.0756 | 161s
+[   2411s] l=3: T 0.984 (erased 0.004 of 0.987) | code K=2 H 0.987 I 0.975 deficit 0.009 | reuse H 0.987 I 0.975 | exCE 0.0526 | 152s
+[   2540s] l=2: T 0.985 (erased 0.001 of 0.987) | code K=2 H 0.987 I 0.981 deficit 0.004 | reuse H 0.987 I 0.981 | exCE 0.0603 | 129s
+[   2690s] l=1: T 0.985 (erased 0.001 of 0.986) | code K=2 H 0.986 I 0.982 deficit 0.003 | reuse H 0.986 I 0.982 | exCE 0.1031 | 150s
+[   2827s] l=0: T 0.988 (erased 0.001 of 0.989) | code K=2 H 0.989 I 0.985 deficit 0.003 | reuse H 0.989 I 0.985 | exCE 0.2077 | 137s
+[   2827s] done

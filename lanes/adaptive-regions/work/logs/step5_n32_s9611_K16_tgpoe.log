@@ -1,0 +1,13 @@
+[3s] advice: 300 populations x 256 paths
+  step 0: loss 4.8169e+00 [460s]
+Traceback (most recent call last):
+  File "/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/step5.py", line 170, in <module>
+    pred, _, _ = model.pointwise(model.banks[f'{l}_1'], U_l[idx], args.fusion)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../lib/lmle.py", line 214, in pointwise
+    Unc = chol_inv_spd(Lam)
+          ^^^^^^^^^^^^^^^^^
+  File "/srv/agent-data/home/workspaces/mats/work/adaptive-regions/scratch/../lib/lmle.py", line 23, in chol_inv_spd
+    return torch.cholesky_inverse(torch.linalg.cholesky(M + jitter * torch.eye(d, dtype=M.dtype)))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: linalg.cholesky: (Batch element 0): The factorization could not be completed because the input is not positive-definite (the leading minor of order 1 is not positive-definite).

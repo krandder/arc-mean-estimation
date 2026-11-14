@@ -1,0 +1,28 @@
+truth n=512 L=64 s=500 2^22 paths (4558s)
+rqmc n=512 m=8: 2.879e-03 (MC 3.906e-03) (4565s)
+rqmc n=512 m=10: 8.599e-04 (MC 9.766e-04) (4569s)
+rqmc n=512 m=12: 1.662e-04 (MC 2.441e-04) (4584s)
+rqmc n=512 m=14: 3.364e-05 (MC 6.104e-05) (4676s)
+n=512 L=64 s=500 k2: nMSE 9.991e-04 passes 777
+n=512 L=64 s=500 none: nMSE 3.480e-04 passes 196425 (397s)
+n=512 L=64 s=500 futmf2_128: nMSE nan passes 298136 (495s)
+n=512 L=64 s=500 futmf2_64: nMSE 2.671e-04 passes 298073 (406s)
+n=512 L=64 s=500 futmf2_16: nMSE 4.857e-04 passes 298026 (500s)
+n=512 L=64 s=500 pca128: nMSE 3.214e-04 passes 295839 (1124s)
+n=512 L=64 s=500 pca64: nMSE 4.152e-04 passes 295776 (985s)
+n=512 L=64 s=500 pca16: nMSE 7.563e-04 passes 295729 (953s)
+done 9574s
+truth n=512 L=64 s=501 2^22 paths (6957s)
+rqmc n=512 m=8: 3.023e-03 (MC 3.906e-03) (6961s)
+rqmc n=512 m=10: 6.077e-04 (MC 9.766e-04) (6966s)
+rqmc n=512 m=12: 1.442e-04 (MC 2.441e-04) (6979s)
+rqmc n=512 m=14: 3.427e-05 (MC 6.104e-05) (7049s)
+n=512 L=64 s=501 k2: nMSE 9.999e-04 passes 777
+n=512 L=64 s=501 none: nMSE 3.001e-04 passes 196425 (407s)
+n=512 L=64 s=501 futmf2_128: nMSE nan passes 298136 (555s)
+n=512 L=64 s=501 futmf2_64: nMSE 2.940e-04 passes 298073 (701s)
+n=512 L=64 s=501 futmf2_16: nMSE 6.201e-04 passes 298026 (503s)
+n=512 L=64 s=501 pca128: nMSE 2.349e-04 passes 295839 (444s)
+n=512 L=64 s=501 pca64: nMSE 5.843e-04 passes 295776 (453s)
+n=512 L=64 s=501 pca16: nMSE 7.388e-04 passes 295729 (483s)
+done 10634s

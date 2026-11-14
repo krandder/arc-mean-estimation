@@ -1,0 +1,13 @@
+queue A start 13:46:12Z
+queue B start 13:46:12Z
+queue B E3 done 13:51:27Z
+queue B E1-ladder done 14:01:41Z
+queue A E1 done 14:12:27Z
+queue B E4 done 14:48:43Z
+queue A done 14:58:34Z
+queue C start 14:58:48Z
+queue B done 15:00:14Z
+queue D start 15:00:43Z
+queue D done 15:10:29Z
+queue C2 start 15:13:00Z
+queue C2 done 15:50:15Z

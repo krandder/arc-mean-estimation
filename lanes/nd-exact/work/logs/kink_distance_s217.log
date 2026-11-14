@@ -1,0 +1,6 @@
+217 depth 1 distance to region boundary: q01 5.26e-04 q10 6.60e-03 median 4.16e-02 q90 1.27e-01; E[d^-7] 8.33e+34
+217 depth 2 distance to region boundary: q01 2.56e-04 q10 3.47e-03 median 2.34e-02 q90 8.45e-02; E[d^-7] 9.61e+34
+217 depth 4 distance to region boundary: q01 1.28e-04 q10 1.66e-03 median 1.24e-02 q90 5.06e-02; E[d^-7] 3.62e+45
+217 depth 8 distance to region boundary: q01 5.23e-05 q10 6.70e-04 median 6.58e-03 q90 3.38e-02; E[d^-7] 3.62e+45
+217 depth 16 distance to region boundary: q01 3.19e-05 q10 4.50e-04 median 5.14e-03 q90 3.06e-02; E[d^-7] 3.62e+45
+217 depth 32 distance to region boundary: q01 2.98e-05 q10 4.34e-04 median 4.98e-03 q90 3.04e-02; E[d^-7] 3.62e+45

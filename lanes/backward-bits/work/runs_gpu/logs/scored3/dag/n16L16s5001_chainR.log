@@ -1,0 +1,16 @@
+[    112s] l=14: T 3.790 (erased 2.108 of 5.898) | code K=128 H 6.950 I 3.215 deficit 0.575 | reuse H 5.856 I 3.022 | exCE 0.0142 | 112s
+[    229s] l=13: T 3.310 (erased 3.640 of 6.950) | code K=128 H 6.935 I 2.854 deficit 0.456 | reuse H 6.855 I 2.824 | exCE 0.0217 | 117s
+[    361s] l=12: T 2.995 (erased 3.943 of 6.938) | code K=128 H 6.952 I 2.587 deficit 0.409 | reuse H 6.859 I 2.549 | exCE 0.0282 | 132s
+[    456s] l=11: T 2.666 (erased 4.283 of 6.949) | code K=128 H 6.818 I 2.245 deficit 0.420 | reuse H 6.818 I 2.245 | exCE 0.0331 | 95s
+[    556s] l=10: T 2.541 (erased 4.277 of 6.817) | code K=128 H 6.542 I 2.073 deficit 0.467 | reuse H 6.542 I 2.073 | exCE 0.0429 | 100s
+[    676s] l=9: T 2.505 (erased 4.040 of 6.546) | code K=64 H 5.900 I 1.987 deficit 0.518 | reuse H 6.258 I 1.974 | exCE 0.0495 | 120s
+[    782s] l=8: T 2.312 (erased 3.587 of 5.899) | code K=64 H 5.892 I 1.910 deficit 0.402 | reuse H 5.737 I 1.877 | exCE 0.0306 | 106s
+[    904s] l=7: T 2.261 (erased 3.632 of 5.893) | code K=64 H 5.891 I 1.899 deficit 0.362 | reuse H 5.550 I 1.824 | exCE 0.0267 | 122s
+[   1020s] l=6: T 3.154 (erased 2.740 of 5.894) | code K=128 H 6.900 I 2.759 deficit 0.395 | reuse H 5.787 I 2.586 | exCE 0.0396 | 116s
+[   1161s] l=5: T 3.098 (erased 3.804 of 6.902) | code K=128 H 6.875 I 2.647 deficit 0.451 | reuse H 6.684 I 2.593 | exCE 0.0499 | 140s
+[   1277s] l=4: T 3.453 (erased 3.423 of 6.877) | code K=128 H 6.893 I 2.954 deficit 0.499 | reuse H 6.725 I 2.916 | exCE 0.0488 | 116s
+[   1406s] l=3: T 3.579 (erased 3.314 of 6.893) | code K=128 H 6.911 I 3.037 deficit 0.542 | reuse H 6.750 I 2.994 | exCE 0.0598 | 129s
+[   1572s] l=2: T 4.150 (erased 2.764 of 6.914) | code K=256 H 7.888 I 3.619 deficit 0.531 | reuse H 6.841 I 3.464 | exCE 0.1069 | 166s
+[   1795s] l=1: T 5.167 (erased 2.716 of 7.883) | code K=512 H 8.923 I 4.452 deficit 0.715 | reuse H 7.851 I 4.381 | exCE 0.2623 | 224s
+[   2069s] l=0: T 6.472 (erased 2.452 of 8.924) | code K=512 H 8.921 I 5.495 deficit 0.976 | reuse H 8.921 I 5.495 | exCE 0.8246 | 273s
+[   2069s] done

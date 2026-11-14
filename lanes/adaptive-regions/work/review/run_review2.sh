@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/agent/workspaces/mats/work/adaptive-regions
+echo "review2 start $(date -u +%H:%M:%SZ)" >> review/status.txt
+timeout 5400 nice -n 19 codex-any exec --skip-git-repo-check -s read-only -m gpt-6-astra -c model_reasoning_effort='"xhigh"' -C /home/agent/workspaces/mats/work/adaptive-regions "$(cat review/prompt_review2.md)" < /dev/null >> review/astra_review2.raw 2>&1
+echo "review2 exit $? $(date -u +%H:%M:%SZ)" >> review/status.txt

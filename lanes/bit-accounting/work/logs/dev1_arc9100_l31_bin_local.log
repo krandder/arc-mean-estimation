@@ -1,0 +1,4 @@
+/srv/agent-data/home/workspaces/mats/work/bit-accounting/scratch/train_bn.py:85: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  rec = dict(step=step, loss=float(loss), nmse=float(err.mean()), sec=time.time() - t_start)
+{"step": 0, "loss": 1.0192289352416992, "nmse": 1.0192289352416992, "sec": 17.319242238998413, "ema": [0.9987, 0.9972, 1.0004, 1.0006, 0.9992, 0.9999]}

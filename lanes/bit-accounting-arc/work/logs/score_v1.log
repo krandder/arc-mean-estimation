@@ -1,0 +1,13 @@
+flags: 50
+P1.1 {'hits': 53, 'n': 54, 'need': 41, 'hit': True, 'desc': 'C1 passes at L - l <= 8'}
+P1.2 {'hits': 4, 'n': 4, 'need': 4, 'hit': True, 'desc': 'ARC local R(0.1) at l <= 4 >= 4 x R_out(0.1) or unreached, 4 of 4 nets'}
+P1.3 {'hits': 4, 'n': 4, 'need': 3, 'hit': True, 'desc': 'ARC local l = 31 within 15% of R_out at 0.1, 0.01 on >= 3 of 4'}
+P1.4 {'arc_hits': 4, 'nd_hits': 6, 'hit': True, 'desc': 'local R(0.1) non-increasing in l up to 10% + 1 bit'}
+P1.5 {'arc_hits': 4, 'arc_n': 4, 'nd_hits': 6, 'nd_n': 6, 'hit': True, 'desc': 'slopes'}
+P1.6 {'hits': 16, 'n': 16, 'need': 12, 'hit': True, 'desc': 'ARC local slope near 0.01 within [0.5, 2] x N(l, 0.01)'}
+P1.7 {'hits': 3, 'n': 3, 'need': 3, 'hit': True, 'desc': 'ARC 4000 local R(0.1) within 2x of the bits-bounds formula (d = PR) at l = 4, 8, 16'}
+P1.8 {'c6_pass': 555, 'c6_n': 557, 'l31_hits': 0, 'l31_n': 4, 'hit': False, 'desc': 'reference'}
+P1.9 {'c2_all_pass': True, 'ratio_hits': 4, 'hit': True, 'desc': 'non-Gaussian'}
+P1.10 {'sync_hits': 0, 'input_hits': 6, 'n': 6, 'hit': False, 'desc': 'narrow-deep synchronisation'}
+P1.11 {'hits': 5477, 'n': 5862, 'need': 5276, 'hit': True, 'desc': 'mean error < nMSE/10 where nMSE <= 0.1 (resolved)'}
+P1.12 {'hit': False, 'desc': 'toy k = 4, 16 pass C5'}

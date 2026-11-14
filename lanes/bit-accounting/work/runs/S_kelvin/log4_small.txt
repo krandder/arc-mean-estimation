@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/root/soup/scripts/run_kelvin.py", line 205, in <module>
+    cr = [arm.code(i, Hr[l]) for i, l in enumerate(layers)]
+          ^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/run_kelvin.py", line 92, in code
+    return ste(self.enc[i](x.unsqueeze(0).expand(M, *x.shape)))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/soup/scripts/../lib/smallnets.py", line 89, in forward
+    x = torch.baddbmm(self.bs[i], x, self.Ws[i])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 516.81 MiB is free. Process 3398 has 1.39 GiB memory in use. Process 3394 has 2.74 GiB memory in use. Process 3393 has 4.06 GiB memory in use. Process 3399 has 1.98 GiB memory in use. Process 4859 has 2.90 GiB memory in use. Process 8608 has 1.74 GiB memory in use. Including non-PyTorch memory, this process has 446.00 MiB memory in use. Process 8891 has 2.07 GiB memory in use. Process 8885 has 2.25 GiB memory in use. Process 8929 has 1.91 GiB memory in use. Of the allocated memory 182.49 MiB is allocated by PyTorch, and 27.51 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

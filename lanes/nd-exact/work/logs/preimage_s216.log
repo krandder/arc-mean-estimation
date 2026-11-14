@@ -1,0 +1,7 @@
+216 cut 2 classes for 99%: 702 of 4590 live; upstream regions seen 4096; regions inside the top classes: [1595, 195, 231, 281, 79, 831, 273, 288]
+216 cut 4 classes for 99%: 87 of 1370 live; upstream regions seen 29083; regions inside the top classes: [4046, 4268, 5748, 3738, 3257, 1475, 1069, 2845]
+216 cut 8 classes for 99%: 17 of 94 live; upstream regions seen 64185; regions inside the top classes: [30161, 9599, 4644, 2188, 857, 1537, 1667, 2751]
+216 cut 12 classes for 99%: 10 of 23 live; upstream regions seen 69865; regions inside the top classes: [43052, 6925, 3145, 2240, 4597, 1902, 1687, 2290]
+216 cut 16 classes for 99%: 7 of 13 live; upstream regions seen 72696; regions inside the top classes: [43395, 6925, 3145, 4142, 4670, 9222, 1394]
+216 cut 20 classes for 99%: 3 of 8 live; upstream regions seen 78082; regions inside the top classes: [54859, 8922, 9222]
+216 cut 24 classes for 99%: 1 of 2 live; upstream regions seen 80564; regions inside the top classes: [80503]

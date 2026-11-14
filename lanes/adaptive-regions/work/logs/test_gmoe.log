@@ -1,0 +1,6 @@
+PASS linear chain mean (K=1)  0.0000
+PASS linear chain covariance (K=1)  0.0000
+PASS one ReLU layer: relative mean error falls with K  [0.003  0.0016 0.0014]
+PASS one ReLU layer: K=16 within 5%  0.0014
+PASS K=1 conditional mean = least squares  4.13e-06
+ALL PASS

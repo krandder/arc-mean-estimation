@@ -1,0 +1,10 @@
+all done
+all done
+done arc [4000] l=16 local h1 train 507s total 607s
+done arc [4000] l=8 local h1 train 536s total 656s
+done arc [4000] l=24 local h1 train 482s total 558s
+done arc [4000] l=4 local h1 train 543s total 675s
+done arc [4000] l=28 local h1 train 469s total 533s
+done arc [4000] l=12 local h1 train 490s total 571s
+done arc [4000] l=20 local h1 train 528s total 614s
+done arc [4000] l=2 local h1 train 624s total 756s

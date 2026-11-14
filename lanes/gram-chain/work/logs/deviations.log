@@ -1,0 +1,12 @@
+partB.py bug fix 21:30Z (input mode alive flag; affects the n = 8 extinction fields and the n = 8 direction-cloud statistics only); runs/B_input_n8_L256_s0.json from the buggy version kept as runs/B_input_n8_L256_s0_buggy.json
+PREREG Part C header says 'Registered 21:25Z' but the hash was taken at 21:24:21Z (time typed ahead); prereg_hashes.txt is authoritative
+21:38Z queue restructure: A2/B/C shells stopped (no run killed); new queue_P2 (Part B, then r4 512/1024, r6 <= 128, r3 <= 256) after r4 n=256; queue_P1b (Part C) after queue_A1. Reason: load > 16, keep 2 heavy processes; r6 n=256 and r3 n=512/1024 dropped (P budget).
+21:47Z inputVP mode added to partB.py (descriptive, post-registration): closed relevance with small sigma in the input regime; queued before Part C
+21:47Z reorder: share n=1024 moved after Part C (watch_reorder.sh, queue_P3.sh)
+22:07Z partB.py pr mode: registered R = 8 design biased the closed PR (shared futures across past pairs); replaced by the R = 10 four-future design before any pr run; registered copy scratch/partB_as_registered.py
+note: scratch/partB_as_registered.py is the version just before the 22:07Z pr fix; it already contains the 21:30Z alive-flag fix and the 21:45Z inputVP mode; its pr section is as at registration (21:21Z)
+22:11Z score_B.py PB1 scoring changed after seeing the n = 256 curve: first t below 0.5 now from linear interpolation between recorded t (first version: first recorded grid t, which reads 8 vs mean field 6 at n = 256 because t = 7 is not recorded: a miss), and the area truncated at 8 T* (first version integrated noise over the sparse grid up to 4n: area -1.28 at n = 256). Both versions reported.
+23:16Z r4 n=1024 started early as a third process (load 15 < 16); removed from queue_P2 by an in-place same-length edit
+23:16Z (correction) the early r4 n=1024 was stopped after 1 min: the 1-min load had risen to 22 (> 16), so the two-process limit applies; queue_P2 line restored
+23:41Z score_C.py unit bug (Qbar is Q = |h|^2/n, the first version treated it as q and multiplied by n) fixed before any Part C result was used; figs.py fig5 likewise
+23:47Z queue_P2 r4 order changed to 1024 then 512 (in-place same-length edit) so PA9 lands earlier

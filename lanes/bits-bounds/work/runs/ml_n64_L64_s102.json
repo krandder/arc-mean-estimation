@@ -1,0 +1,58 @@
+{
+ "n": 64,
+ "L": 64,
+ "seed": 102,
+ "levels": [
+  32,
+  16,
+  8,
+  4,
+  2,
+  1
+ ],
+ "Vang": 0.014427939936344916,
+ "variants": {
+  "rand": {
+   "best": 0.7906150498861381,
+   "best_levels": [
+    1,
+    32
+   ],
+   "full_dyadic": 3.6263814117428423,
+   "setup_passes": 1.0
+  },
+  "traj4": {
+   "best": 0.7369987144297154,
+   "best_levels": [
+    32
+   ],
+   "full_dyadic": 1.8410945075201368,
+   "setup_passes": 4.0
+  },
+  "traj16": {
+   "best": 0.7407591539873393,
+   "best_levels": [
+    32
+   ],
+   "full_dyadic": 2.5761747493724005,
+   "setup_passes": 16.0
+  },
+  "traj64": {
+   "best": 0.7028129598490627,
+   "best_levels": [
+    32
+   ],
+   "full_dyadic": 2.6604280253390207,
+   "setup_passes": 64.0
+  },
+  "traj256": {
+   "best": 0.6873687888611598,
+   "best_levels": [
+    32
+   ],
+   "full_dyadic": 2.698775552770614,
+   "setup_passes": 256.0
+  }
+ },
+ "seconds": 2.1509010791778564
+}

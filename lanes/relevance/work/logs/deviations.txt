@@ -1,0 +1,16 @@
+accounting.py: added field cloud_evals_perp at 21:45:34Z (registered measurements unchanged)
+e21914e64f06ca355ce85f6bc0c42f938a19f01f052a3f26130b676b531429e3  lib/accounting.py
+restored 21:50:32Z: full registered E-ST design (n=128 seeds 1000-1003, n=256 to t=256); cut withdrawn
+22:53:08Z: dropped the two registered n = 256, t = 256 (s = 255) cells at main's request (compute to the bits lane; theory predicts M < 0.02 there); queues B4a/B4b replace B3a/B3b
+--- completed 23:17:31Z after the GPT-6 review (finding 14); evidence pointers:
+cut of the stationary design at about 21:38Z: header of scratch/queue_B2.sh (written then); withdrawn 21:50:32Z (line above)
+N_1 registered measure biased low by eigenvalue noise: found 21:37Z, FORMAL errata E12; reported both ways (scratch/score_part1_v2.py)
+Amendment 2A (gate estimator and Part 2 scorer corrected before any Part 2 measurement): PREREG.md, prereg_hashes.txt 22:08:11Z, frozen/amend2A/
+third light process (scratch/est_nd.py, n = 8) ran about 21:52-22:05Z alongside two queues at load > 16: logs/est_nd.log
+PREREG Part 2 text says 'main's request, 21:40Z' and 'main 21:45Z': these were guessed clock times typed into the text; both messages were read before the Part 2 hash at 21:36:43Z (exact receipt times not recorded). The hash time is authoritative.
+--- added 01:45Z, 2 November
+Part 1 scorer input: scratch/score_part1.py (unchanged, sha e8d686ca) globs runs/eval_*.json, which now also holds the Amendment 3A/3B ARC nets (4004-4009, not part of Part 1); final Part 1 scores were produced through scratch/score_part1_registered.py, which hides those files from the glob and changes nothing else (logs/final_score_part1_registered.py.log)
+post-processing defaults: scratch/report_tables.py and scratch/arc_accounting.py now default to the registered ARC nets 4000-4003 (unchanged output for them, checked against results/snapshot_r2/); --arc6 adds 4004-4005 (results/report_tables_arc6.*, results/arc_accounting_arc6.json)
+theory v3.3 (quenched gain ratio) was written after reading the Amendment 3A results; its counts on nets 4000-4005 are post hoc (results/part3B_seen_check.json); its radial term was added after seeing the transverse-only estimate overshoot at l >= 16 (logs/gain_ratio_check.log); prospective test Amendment 3B registered 01:26:28Z before nets 4006-4009 existed (prereg_hashes.txt)
+final scorers (score_part1_registered, score_part1_v2, score_part2, score_part3, report_tables, figs) ran one at a time as short single-thread processes alongside the two queue_E processes at load about 28 (logs/final_*.log)
+Amendment 3C (co-prover's v3.4) registered 02:03:18Z while queue_E was running: no fresh net had finished (4007 finished 02:04:07Z, 4006 02:05:05Z, 4008-4009 02:35-02:36Z; logs/queue_E.log); the partial output files of 4006-4007 existed and were not read before the registration (my statement; reads are not logged)

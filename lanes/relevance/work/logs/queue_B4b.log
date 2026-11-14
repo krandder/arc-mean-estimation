@@ -1,0 +1,26 @@
+B4b start 23:10:09Z
+stat n 128 seed 1002 s 0 done in 12s
+stat n 128 seed 1002 s 1 done in 19s
+stat n 128 seed 1002 s 3 done in 34s
+stat n 128 seed 1002 s 7 done in 64s
+stat n 128 seed 1002 s 15 done in 112s
+stat n 128 seed 1002 s 31 done in 357s
+stat n 128 seed 1002 s 63 done in 692s
+stat n 128 seed 1002 s 127 done in 766s
+stat n 128 seed 1003 s 0 done in 6s
+stat n 128 seed 1003 s 1 done in 11s
+stat n 128 seed 1003 s 3 done in 22s
+stat n 128 seed 1003 s 7 done in 51s
+stat n 128 seed 1003 s 15 done in 99s
+stat n 128 seed 1003 s 31 done in 183s
+stat n 128 seed 1003 s 63 done in 333s
+stat n 128 seed 1003 s 127 done in 1590s
+stat n 256 seed 1001 s 0 done in 19s
+stat n 256 seed 1001 s 1 done in 48s
+stat n 256 seed 1001 s 3 done in 77s
+stat n 256 seed 1001 s 7 done in 127s
+stat n 256 seed 1001 s 15 done in 175s
+stat n 256 seed 1001 s 31 done in 421s
+stat n 256 seed 1001 s 63 done in 815s
+stat n 256 seed 1001 s 127 done in 1495s
+B4b done 01:20:29Z
