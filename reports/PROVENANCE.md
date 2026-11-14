@@ -24,5 +24,5 @@ source file's last modification (UTC).
 | `unverified-opus-digests-2026-11-09/arc-estimation.md` | `WORK/deep-study/digests/arc-estimation.md` | 2026-11-09 19:51 |
 | `unverified-opus-digests-2026-11-09/bits-theory.md` | `WORK/deep-study/digests/bits-theory.md` | 2026-11-09 19:53 |
 
-The paper draft cites two figures by path (`work/scale-mode/figs/fig1_256x32.png`); that figure is at
+The paper draft cites a figure by path (`work/scale-mode/figs/fig1_256x32.png`); that figure is at
 `lanes/scale-mode/work/figs/fig1_256x32.png`.
